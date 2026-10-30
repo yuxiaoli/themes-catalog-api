@@ -1,0 +1,229 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.7935
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1565
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.7439
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9076
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 4.554
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9076
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.7125
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6618
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9011
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.1258
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9532
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9532
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.7935
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.7935
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8454
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "4fd1af6f7180386a7d8b59c5474fe5c08680f50854e84b91000345fea048b693",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.function"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0a453077ea6cbbccba8f3cc12829dce5300f96757d928040a856cd050c888078",
+    "name": "Monokai Vivid",
+    "palette": {
+      "activeLine": "#242424",
+      "background": "#121212",
+      "cursor": "#FB0007",
+      "foreground": "#F9F9F9",
+      "gutterActiveLine": "#242424",
+      "gutterBackground": "#121212",
+      "gutterForeground": "#9D9D9D",
+      "invisibles": "#838383",
+      "printMargin": "#4C4C4C",
+      "selection": "#4C4C4C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "vitalymak (https://github.com/vitalymak/iTerm2-Color-Schemes)",
+        "author_name": "vitalymak",
+        "author_url": "https://github.com/vitalymak/iTerm2-Color-Schemes",
+        "background": "#121212",
+        "color_01": "#121212",
+        "color_02": "#FA2934",
+        "color_03": "#98E123",
+        "color_04": "#FFF30A",
+        "color_05": "#0443FF",
+        "color_06": "#F800F8",
+        "color_07": "#01B6ED",
+        "color_08": "#FFFFFF",
+        "color_09": "#838383",
+        "color_10": "#F6669D",
+        "color_11": "#B1E05F",
+        "color_12": "#FFF26D",
+        "color_13": "#0443FF",
+        "color_14": "#F200F6",
+        "color_15": "#51CEFF",
+        "color_16": "#FFFFFF",
+        "cursor": "#FB0007",
+        "foreground": "#F9F9F9",
+        "hash": "29205268946a5688b2770dd63b4e15103809758f300d0740bfb51bb6ae0bb356",
+        "hash_bg": "21dcede6e69a9179baf4f068aa143596c90d183d54dc17764131e198dd3dbe71",
+        "name": "Monokai Vivid",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0a453077ea6cbbccba8f3cc12829dce5300f96757d928040a856cd050c888078",
+    "syntax": {
+      "comment": "#9D9D9D",
+      "constant": "#01B6ED",
+      "function": "#0443FF",
+      "invalid": "#FA2934",
+      "keyword": "#F800F8",
+      "number": "#01B6ED",
+      "operator": "#F9F9F9",
+      "string": "#98E123",
+      "type": "#FFF30A",
+      "variable": "#F9F9F9"
+    }
+  }
+}

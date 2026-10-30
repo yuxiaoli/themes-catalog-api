@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/b3698348bb7a30a7d39e5ca5eb386600a92101a3aa007d6685461a3a51eac531",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Lovelace",
+    "original": {
+      "author": "nalanbar (https://github.com/nalanbar)",
+      "author_name": "nalanbar",
+      "author_url": "https://github.com/nalanbar",
+      "background": "#1D1F28",
+      "color_01": "#282A36",
+      "color_02": "#F37F97",
+      "color_03": "#5ADECD",
+      "color_04": "#F2A272",
+      "color_05": "#8897F4",
+      "color_06": "#C574DD",
+      "color_07": "#79E6F3",
+      "color_08": "#FDFDFD",
+      "color_09": "#414458",
+      "color_10": "#FF4971",
+      "color_11": "#18E3C8",
+      "color_12": "#FF8037",
+      "color_13": "#556FFF",
+      "color_14": "#B043D1",
+      "color_15": "#3FDCEE",
+      "color_16": "#BEBEC1",
+      "cursor": "#C574DD",
+      "foreground": "#FDFDFD",
+      "hash": "d946f8603dfe155d27dcbc2f58e2e44cd5c5bc1f66235c561145b0a23d5ed775",
+      "hash_bg": "03f439f27f5a97653c83cefe2c8dcb39bb8aaf9d6bb1af77589a57385a0e28fc",
+      "name": "Lovelace",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#C574DD",
+      "ansi": [
+        "#282A36",
+        "#F37F97",
+        "#5ADECD",
+        "#F2A272",
+        "#8897F4",
+        "#C574DD",
+        "#79E6F3",
+        "#FDFDFD",
+        "#414458",
+        "#FF4971",
+        "#18E3C8",
+        "#FF8037",
+        "#556FFF",
+        "#B043D1",
+        "#3FDCEE",
+        "#BEBEC1"
+      ],
+      "background": "#1D1F28",
+      "cursor": "#C574DD",
+      "foreground": "#FDFDFD"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "b3698348bb7a30a7d39e5ca5eb386600a92101a3aa007d6685461a3a51eac531",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b3698348bb7a30a7d39e5ca5eb386600a92101a3aa007d6685461a3a51eac531"
+  }
+}

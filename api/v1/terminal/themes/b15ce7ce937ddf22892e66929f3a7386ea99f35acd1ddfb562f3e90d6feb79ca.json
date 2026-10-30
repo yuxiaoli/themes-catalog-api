@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/12cdcc4f2517b4635f1877f9c20875ab47d3ca3cdeaba7d876aac0650b0fb157",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Lichen Chartreuse Light",
+    "original": {
+      "author": "Aaron Colichia (https://aaron.colichia.org/)",
+      "author_name": "Aaron Colichia",
+      "author_url": "https://aaron.colichia.org/",
+      "background": "#F5F7F2",
+      "color_01": "#F5F7F2",
+      "color_02": "#A34740",
+      "color_03": "#2F7462",
+      "color_04": "#506B29",
+      "color_05": "#356E8A",
+      "color_06": "#6E5689",
+      "color_07": "#356569",
+      "color_08": "#2D302B",
+      "color_09": "#687161",
+      "color_10": "#A34740",
+      "color_11": "#506B29",
+      "color_12": "#875E20",
+      "color_13": "#3B6D86",
+      "color_14": "#8A4F67",
+      "color_15": "#3F6464",
+      "color_16": "#151613",
+      "cursor": "#2D302B",
+      "foreground": "#2D302B",
+      "hash": "a056213901746c61821168c1fa373c058ef9729647820da4a04ccd0332abe31c",
+      "hash_bg": "0631b4dbe59cb37b12a99907e029d56a9b3ecfe8e20967da7cada75290e36d92",
+      "name": "Lichen Chartreuse Light",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#2D302B",
+      "ansi": [
+        "#F5F7F2",
+        "#A34740",
+        "#2F7462",
+        "#506B29",
+        "#356E8A",
+        "#6E5689",
+        "#356569",
+        "#2D302B",
+        "#687161",
+        "#A34740",
+        "#506B29",
+        "#875E20",
+        "#3B6D86",
+        "#8A4F67",
+        "#3F6464",
+        "#151613"
+      ],
+      "background": "#F5F7F2",
+      "cursor": "#2D302B",
+      "foreground": "#2D302B"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "12cdcc4f2517b4635f1877f9c20875ab47d3ca3cdeaba7d876aac0650b0fb157",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "12cdcc4f2517b4635f1877f9c20875ab47d3ca3cdeaba7d876aac0650b0fb157"
+  }
+}

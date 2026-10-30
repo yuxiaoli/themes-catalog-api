@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "ad6ce7387fc53e13abf3217845ab62a0ff52c41e9931a579807c8a6cf94ae99b",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-kr-theme\";\nexports.cssText = require(\"./kr_theme-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/kr_theme.js"
+}

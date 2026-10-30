@@ -1,0 +1,238 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9206
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1771
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3325
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5484
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.9206
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5484
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4983
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7249
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.623
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5757
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5155
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5155
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9206
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9206
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7799
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "7ec5aa0cc1ebec448fc147665f77ee9aab4bec6cf588b34cd74de2722ed68dbd",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/5a29c481bfeaa41594ae397b6fc629018fec855dec1798438f6451c37e5ae37e",
+    "name": "Penumbra Light Contrast Plus",
+    "palette": {
+      "activeLine": "#F3F1EF",
+      "background": "#FFFDFB",
+      "cursor": "#636363",
+      "foreground": "#636363",
+      "gutterActiveLine": "#F3F1EF",
+      "gutterBackground": "#FFFDFB",
+      "gutterForeground": "#A1A1A0",
+      "invisibles": "#CECECE",
+      "printMargin": "#D8D7D5",
+      "selection": "#D8D7D5"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Zachary Weiss (https://github.com/zacharyweiss)",
+        "author_name": "Zachary Weiss",
+        "author_url": "https://github.com/zacharyweiss",
+        "background": "#FFFDFB",
+        "color_01": "#FFFDFB",
+        "color_02": "#DF7F78",
+        "color_03": "#50B584",
+        "color_04": "#9CA748",
+        "color_05": "#61A3E6",
+        "color_06": "#A48FE1",
+        "color_07": "#00B3C2",
+        "color_08": "#636363",
+        "color_09": "#CECECE",
+        "color_10": "#DF7F78",
+        "color_11": "#50B584",
+        "color_12": "#9CA748",
+        "color_13": "#61A3E6",
+        "color_14": "#A48FE1",
+        "color_15": "#00B3C2",
+        "color_16": "#181B1F",
+        "cursor": "#636363",
+        "foreground": "#636363",
+        "hash": "45e836afd5cf58d90734d516c866b00a744c91a988fc3775b0ac720d530c6b95",
+        "hash_bg": "3a25881fd49bb7aca5c7e6d658e2740704449a78b68072af06e4c18519d47613",
+        "name": "Penumbra Light Contrast Plus",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "5a29c481bfeaa41594ae397b6fc629018fec855dec1798438f6451c37e5ae37e",
+    "syntax": {
+      "comment": "#A1A1A0",
+      "constant": "#00B3C2",
+      "function": "#61A3E6",
+      "invalid": "#DF7F78",
+      "keyword": "#A48FE1",
+      "number": "#00B3C2",
+      "operator": "#636363",
+      "string": "#50B584",
+      "type": "#9CA748",
+      "variable": "#636363"
+    }
+  }
+}

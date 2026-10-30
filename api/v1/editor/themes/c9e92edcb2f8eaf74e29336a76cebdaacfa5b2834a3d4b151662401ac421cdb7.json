@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.8211
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8289
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.0497
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7132
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.8215
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7132
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8881
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7697
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4071
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.273
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7013
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7013
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.8211
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.8211
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0948
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "e7e858039d4bf2d0ce243f631592344e80a2fe1f0a34b103ac7be31bf3163bbc",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/96c25ae8a7e4a649a5948a2385a590755d66a79f426ad0928c30a1df4e496418",
+    "name": "Idle Toes",
+    "palette": {
+      "activeLine": "#424242",
+      "background": "#323232",
+      "cursor": "#D6D6D6",
+      "foreground": "#FFFFFF",
+      "gutterActiveLine": "#424242",
+      "gutterBackground": "#323232",
+      "gutterForeground": "#ADADAD",
+      "invisibles": "#535353",
+      "printMargin": "#656565",
+      "selection": "#656565"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#323232",
+        "color_01": "#323232",
+        "color_02": "#D25252",
+        "color_03": "#7FE173",
+        "color_04": "#FFC66D",
+        "color_05": "#4099FF",
+        "color_06": "#F680FF",
+        "color_07": "#BED6FF",
+        "color_08": "#EEEEEC",
+        "color_09": "#535353",
+        "color_10": "#F07070",
+        "color_11": "#9DFF91",
+        "color_12": "#FFE48B",
+        "color_13": "#5EB7F7",
+        "color_14": "#FF9DFF",
+        "color_15": "#DCF4FF",
+        "color_16": "#FFFFFF",
+        "cursor": "#D6D6D6",
+        "foreground": "#FFFFFF",
+        "hash": "c4dcb577706b0a3af7e50421e0dcc0aa8740918e9173617d5aca36424ca4cf9a",
+        "hash_bg": "8a4087b68e4780fbdf5e514d09dc341dbdb7981d503f1b3cadeadf90f1dc1f6b",
+        "name": "Idle Toes",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "96c25ae8a7e4a649a5948a2385a590755d66a79f426ad0928c30a1df4e496418",
+    "syntax": {
+      "comment": "#ADADAD",
+      "constant": "#BED6FF",
+      "function": "#4099FF",
+      "invalid": "#D25252",
+      "keyword": "#F680FF",
+      "number": "#BED6FF",
+      "operator": "#FFFFFF",
+      "string": "#7FE173",
+      "type": "#FFC66D",
+      "variable": "#FFFFFF"
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0704
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1842
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8158
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1229
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.0704
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1229
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3004
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.928
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9236
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.4911
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.873
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.873
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0704
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0704
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7253
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "3cafb96a0a9cfe00c3bbe55f3c7ae56e7452e42391cf19ceeab72d69c382430c",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0d78e186469c37c51ceace4345d0c449d4ddb0ffcd54ec4264d401b9961e9c10",
+    "name": "School Boy Colored",
+    "palette": {
+      "activeLine": "#192F18",
+      "background": "#0B230A",
+      "cursor": "#BFBFBF",
+      "foreground": "#BFBFBF",
+      "gutterActiveLine": "#192F18",
+      "gutterBackground": "#0B230A",
+      "gutterForeground": "#778177",
+      "invisibles": "#21631E",
+      "printMargin": "#384A37",
+      "selection": "#384A37"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)",
+        "author_name": "BrokenSideViewMirror",
+        "author_url": "https://github.com/BrokenSideViewMirror",
+        "background": "#0B230A",
+        "color_01": "#174715",
+        "color_02": "#FCA4A4",
+        "color_03": "#9BFC94",
+        "color_04": "#FCF45F",
+        "color_05": "#6384F9",
+        "color_06": "#F771FC",
+        "color_07": "#7EE9FC",
+        "color_08": "#BFBFBF",
+        "color_09": "#21631E",
+        "color_10": "#FCC2C2",
+        "color_11": "#BCFCB8",
+        "color_12": "#FCF797",
+        "color_13": "#8AA3FC",
+        "color_14": "#F99FFC",
+        "color_15": "#A9EFFC",
+        "color_16": "#DDDDDD",
+        "cursor": "#BFBFBF",
+        "foreground": "#BFBFBF",
+        "hash": "e2b9999a6e9dda227a6df5a182f781f1c7e36716a7d75c7d71a5a0afea08e8f4",
+        "hash_bg": "2b8466b102e82536051ee6371faaec1556ac59ac54446450cd0d30995dfcc5e9",
+        "name": "School Boy Colored",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0d78e186469c37c51ceace4345d0c449d4ddb0ffcd54ec4264d401b9961e9c10",
+    "syntax": {
+      "comment": "#778177",
+      "constant": "#7EE9FC",
+      "function": "#6384F9",
+      "invalid": "#FCA4A4",
+      "keyword": "#F771FC",
+      "number": "#7EE9FC",
+      "operator": "#BFBFBF",
+      "string": "#9BFC94",
+      "type": "#FCF45F",
+      "variable": "#BFBFBF"
+    }
+  }
+}

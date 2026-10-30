@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.0124
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6969
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.2894
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7615
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 18.0124
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7615
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.0544
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0225
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.6215
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.298
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5233
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5233
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.0124
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.0124
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1816
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b88a44465f8220f757e731d25db4301d1817f35cc35f8b2156cb05089aa45c5e",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/ae1c2a3e91f0c8f088671375bfa5a3364bbb89b80f989900a5390752026bfde4",
+    "name": "Purple Portal",
+    "palette": {
+      "activeLine": "#281839",
+      "background": "#160528",
+      "cursor": "#FAF5FF",
+      "foreground": "#FAF5FF",
+      "gutterActiveLine": "#281839",
+      "gutterBackground": "#160528",
+      "gutterForeground": "#9F95A9",
+      "invisibles": "#503872",
+      "printMargin": "#4F415E",
+      "selection": "#4F415E"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "theebest.com (https://www.theebest.com)",
+        "author_name": "theebest.com",
+        "author_url": "https://www.theebest.com",
+        "background": "#160528",
+        "color_01": "#483A57",
+        "color_02": "#FB7185",
+        "color_03": "#34D399",
+        "color_04": "#F472B6",
+        "color_05": "#FACC15",
+        "color_06": "#38BDF8",
+        "color_07": "#580FF0",
+        "color_08": "#D8B4FE",
+        "color_09": "#503872",
+        "color_10": "#FC8D9D",
+        "color_11": "#5DDCAD",
+        "color_12": "#F68BC3",
+        "color_13": "#FBD644",
+        "color_14": "#60CAF9",
+        "color_15": "#793FF3",
+        "color_16": "#FAF5FF",
+        "cursor": "#FAF5FF",
+        "foreground": "#FAF5FF",
+        "hash": "9cddd3f1ed60004d7608df648ad800dd1e2c372a5f3f8dc2fd7f450776950b4b",
+        "hash_bg": "159200da325f7d4a7469eecdc7fd76acddacf067b4d462e3c964e8d8183bcd1b",
+        "name": "Purple Portal",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "ae1c2a3e91f0c8f088671375bfa5a3364bbb89b80f989900a5390752026bfde4",
+    "syntax": {
+      "comment": "#9F95A9",
+      "constant": "#580FF0",
+      "function": "#FACC15",
+      "invalid": "#FB7185",
+      "keyword": "#38BDF8",
+      "number": "#580FF0",
+      "operator": "#FAF5FF",
+      "string": "#34D399",
+      "type": "#F472B6",
+      "variable": "#FAF5FF"
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.8596
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4114
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.3235
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6454
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 11.8596
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6454
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3828
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8985
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4399
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.016
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3951
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3951
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.8596
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.8596
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.122
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "8ff3fee71c656340695af4e206706df371bac46e5b2b8f40fe97713844a9d698",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/429ab4266cb76d12d3495190ce39c79e7e59abdaee2845d94c4f46537e2c6e7e",
+    "name": "Arroz Con Dulce",
+    "palette": {
+      "activeLine": "#F1E8D7",
+      "background": "#FFF8E7",
+      "cursor": "#4A2C20",
+      "foreground": "#4A2C20",
+      "gutterActiveLine": "#F1E8D7",
+      "gutterBackground": "#FFF8E7",
+      "gutterForeground": "#927E70",
+      "invisibles": "#C8A77A",
+      "printMargin": "#D2C5B5",
+      "selection": "#D2C5B5"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Richard Martinez",
+        "author_name": "Richard Martinez",
+        "author_url": "",
+        "background": "#FFF8E7",
+        "color_01": "#FFF8E7",
+        "color_02": "#A11D48",
+        "color_03": "#A2380C",
+        "color_04": "#855500",
+        "color_05": "#5940A0",
+        "color_06": "#8C1F68",
+        "color_07": "#98263E",
+        "color_08": "#4A2C20",
+        "color_09": "#C8A77A",
+        "color_10": "#A11D48",
+        "color_11": "#A2380C",
+        "color_12": "#855500",
+        "color_13": "#5940A0",
+        "color_14": "#8C1F68",
+        "color_15": "#98263E",
+        "color_16": "#21110B",
+        "cursor": "#4A2C20",
+        "foreground": "#4A2C20",
+        "hash": "4693bb4bbdcef2c38291f29741fd75ad8ce2070cb9845398845fd5a23051cf2c",
+        "hash_bg": "55696129c66787b18bc89a3f17637deeaf29f9947acaa375833c4da280aa35ec",
+        "name": "Arroz Con Dulce",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "429ab4266cb76d12d3495190ce39c79e7e59abdaee2845d94c4f46537e2c6e7e",
+    "syntax": {
+      "comment": "#927E70",
+      "constant": "#98263E",
+      "function": "#5940A0",
+      "invalid": "#A11D48",
+      "keyword": "#8C1F68",
+      "number": "#98263E",
+      "operator": "#4A2C20",
+      "string": "#A2380C",
+      "type": "#855500",
+      "variable": "#4A2C20"
+    }
+  }
+}

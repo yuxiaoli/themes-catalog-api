@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/103319583a1422e67fbf6185633da33a9f57fe3d86eef84ecc8b5e3b0eb08d39",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Karma Light Dimmed",
+    "original": {
+      "author": "Sreetam Das (https://github.com/sreetamdas)",
+      "author_name": "Sreetam Das",
+      "author_url": "https://github.com/sreetamdas",
+      "background": "#F5F3F7",
+      "color_01": "#1C1F24",
+      "color_02": "#E07A90",
+      "color_03": "#4A9A4C",
+      "color_04": "#D49A26",
+      "color_05": "#6688B8",
+      "color_06": "#7C5AB0",
+      "color_07": "#6688B8",
+      "color_08": "#5A5860",
+      "color_09": "#999999",
+      "color_10": "#E07A90",
+      "color_11": "#4A9A4C",
+      "color_12": "#E0A040",
+      "color_13": "#6688B8",
+      "color_14": "#9676D0",
+      "color_15": "#6688B8",
+      "color_16": "#1C1F24",
+      "cursor": "#9676D0",
+      "foreground": "#1C1F24",
+      "hash": "632784b4417654b8f1baff536cd10028a949729e028e6aaa606a9253043bc3d2",
+      "hash_bg": "73db09b04fb3ef7ef115f5bf99beacba0dc8ea0c5708766141f55a3c4a7c9143",
+      "name": "Karma Light Dimmed",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#9676D0",
+      "ansi": [
+        "#1C1F24",
+        "#E07A90",
+        "#4A9A4C",
+        "#D49A26",
+        "#6688B8",
+        "#7C5AB0",
+        "#6688B8",
+        "#5A5860",
+        "#999999",
+        "#E07A90",
+        "#4A9A4C",
+        "#E0A040",
+        "#6688B8",
+        "#9676D0",
+        "#6688B8",
+        "#1C1F24"
+      ],
+      "background": "#F5F3F7",
+      "cursor": "#9676D0",
+      "foreground": "#1C1F24"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "103319583a1422e67fbf6185633da33a9f57fe3d86eef84ecc8b5e3b0eb08d39",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "103319583a1422e67fbf6185633da33a9f57fe3d86eef84ecc8b5e3b0eb08d39"
+  }
+}

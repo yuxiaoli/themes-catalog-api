@@ -1,0 +1,333 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/penumbra+",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "penumbra+",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/penumbra%2B.toml"
+    ],
+    "palette": {
+      "black": "terminal:black",
+      "blue": "#61A3E6",
+      "cyan": "#00B3C2",
+      "default": "terminal:default",
+      "gray": "terminal:gray",
+      "green": "#50B584",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "#D080B6",
+      "orange": "#CE9042",
+      "purple": "#A48FE1",
+      "red": "#DF7F78",
+      "shade": "#24272B",
+      "shade+": "#3E4044",
+      "shade-": "#181B1F",
+      "sky": "#9E9E9E",
+      "sky+": "#CECECE",
+      "sky-": "#636363",
+      "sun": "#FFF7ED",
+      "sun+": "#FFFDFB",
+      "sun-": "#F2E6D4",
+      "white": "terminal:white",
+      "yellow": "#9CA748"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/penumbra+.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/2da127e2635d58e717a80a59a3d13a5c1f3585092c9d05ca2d340b80a373e5a7.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "penumbra+",
+    "styles": {
+      "comment": {
+        "fg": "#636363"
+      },
+      "constant": {
+        "fg": "#A48FE1"
+      },
+      "constant.character": {
+        "fg": "#A48FE1"
+      },
+      "constant.numeric": {
+        "fg": "#00B3C2"
+      },
+      "diagnostic.deprecated": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "diagnostic.error": {
+        "underline": {
+          "color": "#DF7F78",
+          "style": "curl"
+        }
+      },
+      "diagnostic.hint": {
+        "underline": {
+          "color": "#636363",
+          "style": "curl"
+        }
+      },
+      "diagnostic.info": {
+        "underline": {
+          "color": "#9E9E9E",
+          "style": "curl"
+        }
+      },
+      "diagnostic.unnecessary": {
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "diagnostic.warning": {
+        "underline": {
+          "color": "#9CA748",
+          "style": "curl"
+        }
+      },
+      "diff.delta": {
+        "fg": "#00B3C2"
+      },
+      "diff.minus": {
+        "fg": "#DF7F78"
+      },
+      "diff.plus": {
+        "fg": "#50B584"
+      },
+      "error": {
+        "fg": "#DF7F78"
+      },
+      "function": {
+        "fg": "#61A3E6"
+      },
+      "function.macro": {
+        "fg": "#A48FE1"
+      },
+      "hint": {
+        "fg": "#636363"
+      },
+      "info": {
+        "fg": "#9E9E9E"
+      },
+      "keyword": {
+        "fg": "#D080B6"
+      },
+      "label": {
+        "fg": "#61A3E6"
+      },
+      "markup.bold": {
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading": {
+        "fg": "#CECECE",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.italic": {
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link.text": {
+        "fg": "#D080B6"
+      },
+      "markup.link.url": {
+        "underline": {
+          "style": "line"
+        }
+      },
+      "markup.list": {
+        "fg": "#9E9E9E"
+      },
+      "markup.quote": {
+        "fg": "#50B584"
+      },
+      "markup.raw": {
+        "fg": "#CE9042"
+      },
+      "markup.strikethrough": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "namespace": {
+        "fg": "#9E9E9E"
+      },
+      "operator": {
+        "fg": "#D080B6"
+      },
+      "punctuation": {
+        "fg": "#9E9E9E"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "string": {
+        "fg": "#9CA748"
+      },
+      "string.special.path": {
+        "fg": "#00B3C2"
+      },
+      "string.special.symbol": {
+        "fg": "#00B3C2"
+      },
+      "tag": {
+        "fg": "#61A3E6"
+      },
+      "type": {
+        "fg": "#50B584"
+      },
+      "type.enum.variant": {
+        "fg": "#50B584"
+      },
+      "ui.background": {
+        "bg": "#24272B"
+      },
+      "ui.background.separator": {
+        "fg": "#9E9E9E"
+      },
+      "ui.cursor": {
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursor.match": {
+        "bg": "#3E4044"
+      },
+      "ui.cursorline.primary": {
+        "bg": "#181B1F"
+      },
+      "ui.help": {
+        "bg": "#181B1F",
+        "fg": "#9E9E9E"
+      },
+      "ui.linenr": {
+        "fg": "#636363"
+      },
+      "ui.linenr.selected": {
+        "fg": "#9E9E9E"
+      },
+      "ui.menu": {
+        "bg": "#181B1F",
+        "fg": "#9E9E9E"
+      },
+      "ui.menu.scroll": {
+        "bg": "#3E4044",
+        "fg": "#9E9E9E"
+      },
+      "ui.menu.selected": {
+        "fg": "#61A3E6",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.popup": {
+        "bg": "#181B1F"
+      },
+      "ui.popup.info": {
+        "bg": "#24272B"
+      },
+      "ui.selection": {
+        "bg": "#3E4044"
+      },
+      "ui.statusline": {
+        "bg": "#9E9E9E",
+        "fg": "#24272B"
+      },
+      "ui.statusline.inactive": {
+        "bg": "#3E4044",
+        "fg": "#9E9E9E"
+      },
+      "ui.statusline.insert": {
+        "bg": "#50B584",
+        "fg": "#24272B"
+      },
+      "ui.statusline.normal": {
+        "bg": "#61A3E6",
+        "fg": "#24272B"
+      },
+      "ui.statusline.select": {
+        "bg": "#A48FE1",
+        "fg": "#24272B"
+      },
+      "ui.text": {
+        "fg": "#9E9E9E"
+      },
+      "ui.text.focus": {
+        "fg": "#61A3E6"
+      },
+      "ui.text.info": {
+        "fg": "#9E9E9E"
+      },
+      "ui.virtual.indent-guide": {
+        "fg": "#3E4044"
+      },
+      "ui.virtual.ruler": {
+        "bg": "#181B1F"
+      },
+      "ui.virtual.whitespace": {
+        "fg": "#636363"
+      },
+      "ui.window": {
+        "fg": "#9E9E9E"
+      },
+      "variable": {
+        "fg": "#9E9E9E"
+      },
+      "variable.builtin": {
+        "fg": "#DF7F78"
+      },
+      "warning": {
+        "fg": "#9CA748"
+      }
+    },
+    "warnings": []
+  }
+}

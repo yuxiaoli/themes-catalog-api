@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/a811e2c88c8ea5d971c35a03408b8b2cb1bee461a746f54d55518dc1a6dba211",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Heeler",
+    "original": {
+      "author": "tacolegs2004 (https://github.com/tacolegs2004)",
+      "author_name": "tacolegs2004",
+      "author_url": "https://github.com/tacolegs2004",
+      "background": "#211F44",
+      "color_01": "#000000",
+      "color_02": "#D3573B",
+      "color_03": "#C1D041",
+      "color_04": "#EECF75",
+      "color_05": "#6DA3EC",
+      "color_06": "#FD9BC1",
+      "color_07": "#FE9D6E",
+      "color_08": "#FFFFFF",
+      "color_09": "#000000",
+      "color_10": "#D3573B",
+      "color_11": "#C1D041",
+      "color_12": "#EECF75",
+      "color_13": "#2C86FF",
+      "color_14": "#FD9BC1",
+      "color_15": "#92A5DF",
+      "color_16": "#FFFFFF",
+      "cursor": "#FFFFFF",
+      "foreground": "#FDFDFD",
+      "hash": "f20eebe49c9f63cc181604b26753bc13a494f1a49e5c087283232bbc6a68ab11",
+      "hash_bg": "866d122f81d0d7ff2ad6aeddd5315505ab7c4b2e540fa6ce61d1c6d48e88fc44",
+      "name": "Heeler",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#FFFFFF",
+      "ansi": [
+        "#000000",
+        "#D3573B",
+        "#C1D041",
+        "#EECF75",
+        "#6DA3EC",
+        "#FD9BC1",
+        "#FE9D6E",
+        "#FFFFFF",
+        "#000000",
+        "#D3573B",
+        "#C1D041",
+        "#EECF75",
+        "#2C86FF",
+        "#FD9BC1",
+        "#92A5DF",
+        "#FFFFFF"
+      ],
+      "background": "#211F44",
+      "cursor": "#FFFFFF",
+      "foreground": "#FDFDFD"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "a811e2c88c8ea5d971c35a03408b8b2cb1bee461a746f54d55518dc1a6dba211",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "a811e2c88c8ea5d971c35a03408b8b2cb1bee461a746f54d55518dc1a6dba211"
+  }
+}

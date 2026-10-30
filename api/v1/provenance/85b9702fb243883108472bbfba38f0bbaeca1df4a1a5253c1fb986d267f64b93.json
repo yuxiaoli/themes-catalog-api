@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "58238b531ab0efe39f930e38f273e9533c7df88ad9f00aee1266a47432ad3396",
+  "text": "exports.isDark = true;\n  exports.cssClass = \"ace-cloud9-night-low-color\";\n  exports.cssText = require(\"./cloud9_night_low_color-css\");\n\n  var dom = require(\"../lib/dom\");\n  dom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/cloud9_night_low_color.js"
+}

@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "6514f2c9b8cbd544366fd306a980906588d61687a4f3891d69a3ab6e1797ec28",
+  "text": "# Theme  : kinda_nvim_light (light)\n# \n# Author : Strash familev.imen.otchestvovich@gmail.com\n# License: MIT\n# \n# GitHub : https://github.com/strash/kinda_nvim.hx\n\ninherits = \"kinda_nvim\"\n\n[palette]\nfg = \"#414D49\"\nfg_1 = \"#62736D\"\nfg_2 = \"#738780\"\nfg_3 = \"#8FA8A0\"\nfg_4 = \"#BECFC9\"\nfg_err = \"#BF0020\"\nfg_warn = \"#B58200\"\nfg_info = \"#005BAB\"\nfg_hint = \"#119CA8\"\nfg_primary = \"#008C5D\"\nfg_secondary = \"#2470B2\"\nfg_tertiary = \"#9847B2\"\nfg_primary_variant = \"#2F9C77\"\nfg_secondary_variant = \"#759ABA\"\nfg_tertiary_variant = \"#A860BF\"\n\nrnb_1 = \"#008099\"\nrnb_2 = \"#CC3D9C\"\nrnb_3 = \"#008C2F\"\nrnb_4 = \"#CC5F29\"\nrnb_5 = \"#8F7C00\"\n\nbg = \"#F2F5F4\"\nbg_1 = \"#EDF0EF\"\nbg_2 = \"#FCFFFE\"\nbg_3 = \"#F7FAF9\"\nbg_4 = \"#E6E8E7\"\nbg_err = \"#E8D8DB\"\nbg_warn = \"#E8E3D8\"\nbg_info = \"#D3DCE3\"\nbg_hint = \"#D3E2E3\"\n\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/kinda_nvim_light.toml"
+}

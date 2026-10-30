@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.9035
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1016
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.07
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5962
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.9035
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5962
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5464
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.974
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8936
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.2481
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7977
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7977
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.9035
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.9035
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4778
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "601df6a5ac62ea5d4ab18cf18e7c9402d9d8ccb42be809ad27a85d8fbe068cda",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.string",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/3e358d27dd00c41145dae218ce7ae54eb81ce2f544a4952d6d8c1deb2460df89",
+    "name": "Adapta Nokto Maia",
+    "palette": {
+      "activeLine": "#313B3E",
+      "background": "#222D31",
+      "cursor": "#D8D8D8",
+      "foreground": "#D8D8D8",
+      "gutterActiveLine": "#313B3E",
+      "gutterBackground": "#222D31",
+      "gutterForeground": "#8F9495",
+      "invisibles": "#585858",
+      "printMargin": "#50585B",
+      "selection": "#50585B"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#222D31",
+        "color_01": "#222D31",
+        "color_02": "#AB4642",
+        "color_03": "#7E807E",
+        "color_04": "#F7CA88",
+        "color_05": "#7CAFC2",
+        "color_06": "#BA8BAF",
+        "color_07": "#1ABB9B",
+        "color_08": "#D8D8D8",
+        "color_09": "#585858",
+        "color_10": "#AB4642",
+        "color_11": "#8D8F8D",
+        "color_12": "#F7CA88",
+        "color_13": "#7CAFC2",
+        "color_14": "#BA8BAF",
+        "color_15": "#1ABB9B",
+        "color_16": "#F8F8F8",
+        "cursor": "#D8D8D8",
+        "foreground": "#D8D8D8",
+        "hash": "55d84aeea4b04910dd2a0cc2624fc02a6fcdef7d8eb3a79a4a19e1f55f36be9a",
+        "hash_bg": "453c9cfd9b4ef09cb6d13b2534a104b52ae5dedb5d67c2602bcbd8b627bc2384",
+        "name": "Adapta Nokto Maia",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "3e358d27dd00c41145dae218ce7ae54eb81ce2f544a4952d6d8c1deb2460df89",
+    "syntax": {
+      "comment": "#8F9495",
+      "constant": "#1ABB9B",
+      "function": "#7CAFC2",
+      "invalid": "#AB4642",
+      "keyword": "#BA8BAF",
+      "number": "#1ABB9B",
+      "operator": "#D8D8D8",
+      "string": "#7E807E",
+      "type": "#F7CA88",
+      "variable": "#D8D8D8"
+    }
+  }
+}

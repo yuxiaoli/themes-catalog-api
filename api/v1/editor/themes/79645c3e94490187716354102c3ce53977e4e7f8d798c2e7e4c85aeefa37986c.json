@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.45
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5004
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7099
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6897
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.45
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6897
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3783
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.1276
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.5996
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.9957
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1222
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1222
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.45
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.45
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.3531
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "0f52f7cc913d8abb51a9c4a3f7d007f38facf9043b284d8b82ec5e2102701dc2",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/9b2a91c54ebcec031f1ba26b67d6897c0fd88dbb968e764bfd2d49312efbe461",
+    "name": "Aquarium Dark",
+    "palette": {
+      "activeLine": "#2D2E39",
+      "background": "#20202A",
+      "cursor": "#C6D0E9",
+      "foreground": "#C6D0E9",
+      "gutterActiveLine": "#2D2E39",
+      "gutterBackground": "#20202A",
+      "gutterForeground": "#848A9D",
+      "invisibles": "#1B1B23",
+      "printMargin": "#4A4C5A",
+      "selection": "#4A4C5A"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Detective Pikachu",
+        "author_name": "Detective Pikachu",
+        "author_url": "",
+        "background": "#20202A",
+        "color_01": "#3B3B4D",
+        "color_02": "#EBB9B9",
+        "color_03": "#CAF6BB",
+        "color_04": "#E6DFB8",
+        "color_05": "#CDDBF9",
+        "color_06": "#F6BBE7",
+        "color_07": "#B8DCEB",
+        "color_08": "#C8CEDC",
+        "color_09": "#1B1B23",
+        "color_10": "#D95E59",
+        "color_11": "#8FC587",
+        "color_12": "#FFCF85",
+        "color_13": "#4A83C3",
+        "color_14": "#BF83B5",
+        "color_15": "#4EB3CD",
+        "color_16": "#ABB2C2",
+        "cursor": "#C6D0E9",
+        "foreground": "#C6D0E9",
+        "hash": "3734469a1d05d9806827266fcb81bd5dbafad8302a3e845bdeac8bb2c2f44a31",
+        "hash_bg": "5c206afff20f561a5a1a9656cffa6fadb9c47ae4a2247f16c3d7ab9f0ad3d114",
+        "name": "Aquarium Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "9b2a91c54ebcec031f1ba26b67d6897c0fd88dbb968e764bfd2d49312efbe461",
+    "syntax": {
+      "comment": "#848A9D",
+      "constant": "#B8DCEB",
+      "function": "#CDDBF9",
+      "invalid": "#EBB9B9",
+      "keyword": "#F6BBE7",
+      "number": "#B8DCEB",
+      "operator": "#C6D0E9",
+      "string": "#CAF6BB",
+      "type": "#E6DFB8",
+      "variable": "#C6D0E9"
+    }
+  }
+}

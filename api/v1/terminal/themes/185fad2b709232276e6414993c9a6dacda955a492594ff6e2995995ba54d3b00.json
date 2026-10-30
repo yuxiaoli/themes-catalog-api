@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/0c89140c97b09f42d20c9c532bdf624d7b9488ed952b83f859726cbe35bc413c",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Tokyo Night Light",
+    "original": {
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "background": "#D5D6DB",
+      "color_01": "#0F0F14",
+      "color_02": "#8C4351",
+      "color_03": "#485E30",
+      "color_04": "#8F5E15",
+      "color_05": "#34548A",
+      "color_06": "#5A4A78",
+      "color_07": "#0F4B6E",
+      "color_08": "#343B58",
+      "color_09": "#9699A3",
+      "color_10": "#8C4351",
+      "color_11": "#485E30",
+      "color_12": "#8F5E15",
+      "color_13": "#34548A",
+      "color_14": "#5A4A78",
+      "color_15": "#0F4B6E",
+      "color_16": "#343B58",
+      "cursor": "#565A6E",
+      "foreground": "#565A6E",
+      "hash": "fc61063bbd4564f9241f20600d981e0051e58ff2f8ac5364783ba0bed3762319",
+      "hash_bg": "a90b605e9cabc00cef7165ae128ff25e9963a9e55b1e2e2d881faa4a30e62153",
+      "name": "Tokyo Night Light",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#565A6E",
+      "ansi": [
+        "#0F0F14",
+        "#8C4351",
+        "#485E30",
+        "#8F5E15",
+        "#34548A",
+        "#5A4A78",
+        "#0F4B6E",
+        "#343B58",
+        "#9699A3",
+        "#8C4351",
+        "#485E30",
+        "#8F5E15",
+        "#34548A",
+        "#5A4A78",
+        "#0F4B6E",
+        "#343B58"
+      ],
+      "background": "#D5D6DB",
+      "cursor": "#565A6E",
+      "foreground": "#565A6E"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "0c89140c97b09f42d20c9c532bdf624d7b9488ed952b83f859726cbe35bc413c",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0c89140c97b09f42d20c9c532bdf624d7b9488ed952b83f859726cbe35bc413c"
+  }
+}

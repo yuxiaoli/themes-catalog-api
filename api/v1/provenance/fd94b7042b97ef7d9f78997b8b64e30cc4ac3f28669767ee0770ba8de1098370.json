@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "0796d6c35ac0af511f9e9a7cf58ab58892ae989a5994db5a53bc79f8bfcf957e",
+  "text": "# name = \"Ashokai Urple\"\n# author = \"TeriyakiBomb\"\n# version = \"1.0.0\"\n\ninherits = \"ashokai\"\n\n[palette]\nbg0 = \"#211D2A\"\nbg1 = \"#322750\"\nbg2 = \"#49385D\"\nbg3 = \"#4B3E64\"\nfg0 = \"#EFEAFF\"\nhelptext = \"#9485b9\"\nhelpbg = \"#130F1C\"\ngrey = \"#70697D\"\ngrey1 = \"#667E99\"\nred = \"#FF5D5D\"\nyellow = \"#FBC664\"\ngreen = \"#7AEA92\"\nblue = \"#7AC3FF\"\nblue2 = \"#4E6A97\"\nlightblue = \"#B0DDD2\"\naqua = \"#5DB1B1\"\norange = \"#FF9647\"\npurple = \"#9983D7\"\nmagenta = \"#F94786\"\npink = \"#E06798\"\n\ndiffgreen = \"#5B7753\"\n\nline_number = \"#5D5E72\"\nline_number_selected = \"#7262A6\"\ncomment = \"#565775\"\n\ncursor = \"#746F7F\"\ncursorline = \"#2B2437\"\nselection = \"#493A77\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/ashokai_urple.toml"
+}

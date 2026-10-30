@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.4847
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.2154
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.4994
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8657
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.5301
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8657
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.7949
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4262
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6009
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3254
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3021
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3021
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.4847
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.4847
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.8188
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "8f6cc2162d0851919936c8a63c6c860f99b0b10ecf00db413edb02d5f35c528b",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/746661af6e4c38f3b70b70d4552e2bbf104d666e215b171e131c113fe0990029",
+    "name": "Nebula Drift",
+    "palette": {
+      "activeLine": "#1B1631",
+      "background": "#0A0420",
+      "cursor": "#D58BFF",
+      "foreground": "#E2E0FA",
+      "gutterActiveLine": "#1B1631",
+      "gutterBackground": "#0A0420",
+      "gutterForeground": "#8C88A3",
+      "invisibles": "#5C5A88",
+      "printMargin": "#403B57",
+      "selection": "#403B57"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "PoshPalette (https://github.com/livlign/posh-palette)",
+        "author_name": "PoshPalette",
+        "author_url": "https://github.com/livlign/posh-palette",
+        "background": "#0A0420",
+        "color_01": "#1A0E38",
+        "color_02": "#FF5C8D",
+        "color_03": "#66E6A8",
+        "color_04": "#FFCB6B",
+        "color_05": "#7C9BFF",
+        "color_06": "#C77DFF",
+        "color_07": "#57E6F0",
+        "color_08": "#C8C6E8",
+        "color_09": "#5C5A88",
+        "color_10": "#FF5C8D",
+        "color_11": "#66E6A8",
+        "color_12": "#FF9E64",
+        "color_13": "#7C9BFF",
+        "color_14": "#C77DFF",
+        "color_15": "#57E6F0",
+        "color_16": "#E2E0FA",
+        "cursor": "#D58BFF",
+        "foreground": "#E2E0FA",
+        "hash": "d14d7976b2f8831edd586d432cc634057186195d5bd5e0aabdec512cfbfa4460",
+        "hash_bg": "f97fb18fb54b524675a5323063d1a623719269c6fa8c64a6ca0a2aecde241f79",
+        "name": "Nebula Drift",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "746661af6e4c38f3b70b70d4552e2bbf104d666e215b171e131c113fe0990029",
+    "syntax": {
+      "comment": "#8C88A3",
+      "constant": "#57E6F0",
+      "function": "#7C9BFF",
+      "invalid": "#FF5C8D",
+      "keyword": "#C77DFF",
+      "number": "#57E6F0",
+      "operator": "#E2E0FA",
+      "string": "#66E6A8",
+      "type": "#FFCB6B",
+      "variable": "#E2E0FA"
+    }
+  }
+}

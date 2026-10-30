@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8724
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5706
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9389
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7989
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 12.4438
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7989
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0777
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8433
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6561
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8724
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6252
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6252
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8724
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8724
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2002
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "c0ba403dc49d1c0d2d99c05c33ddaebcd123b1bd2360e3e596c1487c8a6ba0ac",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/e87dd53f925aba8e668c674c70aca859e35759d6fef802bef0d081b6e50a48f1",
+    "name": "Trapped in Amber",
+    "palette": {
+      "activeLine": "#1C1C18",
+      "background": "#0A1017",
+      "cursor": "#FFC940",
+      "foreground": "#F0A020",
+      "gutterActiveLine": "#1C1C18",
+      "gutterBackground": "#0A1017",
+      "gutterForeground": "#94661C",
+      "invisibles": "#5A4A3A",
+      "printMargin": "#443419",
+      "selection": "#443419"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "mattjoyce (https://github.com/mattjoyce/trapped-in-amber)",
+        "author_name": "mattjoyce",
+        "author_url": "https://github.com/mattjoyce/trapped-in-amber",
+        "background": "#0A1017",
+        "color_01": "#4A3220",
+        "color_02": "#E05C1C",
+        "color_03": "#7A9C4A",
+        "color_04": "#F0A020",
+        "color_05": "#4A7EC9",
+        "color_06": "#C95A8C",
+        "color_07": "#7A9EA8",
+        "color_08": "#FFD9A0",
+        "color_09": "#5A4A3A",
+        "color_10": "#FF7832",
+        "color_11": "#A8C46B",
+        "color_12": "#FFD700",
+        "color_13": "#6B9FFF",
+        "color_14": "#FF7FA8",
+        "color_15": "#A5C2CC",
+        "color_16": "#FFF5E0",
+        "cursor": "#FFC940",
+        "foreground": "#F0A020",
+        "hash": "990dedd4b74eef8d37794ce1da182e777a26c9ea07536231747af6971c53e4ae",
+        "hash_bg": "12cf62cbc100bf4d9a2d415ddc2f9c979a118eefc12e93094ec32771c208f61c",
+        "name": "Trapped in Amber",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "e87dd53f925aba8e668c674c70aca859e35759d6fef802bef0d081b6e50a48f1",
+    "syntax": {
+      "comment": "#94661C",
+      "constant": "#7A9EA8",
+      "function": "#4A7EC9",
+      "invalid": "#E05C1C",
+      "keyword": "#C95A8C",
+      "number": "#7A9EA8",
+      "operator": "#F0A020",
+      "string": "#7A9C4A",
+      "type": "#F0A020",
+      "variable": "#F0A020"
+    }
+  }
+}

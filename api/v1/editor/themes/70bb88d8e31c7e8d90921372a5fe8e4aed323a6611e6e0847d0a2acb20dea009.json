@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9387
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9739
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.9847
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2406
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.9387
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2406
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.3317
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8305
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1809
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.5889
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.0941
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.0941
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9387
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9387
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.113
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b4b7bd32059ae4daae11c7c8a93e4877781ad1cfb6430d68e3edda253920978a",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/ad0430e2f89fd90d6c3e76911f4153118bc7b52d0c20423ea70123ae9bf51371",
+    "name": "Night Lion V1",
+    "palette": {
+      "activeLine": "#0F0F0F",
+      "background": "#000000",
+      "cursor": "#BBBBBB",
+      "foreground": "#BBBBBB",
+      "gutterActiveLine": "#0F0F0F",
+      "gutterBackground": "#000000",
+      "gutterForeground": "#707070",
+      "invisibles": "#555555",
+      "printMargin": "#2F2F2F",
+      "selection": "#2F2F2F"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Curvve Media (http://www.curvve.com/blog/category/themes/)",
+        "author_name": "Curvve Media",
+        "author_url": "http://www.curvve.com/blog/category/themes/",
+        "background": "#000000",
+        "color_01": "#4C4C4C",
+        "color_02": "#BB0000",
+        "color_03": "#5FDE8F",
+        "color_04": "#F3F167",
+        "color_05": "#276BD8",
+        "color_06": "#BB00BB",
+        "color_07": "#00DADF",
+        "color_08": "#BBBBBB",
+        "color_09": "#555555",
+        "color_10": "#FF5555",
+        "color_11": "#55FF55",
+        "color_12": "#FFFF55",
+        "color_13": "#5555FF",
+        "color_14": "#FF55FF",
+        "color_15": "#55FFFF",
+        "color_16": "#FFFFFF",
+        "cursor": "#BBBBBB",
+        "foreground": "#BBBBBB",
+        "hash": "37a914e34d9c3754f4171a59301affd3ce02cb7c59fada7c6ff79b1a615e9029",
+        "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+        "name": "Night Lion V1",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "ad0430e2f89fd90d6c3e76911f4153118bc7b52d0c20423ea70123ae9bf51371",
+    "syntax": {
+      "comment": "#707070",
+      "constant": "#00DADF",
+      "function": "#276BD8",
+      "invalid": "#BB0000",
+      "keyword": "#BB00BB",
+      "number": "#00DADF",
+      "operator": "#BBBBBB",
+      "string": "#5FDE8F",
+      "type": "#F3F167",
+      "variable": "#BBBBBB"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/05792455b96ffc2e01f46f46bb526851dad64674eee133aecbc0132a39f53e86",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Constant Perceptual Luminosity Dark",
+    "original": {
+      "author": "Aaron Hall",
+      "author_name": "Aaron Hall",
+      "author_url": "",
+      "background": "#000000",
+      "color_01": "#000000",
+      "color_02": "#B10B00",
+      "color_03": "#007232",
+      "color_04": "#745B00",
+      "color_05": "#3123FF",
+      "color_06": "#9B0097",
+      "color_07": "#006A78",
+      "color_08": "#777777",
+      "color_09": "#464646",
+      "color_10": "#FF3D2B",
+      "color_11": "#00AE50",
+      "color_12": "#B18C00",
+      "color_13": "#6786FF",
+      "color_14": "#EB00E4",
+      "color_15": "#00A3B7",
+      "color_16": "#ABABAB",
+      "cursor": "#777777",
+      "foreground": "#777777",
+      "hash": "3a75f84f78c1741af88663c154ce42bbc8e9dedacf8734a0fdeb346333b2357d",
+      "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+      "name": "Constant Perceptual Luminosity Dark",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#777777",
+      "ansi": [
+        "#000000",
+        "#B10B00",
+        "#007232",
+        "#745B00",
+        "#3123FF",
+        "#9B0097",
+        "#006A78",
+        "#777777",
+        "#464646",
+        "#FF3D2B",
+        "#00AE50",
+        "#B18C00",
+        "#6786FF",
+        "#EB00E4",
+        "#00A3B7",
+        "#ABABAB"
+      ],
+      "background": "#000000",
+      "cursor": "#777777",
+      "foreground": "#777777"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "05792455b96ffc2e01f46f46bb526851dad64674eee133aecbc0132a39f53e86",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "05792455b96ffc2e01f46f46bb526851dad64674eee133aecbc0132a39f53e86"
+  }
+}

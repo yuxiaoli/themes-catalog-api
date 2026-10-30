@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "9e4be67855befde712e92136d88475f4b5114627e3d79b467a355144e79cd970",
+  "text": "# Author: Michael McClintock <michael.mcclintock@hey.com>\n# License: MIT\n\n# Yo - Themes for Helix inspired by Zenbones & Alabaster with Radix Colors.\n# https://github.com/mrmcc3/yo-theme-helix\n\ninherits = \"yo\"\n\n[palette]\n\n# mauveDark\np1 = \"#121113\"\np2 = \"#1a191b\"\np3 = \"#232225\"\np4 = \"#2b292d\"\np5 = \"#323035\"\np6 = \"#3c393f\"\np7 = \"#49474e\"\np8 = \"#625f69\"\np9 = \"#6f6d78\"\np10 = \"#7c7a85\"\np11 = \"#b5b2bc\"\np12 = \"#eeeef0\"\n\nerror = \"#ee518a\"   # crimsonDark-10\nwarning = \"#ffff57\" # yellowDark-10\ninfo = \"#3b9eff\"    # blueDark-10\n\nstring = \"#0eb39e\"   # teal-10\nconstant = \"#b658c4\" # plum-10\nkeyword = \"#9eb1ff\"  # indigo-11\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/yo_berry.toml"
+}

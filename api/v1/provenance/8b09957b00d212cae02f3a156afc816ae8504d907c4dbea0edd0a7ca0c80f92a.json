@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "b447db337c7f20ee11c6f8d084b0629da7f8c7a6ab7908867de98f79d51d4ae4",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-gob\";\nexports.cssText = require(\"./gob-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/gob.js"
+}

@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/6408d23d04eae47fc5ec1e20bff949acbd2f1247abd6e5ca105b584b8f9e3896",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Minimalist Dark",
+    "original": {
+      "author": "Gabriel Soares (https://github.com/Gabrielsoac)",
+      "author_name": "Gabriel Soares",
+      "author_url": "https://github.com/Gabrielsoac",
+      "background": "#13141F",
+      "color_01": "#F5F5F5",
+      "color_02": "#B81414",
+      "color_03": "#1B9F6B",
+      "color_04": "#D28F79",
+      "color_05": "#AA5A24",
+      "color_06": "#9E40A3",
+      "color_07": "#FE8330",
+      "color_08": "#A5A2A2",
+      "color_09": "#5C5855",
+      "color_10": "#E8BBD0",
+      "color_11": "#006400",
+      "color_12": "#4A4543",
+      "color_13": "#A16A94",
+      "color_14": "#A020F0",
+      "color_15": "#FF69B4",
+      "color_16": "#CACAD0",
+      "cursor": "#F5F5F5",
+      "foreground": "#F5F5F5",
+      "hash": "2e67d16f42740d266250318572f20138b2ea7202b74dd9e0a533286466750eb7",
+      "hash_bg": "29597d3ec33e54d4b158e8ba35403181e1e19df91d84f8d5f629d8214afded3d",
+      "name": "Minimalist Dark",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#F5F5F5",
+      "ansi": [
+        "#F5F5F5",
+        "#B81414",
+        "#1B9F6B",
+        "#D28F79",
+        "#AA5A24",
+        "#9E40A3",
+        "#FE8330",
+        "#A5A2A2",
+        "#5C5855",
+        "#E8BBD0",
+        "#006400",
+        "#4A4543",
+        "#A16A94",
+        "#A020F0",
+        "#FF69B4",
+        "#CACAD0"
+      ],
+      "background": "#13141F",
+      "cursor": "#F5F5F5",
+      "foreground": "#F5F5F5"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "6408d23d04eae47fc5ec1e20bff949acbd2f1247abd6e5ca105b584b8f9e3896",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "6408d23d04eae47fc5ec1e20bff949acbd2f1247abd6e5ca105b584b8f9e3896"
+  }
+}

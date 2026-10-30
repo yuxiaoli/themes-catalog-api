@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "d98e017e1b6eba66dff2d0cd5b1f3bc8c9a9bc0205e4823c36fe6a880a69431e",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-pastel-on-dark\";\nexports.cssText = require(\"./pastel_on_dark-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/pastel_on_dark.js"
+}

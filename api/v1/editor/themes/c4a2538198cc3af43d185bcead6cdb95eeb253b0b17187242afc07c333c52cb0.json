@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3591
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0728
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.5625
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8402
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 13.3591
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8402
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6574
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.174
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7719
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.6757
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6038
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6038
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3591
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3591
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6326
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "a301157b8c18d98eb03a74444111a5ab6a821bc825e8aee3e35fe8943eb00637",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/4dea784c0cb13574e3bcb5fc76fd053ed52252f3d20a0741a2e73b5d2c98fa75",
+    "name": "Dracula Lost",
+    "palette": {
+      "activeLine": "#393A45",
+      "background": "#282A36",
+      "cursor": "#F8F8F2",
+      "foreground": "#F8F8F2",
+      "gutterActiveLine": "#393A45",
+      "gutterBackground": "#282A36",
+      "gutterForeground": "#A5A6A7",
+      "invisibles": "#7A7A7A",
+      "printMargin": "#5C5E65",
+      "selection": "#5C5E65"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Dracula (https://draculatheme.com)",
+        "author_name": "Dracula",
+        "author_url": "https://draculatheme.com",
+        "background": "#282A36",
+        "color_01": "#262626",
+        "color_02": "#E64747",
+        "color_03": "#42E66C",
+        "color_04": "#E4F34A",
+        "color_05": "#9B6BDF",
+        "color_06": "#E356A7",
+        "color_07": "#75D7EC",
+        "color_08": "#F8F8F2",
+        "color_09": "#7A7A7A",
+        "color_10": "#FF5555",
+        "color_11": "#50FA7B",
+        "color_12": "#F1FA8C",
+        "color_13": "#BD93F9",
+        "color_14": "#FF79C6",
+        "color_15": "#8BE9FD",
+        "color_16": "#F9F9FB",
+        "cursor": "#F8F8F2",
+        "foreground": "#F8F8F2",
+        "hash": "eae97a2006bb1f2ea6ef98cdc6935d9edf458625f019948ea5adbf7dbd0f8e30",
+        "hash_bg": "1e83b9df139753735c9d1a908cb2eec5a98a61962c97baf59947b4cdab964b1d",
+        "name": "Dracula Lost",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "4dea784c0cb13574e3bcb5fc76fd053ed52252f3d20a0741a2e73b5d2c98fa75",
+    "syntax": {
+      "comment": "#A5A6A7",
+      "constant": "#75D7EC",
+      "function": "#9B6BDF",
+      "invalid": "#E64747",
+      "keyword": "#E356A7",
+      "number": "#75D7EC",
+      "operator": "#F8F8F2",
+      "string": "#42E66C",
+      "type": "#E4F34A",
+      "variable": "#F8F8F2"
+    }
+  }
+}

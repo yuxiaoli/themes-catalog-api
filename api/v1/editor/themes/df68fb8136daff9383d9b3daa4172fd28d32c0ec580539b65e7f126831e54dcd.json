@@ -1,0 +1,277 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/base16_default",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "base16_default",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/base16_theme.toml"
+    ],
+    "palette": {
+      "black": "terminal:black",
+      "blue": "terminal:blue",
+      "cyan": "terminal:cyan",
+      "default": "terminal:default",
+      "gray": "terminal:gray",
+      "green": "terminal:green",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "terminal:magenta",
+      "red": "terminal:red",
+      "white": "terminal:white",
+      "yellow": "terminal:yellow"
+    },
+    "provenance": {
+      "paths": [
+        "base16_theme.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/cdbbeb938e9bc49cc4e8d00f5753ffe8a57a4e138584c5344720f0ec5425fdc3.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "base16_default",
+    "styles": {
+      "attributes": {
+        "fg": "terminal:yellow"
+      },
+      "comment": {
+        "fg": "terminal:gray"
+      },
+      "constant": {
+        "fg": "terminal:yellow"
+      },
+      "constant.character.escape": {
+        "fg": "terminal:cyan"
+      },
+      "constant.numeric": {
+        "fg": "terminal:yellow"
+      },
+      "constructor": {
+        "fg": "terminal:blue"
+      },
+      "debug": {
+        "fg": "terminal:gray"
+      },
+      "diagnostic": {
+        "underline": {
+          "style": "line"
+        }
+      },
+      "diff.delta": {
+        "fg": "terminal:yellow"
+      },
+      "diff.minus": {
+        "fg": "terminal:red"
+      },
+      "diff.plus": {
+        "fg": "terminal:green"
+      },
+      "error": {
+        "fg": "terminal:red"
+      },
+      "function": {
+        "fg": "terminal:blue"
+      },
+      "hint": {
+        "fg": "terminal:gray"
+      },
+      "info": {
+        "fg": "terminal:blue"
+      },
+      "keyword": {
+        "fg": "terminal:magenta"
+      },
+      "label": {
+        "fg": "terminal:magenta"
+      },
+      "markup.bold": {
+        "fg": "terminal:yellow",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading": {
+        "fg": "terminal:blue"
+      },
+      "markup.italic": {
+        "fg": "terminal:magenta",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link.text": {
+        "fg": "terminal:red"
+      },
+      "markup.link.url": {
+        "fg": "terminal:yellow",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "markup.list": {
+        "fg": "terminal:red"
+      },
+      "markup.quote": {
+        "fg": "terminal:cyan"
+      },
+      "markup.raw": {
+        "fg": "terminal:green"
+      },
+      "namespace": {
+        "fg": "terminal:magenta"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "terminal:blue"
+      },
+      "string": {
+        "fg": "terminal:green"
+      },
+      "type": {
+        "fg": "terminal:yellow"
+      },
+      "ui.cursor": {
+        "fg": "terminal:white",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursor.match": {
+        "fg": "terminal:yellow",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "ui.gutter": {
+        "bg": "terminal:black"
+      },
+      "ui.help": {
+        "bg": "terminal:black",
+        "fg": "terminal:white"
+      },
+      "ui.linenr": {
+        "bg": "terminal:black",
+        "fg": "terminal:gray"
+      },
+      "ui.linenr.selected": {
+        "bg": "terminal:black",
+        "fg": "terminal:white",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.menu": {
+        "bg": "terminal:white",
+        "fg": "terminal:black"
+      },
+      "ui.menu.selected": {
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.popup": {
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.selection": {
+        "bg": "terminal:blue",
+        "fg": "terminal:black"
+      },
+      "ui.selection.primary": {
+        "bg": "terminal:blue",
+        "fg": "terminal:white"
+      },
+      "ui.statusline": {
+        "bg": "terminal:white",
+        "fg": "terminal:black"
+      },
+      "ui.statusline.inactive": {
+        "bg": "terminal:white",
+        "fg": "terminal:gray"
+      },
+      "ui.statusline.insert": {
+        "bg": "terminal:green",
+        "fg": "terminal:black"
+      },
+      "ui.statusline.select": {
+        "bg": "terminal:blue",
+        "fg": "terminal:black"
+      },
+      "ui.text.inactive": {
+        "fg": "terminal:gray"
+      },
+      "ui.virtual": {
+        "fg": "terminal:gray",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "ui.virtual.jump-label": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "bold"
+        ],
+        "underline": {
+          "style": "line"
+        }
+      },
+      "ui.virtual.ruler": {
+        "bg": "terminal:black"
+      },
+      "variable": {
+        "fg": "terminal:red"
+      },
+      "variable.other.member": {
+        "fg": "terminal:green"
+      },
+      "warning": {
+        "fg": "terminal:yellow"
+      }
+    },
+    "warnings": []
+  }
+}

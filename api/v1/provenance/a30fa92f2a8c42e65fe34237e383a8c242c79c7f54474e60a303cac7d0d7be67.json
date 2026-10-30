@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "31174bcb2b2e2a88c797eea54715e84f89889efb535412a37730047b7bc2f17c",
+  "text": "# Material Theme <https://material-theme.com/> for Helix Editor\n\ninherits = \"material_deep_ocean\"\n\n[palette]\nbg = \"#292d3e\"\ntext = \"#a6accd\"\n\ndisabled = \"#515772\"\n\naccent = \"#ab47bc\"\n\nactive = \"#414863\"\nhighlight = \"#444267\"\n\ncomment = \"#676e95\"\n\nselection = \"#444267\"\n\nline-number = \"#3a3f58\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/material_palenight.toml"
+}

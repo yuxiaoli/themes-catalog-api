@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/1ce5339709cdc42367b3f6cb4cdc26eed27c5251a12bba58518fea4b2de30465",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Tempus Rift",
+    "original": {
+      "author": "Protesilaos Stavrou (https://protesilaos.com)",
+      "author_name": "Protesilaos Stavrou",
+      "author_url": "https://protesilaos.com",
+      "background": "#162C22",
+      "color_01": "#162C22",
+      "color_02": "#C19904",
+      "color_03": "#34B534",
+      "color_04": "#7FAD00",
+      "color_05": "#30AEB0",
+      "color_06": "#C8954C",
+      "color_07": "#5FAD8F",
+      "color_08": "#AB9AA9",
+      "color_09": "#283431",
+      "color_10": "#D2A634",
+      "color_11": "#6AC134",
+      "color_12": "#82BD00",
+      "color_13": "#56BDAD",
+      "color_14": "#CCA0BA",
+      "color_15": "#10C480",
+      "color_16": "#BBBCBC",
+      "cursor": "#BBBCBC",
+      "foreground": "#BBBCBC",
+      "hash": "8a11c06a85fff3622141aff2af4d103a529042f751e7c9ff9c26f8c45d3fe970",
+      "hash_bg": "7f1ff3b7aa6dda0be0e30720bcbfde71d331995f33d5bc03255111926639600d",
+      "name": "Tempus Rift",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#BBBCBC",
+      "ansi": [
+        "#162C22",
+        "#C19904",
+        "#34B534",
+        "#7FAD00",
+        "#30AEB0",
+        "#C8954C",
+        "#5FAD8F",
+        "#AB9AA9",
+        "#283431",
+        "#D2A634",
+        "#6AC134",
+        "#82BD00",
+        "#56BDAD",
+        "#CCA0BA",
+        "#10C480",
+        "#BBBCBC"
+      ],
+      "background": "#162C22",
+      "cursor": "#BBBCBC",
+      "foreground": "#BBBCBC"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "1ce5339709cdc42367b3f6cb4cdc26eed27c5251a12bba58518fea4b2de30465",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "1ce5339709cdc42367b3f6cb4cdc26eed27c5251a12bba58518fea4b2de30465"
+  }
+}

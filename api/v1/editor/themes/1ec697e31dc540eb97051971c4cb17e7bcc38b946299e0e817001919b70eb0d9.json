@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.895
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.2536
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.6946
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.877
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 17.895
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.877
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.2169
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6087
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3643
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2157
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.3604
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.3604
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.895
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.895
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9566
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "af271f082d46077cdd5669cf003014bc42e518cb146c9e9f78b2748c89a9b8e0",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/89e677bc9fe0cd5557ea36a5992e45615b5a72dc069e9a2198127ba8f24fbe03",
+    "name": "Midnight Arcade",
+    "palette": {
+      "activeLine": "#1E2532",
+      "background": "#0B1220",
+      "cursor": "#F8FAFC",
+      "foreground": "#F8FAFC",
+      "gutterActiveLine": "#1E2532",
+      "gutterBackground": "#0B1220",
+      "gutterForeground": "#999DA4",
+      "invisibles": "#3D4452",
+      "printMargin": "#464C57",
+      "selection": "#464C57"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "theebest.com (https://www.theebest.com)",
+        "author_name": "theebest.com",
+        "author_url": "https://www.theebest.com",
+        "background": "#0B1220",
+        "color_01": "#3F4550",
+        "color_02": "#FB7185",
+        "color_03": "#22C55E",
+        "color_04": "#FBBF24",
+        "color_05": "#60A5FA",
+        "color_06": "#E879F9",
+        "color_07": "#22D3EE",
+        "color_08": "#B6C2D5",
+        "color_09": "#3D4452",
+        "color_10": "#FC8D9D",
+        "color_11": "#4ED17E",
+        "color_12": "#FCCB4B",
+        "color_13": "#80B7FB",
+        "color_14": "#ED94FA",
+        "color_15": "#4EDCF1",
+        "color_16": "#F8FAFC",
+        "cursor": "#F8FAFC",
+        "foreground": "#F8FAFC",
+        "hash": "cb9cd3caef5caccffebafb1ee4bd0b12cff3b27ec65bc21fc214d78132856534",
+        "hash_bg": "ba75a6988cbbeed21c3cd11b511b2bfbcbdd6a691039a94a340f2cfe5d08db53",
+        "name": "Midnight Arcade",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "89e677bc9fe0cd5557ea36a5992e45615b5a72dc069e9a2198127ba8f24fbe03",
+    "syntax": {
+      "comment": "#999DA4",
+      "constant": "#22D3EE",
+      "function": "#60A5FA",
+      "invalid": "#FB7185",
+      "keyword": "#E879F9",
+      "number": "#22D3EE",
+      "operator": "#F8FAFC",
+      "string": "#22C55E",
+      "type": "#FBBF24",
+      "variable": "#F8FAFC"
+    }
+  }
+}

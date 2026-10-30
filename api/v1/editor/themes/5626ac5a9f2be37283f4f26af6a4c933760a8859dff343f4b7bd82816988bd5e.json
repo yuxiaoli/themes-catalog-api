@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.5362
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3279
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.6115
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8021
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.7611
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8021
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.6796
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1258
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1964
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9705
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2458
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2458
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.5362
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.5362
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3903
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "4a6d3eaca8222d4c8bac57833c751235dc9febc469ed489da3db39a8a5d6c766",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/df316afa1087ef203cc65a56930c249b931c6cc8154f69f91caa959d9fee1f3d",
+    "name": "SeedFlip Abyss",
+    "palette": {
+      "activeLine": "#171722",
+      "background": "#050510",
+      "cursor": "#6E56CF",
+      "foreground": "#E0E0F0",
+      "gutterActiveLine": "#171722",
+      "gutterBackground": "#050510",
+      "gutterForeground": "#888896",
+      "invisibles": "#3D3D70",
+      "printMargin": "#3C3C48",
+      "selection": "#3C3C48"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#050510",
+        "color_01": "#030308",
+        "color_02": "#D26060",
+        "color_03": "#60D286",
+        "color_04": "#D2BF60",
+        "color_05": "#6090D2",
+        "color_06": "#D260D2",
+        "color_07": "#60D2D2",
+        "color_08": "#F1F1F8",
+        "color_09": "#3D3D70",
+        "color_10": "#E39C9C",
+        "color_11": "#9CE3B3",
+        "color_12": "#E3D79C",
+        "color_13": "#9CB9E3",
+        "color_14": "#E39CE3",
+        "color_15": "#9CE3E3",
+        "color_16": "#FFFFFF",
+        "cursor": "#6E56CF",
+        "foreground": "#E0E0F0",
+        "hash": "037b41226c373c336a018e746fa3503ddec17e13ba2903bd44e1d0a3ad1bf29b",
+        "hash_bg": "c30e109ded712bace8976ae547a423195efbc11deed3bd3f30f0731e05e76451",
+        "name": "SeedFlip Abyss",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "df316afa1087ef203cc65a56930c249b931c6cc8154f69f91caa959d9fee1f3d",
+    "syntax": {
+      "comment": "#888896",
+      "constant": "#60D2D2",
+      "function": "#6090D2",
+      "invalid": "#D26060",
+      "keyword": "#D260D2",
+      "number": "#60D2D2",
+      "operator": "#E0E0F0",
+      "string": "#60D286",
+      "type": "#D2BF60",
+      "variable": "#E0E0F0"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/18ff41f8c83eb2e5c4f17b874ae8cb1c59e047f419cf699215aca1c39ca0a4db",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Modus Vivendi Tritanopia",
+    "original": {
+      "author": "Protesilaos Stavrou (https://github.com/protesilaos)",
+      "author_name": "Protesilaos Stavrou",
+      "author_url": "https://github.com/protesilaos",
+      "background": "#000000",
+      "color_01": "#000000",
+      "color_02": "#FF5F59",
+      "color_03": "#44BC44",
+      "color_04": "#CABF00",
+      "color_05": "#2FAFFF",
+      "color_06": "#FEACD0",
+      "color_07": "#00D3D0",
+      "color_08": "#A6A6A6",
+      "color_09": "#595959",
+      "color_10": "#FF6740",
+      "color_11": "#00C06F",
+      "color_12": "#FFA00F",
+      "color_13": "#79A8FF",
+      "color_14": "#B6A0FF",
+      "color_15": "#6AE4B9",
+      "color_16": "#FFFFFF",
+      "cursor": "#FFFFFF",
+      "foreground": "#FFFFFF",
+      "hash": "7dd65b5f262498d7fc3720b5849d5a93628723358f9837f35efedbb8566bb19f",
+      "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+      "name": "Modus Vivendi Tritanopia",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#FFFFFF",
+      "ansi": [
+        "#000000",
+        "#FF5F59",
+        "#44BC44",
+        "#CABF00",
+        "#2FAFFF",
+        "#FEACD0",
+        "#00D3D0",
+        "#A6A6A6",
+        "#595959",
+        "#FF6740",
+        "#00C06F",
+        "#FFA00F",
+        "#79A8FF",
+        "#B6A0FF",
+        "#6AE4B9",
+        "#FFFFFF"
+      ],
+      "background": "#000000",
+      "cursor": "#FFFFFF",
+      "foreground": "#FFFFFF"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "18ff41f8c83eb2e5c4f17b874ae8cb1c59e047f419cf699215aca1c39ca0a4db",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "18ff41f8c83eb2e5c4f17b874ae8cb1c59e047f419cf699215aca1c39ca0a4db"
+  }
+}

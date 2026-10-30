@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "b1ce6777d51940d70269ccb717bd39a9680e94af03af1d3d42d7733a2ea0bdc3",
+  "text": "\"use strict\";\n\nexports.isDark = false;\nexports.cssClass = \"ace-tm\";\nexports.cssText = require(\"./textmate-css\");\nexports.$id = \"ace/theme/textmate\";\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/textmate.js"
+}

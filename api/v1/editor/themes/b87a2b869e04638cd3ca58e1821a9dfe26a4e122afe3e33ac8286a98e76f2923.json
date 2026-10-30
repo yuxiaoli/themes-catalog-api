@@ -1,0 +1,236 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.9867
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.9387
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.8418
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.234
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.2843
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.234
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1649
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8261
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2958
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.254
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2958
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2958
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.9867
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.9867
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5892
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "dc7119a27240fff53ec2240a0563ff0b95416e5bbf4d04e5595415dac9c85470",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/103319583a1422e67fbf6185633da33a9f57fe3d86eef84ecc8b5e3b0eb08d39",
+    "name": "Karma Light Dimmed",
+    "palette": {
+      "activeLine": "#E4E2E6",
+      "background": "#F5F3F7",
+      "cursor": "#9676D0",
+      "foreground": "#1C1F24",
+      "gutterActiveLine": "#E4E2E6",
+      "gutterBackground": "#F5F3F7",
+      "gutterForeground": "#737478",
+      "invisibles": "#999999",
+      "printMargin": "#BFBEC2",
+      "selection": "#BFBEC2"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Sreetam Das (https://github.com/sreetamdas)",
+        "author_name": "Sreetam Das",
+        "author_url": "https://github.com/sreetamdas",
+        "background": "#F5F3F7",
+        "color_01": "#1C1F24",
+        "color_02": "#E07A90",
+        "color_03": "#4A9A4C",
+        "color_04": "#D49A26",
+        "color_05": "#6688B8",
+        "color_06": "#7C5AB0",
+        "color_07": "#6688B8",
+        "color_08": "#5A5860",
+        "color_09": "#999999",
+        "color_10": "#E07A90",
+        "color_11": "#4A9A4C",
+        "color_12": "#E0A040",
+        "color_13": "#6688B8",
+        "color_14": "#9676D0",
+        "color_15": "#6688B8",
+        "color_16": "#1C1F24",
+        "cursor": "#9676D0",
+        "foreground": "#1C1F24",
+        "hash": "632784b4417654b8f1baff536cd10028a949729e028e6aaa606a9253043bc3d2",
+        "hash_bg": "73db09b04fb3ef7ef115f5bf99beacba0dc8ea0c5708766141f55a3c4a7c9143",
+        "name": "Karma Light Dimmed",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "103319583a1422e67fbf6185633da33a9f57fe3d86eef84ecc8b5e3b0eb08d39",
+    "syntax": {
+      "comment": "#737478",
+      "constant": "#6688B8",
+      "function": "#6688B8",
+      "invalid": "#E07A90",
+      "keyword": "#7C5AB0",
+      "number": "#6688B8",
+      "operator": "#1C1F24",
+      "string": "#4A9A4C",
+      "type": "#D49A26",
+      "variable": "#1C1F24"
+    }
+  }
+}

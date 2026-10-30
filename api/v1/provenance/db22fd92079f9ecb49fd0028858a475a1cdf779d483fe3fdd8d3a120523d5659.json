@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "a4323b61eb1374b43bbb99b26611e18eed07421acd1efd84a761eb8b3eb96e7c",
+  "text": "# Author: IwantHappiness <IwantHappiness95@gmail.com>\n\ninherits = \"vesper\"\n\n\"markup.raw\" = { bg = \"white\" }\n\"markup.normal\" = { bg = \"white\" }\n\"markup.heading\" = { bg = \"white\" }\n\n# UI\n\"ui.window\" = { bg = \"white\" }\n\"ui.background\" = { fg = \"white\" }\n\n[palette]\nred = \"#ff8080\"\ngray = \"#A0A0A0\"\nwhite = \"#ffffff\"\nbeige = \"#ffc799\"\nblack = \"#101010\"\ndim-gray = \"#505050\"\ndark-gray = \"#1C1C1C\"\nbright-green = \"#99FFE4\"\n\ncursor = \"#aeafad\"\ncomment = \"#8b8b8b\"\nbg-selection = \"#666666\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/vesper-transparent.toml"
+}

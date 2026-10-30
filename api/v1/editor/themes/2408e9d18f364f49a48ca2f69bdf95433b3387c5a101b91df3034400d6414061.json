@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5223
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9689
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5864
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.5223
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.2765
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4516
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5876
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.7625
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7371
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7371
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5223
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5223
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1935
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "fa2a8f2e6cccdeba7da58bd6f0fc9c35d85f75b8cfb38238dd498d696fb6a607",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/1b93c01fe433663925dc2d8c54201cce14f1b283d0e4a5d38969bd1015e2ce82",
+    "name": "Sick",
+    "palette": {
+      "activeLine": "#32343F",
+      "background": "#272935",
+      "cursor": "#AEAEB1",
+      "foreground": "#AEAEB1",
+      "gutterActiveLine": "#32343F",
+      "gutterBackground": "#272935",
+      "gutterForeground": "#78797F",
+      "invisibles": "#555753",
+      "printMargin": "#494A54",
+      "selection": "#494A54"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#272935",
+        "color_01": "#2E3436",
+        "color_02": "#F47375",
+        "color_03": "#6BF1BE",
+        "color_04": "#E5F081",
+        "color_05": "#6AA1FD",
+        "color_06": "#C481FF",
+        "color_07": "#6DE4FD",
+        "color_08": "#D3D7CF",
+        "color_09": "#555753",
+        "color_10": "#F47375",
+        "color_11": "#6BF1BE",
+        "color_12": "#E5F081",
+        "color_13": "#6AA1FD",
+        "color_14": "#C481FF",
+        "color_15": "#6DE4FD",
+        "color_16": "#EEEEEC",
+        "cursor": "#AEAEB1",
+        "foreground": "#AEAEB1",
+        "hash": "50fcc9e288108212a7d54b0b99e11c7a7546368d9e8a28bbdb59033dc66346b8",
+        "hash_bg": "15a94a99ea7d5f4899df1b752a6e286523f4971ecc7cfd529cf1aae9add0760c",
+        "name": "Sick",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "1b93c01fe433663925dc2d8c54201cce14f1b283d0e4a5d38969bd1015e2ce82",
+    "syntax": {
+      "comment": "#78797F",
+      "constant": "#6DE4FD",
+      "function": "#6AA1FD",
+      "invalid": "#F47375",
+      "keyword": "#C481FF",
+      "number": "#6DE4FD",
+      "operator": "#AEAEB1",
+      "string": "#6BF1BE",
+      "type": "#E5F081",
+      "variable": "#AEAEB1"
+    }
+  }
+}

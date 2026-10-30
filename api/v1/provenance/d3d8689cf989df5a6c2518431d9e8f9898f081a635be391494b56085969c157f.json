@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "f67dd1618b257ed00f30c43928daf120cf1835ebb98072f5fabbc84591c2a603",
+  "text": "# Gruvbox Material Light Hard for Helix\n# Original Author: @sainnhe (https://github.com/sainnhe/gruvbox-material)\n# Base theme ported by: @satoqz\n# Palette ported by: @ivan-shymkiv\n# License: MIT\n\ninherits = \"gruvbox_material_light_medium\"\n\n[palette]\nbg0 = \"#f9f5d7\"\nbg1 = \"#f5edca\"\nbg2 = \"#f2e5bc\"\nbg3 = \"#ebdbb2\"\nbg4 = \"#eee0b7\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/gruvbox_material_light_hard.toml"
+}

@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1581
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7017
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.166
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9477
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 11.1581
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9477
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1581
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1915
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.2942
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.9606
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8149
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8149
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1581
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1581
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4771
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "04e319ed227d0d9fc7bf59b3413332d4612a4f08ed64dda9b55607e725b7a1db",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/67088623d2b66c8085b8cff5a8b5f87fb30559fc656805ea71a9bdf3083459de",
+    "name": "Baitong",
+    "palette": {
+      "activeLine": "#143B2B",
+      "background": "#112A2A",
+      "cursor": "#33FF33",
+      "foreground": "#33FF33",
+      "gutterActiveLine": "#143B2B",
+      "gutterBackground": "#112A2A",
+      "gutterForeground": "#25AA2F",
+      "invisibles": "#FFFFFF",
+      "printMargin": "#1A5F2C",
+      "selection": "#1A5F2C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#112A2A",
+        "color_01": "#000000",
+        "color_02": "#F77272",
+        "color_03": "#33FF33",
+        "color_04": "#1AE642",
+        "color_05": "#68FDFE",
+        "color_06": "#FF66FF",
+        "color_07": "#87CEFA",
+        "color_08": "#DBDBD9",
+        "color_09": "#FFFFFF",
+        "color_10": "#F77272",
+        "color_11": "#33FF33",
+        "color_12": "#1AE642",
+        "color_13": "#68FDFE",
+        "color_14": "#FF66FF",
+        "color_15": "#68FDFE",
+        "color_16": "#DBDBD9",
+        "cursor": "#33FF33",
+        "foreground": "#33FF33",
+        "hash": "6d8ed493b84012cc1dd132e8f0452cd3aa579e686032c6fe03169b6a11b3f233",
+        "hash_bg": "20f538e723b8a7b3980c5e8ecd4f136970aed777b9fe08e986e66563cca0ec11",
+        "name": "Baitong",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "67088623d2b66c8085b8cff5a8b5f87fb30559fc656805ea71a9bdf3083459de",
+    "syntax": {
+      "comment": "#25AA2F",
+      "constant": "#87CEFA",
+      "function": "#68FDFE",
+      "invalid": "#F77272",
+      "keyword": "#FF66FF",
+      "number": "#87CEFA",
+      "operator": "#33FF33",
+      "string": "#33FF33",
+      "type": "#1AE642",
+      "variable": "#33FF33"
+    }
+  }
+}

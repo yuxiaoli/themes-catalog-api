@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/b6200bc8c63a7e5c5b603cc9f6ed1fe42becd2dea4e4b9f31fbfa8265f394381",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Token Light",
+    "original": {
+      "author": "Thorsten Rhau (https://github.com/ThorstenRhau)",
+      "author_name": "Thorsten Rhau",
+      "author_url": "https://github.com/ThorstenRhau",
+      "background": "#FAF9F5",
+      "color_01": "#2A2920",
+      "color_02": "#B05555",
+      "color_03": "#3F643C",
+      "color_04": "#6E5C20",
+      "color_05": "#527594",
+      "color_06": "#7C619A",
+      "color_07": "#2D6C6C",
+      "color_08": "#B5B2AB",
+      "color_09": "#6C675F",
+      "color_10": "#9A4929",
+      "color_11": "#3A5E37",
+      "color_12": "#876032",
+      "color_13": "#486A88",
+      "color_14": "#6F578C",
+      "color_15": "#286363",
+      "color_16": "#FAF9F5",
+      "cursor": "#2A2920",
+      "foreground": "#2A2920",
+      "hash": "a03bdb7928328621329b58db512a1d2c0078d4018b9e230ca7bf1d6345f203b7",
+      "hash_bg": "03f7279ae1e812bc71eaedf8ebaba7932e01b1ae348b2ac354ffcde755bb19a8",
+      "name": "Token Light",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#2A2920",
+      "ansi": [
+        "#2A2920",
+        "#B05555",
+        "#3F643C",
+        "#6E5C20",
+        "#527594",
+        "#7C619A",
+        "#2D6C6C",
+        "#B5B2AB",
+        "#6C675F",
+        "#9A4929",
+        "#3A5E37",
+        "#876032",
+        "#486A88",
+        "#6F578C",
+        "#286363",
+        "#FAF9F5"
+      ],
+      "background": "#FAF9F5",
+      "cursor": "#2A2920",
+      "foreground": "#2A2920"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "b6200bc8c63a7e5c5b603cc9f6ed1fe42becd2dea4e4b9f31fbfa8265f394381",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b6200bc8c63a7e5c5b603cc9f6ed1fe42becd2dea4e4b9f31fbfa8265f394381"
+  }
+}

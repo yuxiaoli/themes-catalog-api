@@ -1,0 +1,25 @@
+{
+  "api_version": "1",
+  "categories": {
+    "editor": {
+      "available_count": 1570,
+      "excluded_count": 112,
+      "path": "api/v1/editor/index.json",
+      "source_count": 1682
+    },
+    "terminal": {
+      "available_count": 1251,
+      "excluded_count": 112,
+      "path": "api/v1/terminal/index.json",
+      "source_count": 1363
+    }
+  },
+  "limitations": [
+    "TerminalColors records and derived counterparts are withheld: distribution license unverified.",
+    "Helix file-level Vim and GPL licenses are retained separately; GPL without a specified version is distributed under GPL-3.0 under its version-selection provision.",
+    "Native Helix terminal/indexed colors remain unresolved by design; 14 upstream style warnings are retained.",
+    "This is a static versioned export, not a dynamic server or a claim that every theme is available."
+  ],
+  "path_resolution": "All path fields are relative to the repository Pages root, not the current JSON URL.",
+  "status": "partial"
+}

@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.899
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8126
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.0763
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0214
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.5645
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0214
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0395
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1546
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3735
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1352
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.899
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.899
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.7867
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "417fd33bd405c0b67707d509411ab0dc8bad146a96506b025272fed45ae53f3a",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/eb4f8f622bc34a61d873dfbf709e336770c539c2c2b116f10a131b1775ca09ef",
+    "name": "Farmhouse Light",
+    "palette": {
+      "activeLine": "#D8D4D2",
+      "background": "#E8E4E1",
+      "cursor": "#006EFE",
+      "foreground": "#1D2027",
+      "gutterActiveLine": "#D8D4D2",
+      "gutterBackground": "#E8E4E1",
+      "gutterForeground": "#6E6E71",
+      "invisibles": "#394047",
+      "printMargin": "#B5B3B3",
+      "selection": "#B5B3B3"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "mattly (https://github.com/mattly)",
+        "author_name": "mattly",
+        "author_url": "https://github.com/mattly",
+        "background": "#E8E4E1",
+        "color_01": "#1D2027",
+        "color_02": "#8D0003",
+        "color_03": "#3A7D00",
+        "color_04": "#A95600",
+        "color_05": "#092CCD",
+        "color_06": "#820046",
+        "color_07": "#229256",
+        "color_08": "#E8E4E1",
+        "color_09": "#394047",
+        "color_10": "#EB0009",
+        "color_11": "#7AC100",
+        "color_12": "#EA9A00",
+        "color_13": "#006EFE",
+        "color_14": "#BF3B7F",
+        "color_15": "#19E062",
+        "color_16": "#F4EEF0",
+        "cursor": "#006EFE",
+        "foreground": "#1D2027",
+        "hash": "a94243cb2d439ce2a9e6ccedb6bd16b03de4acff890c0ecd9f777b8add1c4e93",
+        "hash_bg": "037364394635336ca0b2f6b494538e411b24ca2567b5b3de481f3e145752db2e",
+        "name": "Farmhouse Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "eb4f8f622bc34a61d873dfbf709e336770c539c2c2b116f10a131b1775ca09ef",
+    "syntax": {
+      "comment": "#6E6E71",
+      "constant": "#229256",
+      "function": "#092CCD",
+      "invalid": "#8D0003",
+      "keyword": "#820046",
+      "number": "#229256",
+      "operator": "#1D2027",
+      "string": "#3A7D00",
+      "type": "#A95600",
+      "variable": "#1D2027"
+    }
+  }
+}

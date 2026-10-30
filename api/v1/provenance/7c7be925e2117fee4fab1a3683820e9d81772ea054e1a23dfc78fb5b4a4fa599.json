@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "115880439576f265dcd68a017ea51fd20ec85104f2e2ddfb8f816b4e6a61820d",
+  "text": "# Gruvbox Material Dark Soft for Helix\n# Original Author: @sainnhe (https://github.com/sainnhe/gruvbox-material)\n# Base theme ported by: @satoqz\n# Palette ported by: @ivan-shymkiv\n# License: MIT\n\ninherits = \"gruvbox_material_dark_medium\"\n\n[palette]\nbg0 = \"#32302f\"\nbg1 = \"#3c3836\"\nbg2 = \"#504945\"\nbg3 = \"#665c54\"\nbg4 = \"#5b534d\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/gruvbox_material_dark_soft.toml"
+}

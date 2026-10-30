@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/aac1f7312799138bb66202694fa13964bc9f646fc249039bb6a00e029caabfe9",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "SeedFlip Nightfall",
+    "original": {
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "background": "#0A0A0F",
+      "color_01": "#060609",
+      "color_02": "#F04242",
+      "color_03": "#42F07C",
+      "color_04": "#F0D342",
+      "color_05": "#428BF0",
+      "color_06": "#F042F0",
+      "color_07": "#42F0F0",
+      "color_08": "#F2F2F3",
+      "color_09": "#424256",
+      "color_10": "#F58989",
+      "color_11": "#89F5AD",
+      "color_12": "#F5E389",
+      "color_13": "#89B6F5",
+      "color_14": "#F589F5",
+      "color_15": "#89F5F5",
+      "color_16": "#FFFFFF",
+      "cursor": "#818CF8",
+      "foreground": "#E4E4E7",
+      "hash": "6118bf19b732b90710ab29ca25cea00790ddcc2a0f2523828712c4c16e6fce81",
+      "hash_bg": "f00afb959e3ffa81f726e8e2be278714b598806073a415c2bcfa7df5229e34fe",
+      "name": "SeedFlip Nightfall",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#818CF8",
+      "ansi": [
+        "#060609",
+        "#F04242",
+        "#42F07C",
+        "#F0D342",
+        "#428BF0",
+        "#F042F0",
+        "#42F0F0",
+        "#F2F2F3",
+        "#424256",
+        "#F58989",
+        "#89F5AD",
+        "#F5E389",
+        "#89B6F5",
+        "#F589F5",
+        "#89F5F5",
+        "#FFFFFF"
+      ],
+      "background": "#0A0A0F",
+      "cursor": "#818CF8",
+      "foreground": "#E4E4E7"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "aac1f7312799138bb66202694fa13964bc9f646fc249039bb6a00e029caabfe9",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "aac1f7312799138bb66202694fa13964bc9f646fc249039bb6a00e029caabfe9"
+  }
+}

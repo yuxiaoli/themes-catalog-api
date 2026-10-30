@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "aa7fc6f07bfd1d37bb5be21106491def443afe1381d5dfe5c58aed118e7f724c",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-sqlserver\";\nexports.cssText = require(\"./sqlserver-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/sqlserver.js"
+}

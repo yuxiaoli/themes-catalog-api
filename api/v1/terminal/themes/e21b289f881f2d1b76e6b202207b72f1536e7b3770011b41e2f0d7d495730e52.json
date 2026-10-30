@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/f83324fb550e57e1d6ec05b367b27605838c5f7818be70be9913b594d1a4ab46",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Pastelon De Amarillos",
+    "original": {
+      "author": "Richard Martinez (https://sonofmartinus.com)",
+      "author_name": "Richard Martinez",
+      "author_url": "https://sonofmartinus.com",
+      "background": "#FFF4D6",
+      "color_01": "#FFF4D6",
+      "color_02": "#A63D4A",
+      "color_03": "#327056",
+      "color_04": "#846600",
+      "color_05": "#365F91",
+      "color_06": "#784A78",
+      "color_07": "#276E6C",
+      "color_08": "#432C3B",
+      "color_09": "#80616B",
+      "color_10": "#A86E00",
+      "color_11": "#007B78",
+      "color_12": "#007B4E",
+      "color_13": "#9B3395",
+      "color_14": "#87301F",
+      "color_15": "#005EB8",
+      "color_16": "#1C0F20",
+      "cursor": "#432C3B",
+      "foreground": "#432C3B",
+      "hash": "4612be304366debabb51dc2f2a65a7dbf5ef047428537b78610618cd63f04a80",
+      "hash_bg": "321fa9ffb2a7a20a9a3b1df631029aa9b6464bd0bf2c402d1ef598b75c31c7de",
+      "name": "Pastelon De Amarillos",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#432C3B",
+      "ansi": [
+        "#FFF4D6",
+        "#A63D4A",
+        "#327056",
+        "#846600",
+        "#365F91",
+        "#784A78",
+        "#276E6C",
+        "#432C3B",
+        "#80616B",
+        "#A86E00",
+        "#007B78",
+        "#007B4E",
+        "#9B3395",
+        "#87301F",
+        "#005EB8",
+        "#1C0F20"
+      ],
+      "background": "#FFF4D6",
+      "cursor": "#432C3B",
+      "foreground": "#432C3B"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "f83324fb550e57e1d6ec05b367b27605838c5f7818be70be9913b594d1a4ab46",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f83324fb550e57e1d6ec05b367b27605838c5f7818be70be9913b594d1a4ab46"
+  }
+}

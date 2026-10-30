@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/5b88089726773c89657e7f7be52f412a65c9e2ca2fd037c6c90f1b4e33a4bf0b",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Atelier Seaside",
+    "original": {
+      "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside)",
+      "author_name": "Bram de Haan",
+      "author_url": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/seaside",
+      "background": "#131513",
+      "color_01": "#131513",
+      "color_02": "#E6193C",
+      "color_03": "#29A329",
+      "color_04": "#98981B",
+      "color_05": "#3D62F5",
+      "color_06": "#AD2BEE",
+      "color_07": "#1999B3",
+      "color_08": "#8CA68C",
+      "color_09": "#687D68",
+      "color_10": "#87711D",
+      "color_11": "#29A329",
+      "color_12": "#98981B",
+      "color_13": "#3D62F5",
+      "color_14": "#AD2BEE",
+      "color_15": "#1999B3",
+      "color_16": "#F4FBF4",
+      "cursor": "#809980",
+      "foreground": "#809980",
+      "hash": "de9c03e6c5ad7647ef2b21b8230297bb6724dad377b452cc80567270b0a1cbc0",
+      "hash_bg": "0c246b19e8febea88fed6ec40432dc8338c11d64735210d51430cf5535802e8f",
+      "name": "Atelier Seaside",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#809980",
+      "ansi": [
+        "#131513",
+        "#E6193C",
+        "#29A329",
+        "#98981B",
+        "#3D62F5",
+        "#AD2BEE",
+        "#1999B3",
+        "#8CA68C",
+        "#687D68",
+        "#87711D",
+        "#29A329",
+        "#98981B",
+        "#3D62F5",
+        "#AD2BEE",
+        "#1999B3",
+        "#F4FBF4"
+      ],
+      "background": "#131513",
+      "cursor": "#809980",
+      "foreground": "#809980"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "5b88089726773c89657e7f7be52f412a65c9e2ca2fd037c6c90f1b4e33a4bf0b",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "5b88089726773c89657e7f7be52f412a65c9e2ca2fd037c6c90f1b4e33a4bf0b"
+  }
+}

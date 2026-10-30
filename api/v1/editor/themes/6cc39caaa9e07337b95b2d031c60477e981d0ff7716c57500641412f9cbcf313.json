@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1812
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7028
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.99
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8619
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.2873
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8619
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7919
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.479
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2034
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8937
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4944
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4944
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1812
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1812
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8482
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b8f9b50a3b6dfb3cb97fd9a8ba10e9720420ad9361d9ea0d83f2f0cd8861902e",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.function"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/195de89ae294216d7d8add439b5a2c3a723f18b1ca630ac5ebabf5a20b6f7e7a",
+    "name": "Spacegray Eighties",
+    "palette": {
+      "activeLine": "#2E2E2D",
+      "background": "#222222",
+      "cursor": "#BBBBBB",
+      "foreground": "#BDBAAE",
+      "gutterActiveLine": "#2E2E2D",
+      "gutterBackground": "#222222",
+      "gutterForeground": "#7F7D76",
+      "invisibles": "#555555",
+      "printMargin": "#494845",
+      "selection": "#494845"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "mhkeller (https://github.com/mhkeller/spacegray-eighties-iterm)",
+        "author_name": "mhkeller",
+        "author_url": "https://github.com/mhkeller/spacegray-eighties-iterm",
+        "background": "#222222",
+        "color_01": "#15171C",
+        "color_02": "#EC5F67",
+        "color_03": "#81A764",
+        "color_04": "#FEC254",
+        "color_05": "#5486C0",
+        "color_06": "#BF83C1",
+        "color_07": "#57C2C1",
+        "color_08": "#EFECE7",
+        "color_09": "#555555",
+        "color_10": "#FF6973",
+        "color_11": "#93D493",
+        "color_12": "#FFD256",
+        "color_13": "#4D84D1",
+        "color_14": "#FF55FF",
+        "color_15": "#83E9E4",
+        "color_16": "#FFFFFF",
+        "cursor": "#BBBBBB",
+        "foreground": "#BDBAAE",
+        "hash": "9bef9f036b33d00aa5b0be09b03cb9b26e4cb067e5e1f0a3d10042499818f45d",
+        "hash_bg": "0ab9b7707742f7dcbadf8f430a75575121e5e4564fe75b1b0932bb9d376e6bff",
+        "name": "Spacegray Eighties",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "195de89ae294216d7d8add439b5a2c3a723f18b1ca630ac5ebabf5a20b6f7e7a",
+    "syntax": {
+      "comment": "#7F7D76",
+      "constant": "#57C2C1",
+      "function": "#5486C0",
+      "invalid": "#EC5F67",
+      "keyword": "#BF83C1",
+      "number": "#57C2C1",
+      "operator": "#BDBAAE",
+      "string": "#81A764",
+      "type": "#FEC254",
+      "variable": "#BDBAAE"
+    }
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6492
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1561
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7921
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9104
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 7.6492
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9104
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1741
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1794
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1951
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1802
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6086
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6086
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6492
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6492
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2437
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "572bf69d5a77dc8a61de4f3d086d11f9372977d77dd909215671614f4dd7ebb0",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/90ca06adcbe04cdf4358a7176b271a558608866e5ef0690db8316c67fb1430a5",
+    "name": "Tempus Dawn",
+    "palette": {
+      "activeLine": "#E2E3E5",
+      "background": "#EFF0F2",
+      "cursor": "#4A4B4E",
+      "foreground": "#4A4B4E",
+      "gutterActiveLine": "#E2E3E5",
+      "gutterBackground": "#EFF0F2",
+      "gutterForeground": "#8C8D90",
+      "invisibles": "#676364",
+      "printMargin": "#C6C7C9",
+      "selection": "#C6C7C9"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Protesilaos Stavrou (https://protesilaos.com)",
+        "author_name": "Protesilaos Stavrou",
+        "author_url": "https://protesilaos.com",
+        "background": "#EFF0F2",
+        "color_01": "#4A4B4E",
+        "color_02": "#A32A3A",
+        "color_03": "#206620",
+        "color_04": "#745300",
+        "color_05": "#4B529A",
+        "color_06": "#8D377E",
+        "color_07": "#086784",
+        "color_08": "#DEE2E0",
+        "color_09": "#676364",
+        "color_10": "#A64822",
+        "color_11": "#187408",
+        "color_12": "#8B590A",
+        "color_13": "#5C59B2",
+        "color_14": "#8E45A8",
+        "color_15": "#3F649C",
+        "color_16": "#EFF0F2",
+        "cursor": "#4A4B4E",
+        "foreground": "#4A4B4E",
+        "hash": "e32e21117e489da9975adb367645e9bb44f0c93605dc0215e422c5947f908f33",
+        "hash_bg": "346e9a5ac0f3153a39344f82b4f9426fee772377e1195dd74f85a7e14b7dfde1",
+        "name": "Tempus Dawn",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "90ca06adcbe04cdf4358a7176b271a558608866e5ef0690db8316c67fb1430a5",
+    "syntax": {
+      "comment": "#8C8D90",
+      "constant": "#086784",
+      "function": "#4B529A",
+      "invalid": "#A32A3A",
+      "keyword": "#8D377E",
+      "number": "#086784",
+      "operator": "#4A4B4E",
+      "string": "#206620",
+      "type": "#745300",
+      "variable": "#4A4B4E"
+    }
+  }
+}

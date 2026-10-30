@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/1c7cdc7c6280e8063fa16e375adf74bca23207772b8c7709fb4196ced92dd91a",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Bogster Dark",
+    "original": {
+      "author": "lhs",
+      "author_name": "lhs",
+      "author_url": "",
+      "background": "#161C23",
+      "color_01": "#161C23",
+      "color_02": "#BD2853",
+      "color_03": "#549D2F",
+      "color_04": "#CCA734",
+      "color_05": "#248BAA",
+      "color_06": "#B759DC",
+      "color_07": "#23A580",
+      "color_08": "#C6BFBA",
+      "color_09": "#45576D",
+      "color_10": "#DB567C",
+      "color_11": "#6FCC4C",
+      "color_12": "#DFC26B",
+      "color_13": "#4FBADB",
+      "color_14": "#DC59C0",
+      "color_15": "#59DCB7",
+      "color_16": "#DFD7D0",
+      "cursor": "#C6BFBA",
+      "foreground": "#C6BFBA",
+      "hash": "1a6bd3774670787ee3b5972c4cad66da69e477c47aaa79356e6cb82e0449ace0",
+      "hash_bg": "b0e98c419aec4d82354fea93a7fa8f962fe53621f0535c954791aeeb10791b42",
+      "name": "Bogster Dark",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#C6BFBA",
+      "ansi": [
+        "#161C23",
+        "#BD2853",
+        "#549D2F",
+        "#CCA734",
+        "#248BAA",
+        "#B759DC",
+        "#23A580",
+        "#C6BFBA",
+        "#45576D",
+        "#DB567C",
+        "#6FCC4C",
+        "#DFC26B",
+        "#4FBADB",
+        "#DC59C0",
+        "#59DCB7",
+        "#DFD7D0"
+      ],
+      "background": "#161C23",
+      "cursor": "#C6BFBA",
+      "foreground": "#C6BFBA"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "1c7cdc7c6280e8063fa16e375adf74bca23207772b8c7709fb4196ced92dd91a",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "1c7cdc7c6280e8063fa16e375adf74bca23207772b8c7709fb4196ced92dd91a"
+  }
+}

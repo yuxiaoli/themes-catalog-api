@@ -1,0 +1,44 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-merbivore",
+    "css_text": ".ace-merbivore .ace_gutter {\n  background: #202020;\n  color: #E6E1DC\n}\n\n.ace-merbivore .ace_print-margin {\n  width: 1px;\n  background: #555651\n}\n\n.ace-merbivore {\n  background-color: #161616;\n  color: #E6E1DC\n}\n\n.ace-merbivore .ace_cursor {\n  color: #FFFFFF\n}\n\n.ace-merbivore .ace_marker-layer .ace_selection {\n  background: #454545\n}\n\n.ace-merbivore.ace_multiselect .ace_selection.ace_start {\n  box-shadow: 0 0 3px 0px #161616;\n}\n\n.ace-merbivore .ace_marker-layer .ace_step {\n  background: rgb(102, 82, 0)\n}\n\n.ace-merbivore .ace_marker-layer .ace_bracket {\n  margin: -1px 0 0 -1px;\n  border: 1px solid #404040\n}\n\n.ace-merbivore .ace_marker-layer .ace_active-line {\n  background: #333435\n}\n\n.ace-merbivore .ace_gutter-active-line {\n  background-color: #333435\n}\n\n.ace-merbivore .ace_marker-layer .ace_selected-word {\n  border: 1px solid #454545\n}\n\n.ace-merbivore .ace_invisible {\n  color: #404040\n}\n\n.ace-merbivore .ace_entity.ace_name.ace_tag,\n.ace-merbivore .ace_keyword,\n.ace-merbivore .ace_meta,\n.ace-merbivore .ace_meta.ace_tag,\n.ace-merbivore .ace_storage,\n.ace-merbivore .ace_support.ace_function {\n  color: #FC6F09\n}\n\n.ace-merbivore .ace_constant,\n.ace-merbivore .ace_constant.ace_character,\n.ace-merbivore .ace_constant.ace_character.ace_escape,\n.ace-merbivore .ace_constant.ace_other,\n.ace-merbivore .ace_support.ace_type {\n  color: #1EDAFB\n}\n\n.ace-merbivore .ace_constant.ace_character.ace_escape {\n  color: #519F50\n}\n\n.ace-merbivore .ace_constant.ace_language {\n  color: #FDC251\n}\n\n.ace-merbivore .ace_constant.ace_library,\n.ace-merbivore .ace_string,\n.ace-merbivore .ace_support.ace_constant {\n  color: #8DFF0A\n}\n\n.ace-merbivore .ace_constant.ace_numeric {\n  color: #58C554\n}\n\n.ace-merbivore .ace_invalid {\n  color: #FFFFFF;\n  background-color: #990000\n}\n\n.ace-merbivore .ace_fold {\n  background-color: #FC6F09;\n  border-color: #E6E1DC\n}\n\n.ace-merbivore .ace_comment {\n  font-style: italic;\n  color: #AD2EA4\n}\n\n.ace-merbivore .ace_entity.ace_other.ace_attribute-name {\n  color: #FFFF89\n}\n\n.ace-merbivore .ace_indent-guide {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWMQFxf3ZXB1df0PAAdsAmERTkEHAAAAAElFTkSuQmCC) right repeat-y\n}\n\n.ace-merbivore .ace_indent-guide-active {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;\n}\n",
+    "exports": {},
+    "id": "ace/merbivore",
+    "is_dark": true,
+    "name": "Merbivore",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/merbivore-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/merbivore.js"
+    },
+    "palette": {
+      "activeLine": "#333435",
+      "background": "#161616",
+      "cursor": "#FFFFFF",
+      "foreground": "#E6E1DC",
+      "gutterActiveLine": "#333435",
+      "gutterBackground": "#202020",
+      "gutterForeground": "#E6E1DC",
+      "invisibles": "#404040",
+      "printMargin": "#555651",
+      "selection": "#454545"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/563bc3af190ba912f868b9dcb0a7fd991797c300f9285c8b5d876040ba0a07d3.json",
+        "api/v1/provenance/d1219d26b9295ada859410c5157cf83e211e793ad05471ddab9d28d1b52f66f8.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "merbivore"
+  }
+}

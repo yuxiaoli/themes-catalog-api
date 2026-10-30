@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.8947
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.4318
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.5626
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3176
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 15.8947
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3176
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9627
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3251
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0184
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7961
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7761
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7761
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.8947
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.8947
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.847
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "af97671cb7fe7f1c5341be390d7b2e2b1ea79972ebf2a70aa58ffef2c5fca2c4",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/eddb58a968d516f7f0171c4517c27437a2969debc15780e536cb89635393d64a",
+    "name": "Alucard",
+    "palette": {
+      "activeLine": "#EDE9DB",
+      "background": "#FFFBEB",
+      "cursor": "#1F1F1F",
+      "foreground": "#1F1F1F",
+      "gutterActiveLine": "#EDE9DB",
+      "gutterBackground": "#FFFBEB",
+      "gutterForeground": "#797771",
+      "invisibles": "#6C664B",
+      "printMargin": "#C7C4B8",
+      "selection": "#C7C4B8"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "clach04 (https://github.com/clach04)",
+        "author_name": "clach04",
+        "author_url": "https://github.com/clach04",
+        "background": "#FFFBEB",
+        "color_01": "#FFFBEB",
+        "color_02": "#CB3A2A",
+        "color_03": "#14710A",
+        "color_04": "#846E15",
+        "color_05": "#644AC9",
+        "color_06": "#A3144D",
+        "color_07": "#036A96",
+        "color_08": "#1F1F1F",
+        "color_09": "#6C664B",
+        "color_10": "#D74C3D",
+        "color_11": "#198D0C",
+        "color_12": "#9E841A",
+        "color_13": "#7862D0",
+        "color_14": "#BF185A",
+        "color_15": "#047FB4",
+        "color_16": "#2C2B31",
+        "cursor": "#1F1F1F",
+        "foreground": "#1F1F1F",
+        "hash": "520155156916ffef8f0df4063885af998082e5b03e7367d567f8f5d7f0812e87",
+        "hash_bg": "f5cabf272a70a7d598d1f87f953f223afe5f75dc369d04eb1f9c02a30ef9e21e",
+        "name": "Alucard",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "eddb58a968d516f7f0171c4517c27437a2969debc15780e536cb89635393d64a",
+    "syntax": {
+      "comment": "#797771",
+      "constant": "#036A96",
+      "function": "#644AC9",
+      "invalid": "#CB3A2A",
+      "keyword": "#A3144D",
+      "number": "#036A96",
+      "operator": "#1F1F1F",
+      "string": "#14710A",
+      "type": "#846E15",
+      "variable": "#1F1F1F"
+    }
+  }
+}

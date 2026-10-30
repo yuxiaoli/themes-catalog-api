@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.9644
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.2309
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.9584
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3254
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 13.9644
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3254
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6616
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7907
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0205
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2403
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2937
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2937
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.9644
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.9644
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0206
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "1abf75075860ff1c50f4bbf734e54806da7a23d3b3a688432e7bca284f326cc7",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/c5b60800e3a51aad2c483968160f7c609a6c8291ef5e9608f75975bd98982203",
+    "name": "No Clown Fiesta Light",
+    "palette": {
+      "activeLine": "#D1D1D1",
+      "background": "#E1E1E1",
+      "cursor": "#151515",
+      "foreground": "#151515",
+      "gutterActiveLine": "#D1D1D1",
+      "gutterBackground": "#E1E1E1",
+      "gutterForeground": "#676767",
+      "invisibles": "#2B2B2B",
+      "printMargin": "#AEAEAE",
+      "selection": "#AEAEAE"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#E1E1E1",
+        "color_01": "#D6D6D6",
+        "color_02": "#874E42",
+        "color_03": "#677940",
+        "color_04": "#B89058",
+        "color_05": "#8BA1BF",
+        "color_06": "#AA759F",
+        "color_07": "#3E5F66",
+        "color_08": "#151515",
+        "color_09": "#2B2B2B",
+        "color_10": "#637786",
+        "color_11": "#677940",
+        "color_12": "#B89058",
+        "color_13": "#93A2AB",
+        "color_14": "#AA759F",
+        "color_15": "#99AB93",
+        "color_16": "#373737",
+        "cursor": "#151515",
+        "foreground": "#151515",
+        "hash": "de83e7a7ee81852622857ead3030797b3682f5c99a084a3c74ee82a61297d697",
+        "hash_bg": "39ffd8dc83a89562005d88e0956d1ded51a76d51a097b84779bb4a7ea04e8176",
+        "name": "No Clown Fiesta Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "c5b60800e3a51aad2c483968160f7c609a6c8291ef5e9608f75975bd98982203",
+    "syntax": {
+      "comment": "#676767",
+      "constant": "#3E5F66",
+      "function": "#8BA1BF",
+      "invalid": "#874E42",
+      "keyword": "#AA759F",
+      "number": "#3E5F66",
+      "operator": "#151515",
+      "string": "#677940",
+      "type": "#B89058",
+      "variable": "#151515"
+    }
+  }
+}

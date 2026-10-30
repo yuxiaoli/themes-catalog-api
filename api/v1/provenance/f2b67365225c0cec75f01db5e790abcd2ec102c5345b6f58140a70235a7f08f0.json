@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "839a4c37e28be121362cb148062028027544ff67c191d78c22de41c1745263dc",
+  "text": "# Author: Ambuj Kumar <ambujs89@gmail.com>\n# Ported from: https://github.com/drcmda/poimandres-theme\n\ninherits = \"poimandres\"\n\n\"ui.cursorline\" = { bg = \"#303747\" }\n\"ui.help\" = { bg = \"#2a303c\" }\n\"ui.popup\" = { bg = \"#2a303c\" }\n\"ui.virtual.indent-guide\" = \"#3a4151\"\n\n[palette]\n\"gray.c0\" = \"#98a2c4\"\ndarkerGray = \"#868cad\"\n\"darkerGray.50\" = \"#4f576d\"\n\"darkerGray.b0\" = \"#818cae\"\nbluishGray = \"#607487\"\nfocus = \"#404350\"\nbg = \"#252b37\"\nselection = \"#3d455c\"\nblack = \"#101010\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/poimandres_storm.toml"
+}

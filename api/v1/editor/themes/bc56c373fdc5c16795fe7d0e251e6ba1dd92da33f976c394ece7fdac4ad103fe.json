@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7218
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0204
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9813
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.53
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.7218
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.53
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6434
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6068
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6311
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5132
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7218
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7218
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7218
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7218
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7969
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "9995ad3d938edab669f2661cf65f561f11cf6f9de8e6ef5c17937ed51a76f923",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/eb93797ae4003563865ec6cfe6822ff309e2c78066ebf3cc09f0f6fcce001041",
+    "name": "Ayaka",
+    "palette": {
+      "activeLine": "#42364B",
+      "background": "#36283D",
+      "cursor": "#CEDAEB",
+      "foreground": "#CEDAEB",
+      "gutterActiveLine": "#42364B",
+      "gutterBackground": "#36283D",
+      "gutterForeground": "#9193A5",
+      "invisibles": "#71ADE9",
+      "printMargin": "#5C5569",
+      "selection": "#5C5569"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Ruhannn (https://github.com/ruhannn)",
+        "author_name": "Ruhannn",
+        "author_url": "https://github.com/ruhannn",
+        "background": "#36283D",
+        "color_01": "#36283D",
+        "color_02": "#71ADE9",
+        "color_03": "#AB8CAE",
+        "color_04": "#9EA0D3",
+        "color_05": "#8BB8E9",
+        "color_06": "#E1B4CE",
+        "color_07": "#CEDAEB",
+        "color_08": "#9098A4",
+        "color_09": "#71ADE9",
+        "color_10": "#AB8CAE",
+        "color_11": "#E59DB1",
+        "color_12": "#9EA0D3",
+        "color_13": "#8BB8E9",
+        "color_14": "#E1B4CE",
+        "color_15": "#CEDAEB",
+        "color_16": "#FFFEFE",
+        "cursor": "#CEDAEB",
+        "foreground": "#CEDAEB",
+        "hash": "76d0d7505c03c9cd1b0c598100d6653931de6a5f330d96d953fbe575d88d17be",
+        "hash_bg": "2f667828241f146fa6baf8609597e608b38e95f12c367af3d1ad570c51502dc7",
+        "name": "Ayaka",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "eb93797ae4003563865ec6cfe6822ff309e2c78066ebf3cc09f0f6fcce001041",
+    "syntax": {
+      "comment": "#9193A5",
+      "constant": "#CEDAEB",
+      "function": "#8BB8E9",
+      "invalid": "#71ADE9",
+      "keyword": "#E1B4CE",
+      "number": "#CEDAEB",
+      "operator": "#CEDAEB",
+      "string": "#AB8CAE",
+      "type": "#9EA0D3",
+      "variable": "#CEDAEB"
+    }
+  }
+}

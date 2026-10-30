@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.4324
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8281
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8736
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4934
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 4.8931
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4934
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.2596
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4816
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4719
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.7812
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7948
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7948
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.4324
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.4324
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6929
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "34581a59a0a9a792b0da8fe523a2917ab248b333e0eced706d9d90518a605a30",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/72f2325ee1dca39906f5f9b6a2f46a0f37d7c1afd7db05f4a9f2b1622731cfa1",
+    "name": "Snazzy Lost",
+    "palette": {
+      "activeLine": "#383A44",
+      "background": "#282A36",
+      "cursor": "#97979B",
+      "foreground": "#EFF0EB",
+      "gutterActiveLine": "#383A44",
+      "gutterBackground": "#282A36",
+      "gutterForeground": "#9FA1A3",
+      "invisibles": "#686868",
+      "printMargin": "#5A5C63",
+      "selection": "#5A5C63"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#282A36",
+        "color_01": "#282A36",
+        "color_02": "#FF5C57",
+        "color_03": "#5AF78E",
+        "color_04": "#F3F99D",
+        "color_05": "#57C7FF",
+        "color_06": "#FF6AC1",
+        "color_07": "#9AEDFE",
+        "color_08": "#F1F1F0",
+        "color_09": "#686868",
+        "color_10": "#FF5C57",
+        "color_11": "#5AF78E",
+        "color_12": "#F3F99D",
+        "color_13": "#57C7FF",
+        "color_14": "#FF6AC1",
+        "color_15": "#9AEDFE",
+        "color_16": "#EFF0EB",
+        "cursor": "#97979B",
+        "foreground": "#EFF0EB",
+        "hash": "350d92b64fa9cf9898df71db650e56029a1182c929adcb48b33ac07574641b3e",
+        "hash_bg": "1e83b9df139753735c9d1a908cb2eec5a98a61962c97baf59947b4cdab964b1d",
+        "name": "Snazzy Lost",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "72f2325ee1dca39906f5f9b6a2f46a0f37d7c1afd7db05f4a9f2b1622731cfa1",
+    "syntax": {
+      "comment": "#9FA1A3",
+      "constant": "#9AEDFE",
+      "function": "#57C7FF",
+      "invalid": "#FF5C57",
+      "keyword": "#FF6AC1",
+      "number": "#9AEDFE",
+      "operator": "#EFF0EB",
+      "string": "#5AF78E",
+      "type": "#F3F99D",
+      "variable": "#EFF0EB"
+    }
+  }
+}

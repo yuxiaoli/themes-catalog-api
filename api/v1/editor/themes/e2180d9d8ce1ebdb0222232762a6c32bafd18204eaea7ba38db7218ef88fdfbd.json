@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.6231
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.6087
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.7455
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9558
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 18.6231
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9558
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3875
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3597
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3923
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.435
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.435
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.6231
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.6231
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2346
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "65c2e6d7dbbdd0f0a90687cb6790eb71fd3e9264520d682dcdba671b90009d2a",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.string",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/9622bdaaaa223a9d9bfbfdaa217b78ec25611979733cf5a686a8e5a0e1cefe90",
+    "name": "Flexoki Light",
+    "palette": {
+      "activeLine": "#ECE9DE",
+      "background": "#FFFCF0",
+      "cursor": "#100F0F",
+      "foreground": "#100F0F",
+      "gutterActiveLine": "#ECE9DE",
+      "gutterBackground": "#FFFCF0",
+      "gutterForeground": "#706E69",
+      "invisibles": "#B7B5AC",
+      "printMargin": "#C3C1B8",
+      "selection": "#C3C1B8"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "kepano (https://stephango.com/flexoki)",
+        "author_name": "kepano",
+        "author_url": "https://stephango.com/flexoki",
+        "background": "#FFFCF0",
+        "color_01": "#100F0F",
+        "color_02": "#AF3029",
+        "color_03": "#66800B",
+        "color_04": "#AD8301",
+        "color_05": "#205EA6",
+        "color_06": "#A02F6F",
+        "color_07": "#24837B",
+        "color_08": "#6F6E69",
+        "color_09": "#B7B5AC",
+        "color_10": "#D14D41",
+        "color_11": "#879A39",
+        "color_12": "#D0A215",
+        "color_13": "#4385BE",
+        "color_14": "#CE5D97",
+        "color_15": "#3AA99F",
+        "color_16": "#CECDC3",
+        "cursor": "#100F0F",
+        "foreground": "#100F0F",
+        "hash": "ba80350392ffdd576595b420a73ade4554fb4304877badc8c5585f2f4ddd4d44",
+        "hash_bg": "e0a737e3429fec88fb49beb50a7faae2fbfafe5da32624cd00aed0a8bebf6bdc",
+        "name": "Flexoki Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "9622bdaaaa223a9d9bfbfdaa217b78ec25611979733cf5a686a8e5a0e1cefe90",
+    "syntax": {
+      "comment": "#706E69",
+      "constant": "#24837B",
+      "function": "#205EA6",
+      "invalid": "#AF3029",
+      "keyword": "#A02F6F",
+      "number": "#24837B",
+      "operator": "#100F0F",
+      "string": "#66800B",
+      "type": "#AD8301",
+      "variable": "#100F0F"
+    }
+  }
+}

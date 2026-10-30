@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/b15bbdb10639038e1f34e2099025bfa6e3f0d9722776bdf116c16f3176181de0",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Tokyo Night Terminal Storm",
+    "original": {
+      "author": "Michaël Ball",
+      "author_name": "Michaël Ball",
+      "author_url": "",
+      "background": "#24283B",
+      "color_01": "#24283B",
+      "color_02": "#F7768E",
+      "color_03": "#41A6B5",
+      "color_04": "#E0AF68",
+      "color_05": "#7AA2F7",
+      "color_06": "#BB9AF7",
+      "color_07": "#7DCFFF",
+      "color_08": "#787C99",
+      "color_09": "#444B6A",
+      "color_10": "#F7768E",
+      "color_11": "#41A6B5",
+      "color_12": "#E0AF68",
+      "color_13": "#7AA2F7",
+      "color_14": "#BB9AF7",
+      "color_15": "#7DCFFF",
+      "color_16": "#D5D6DB",
+      "cursor": "#787C99",
+      "foreground": "#787C99",
+      "hash": "50447b826ad4d5f3d00c99770179d614e486f7ac649a1969d431ce165368e20e",
+      "hash_bg": "5944e8a2b1af299954633245dd3f9c5645fb7195c5284103a8a0dc8cef691bb5",
+      "name": "Tokyo Night Terminal Storm",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#787C99",
+      "ansi": [
+        "#24283B",
+        "#F7768E",
+        "#41A6B5",
+        "#E0AF68",
+        "#7AA2F7",
+        "#BB9AF7",
+        "#7DCFFF",
+        "#787C99",
+        "#444B6A",
+        "#F7768E",
+        "#41A6B5",
+        "#E0AF68",
+        "#7AA2F7",
+        "#BB9AF7",
+        "#7DCFFF",
+        "#D5D6DB"
+      ],
+      "background": "#24283B",
+      "cursor": "#787C99",
+      "foreground": "#787C99"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "b15bbdb10639038e1f34e2099025bfa6e3f0d9722776bdf116c16f3176181de0",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b15bbdb10639038e1f34e2099025bfa6e3f0d9722776bdf116c16f3176181de0"
+  }
+}

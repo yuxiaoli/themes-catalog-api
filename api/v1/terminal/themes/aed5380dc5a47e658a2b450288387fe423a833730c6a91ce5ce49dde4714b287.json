@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/20dbb983e55d8d95609f3b1ef8e4237ff2585faf04d7beee45162c772f355db5",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Seoulism",
+    "original": {
+      "author": "Lee Yunjin (https://oborona.zip)",
+      "author_name": "Lee Yunjin",
+      "author_url": "https://oborona.zip",
+      "background": "#101114",
+      "color_01": "#101114",
+      "color_02": "#E94536",
+      "color_03": "#22D2B5",
+      "color_04": "#FF9F3E",
+      "color_05": "#2D5CE6",
+      "color_06": "#9C5CEB",
+      "color_07": "#2C9DD6",
+      "color_08": "#E0E0DC",
+      "color_09": "#242630",
+      "color_10": "#EE6962",
+      "color_11": "#53DCBA",
+      "color_12": "#FFC068",
+      "color_13": "#5B80EC",
+      "color_14": "#C680EF",
+      "color_15": "#5AB3DF",
+      "color_16": "#E7E7E4",
+      "cursor": "#ECECE9",
+      "foreground": "#ECECE9",
+      "hash": "efa3f35500062e043fc5c74577a194052d3206fbe6657bb0b89548d911462d48",
+      "hash_bg": "b178521f9ca8fe1b3d6f184d5a33ab7a08b1ae7d439c177100000dbf31e81189",
+      "name": "Seoulism",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#ECECE9",
+      "ansi": [
+        "#101114",
+        "#E94536",
+        "#22D2B5",
+        "#FF9F3E",
+        "#2D5CE6",
+        "#9C5CEB",
+        "#2C9DD6",
+        "#E0E0DC",
+        "#242630",
+        "#EE6962",
+        "#53DCBA",
+        "#FFC068",
+        "#5B80EC",
+        "#C680EF",
+        "#5AB3DF",
+        "#E7E7E4"
+      ],
+      "background": "#101114",
+      "cursor": "#ECECE9",
+      "foreground": "#ECECE9"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "20dbb983e55d8d95609f3b1ef8e4237ff2585faf04d7beee45162c772f355db5",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "20dbb983e55d8d95609f3b1ef8e4237ff2585faf04d7beee45162c772f355db5"
+  }
+}

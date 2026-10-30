@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/89d6bca011ff2acded7135c8745af76240ae5f9aabbf33f57c7032a5a5632ca3",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Eighties",
+    "original": {
+      "author": "Chris Kempson (http://chriskempson.com)",
+      "author_name": "Chris Kempson",
+      "author_url": "http://chriskempson.com",
+      "background": "#2D2D2D",
+      "color_01": "#2D2D2D",
+      "color_02": "#F2777A",
+      "color_03": "#99CC99",
+      "color_04": "#FFCC66",
+      "color_05": "#6699CC",
+      "color_06": "#CC99CC",
+      "color_07": "#66CCCC",
+      "color_08": "#D3D0C8",
+      "color_09": "#747369",
+      "color_10": "#F2777A",
+      "color_11": "#99CC99",
+      "color_12": "#FFCC66",
+      "color_13": "#6699CC",
+      "color_14": "#CC99CC",
+      "color_15": "#66CCCC",
+      "color_16": "#F2F0EC",
+      "cursor": "#D3D0C8",
+      "foreground": "#D3D0C8",
+      "hash": "15e12cff6e8ec5c81886a503c5f3748afdce4728022b304a59d83efef160362a",
+      "hash_bg": "31994f4a8426344e3d237010ba5fe7291c29ad41ee198a51dd88a68a55ea5f69",
+      "name": "Eighties",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#D3D0C8",
+      "ansi": [
+        "#2D2D2D",
+        "#F2777A",
+        "#99CC99",
+        "#FFCC66",
+        "#6699CC",
+        "#CC99CC",
+        "#66CCCC",
+        "#D3D0C8",
+        "#747369",
+        "#F2777A",
+        "#99CC99",
+        "#FFCC66",
+        "#6699CC",
+        "#CC99CC",
+        "#66CCCC",
+        "#F2F0EC"
+      ],
+      "background": "#2D2D2D",
+      "cursor": "#D3D0C8",
+      "foreground": "#D3D0C8"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "89d6bca011ff2acded7135c8745af76240ae5f9aabbf33f57c7032a5a5632ca3",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "89d6bca011ff2acded7135c8745af76240ae5f9aabbf33f57c7032a5a5632ca3"
+  }
+}

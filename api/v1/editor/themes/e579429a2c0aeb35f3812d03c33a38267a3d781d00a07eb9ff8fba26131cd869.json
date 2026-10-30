@@ -1,0 +1,240 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6558
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3992
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2313
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2832
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 2.2316
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2832
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.6679
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9254
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8118
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.5205
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.7645
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.7645
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6558
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6558
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2849
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "abe7bb6c122cb604c54da2299e9507d5f4ff36a16c77154a8b7b52bd31d60998",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "cursor",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/9fe3fb0e810ca937bbce80b20b2dcff6967b7dc9e3f2e32bdf379a366efa9117",
+    "name": "Everforest Light Med",
+    "palette": {
+      "activeLine": "#E3E1CC",
+      "background": "#EFEBD4",
+      "cursor": "#F57D26",
+      "foreground": "#5C6A72",
+      "gutterActiveLine": "#E3E1CC",
+      "gutterBackground": "#EFEBD4",
+      "gutterForeground": "#979E99",
+      "invisibles": "#A6B0A0",
+      "printMargin": "#CACBBC",
+      "selection": "#CACBBC"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "robertjkeller (https://github.com/robertjkeller)",
+        "author_name": "robertjkeller",
+        "author_url": "https://github.com/robertjkeller",
+        "background": "#EFEBD4",
+        "color_01": "#7A8478",
+        "color_02": "#E67E80",
+        "color_03": "#A7C080",
+        "color_04": "#DBBC7F",
+        "color_05": "#7FBBB3",
+        "color_06": "#D699B6",
+        "color_07": "#83C092",
+        "color_08": "#F2EFDF",
+        "color_09": "#A6B0A0",
+        "color_10": "#F85552",
+        "color_11": "#8DA101",
+        "color_12": "#DFA000",
+        "color_13": "#3A94C5",
+        "color_14": "#DF69BA",
+        "color_15": "#35A77C",
+        "color_16": "#FFFBEF",
+        "cursor": "#F57D26",
+        "foreground": "#5C6A72",
+        "hash": "839b95b96dfb9536f2241f937b4f2c752c80a29f1e838f0c4771f930628b2c11",
+        "hash_bg": "de745fbb98ac48853ff3264215e0634baa3821973587f5e5faebc33a00edf530",
+        "name": "Everforest Light Med",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "9fe3fb0e810ca937bbce80b20b2dcff6967b7dc9e3f2e32bdf379a366efa9117",
+    "syntax": {
+      "comment": "#979E99",
+      "constant": "#83C092",
+      "function": "#7FBBB3",
+      "invalid": "#E67E80",
+      "keyword": "#D699B6",
+      "number": "#83C092",
+      "operator": "#5C6A72",
+      "string": "#A7C080",
+      "type": "#DBBC7F",
+      "variable": "#5C6A72"
+    }
+  }
+}

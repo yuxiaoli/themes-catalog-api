@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/b537e1882742d33894d4f185782c28a7f7691b3a854c442a8b3cc78d61ccc9f5",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Solarflare Light",
+    "original": {
+      "author": "Chuck Harmston (https://chuck.harmston.ch)",
+      "author_name": "Chuck Harmston",
+      "author_url": "https://chuck.harmston.ch",
+      "background": "#F5F7FA",
+      "color_01": "#F5F7FA",
+      "color_02": "#EF5253",
+      "color_03": "#7CC844",
+      "color_04": "#E4B51C",
+      "color_05": "#33B5E1",
+      "color_06": "#A363D5",
+      "color_07": "#52CBB0",
+      "color_08": "#586875",
+      "color_09": "#85939E",
+      "color_10": "#EF5253",
+      "color_11": "#7CC844",
+      "color_12": "#E4B51C",
+      "color_13": "#33B5E1",
+      "color_14": "#A363D5",
+      "color_15": "#52CBB0",
+      "color_16": "#18262F",
+      "cursor": "#586875",
+      "foreground": "#586875",
+      "hash": "81ccd2aec298cf4cf08d0f9459e6801a55f9b81449035004e0aaf80cd005f2bf",
+      "hash_bg": "48e3301c8faca6b18f108494f493dccb21edda843c683dbb4ba480e36832290b",
+      "name": "Solarflare Light",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#586875",
+      "ansi": [
+        "#F5F7FA",
+        "#EF5253",
+        "#7CC844",
+        "#E4B51C",
+        "#33B5E1",
+        "#A363D5",
+        "#52CBB0",
+        "#586875",
+        "#85939E",
+        "#EF5253",
+        "#7CC844",
+        "#E4B51C",
+        "#33B5E1",
+        "#A363D5",
+        "#52CBB0",
+        "#18262F"
+      ],
+      "background": "#F5F7FA",
+      "cursor": "#586875",
+      "foreground": "#586875"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "b537e1882742d33894d4f185782c28a7f7691b3a854c442a8b3cc78d61ccc9f5",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b537e1882742d33894d4f185782c28a7f7691b3a854c442a8b3cc78d61ccc9f5"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "38f1316d80b6a089c7fd9f8f0e09ddc675c3c5b0eaeb70f54d9863059370152a",
+  "text": "bg0 = \"#f2e5bc\"\nbg1 = \"#eddeb5\"\nbg2 = \"#ebdbb2\"\nbg3 = \"#e6d5ae\"\nbg4 = \"#dac9a5\"\nbg5 = \"#d5c4a1\"\nbg_statusline1 = \"#ebdbb2\"\nbg_statusline2 = \"#ebdbb2\"\nbg_statusline3 = \"#dac9a5\"\nbg_diff_green = \"#dfe1b4\"\nbg_visual_green = \"#d7d9ae\"\nbg_diff_red = \"#f7d9b9\"\nbg_visual_red = \"#efd2b3\"\nbg_diff_blue = \"#dbddbf\"\nbg_visual_blue = \"#d3d5b8\"\nbg_visual_yellow = \"#f3deaa\"\nbg_current_word = \"#ebdbb2\"\n\nfg0 = \"#3c3836\"\nfg1 = \"#3c3836\"\nred = \"#9d0006\"\norange = \"#af3a03\"\nyellow = \"#b57614\"\ngreen = \"#79740e\"\naqua = \"#427b58\"\nblue = \"#076678\"\npurple = \"#8f3f71\"\nbg_red = \"#ae5858\"\nbg_green = \"#6f8352\"\nbg_yellow = \"#a96b2c\"\n\ngrey0 = \"#a89984\"\ngrey1 = \"#928374\"\ngrey2 = \"#7c6f64\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/gruvbox/original_light_soft"
+}

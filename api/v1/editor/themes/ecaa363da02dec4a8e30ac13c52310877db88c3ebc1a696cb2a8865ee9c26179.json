@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1491
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7031
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6361
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.381
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.1491
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.381
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8472
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3975
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.8452
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7466
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7466
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1491
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1491
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5032
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "ec959104e41e05a1afc16e3eb2b7043b9e8e604a1f2d61ff38681fbcbe5997aa",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/c19e405f7200e2ccd52cfc9cf8c0262a555fe18ee370c6d41cfd366a3f7aeb2d",
+    "name": "Atelier Dune Light",
+    "palette": {
+      "activeLine": "#F2EFE1",
+      "background": "#FEFBEC",
+      "cursor": "#6E6B5E",
+      "foreground": "#6E6B5E",
+      "gutterActiveLine": "#F2EFE1",
+      "gutterBackground": "#FEFBEC",
+      "gutterForeground": "#A8A597",
+      "invisibles": "#999580",
+      "printMargin": "#DAD7C9",
+      "selection": "#DAD7C9"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Bram de Haan (http://atelierbramdehaan.nl)",
+        "author_name": "Bram de Haan",
+        "author_url": "http://atelierbramdehaan.nl",
+        "background": "#FEFBEC",
+        "color_01": "#FEFBEC",
+        "color_02": "#D73737",
+        "color_03": "#60AC39",
+        "color_04": "#AE9513",
+        "color_05": "#6684E1",
+        "color_06": "#B854D4",
+        "color_07": "#1FAD83",
+        "color_08": "#6E6B5E",
+        "color_09": "#999580",
+        "color_10": "#D73737",
+        "color_11": "#60AC39",
+        "color_12": "#AE9513",
+        "color_13": "#6684E1",
+        "color_14": "#B854D4",
+        "color_15": "#1FAD83",
+        "color_16": "#20201D",
+        "cursor": "#6E6B5E",
+        "foreground": "#6E6B5E",
+        "hash": "5045eccc04f3fc68c4ab53bbf5d544aa3a6c563b90bc5252850e4c610108028e",
+        "hash_bg": "32b45e3b2943e5b2e1437828b0e33d260a17468601f0cb6505c56a053ef1026c",
+        "name": "Atelier Dune Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "c19e405f7200e2ccd52cfc9cf8c0262a555fe18ee370c6d41cfd366a3f7aeb2d",
+    "syntax": {
+      "comment": "#A8A597",
+      "constant": "#1FAD83",
+      "function": "#6684E1",
+      "invalid": "#D73737",
+      "keyword": "#B854D4",
+      "number": "#1FAD83",
+      "operator": "#6E6B5E",
+      "string": "#60AC39",
+      "type": "#AE9513",
+      "variable": "#6E6B5E"
+    }
+  }
+}

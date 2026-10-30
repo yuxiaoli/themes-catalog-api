@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.9926
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9568
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.6922
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6762
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 13.9926
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6762
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.5305
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.0516
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.2361
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.9865
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.5519
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.5519
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.9926
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.9926
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.628
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "537499107048a3cd55f8b1203e8c9abd3ea2a0209388743b4455dd073fd789c8",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0c5af07d344fffd649eaad37f24d5007cd7b8224f4f36624d7f461880116d591",
+    "name": "Neovim Dark",
+    "palette": {
+      "activeLine": "#24262C",
+      "background": "#14161B",
+      "cursor": "#E0E2EA",
+      "foreground": "#E0E2EA",
+      "gutterActiveLine": "#24262C",
+      "gutterBackground": "#14161B",
+      "gutterForeground": "#8E9097",
+      "invisibles": "#9B9EA4",
+      "printMargin": "#47494F",
+      "selection": "#47494F"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Highlight Group.C (https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c)",
+        "author_name": "Highlight Group.C",
+        "author_url": "https://github.com/neovim/neovim/blob/master/src/nvim/highlight_group.c",
+        "background": "#14161B",
+        "color_01": "#14161B",
+        "color_02": "#FFC0B9",
+        "color_03": "#B3F6C0",
+        "color_04": "#FCE094",
+        "color_05": "#A6DBFF",
+        "color_06": "#FFCAFF",
+        "color_07": "#8CF8F7",
+        "color_08": "#E0E2EA",
+        "color_09": "#9B9EA4",
+        "color_10": "#FFC0B9",
+        "color_11": "#B3F6C0",
+        "color_12": "#FCE094",
+        "color_13": "#A6DBFF",
+        "color_14": "#FFCAFF",
+        "color_15": "#8CF8F7",
+        "color_16": "#EEF1F8",
+        "cursor": "#E0E2EA",
+        "foreground": "#E0E2EA",
+        "hash": "b98012a32d2b8a10cfb3535d499ea7c72d7e1cd4e8b6bf095b4bd44aba65b6ce",
+        "hash_bg": "16d2ed9299c9d55240f62d858902ed14316ad9cb44e0e4bef18a19943460f5a1",
+        "name": "Neovim Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0c5af07d344fffd649eaad37f24d5007cd7b8224f4f36624d7f461880116d591",
+    "syntax": {
+      "comment": "#8E9097",
+      "constant": "#8CF8F7",
+      "function": "#A6DBFF",
+      "invalid": "#FFC0B9",
+      "keyword": "#FFCAFF",
+      "number": "#8CF8F7",
+      "operator": "#E0E2EA",
+      "string": "#B3F6C0",
+      "type": "#FCE094",
+      "variable": "#E0E2EA"
+    }
+  }
+}

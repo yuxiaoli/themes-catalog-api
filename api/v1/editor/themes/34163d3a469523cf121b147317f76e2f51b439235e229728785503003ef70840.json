@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5386
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4761
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.7495
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6816
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.5386
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6816
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2817
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1349
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8824
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0964
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5386
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5386
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5386
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5386
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.924
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "9422c91fac07aed4c4e1b24b46d3e7794474ee81ee52a0ecd103890d30367776",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/5a841bfb7f7d8e3433b500e463635d2b59eda0f91ba2709c0a90c19fdc99c07a",
+    "name": "Cyberpunk Neon",
+    "palette": {
+      "activeLine": "#01192B",
+      "background": "#000B1E",
+      "cursor": "#0ABDC6",
+      "foreground": "#0ABDC6",
+      "gutterActiveLine": "#01192B",
+      "gutterBackground": "#000B1E",
+      "gutterForeground": "#067683",
+      "invisibles": "#1C61C2",
+      "printMargin": "#033848",
+      "selection": "#033848"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Theo (theo-grivel)",
+        "author_name": "Theo (theo-grivel)",
+        "author_url": "",
+        "background": "#000B1E",
+        "color_01": "#000B1E",
+        "color_02": "#FF0000",
+        "color_03": "#D300C4",
+        "color_04": "#F57800",
+        "color_05": "#133E7C",
+        "color_06": "#711C91",
+        "color_07": "#0ABDC6",
+        "color_08": "#0ABDC6",
+        "color_09": "#1C61C2",
+        "color_10": "#FF0000",
+        "color_11": "#D300C4",
+        "color_12": "#FF5780",
+        "color_13": "#00FF00",
+        "color_14": "#711C91",
+        "color_15": "#0ABDC6",
+        "color_16": "#0ABDC6",
+        "cursor": "#0ABDC6",
+        "foreground": "#0ABDC6",
+        "hash": "7fc2e1b536dc8c9bd03d2fb0a751f48d4c01af3ab0d64caccc75906a4007e915",
+        "hash_bg": "1bde590834374e17fd03798fbf5ed1f4d06b72bfd8f652eb11d6917b08454032",
+        "name": "Cyberpunk Neon",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "5a841bfb7f7d8e3433b500e463635d2b59eda0f91ba2709c0a90c19fdc99c07a",
+    "syntax": {
+      "comment": "#067683",
+      "constant": "#0ABDC6",
+      "function": "#133E7C",
+      "invalid": "#FF0000",
+      "keyword": "#711C91",
+      "number": "#0ABDC6",
+      "operator": "#0ABDC6",
+      "string": "#D300C4",
+      "type": "#F57800",
+      "variable": "#0ABDC6"
+    }
+  }
+}

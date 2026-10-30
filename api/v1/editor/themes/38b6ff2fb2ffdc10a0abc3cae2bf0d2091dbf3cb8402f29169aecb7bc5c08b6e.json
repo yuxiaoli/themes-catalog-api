@@ -1,0 +1,229 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3889
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6542
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.0901
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5237
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 13.3889
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5237
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3845
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.4318
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.3671
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7729
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4549
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4549
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3889
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3889
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0715
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "bc10e8d7d5c9c2f0f95c59ca3f8e848794eee8f8083c9080c9362181962515e5",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.string"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/cd79d39f48cad3ff9fcc3850f26415d86e0a53afdeac712b1c9ae249f2f8d3c1",
+    "name": "Rose Pine",
+    "palette": {
+      "activeLine": "#292735",
+      "background": "#191724",
+      "cursor": "#E0DEF4",
+      "foreground": "#E0DEF4",
+      "gutterActiveLine": "#292735",
+      "gutterBackground": "#191724",
+      "gutterForeground": "#908EA1",
+      "invisibles": "#6E6A86",
+      "printMargin": "#4B4958",
+      "selection": "#4B4958"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Rosé Pine (https://github.com/orgs/rose-pine/people)",
+        "author_name": "Rosé Pine",
+        "author_url": "https://github.com/orgs/rose-pine/people",
+        "background": "#191724",
+        "color_01": "#26233A",
+        "color_02": "#EB6F92",
+        "color_03": "#31748F",
+        "color_04": "#F6C177",
+        "color_05": "#9CCFD8",
+        "color_06": "#C4A7E7",
+        "color_07": "#EBBCBA",
+        "color_08": "#E0DEF4",
+        "color_09": "#6E6A86",
+        "color_10": "#EB6F92",
+        "color_11": "#31748F",
+        "color_12": "#F6C177",
+        "color_13": "#9CCFD8",
+        "color_14": "#C4A7E7",
+        "color_15": "#EBBCBA",
+        "color_16": "#E0DEF4",
+        "cursor": "#E0DEF4",
+        "foreground": "#E0DEF4",
+        "hash": "c0552851d189e1f8887a076fd96f15946bef1eeaf0ae0efce8481a90ab9e8048",
+        "hash_bg": "6b7172df2690456241109458d4022570e2ccdb543ad698916acf68350860bebb",
+        "name": "Rose Pine",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "cd79d39f48cad3ff9fcc3850f26415d86e0a53afdeac712b1c9ae249f2f8d3c1",
+    "syntax": {
+      "comment": "#908EA1",
+      "constant": "#EBBCBA",
+      "function": "#9CCFD8",
+      "invalid": "#EB6F92",
+      "keyword": "#C4A7E7",
+      "number": "#EBBCBA",
+      "operator": "#E0DEF4",
+      "string": "#31748F",
+      "type": "#F6C177",
+      "variable": "#E0DEF4"
+    }
+  }
+}

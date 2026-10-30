@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "a4374d893eb5e53f45199d216cd99f5828078d077b5cf2e3adf11af64aa0725a",
+  "text": "black = \"#1c1e1f\"\nbg0 = \"#273136\"\nbg1 = \"#313b42\"\nbg2 = \"#353f46\"\nbg3 = \"#3a444b\"\nbg4 = \"#414b53\"\nbg_red = \"#ff6d7e\"\ndiff_red = \"#55393d\"\nbg_green = \"#a2e57b\"\ndiff_green = \"#394634\"\nbg_blue = \"#7cd5f1\"\ndiff_blue = \"#354157\"\ndiff_yellow = \"#4e432f\"\nfg = \"#e1e2e3\"\nred = \"#f76c7c\"\norange = \"#f3a96a\"\nyellow = \"#e3d367\"\ngreen = \"#9cd57b\"\ncyan = \"#8ed4c0\" # added for compatibility with `edge` scheme\nblue = \"#78cee9\"\npurple = \"#baa0f8\"\ngrey = \"#82878b\"\ngrey_dim = \"#55626d\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/sonokai/maia"
+}

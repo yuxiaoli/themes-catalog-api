@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6933
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4052
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.251
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3037
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 4.6933
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3037
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9569
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3886
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2032
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8284
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.426
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.426
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6933
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6933
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7652
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "6928921064a65c43c60ed0b4b7ae97db5e15c9526d07a030e72b670bfa926a09",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.type"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0c89140c97b09f42d20c9c532bdf624d7b9488ed952b83f859726cbe35bc413c",
+    "name": "Tokyo Night Light",
+    "palette": {
+      "activeLine": "#CBCCD2",
+      "background": "#D5D6DB",
+      "cursor": "#565A6E",
+      "foreground": "#565A6E",
+      "gutterActiveLine": "#CBCCD2",
+      "gutterBackground": "#D5D6DB",
+      "gutterForeground": "#898C9A",
+      "invisibles": "#9699A3",
+      "printMargin": "#B5B7C0",
+      "selection": "#B5B7C0"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#D5D6DB",
+        "color_01": "#0F0F14",
+        "color_02": "#8C4351",
+        "color_03": "#485E30",
+        "color_04": "#8F5E15",
+        "color_05": "#34548A",
+        "color_06": "#5A4A78",
+        "color_07": "#0F4B6E",
+        "color_08": "#343B58",
+        "color_09": "#9699A3",
+        "color_10": "#8C4351",
+        "color_11": "#485E30",
+        "color_12": "#8F5E15",
+        "color_13": "#34548A",
+        "color_14": "#5A4A78",
+        "color_15": "#0F4B6E",
+        "color_16": "#343B58",
+        "cursor": "#565A6E",
+        "foreground": "#565A6E",
+        "hash": "fc61063bbd4564f9241f20600d981e0051e58ff2f8ac5364783ba0bed3762319",
+        "hash_bg": "a90b605e9cabc00cef7165ae128ff25e9963a9e55b1e2e2d881faa4a30e62153",
+        "name": "Tokyo Night Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0c89140c97b09f42d20c9c532bdf624d7b9488ed952b83f859726cbe35bc413c",
+    "syntax": {
+      "comment": "#898C9A",
+      "constant": "#0F4B6E",
+      "function": "#34548A",
+      "invalid": "#8C4351",
+      "keyword": "#5A4A78",
+      "number": "#0F4B6E",
+      "operator": "#565A6E",
+      "string": "#485E30",
+      "type": "#8F5E15",
+      "variable": "#565A6E"
+    }
+  }
+}

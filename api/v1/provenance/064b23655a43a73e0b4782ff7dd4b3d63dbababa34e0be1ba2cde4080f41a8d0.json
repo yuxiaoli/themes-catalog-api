@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "cf7690487b3f04237c25aa5953eb96e2cf190fa829d957d4595cefac00fc4630",
+  "text": "# Original source and more info: https://github.com/jesusmgg/darcula-solid-helix\n\ninherits = \"darcula\"\n\n\"ui.background.separator\" = { bg = \"grey01\" }\n\"ui.menu.scroll\" = { fg = \"grey02\", bg = \"grey00\" }\n\"ui.popup\" = { fg = \"grey05\", bg = \"grey00\" }\n\"ui.window\" = { bg = \"grey00\" }\n\"ui.cursorline.secondary\" = { bg = \"grey03\" }\n\n[palette]\ngrey00 = \"#101010\"\ngrey01 = \"#1f1f1f\"\ngrey02 = \"#323232\"\ngrey03 = \"#555555\"\ngrey04 = \"#a8a8a8\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/darcula-solid.toml"
+}

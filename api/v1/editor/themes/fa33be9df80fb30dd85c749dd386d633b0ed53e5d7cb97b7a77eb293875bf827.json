@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.275
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7586
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8589
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6442
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 1.9671
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6442
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1341
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8574
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9403
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4528
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1228
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1228
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.275
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.275
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7598
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "54c75f256f6b7369239b6f347f9280008dd3273d3b169eed3dddeec27927eb32",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "cursor",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/8f1b63ac4f3e1b677a275d1a3005f4fc95c3317436696c6509ab0855a58d31a9",
+    "name": "Sequoia Retro Dark",
+    "palette": {
+      "activeLine": "#19191E",
+      "background": "#0F1014",
+      "cursor": "#43444D",
+      "foreground": "#868690",
+      "gutterActiveLine": "#19191E",
+      "gutterBackground": "#0F1014",
+      "gutterForeground": "#56575E",
+      "invisibles": "#575861",
+      "printMargin": "#2D2E33",
+      "selection": "#2D2E33"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Michael Andreuzza (https://github.com/michael-andreuzza)",
+        "author_name": "Michael Andreuzza",
+        "author_url": "https://github.com/michael-andreuzza",
+        "background": "#0F1014",
+        "color_01": "#131317",
+        "color_02": "#829FA7",
+        "color_03": "#648F68",
+        "color_04": "#DA674B",
+        "color_05": "#5C87A4",
+        "color_06": "#E8B246",
+        "color_07": "#A27E57",
+        "color_08": "#868690",
+        "color_09": "#575861",
+        "color_10": "#E8B246",
+        "color_11": "#648F68",
+        "color_12": "#DA674B",
+        "color_13": "#5C87A4",
+        "color_14": "#829FA7",
+        "color_15": "#A27E57",
+        "color_16": "#868690",
+        "cursor": "#43444D",
+        "foreground": "#868690",
+        "hash": "d92a7f1345f20064321c49f20bab79d71b45d42b937e77c00ceac98dbcf12c42",
+        "hash_bg": "dc260b6903e4fde3fa10aa1379445588f5150193f9d14fa806c259d3580dc767",
+        "name": "Sequoia Retro Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "8f1b63ac4f3e1b677a275d1a3005f4fc95c3317436696c6509ab0855a58d31a9",
+    "syntax": {
+      "comment": "#56575E",
+      "constant": "#A27E57",
+      "function": "#5C87A4",
+      "invalid": "#829FA7",
+      "keyword": "#E8B246",
+      "number": "#A27E57",
+      "operator": "#868690",
+      "string": "#648F68",
+      "type": "#DA674B",
+      "variable": "#868690"
+    }
+  }
+}

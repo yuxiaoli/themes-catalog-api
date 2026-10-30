@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.259
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3245
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.4737
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6566
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.259
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6566
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1002
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.728
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6561
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.9646
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.3298
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.3298
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.259
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.259
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8989
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "234c4ac0919a21c713712201716c48d43c36954d51a29de2f0fda300cdd64813",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/5e5eaecc92e33a82cf65bc7911e3c33b318dfe5571e855dc8baa863f4af9d46f",
+    "name": "TokyoNight Moon",
+    "palette": {
+      "activeLine": "#2F3245",
+      "background": "#222436",
+      "cursor": "#C8D3F5",
+      "foreground": "#C8D3F5",
+      "gutterActiveLine": "#2F3245",
+      "gutterBackground": "#222436",
+      "gutterForeground": "#868DA9",
+      "invisibles": "#444A73",
+      "printMargin": "#4C5066",
+      "selection": "#4C5066"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "folke (https://github.com/folke/tokyonight.nvim)",
+        "author_name": "folke",
+        "author_url": "https://github.com/folke/tokyonight.nvim",
+        "background": "#222436",
+        "color_01": "#1B1D2B",
+        "color_02": "#FF757F",
+        "color_03": "#C3E88D",
+        "color_04": "#FFC777",
+        "color_05": "#82AAFF",
+        "color_06": "#C099FF",
+        "color_07": "#86E1FC",
+        "color_08": "#828BB8",
+        "color_09": "#444A73",
+        "color_10": "#FF757F",
+        "color_11": "#C3E88D",
+        "color_12": "#FFC777",
+        "color_13": "#82AAFF",
+        "color_14": "#C099FF",
+        "color_15": "#86E1FC",
+        "color_16": "#C8D3F5",
+        "cursor": "#C8D3F5",
+        "foreground": "#C8D3F5",
+        "hash": "6fe476b34f09ea0cacc31586f2c816354505fcde036c7eecf2abf2b5ae64fb44",
+        "hash_bg": "58a8e1ff80db9dcbe00eea928dfe5fbdf99cbdc5269a2957770706920fdeba42",
+        "name": "TokyoNight Moon",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "5e5eaecc92e33a82cf65bc7911e3c33b318dfe5571e855dc8baa863f4af9d46f",
+    "syntax": {
+      "comment": "#868DA9",
+      "constant": "#86E1FC",
+      "function": "#82AAFF",
+      "invalid": "#FF757F",
+      "keyword": "#C099FF",
+      "number": "#86E1FC",
+      "operator": "#C8D3F5",
+      "string": "#C3E88D",
+      "type": "#FFC777",
+      "variable": "#C8D3F5"
+    }
+  }
+}

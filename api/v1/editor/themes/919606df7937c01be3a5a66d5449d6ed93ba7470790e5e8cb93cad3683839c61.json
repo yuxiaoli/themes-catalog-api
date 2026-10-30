@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.7063
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2868
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.987
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9257
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 11.7063
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9257
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.847
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1666
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8547
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5348
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6321
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6321
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.7063
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.7063
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6874
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "9943cbf7ad6f813f54f8355fc3d8604a70843fa9c63ec4fc1238b39f4bbc51d2",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/fcffd9481e6e3e74dc432f6527f59636195b25e74cc0775ed7e5a263dcc723c9",
+    "name": "IBM 5153 CGA",
+    "palette": {
+      "activeLine": "#232323",
+      "background": "#141414",
+      "cursor": "#CECECE",
+      "foreground": "#CECECE",
+      "gutterActiveLine": "#232323",
+      "gutterBackground": "#141414",
+      "gutterForeground": "#848484",
+      "invisibles": "#4E4E4E",
+      "printMargin": "#434343",
+      "selection": "#434343"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Jesse Miller (https://jmiller.com/)",
+        "author_name": "Jesse Miller",
+        "author_url": "https://jmiller.com/",
+        "background": "#141414",
+        "color_01": "#141414",
+        "color_02": "#D03333",
+        "color_03": "#1BD01B",
+        "color_04": "#D08C1B",
+        "color_05": "#1B1BD0",
+        "color_06": "#D01BD0",
+        "color_07": "#1BD0D0",
+        "color_08": "#CECECE",
+        "color_09": "#4E4E4E",
+        "color_10": "#DC4E4E",
+        "color_11": "#4EDC4E",
+        "color_12": "#F3F34E",
+        "color_13": "#4E4EDC",
+        "color_14": "#F34EF3",
+        "color_15": "#4EF3F3",
+        "color_16": "#FFFFFF",
+        "cursor": "#CECECE",
+        "foreground": "#CECECE",
+        "hash": "cad34731e9302efc01bfc849b3c1c9372621c994d55a538b262d61c49ff9e43d",
+        "hash_bg": "a082ae38274c70fbe0d4b8361d54889303a2dabb6301b4642e76b8b8fb8f033a",
+        "name": "IBM 5153 CGA",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "fcffd9481e6e3e74dc432f6527f59636195b25e74cc0775ed7e5a263dcc723c9",
+    "syntax": {
+      "comment": "#848484",
+      "constant": "#1BD0D0",
+      "function": "#1B1BD0",
+      "invalid": "#D03333",
+      "keyword": "#D01BD0",
+      "number": "#1BD0D0",
+      "operator": "#CECECE",
+      "string": "#1BD01B",
+      "type": "#D08C1B",
+      "variable": "#CECECE"
+    }
+  }
+}

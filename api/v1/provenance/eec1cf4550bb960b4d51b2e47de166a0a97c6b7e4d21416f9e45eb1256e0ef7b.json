@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "d1362454fbd96fc61d491ab49812cc27f0eb40abe0dfbd2b21806682dfb13d89",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-cloud_editor_dark\";\nexports.cssText = require(\"./cloud_editor_dark-css\");\n/**@internal */\nexports.$showGutterCursorMarker = true;\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/cloud_editor_dark.js"
+}

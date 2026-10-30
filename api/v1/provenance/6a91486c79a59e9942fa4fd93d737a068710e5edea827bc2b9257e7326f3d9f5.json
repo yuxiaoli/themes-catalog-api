@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "9baf53cf9badfe3f2b8e1137f347cc43110e1932a26a8f3224ffb817585e7c84",
+  "text": "black = \"#1a181a\"\nbg0 = \"#2d2a2e\"\nbg1 = \"#37343a\"\nbg2 = \"#3b383e\"\nbg3 = \"#423f46\"\nbg4 = \"#49464e\"\nbg_red = \"#ff6188\"\ndiff_red = \"#55393d\"\nbg_green = \"#a9dc76\"\ndiff_green = \"#394634\"\nbg_blue = \"#78dce8\"\ndiff_blue = \"#354157\"\ndiff_yellow = \"#4e432f\"\nfg = \"#e3e1e4\"\nred = \"#f85e84\"\norange = \"#ef9062\"\nyellow = \"#e5c463\"\ngreen = \"#9ecd6f\"\ncyan = \"#8ecdae\" # added for compatibility with `edge` scheme\nblue = \"#7accd7\"\npurple = \"#ab9df2\"\ngrey = \"#848089\"\ngrey_dim = \"#605d68\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/sonokai/shusia"
+}

@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "3e68419d0e57d18301e47a708f116fbaa4bf84e6ba3e74e4ab90754aa48a6864",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-clouds-midnight\";\nexports.cssText = require(\"./clouds_midnight-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/clouds_midnight.js"
+}

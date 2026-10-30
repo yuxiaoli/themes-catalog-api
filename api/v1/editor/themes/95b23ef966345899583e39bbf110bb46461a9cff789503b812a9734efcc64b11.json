@@ -1,0 +1,264 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/vim_dark_high_contrast",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "vim_dark_high_contrast",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/vim_dark_high_contrast.toml"
+    ],
+    "palette": {
+      "black": "#000000",
+      "blue": "#688EF1",
+      "cyan": "#3A97D4",
+      "dark-black": "#000000",
+      "dark-blue": "#2C4074",
+      "dark-cyan": "#144C71",
+      "dark-green": "#00643C",
+      "dark-magenta": "#602864",
+      "dark-red": "#742833",
+      "dark-white": "#3E4043",
+      "dark-yellow": "#6E3500",
+      "default": "#C1C9D2",
+      "gray": "#111111",
+      "green": "#1EA672",
+      "light-black": "#697386",
+      "light-blue": "#9FCDFF",
+      "light-cyan": "#7FD3ED",
+      "light-gray": "terminal:light-gray",
+      "light-green": "#85D996",
+      "light-magenta": "#F0B4E4",
+      "light-red": "#FBB5B2",
+      "light-white": "#FFFFFF",
+      "light-yellow": "#EFC078",
+      "magenta": "#C96ED0",
+      "red": "#ED5F74",
+      "white": "#E3E8EE",
+      "yellow": "#D97917"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/vim_dark_high_contrast.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/7322eebb3dcf310b0f93b5ed60c360f93d68c1fbde24da9d036c0e199a9de715.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "vim_dark_high_contrast",
+    "styles": {
+      "comment": {
+        "fg": "#697386"
+      },
+      "comment.block.documentation": {
+        "fg": "#C96ED0"
+      },
+      "comment.line.documentation": {
+        "fg": "#C96ED0"
+      },
+      "constant": {
+        "fg": "#ED5F74"
+      },
+      "constant.character.escape": {
+        "fg": "#C96ED0"
+      },
+      "constructor": {
+        "fg": "#7FD3ED"
+      },
+      "diagnostic.deprecated": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "diagnostic.error": {
+        "bg": "#742833"
+      },
+      "diagnostic.hint": {
+        "bg": "#144C71"
+      },
+      "diagnostic.info": {
+        "bg": "#3E4043"
+      },
+      "diagnostic.unnecessary": {
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "diagnostic.warning": {
+        "bg": "#6E3500"
+      },
+      "diff.delta": {
+        "fg": "#D97917"
+      },
+      "diff.minus": {
+        "fg": "#ED5F74"
+      },
+      "diff.plus": {
+        "fg": "#1EA672"
+      },
+      "error": {
+        "bg": "#742833",
+        "fg": "#ED5F74"
+      },
+      "function": {
+        "fg": "#7FD3ED"
+      },
+      "function.macro": {
+        "fg": "#C96ED0"
+      },
+      "hint": {
+        "bg": "#144C71",
+        "fg": "#3A97D4"
+      },
+      "info": {
+        "bg": "#3E4043",
+        "fg": "#C1C9D2"
+      },
+      "keyword": {
+        "fg": "#D97917"
+      },
+      "keyword.directive": {
+        "fg": "#C96ED0"
+      },
+      "label": {
+        "fg": "#1EA672"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "#3A97D4"
+      },
+      "string": {
+        "fg": "#ED5F74"
+      },
+      "type": {
+        "fg": "#1EA672"
+      },
+      "ui.background": {
+        "bg": "#000000"
+      },
+      "ui.bufferline": {
+        "bg": "#000000"
+      },
+      "ui.bufferline.active": {
+        "bg": "#602864",
+        "fg": "#F0B4E4"
+      },
+      "ui.cursor": {
+        "fg": "#1EA672",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursor.match": {
+        "bg": "#144C71",
+        "fg": "#7FD3ED"
+      },
+      "ui.cursor.primary": {
+        "fg": "#85D996",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursorline.primary": {
+        "bg": "#111111"
+      },
+      "ui.menu": {
+        "bg": "#3E4043"
+      },
+      "ui.menu.selected": {
+        "fg": "#D97917"
+      },
+      "ui.popup": {
+        "bg": "#3E4043"
+      },
+      "ui.selection": {
+        "bg": "#3E4043"
+      },
+      "ui.statusline": {
+        "bg": "#602864",
+        "fg": "#F0B4E4"
+      },
+      "ui.statusline.insert": {
+        "bg": "#7FD3ED",
+        "fg": "#000000"
+      },
+      "ui.statusline.normal": {
+        "bg": "#EFC078",
+        "fg": "#000000"
+      },
+      "ui.statusline.select": {
+        "bg": "#D97917",
+        "fg": "#000000"
+      },
+      "ui.text": {
+        "fg": "#C1C9D2"
+      },
+      "ui.text.focus": {
+        "fg": "#D97917"
+      },
+      "ui.text.info": {
+        "bg": "#3E4043"
+      },
+      "ui.virtual.indent-guide": {
+        "fg": "#2C4074"
+      },
+      "ui.virtual.jump-label": {
+        "fg": "#EFC078",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.virtual.ruler": {
+        "bg": "#3E4043"
+      },
+      "ui.virtual.wrap": {
+        "fg": "#2C4074"
+      },
+      "ui.window": {
+        "bg": "#3E4043"
+      },
+      "warning": {
+        "bg": "#6E3500",
+        "fg": "#D97917"
+      }
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "4c3e57f17c24faf43c01aafdc5a008f6776923bce42a9110ac1dd30d19f8c998",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-tomorrow-night-eighties\";\nexports.cssText = require(\"./tomorrow_night_eighties-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/tomorrow_night_eighties.js"
+}

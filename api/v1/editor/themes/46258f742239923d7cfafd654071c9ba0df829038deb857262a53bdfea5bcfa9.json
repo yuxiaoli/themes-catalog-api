@@ -1,0 +1,242 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2405
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5265
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0008
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9193
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.2405
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9193
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5792
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7134
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7837
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9635
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2499
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2499
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2405
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2405
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8258
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "d87fe5a718dd4aa0ac2bd784c70bb714f8551291a34891092202f9e6c3e66b96",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "text",
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.operator",
+        "syntax.variable",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/de9b683036161da2901bb9a6899a09e9bab5cdcc2759fec6f55a3626404748d7",
+    "name": "Aquarium Light",
+    "palette": {
+      "activeLine": "#DDDEE9",
+      "background": "#E6E6F1",
+      "cursor": "#708190",
+      "foreground": "#708190",
+      "gutterActiveLine": "#DDDEE9",
+      "gutterBackground": "#E6E6F1",
+      "gutterForeground": "#9FA9B7",
+      "invisibles": "#CCCBD9",
+      "printMargin": "#C9CDD9",
+      "selection": "#C9CDD9"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "ragdoll2iguess",
+        "author_name": "ragdoll2iguess",
+        "author_url": "",
+        "background": "#E6E6F1",
+        "color_01": "#D5D4E0",
+        "color_02": "#C34864",
+        "color_03": "#7D9685",
+        "color_04": "#DE956F",
+        "color_05": "#6A8CBC",
+        "color_06": "#8787BF",
+        "color_07": "#829FB0",
+        "color_08": "#313449",
+        "color_09": "#CCCBD9",
+        "color_10": "#B7435E",
+        "color_11": "#7E8F80",
+        "color_12": "#D88B72",
+        "color_13": "#6E7EBF",
+        "color_14": "#7170C2",
+        "color_15": "#728A9A",
+        "color_16": "#414560",
+        "cursor": "#708190",
+        "foreground": "#708190",
+        "hash": "df295c3bd5a433bdced86db8d1b0572a6df63ea804bab2cd6c22c4c749e96c23",
+        "hash_bg": "79d665661d8535627962b3bcf8c0c3c5b5704aacf53e95442d55732a3b24559c",
+        "name": "Aquarium Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "de9b683036161da2901bb9a6899a09e9bab5cdcc2759fec6f55a3626404748d7",
+    "syntax": {
+      "comment": "#9FA9B7",
+      "constant": "#829FB0",
+      "function": "#6A8CBC",
+      "invalid": "#C34864",
+      "keyword": "#8787BF",
+      "number": "#829FB0",
+      "operator": "#708190",
+      "string": "#7D9685",
+      "type": "#DE956F",
+      "variable": "#708190"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-terminal-theme",
+    "css_text": ".ace-terminal-theme .ace_gutter {\n  background: #1a0005;\n  color: steelblue\n}\n\n.ace-terminal-theme .ace_print-margin {\n  width: 1px;\n  background: #1a1a1a\n}\n\n.ace-terminal-theme {\n  background-color: black;\n  color: #DEDEDE\n}\n\n.ace-terminal-theme .ace_cursor {\n  color: #9F9F9F\n}\n\n.ace-terminal-theme .ace_marker-layer .ace_selection {\n  background: #424242\n}\n\n.ace-terminal-theme.ace_multiselect .ace_selection.ace_start {\n  box-shadow: 0 0 3px 0px black;\n}\n\n.ace-terminal-theme .ace_marker-layer .ace_step {\n  background: rgb(0, 0, 0)\n}\n\n.ace-terminal-theme .ace_marker-layer .ace_bracket {\n  background: #090;\n}\n\n.ace-terminal-theme .ace_marker-layer .ace_bracket-start {\n  background: #090;\n}\n\n.ace-terminal-theme .ace_marker-layer .ace_bracket-unmatched {\n  margin: -1px 0 0 -1px;\n  border: 1px solid #900\n}\n\n.ace-terminal-theme .ace_marker-layer .ace_active-line {\n  background: #2A2A2A\n}\n\n.ace-terminal-theme .ace_gutter-active-line {\n  background-color: #2A112A\n}\n\n.ace-terminal-theme .ace_marker-layer .ace_selected-word {\n  border: 1px solid #424242\n}\n\n.ace-terminal-theme .ace_invisible {\n  color: #343434\n}\n\n.ace-terminal-theme .ace_keyword,\n.ace-terminal-theme .ace_meta,\n.ace-terminal-theme .ace_storage,\n.ace-terminal-theme .ace_storage.ace_type,\n.ace-terminal-theme .ace_support.ace_type {\n  color: tomato\n}\n\n.ace-terminal-theme .ace_keyword.ace_operator {\n  color: deeppink\n}\n\n.ace-terminal-theme .ace_constant.ace_character,\n.ace-terminal-theme .ace_constant.ace_language,\n.ace-terminal-theme .ace_constant.ace_numeric,\n.ace-terminal-theme .ace_keyword.ace_other.ace_unit,\n.ace-terminal-theme .ace_support.ace_constant,\n.ace-terminal-theme .ace_variable.ace_parameter {\n  color: #E78C45\n}\n\n.ace-terminal-theme .ace_constant.ace_other {\n  color: gold\n}\n\n.ace-terminal-theme .ace_invalid {\n  color: yellow;\n  background-color: red\n}\n\n.ace-terminal-theme .ace_invalid.ace_deprecated {\n  color: #CED2CF;\n  background-color: #B798BF\n}\n\n.ace-terminal-theme .ace_fold {\n  background-color: #7AA6DA;\n  border-color: #DEDEDE\n}\n\n.ace-terminal-theme .ace_entity.ace_name.ace_function,\n.ace-terminal-theme .ace_support.ace_function,\n.ace-terminal-theme .ace_variable {\n  color: #7AA6DA\n}\n\n.ace-terminal-theme .ace_support.ace_class,\n.ace-terminal-theme .ace_support.ace_type {\n  color: #E7C547\n}\n\n.ace-terminal-theme .ace_heading,\n.ace-terminal-theme .ace_string {\n  color: #B9CA4A\n}\n\n.ace-terminal-theme .ace_entity.ace_name.ace_tag,\n.ace-terminal-theme .ace_entity.ace_other.ace_attribute-name,\n.ace-terminal-theme .ace_meta.ace_tag,\n.ace-terminal-theme .ace_string.ace_regexp,\n.ace-terminal-theme .ace_variable {\n  color: #D54E53\n}\n\n.ace-terminal-theme .ace_comment {\n  color: orangered\n}\n\n.ace-terminal-theme .ace_indent-guide {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYLBWV/8PAAK4AYnhiq+xAAAAAElFTkSuQmCC) right repeat-y;\n}\n\n.ace-terminal-theme .ace_indent-guide-active {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;\n}\n",
+    "exports": {},
+    "id": "ace/terminal",
+    "is_dark": true,
+    "name": "Terminal",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/terminal-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/terminal.js"
+    },
+    "palette": {
+      "activeLine": "#2A2A2A",
+      "background": "#000000",
+      "cursor": "#9F9F9F",
+      "foreground": "#DEDEDE",
+      "gutterActiveLine": "#2A112A",
+      "gutterBackground": "#1A0005",
+      "gutterForeground": "#4682B4",
+      "invisibles": "#343434",
+      "printMargin": "#1A1A1A",
+      "selection": "#424242"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/af9d80351d283e4c62616074086162ad8d36f2d0218769cc1b1e92bdee5bc786.json",
+        "api/v1/provenance/9eef7a9a4a69021802f83d0b0fb253eaf99d4be1c78dfe834280ef70ed543dee.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "terminal"
+  }
+}

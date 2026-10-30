@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.153
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1788
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6034
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9662
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 12.4521
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9662
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.6701
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.825
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1971
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.5575
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.4172
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.4172
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.153
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.153
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0276
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "270b2aec8de389c0a3c5762c2f31ddc1a3bcda1baedeb35e1afec3d3f3df334b",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/38ac547005aabc7c0475b6a276ae72c295447601e29f054b47b229e0c4f5e645",
+    "name": "Material Ocean",
+    "palette": {
+      "activeLine": "#191B25",
+      "background": "#0F111A",
+      "cursor": "#FFCC00",
+      "foreground": "#8F93A2",
+      "gutterActiveLine": "#191B25",
+      "gutterBackground": "#0F111A",
+      "gutterForeground": "#5C5F6C",
+      "invisibles": "#546E7A",
+      "printMargin": "#2F323C",
+      "selection": "#2F323C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "fr3fou (https://github.com/fr3fou)",
+        "author_name": "fr3fou",
+        "author_url": "https://github.com/fr3fou",
+        "background": "#0F111A",
+        "color_01": "#546E7A",
+        "color_02": "#FF5370",
+        "color_03": "#C3E88D",
+        "color_04": "#FFCB6B",
+        "color_05": "#82AAFF",
+        "color_06": "#C792EA",
+        "color_07": "#89DDFF",
+        "color_08": "#FFFFFF",
+        "color_09": "#546E7A",
+        "color_10": "#FF5370",
+        "color_11": "#C3E88D",
+        "color_12": "#FFCB6B",
+        "color_13": "#82AAFF",
+        "color_14": "#C792EA",
+        "color_15": "#89DDFF",
+        "color_16": "#FFFFFF",
+        "cursor": "#FFCC00",
+        "foreground": "#8F93A2",
+        "hash": "9167f31d4a851ec3f54e179bc5f88379db4d8b3ceec0b2bf0dcbe77171f7d790",
+        "hash_bg": "52146fea1e72bc2550a5cfc7c7d45c72993987e90276ed200939aa9fed1c3fa7",
+        "name": "Material Ocean",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "38ac547005aabc7c0475b6a276ae72c295447601e29f054b47b229e0c4f5e645",
+    "syntax": {
+      "comment": "#5C5F6C",
+      "constant": "#89DDFF",
+      "function": "#82AAFF",
+      "invalid": "#FF5370",
+      "keyword": "#C792EA",
+      "number": "#89DDFF",
+      "operator": "#8F93A2",
+      "string": "#C3E88D",
+      "type": "#FFCB6B",
+      "variable": "#8F93A2"
+    }
+  }
+}

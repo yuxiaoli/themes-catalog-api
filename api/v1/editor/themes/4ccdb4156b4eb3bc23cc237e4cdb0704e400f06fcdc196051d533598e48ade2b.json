@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9599
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2207
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.009
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4292
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.9599
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4292
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5175
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9074
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5119
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0502
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.7576
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.7576
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9599
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9599
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4225
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "4ad637215db88f4562807773fced0142fa6a58af5e3090db77107c57df7f14b4",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/fbb15268aeae4ca20e37accb141ba1ad2816054f934b7aeae2c203bafebe4119",
+    "name": "Solarflare",
+    "palette": {
+      "activeLine": "#23313A",
+      "background": "#18262F",
+      "cursor": "#A6AFB8",
+      "foreground": "#A6AFB8",
+      "gutterActiveLine": "#23313A",
+      "gutterBackground": "#18262F",
+      "gutterForeground": "#6D7881",
+      "invisibles": "#667581",
+      "printMargin": "#3C4851",
+      "selection": "#3C4851"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Chuck Harmston (https://chuck.harmston.ch)",
+        "author_name": "Chuck Harmston",
+        "author_url": "https://chuck.harmston.ch",
+        "background": "#18262F",
+        "color_01": "#18262F",
+        "color_02": "#EF5253",
+        "color_03": "#7CC844",
+        "color_04": "#E4B51C",
+        "color_05": "#33B5E1",
+        "color_06": "#A363D5",
+        "color_07": "#52CBB0",
+        "color_08": "#A6AFB8",
+        "color_09": "#667581",
+        "color_10": "#EF5253",
+        "color_11": "#7CC844",
+        "color_12": "#E4B51C",
+        "color_13": "#33B5E1",
+        "color_14": "#A363D5",
+        "color_15": "#52CBB0",
+        "color_16": "#F5F7FA",
+        "cursor": "#A6AFB8",
+        "foreground": "#A6AFB8",
+        "hash": "758f36b18011bcd926e3f26af97948c367663376b368fe3dd30a2777b73bcf30",
+        "hash_bg": "3d9cd5fbfc07053b43b3402246ec7f06c74cb9b7cd2beab51187613e9fb47198",
+        "name": "Solarflare",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "fbb15268aeae4ca20e37accb141ba1ad2816054f934b7aeae2c203bafebe4119",
+    "syntax": {
+      "comment": "#6D7881",
+      "constant": "#52CBB0",
+      "function": "#33B5E1",
+      "invalid": "#EF5253",
+      "keyword": "#A363D5",
+      "number": "#52CBB0",
+      "operator": "#A6AFB8",
+      "string": "#7CC844",
+      "type": "#E4B51C",
+      "variable": "#A6AFB8"
+    }
+  }
+}

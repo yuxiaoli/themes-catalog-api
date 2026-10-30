@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8314
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0363
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1735
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6027
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.8314
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6027
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.4291
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8129
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0507
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 19.1913
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.7068
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.7068
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8314
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8314
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5352
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "179ce0537c08dbc9c804d3ffaa93f89afd9aaaca445172e46235dc19f5165f99",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.function"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/fa24fc0204c2bd0e6162aa219c3ace2ae6066967d4ca12d626a43a49930a3b42",
+    "name": "Windows 95",
+    "palette": {
+      "activeLine": "#0D0D0D",
+      "background": "#000000",
+      "cursor": "#A8A8A8",
+      "foreground": "#A8A8A8",
+      "gutterActiveLine": "#0D0D0D",
+      "gutterBackground": "#000000",
+      "gutterForeground": "#656565",
+      "invisibles": "#545454",
+      "printMargin": "#2A2A2A",
+      "selection": "#2A2A2A"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Fergus Collins (https://github.com/ferguscollins)",
+        "author_name": "Fergus Collins",
+        "author_url": "https://github.com/ferguscollins",
+        "background": "#000000",
+        "color_01": "#000000",
+        "color_02": "#FC5454",
+        "color_03": "#54FC54",
+        "color_04": "#FCFC54",
+        "color_05": "#5454FC",
+        "color_06": "#FC54FC",
+        "color_07": "#54FCFC",
+        "color_08": "#A8A8A8",
+        "color_09": "#545454",
+        "color_10": "#FC5454",
+        "color_11": "#54FC54",
+        "color_12": "#FCFC54",
+        "color_13": "#5454FC",
+        "color_14": "#FC54FC",
+        "color_15": "#54FCFC",
+        "color_16": "#FCFCFC",
+        "cursor": "#A8A8A8",
+        "foreground": "#A8A8A8",
+        "hash": "44b3858e6b5cee1e11f5942bc174b71b9835b45e693a24be9822ad76c8170996",
+        "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+        "name": "Windows 95",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "fa24fc0204c2bd0e6162aa219c3ace2ae6066967d4ca12d626a43a49930a3b42",
+    "syntax": {
+      "comment": "#656565",
+      "constant": "#54FCFC",
+      "function": "#5454FC",
+      "invalid": "#FC5454",
+      "keyword": "#FC54FC",
+      "number": "#54FCFC",
+      "operator": "#A8A8A8",
+      "string": "#54FC54",
+      "type": "#FCFC54",
+      "variable": "#A8A8A8"
+    }
+  }
+}

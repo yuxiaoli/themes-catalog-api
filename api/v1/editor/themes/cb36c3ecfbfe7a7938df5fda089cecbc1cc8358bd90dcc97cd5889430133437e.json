@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.6951
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.221
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.4087
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4861
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 15.6951
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4861
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4653
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7953
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.746
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7052
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1313
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1313
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.6951
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.6951
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1478
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "0d01f1c6653c7edf5565d58019db0232300c6d5fdabd5360ea7a7731ecb8ccff",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/b666aa8aceac97386245cf818811ae82b681bd3193accbf2243018c4a703d8f0",
+    "name": "Da One Paper",
+    "palette": {
+      "activeLine": "#E8DFCC",
+      "background": "#FAF0DC",
+      "cursor": "#181818",
+      "foreground": "#181818",
+      "gutterActiveLine": "#E8DFCC",
+      "gutterBackground": "#FAF0DC",
+      "gutterForeground": "#726E66",
+      "invisibles": "#585858",
+      "printMargin": "#C2BAAB",
+      "selection": "#C2BAAB"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "NNB (https://github.com/NNBnh)",
+        "author_name": "NNB",
+        "author_url": "https://github.com/NNBnh",
+        "background": "#FAF0DC",
+        "color_01": "#FAF0DC",
+        "color_02": "#DE5D6E",
+        "color_03": "#76A85D",
+        "color_04": "#B3684F",
+        "color_05": "#5890F8",
+        "color_06": "#C173D1",
+        "color_07": "#64B5A7",
+        "color_08": "#181818",
+        "color_09": "#585858",
+        "color_10": "#DE5D6E",
+        "color_11": "#76A85D",
+        "color_12": "#B3684F",
+        "color_13": "#5890F8",
+        "color_14": "#C173D1",
+        "color_15": "#64B5A7",
+        "color_16": "#000000",
+        "cursor": "#181818",
+        "foreground": "#181818",
+        "hash": "b75eed97563d051bf12db7d4950721a57463b00fcaa4bbb5232ab214553ccacc",
+        "hash_bg": "58ffdaa1a2a2cb52408cb4abe9bc081bdbb40c244feac7bdca3313340b46064c",
+        "name": "Da One Paper",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b666aa8aceac97386245cf818811ae82b681bd3193accbf2243018c4a703d8f0",
+    "syntax": {
+      "comment": "#726E66",
+      "constant": "#64B5A7",
+      "function": "#5890F8",
+      "invalid": "#DE5D6E",
+      "keyword": "#C173D1",
+      "number": "#64B5A7",
+      "operator": "#181818",
+      "string": "#76A85D",
+      "type": "#B3684F",
+      "variable": "#181818"
+    }
+  }
+}

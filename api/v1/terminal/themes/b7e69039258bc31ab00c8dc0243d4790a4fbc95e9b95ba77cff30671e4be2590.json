@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/5e5eaecc92e33a82cf65bc7911e3c33b318dfe5571e855dc8baa863f4af9d46f",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "TokyoNight Moon",
+    "original": {
+      "author": "folke (https://github.com/folke/tokyonight.nvim)",
+      "author_name": "folke",
+      "author_url": "https://github.com/folke/tokyonight.nvim",
+      "background": "#222436",
+      "color_01": "#1B1D2B",
+      "color_02": "#FF757F",
+      "color_03": "#C3E88D",
+      "color_04": "#FFC777",
+      "color_05": "#82AAFF",
+      "color_06": "#C099FF",
+      "color_07": "#86E1FC",
+      "color_08": "#828BB8",
+      "color_09": "#444A73",
+      "color_10": "#FF757F",
+      "color_11": "#C3E88D",
+      "color_12": "#FFC777",
+      "color_13": "#82AAFF",
+      "color_14": "#C099FF",
+      "color_15": "#86E1FC",
+      "color_16": "#C8D3F5",
+      "cursor": "#C8D3F5",
+      "foreground": "#C8D3F5",
+      "hash": "6fe476b34f09ea0cacc31586f2c816354505fcde036c7eecf2abf2b5ae64fb44",
+      "hash_bg": "58a8e1ff80db9dcbe00eea928dfe5fbdf99cbdc5269a2957770706920fdeba42",
+      "name": "TokyoNight Moon",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#C8D3F5",
+      "ansi": [
+        "#1B1D2B",
+        "#FF757F",
+        "#C3E88D",
+        "#FFC777",
+        "#82AAFF",
+        "#C099FF",
+        "#86E1FC",
+        "#828BB8",
+        "#444A73",
+        "#FF757F",
+        "#C3E88D",
+        "#FFC777",
+        "#82AAFF",
+        "#C099FF",
+        "#86E1FC",
+        "#C8D3F5"
+      ],
+      "background": "#222436",
+      "cursor": "#C8D3F5",
+      "foreground": "#C8D3F5"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "5e5eaecc92e33a82cf65bc7911e3c33b318dfe5571e855dc8baa863f4af9d46f",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "5e5eaecc92e33a82cf65bc7911e3c33b318dfe5571e855dc8baa863f4af9d46f"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "d52b62ab1e64fcea98e09e17e5758153a35d5cfa984de988648069d789b6c593",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-clouds\";\nexports.cssText = require(\"./clouds-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/clouds.js"
+}

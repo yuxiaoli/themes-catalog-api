@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4205
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7901
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.385
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0155
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 1.6009
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0155
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4033
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8716
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.152
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1034
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9447
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9447
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4205
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4205
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.738
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "a2cdf41bb753529c9546fda70e5e3c23cca9e1521f54deab0eb4c27f87479486",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "cursor",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/03b56945b39f60ebb32ea4f77faf2c679f2effe9cb6fc5551fc7b02af417dcee",
+    "name": "Birds Of Paradise",
+    "palette": {
+      "activeLine": "#392E29",
+      "background": "#2A1F1D",
+      "cursor": "#573D26",
+      "foreground": "#E0DBB7",
+      "gutterActiveLine": "#392E29",
+      "gutterBackground": "#2A1F1D",
+      "gutterForeground": "#979079",
+      "invisibles": "#9B6C4A",
+      "printMargin": "#584E44",
+      "selection": "#584E44"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+        "author_name": "zdj",
+        "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
+        "background": "#2A1F1D",
+        "color_01": "#573D26",
+        "color_02": "#BE2D26",
+        "color_03": "#6BA18A",
+        "color_04": "#E99D2A",
+        "color_05": "#5A86AD",
+        "color_06": "#AC80A6",
+        "color_07": "#74A6AD",
+        "color_08": "#E0DBB7",
+        "color_09": "#9B6C4A",
+        "color_10": "#E84627",
+        "color_11": "#95D8BA",
+        "color_12": "#D0D150",
+        "color_13": "#B8D3ED",
+        "color_14": "#D19ECB",
+        "color_15": "#93CFD7",
+        "color_16": "#FFF9D5",
+        "cursor": "#573D26",
+        "foreground": "#E0DBB7",
+        "hash": "56861f5cc9946dae5b0c14306dafed8ecfaf169bf71e98b4c87f1aeb1f9d7976",
+        "hash_bg": "194fac9131dcf45dbbcb85a6acc8f93fcef842596e9f23cbad43a75dc3d8b26a",
+        "name": "Birds Of Paradise",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "03b56945b39f60ebb32ea4f77faf2c679f2effe9cb6fc5551fc7b02af417dcee",
+    "syntax": {
+      "comment": "#979079",
+      "constant": "#74A6AD",
+      "function": "#5A86AD",
+      "invalid": "#BE2D26",
+      "keyword": "#AC80A6",
+      "number": "#74A6AD",
+      "operator": "#E0DBB7",
+      "string": "#6BA18A",
+      "type": "#E99D2A",
+      "variable": "#E0DBB7"
+    }
+  }
+}

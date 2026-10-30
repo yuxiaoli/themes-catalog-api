@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.433
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9589
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.781
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4249
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.2712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4249
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0885
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1311
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6563
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1215
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7164
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7164
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.433
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.433
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8837
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "c9c4b1fb3bad90b88dc43cb86d117a64981d97c48cb893e18350e1726d50c485",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0739f5c08f89d7e44bc9cce15654ef2d654ad8e195212a186cc8f988d29bddd9",
+    "name": "Subliminal",
+    "palette": {
+      "activeLine": "#363942",
+      "background": "#282C35",
+      "cursor": "#C7C7C7",
+      "foreground": "#D4D4D4",
+      "gutterActiveLine": "#363942",
+      "gutterBackground": "#282C35",
+      "gutterForeground": "#8F9194",
+      "invisibles": "#7F7F7F",
+      "printMargin": "#53565D",
+      "selection": "#53565D"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "gdsrosa (https://github.com/gdsrosa/subliminal-itermcolors)",
+        "author_name": "gdsrosa",
+        "author_url": "https://github.com/gdsrosa/subliminal-itermcolors",
+        "background": "#282C35",
+        "color_01": "#7F7F7F",
+        "color_02": "#E15A60",
+        "color_03": "#A9CFA4",
+        "color_04": "#FFE2A9",
+        "color_05": "#6699CC",
+        "color_06": "#F1A5AB",
+        "color_07": "#5FB3B3",
+        "color_08": "#D4D4D4",
+        "color_09": "#7F7F7F",
+        "color_10": "#E15A60",
+        "color_11": "#A9CFA4",
+        "color_12": "#FFE2A9",
+        "color_13": "#6699CC",
+        "color_14": "#F1A5AB",
+        "color_15": "#5FB3B3",
+        "color_16": "#D4D4D4",
+        "cursor": "#C7C7C7",
+        "foreground": "#D4D4D4",
+        "hash": "3861f3c1bc40000a13f8f2bfdb559b8f2381332a95640658a451423169396994",
+        "hash_bg": "d559de09e2fc22a616ffeb877d935911927e752e6180e4d9eccd86307e068f53",
+        "name": "Subliminal",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0739f5c08f89d7e44bc9cce15654ef2d654ad8e195212a186cc8f988d29bddd9",
+    "syntax": {
+      "comment": "#8F9194",
+      "constant": "#5FB3B3",
+      "function": "#6699CC",
+      "invalid": "#E15A60",
+      "keyword": "#F1A5AB",
+      "number": "#5FB3B3",
+      "operator": "#D4D4D4",
+      "string": "#A9CFA4",
+      "type": "#FFE2A9",
+      "variable": "#D4D4D4"
+    }
+  }
+}

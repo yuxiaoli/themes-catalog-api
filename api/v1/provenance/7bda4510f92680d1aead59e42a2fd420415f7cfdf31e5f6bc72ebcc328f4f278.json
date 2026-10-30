@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "f9e242947b41366770948d4b07ba5207735eb24af36cdb836b9a23a41b3264c1",
+  "text": "# Gruvbox Material for Helix\n# Original Author: @sainnhe (https://github.com/sainnhe/gruvbox-material)\n# Ported by: @satoqz\n# License: MIT\n\ninherits = \"gruvbox_material_dark_medium\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/gruvbox-material.toml"
+}

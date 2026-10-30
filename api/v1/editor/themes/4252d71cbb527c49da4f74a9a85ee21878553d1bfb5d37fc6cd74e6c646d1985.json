@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.2435
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4321
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0792
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0765
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 11.1028
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0765
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1098
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6973
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.985
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6984
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4225
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4225
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.2435
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.2435
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1323
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "575e6ceb1888d70082fbfecf1b71c3a086557577adf46b936e143d741b9592ec",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/f08c83b98df7f42091d9e5b906ff91a39921edfd261b010bd2eb57a38729e71f",
+    "name": "Dimidium",
+    "palette": {
+      "activeLine": "#212121",
+      "background": "#141414",
+      "cursor": "#37E57B",
+      "foreground": "#BAB7B6",
+      "gutterActiveLine": "#212121",
+      "gutterBackground": "#141414",
+      "gutterForeground": "#787675",
+      "invisibles": "#817E7E",
+      "printMargin": "#3E3D3D",
+      "selection": "#3E3D3D"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "dofuuz (https://github.com/dofuuz/dimidium)",
+        "author_name": "dofuuz",
+        "author_url": "https://github.com/dofuuz/dimidium",
+        "background": "#141414",
+        "color_01": "#000000",
+        "color_02": "#CF494C",
+        "color_03": "#60B442",
+        "color_04": "#DB9C11",
+        "color_05": "#0575D8",
+        "color_06": "#AF5ED2",
+        "color_07": "#1DB6BB",
+        "color_08": "#BAB7B6",
+        "color_09": "#817E7E",
+        "color_10": "#FF643B",
+        "color_11": "#37E57B",
+        "color_12": "#FCCD1A",
+        "color_13": "#688DFD",
+        "color_14": "#ED6FE9",
+        "color_15": "#32E0FB",
+        "color_16": "#DEE3E4",
+        "cursor": "#37E57B",
+        "foreground": "#BAB7B6",
+        "hash": "85db1d82358c44fe5ddb02bc337907cacfa72e71566b5735b645b7deb67710c7",
+        "hash_bg": "a082ae38274c70fbe0d4b8361d54889303a2dabb6301b4642e76b8b8fb8f033a",
+        "name": "Dimidium",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f08c83b98df7f42091d9e5b906ff91a39921edfd261b010bd2eb57a38729e71f",
+    "syntax": {
+      "comment": "#787675",
+      "constant": "#1DB6BB",
+      "function": "#0575D8",
+      "invalid": "#CF494C",
+      "keyword": "#AF5ED2",
+      "number": "#1DB6BB",
+      "operator": "#BAB7B6",
+      "string": "#60B442",
+      "type": "#DB9C11",
+      "variable": "#BAB7B6"
+    }
+  }
+}

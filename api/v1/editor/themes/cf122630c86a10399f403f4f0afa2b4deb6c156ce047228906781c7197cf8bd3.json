@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.2675
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5136
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6488
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5306
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.2675
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5306
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7678
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9941
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5293
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1414
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7802
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7802
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.2675
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.2675
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3501
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "a846b229f854980fa5a598e393bf110204feac33ef58b9b6af0795289935e27d",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/252e8ffb5590e523e31a8b95f4a41232b259144d0e312a48a9d98e0490443083",
+    "name": "Chinoiserie Night",
+    "palette": {
+      "activeLine": "#2A2B2B",
+      "background": "#1D1D1D",
+      "cursor": "#C4CBCF",
+      "foreground": "#C4CBCF",
+      "gutterActiveLine": "#2A2B2B",
+      "gutterBackground": "#1D1D1D",
+      "gutterForeground": "#818588",
+      "invisibles": "#918072",
+      "printMargin": "#47494A",
+      "selection": "#47494A"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Di Wang (https://cs.cmu.edu/~diw3)",
+        "author_name": "Di Wang",
+        "author_url": "https://cs.cmu.edu/~diw3",
+        "background": "#1D1D1D",
+        "color_01": "#1D1D1D",
+        "color_02": "#F07C82",
+        "color_03": "#B2CF87",
+        "color_04": "#F4CE69",
+        "color_05": "#8FB2C9",
+        "color_06": "#BE9DB9",
+        "color_07": "#B0D5DF",
+        "color_08": "#C4CBCF",
+        "color_09": "#918072",
+        "color_10": "#F07C82",
+        "color_11": "#B2CF87",
+        "color_12": "#F4CE69",
+        "color_13": "#8FB2C9",
+        "color_14": "#BE9DB9",
+        "color_15": "#B0D5DF",
+        "color_16": "#FFFEF9",
+        "cursor": "#C4CBCF",
+        "foreground": "#C4CBCF",
+        "hash": "ea2d8e6bf09eeff69828fa29b81843bddac9071240a567793d350af120c3d86c",
+        "hash_bg": "8a8b3014d41f919506a5f4d8263348f42298d9033ddb990d5f335041167a6270",
+        "name": "Chinoiserie Night",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "252e8ffb5590e523e31a8b95f4a41232b259144d0e312a48a9d98e0490443083",
+    "syntax": {
+      "comment": "#818588",
+      "constant": "#B0D5DF",
+      "function": "#8FB2C9",
+      "invalid": "#F07C82",
+      "keyword": "#BE9DB9",
+      "number": "#B0D5DF",
+      "operator": "#C4CBCF",
+      "string": "#B2CF87",
+      "type": "#F4CE69",
+      "variable": "#C4CBCF"
+    }
+  }
+}

@@ -1,0 +1,415 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix-cptpotato/everforest_dark_hc",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "everforest_dark_hc",
+    "originals": [
+      "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/schemes/everforest",
+      "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/everforest/dark_hc"
+    ],
+    "palette": {
+      "aqua": "#7CC68E",
+      "bg0": "#1D2329",
+      "bg1": "#232B30",
+      "bg2": "#2B353A",
+      "bg3": "#323E44",
+      "bg4": "#3A474B",
+      "bg5": "#435150",
+      "bg_blue": "#293E4B",
+      "bg_green": "#2F3C33",
+      "bg_red": "#3D2D32",
+      "bg_visual": "#3F2935",
+      "bg_yellow": "#39382F",
+      "black": "terminal:black",
+      "blue": "#77C1B7",
+      "cyan": "terminal:cyan",
+      "default": "terminal:default",
+      "fg": "#DBCDAC",
+      "gray": "terminal:gray",
+      "green": "#A9C678",
+      "grey0": "#6B7974",
+      "grey1": "#849489",
+      "grey2": "#9CABA0",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "terminal:magenta",
+      "orange": "#EC966A",
+      "purple": "#DE97BB",
+      "red": "#EC7678",
+      "white": "terminal:white",
+      "yellow": "#E3C277"
+    },
+    "provenance": {
+      "paths": [
+        "schemes/everforest",
+        "palettes/everforest/dark_hc"
+      ],
+      "repository": "CptPotato/helix-themes",
+      "revision": "3ac754a3f34984c7596f888ad2796e57eb8b6367"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/864c6ca5e369b21d776259d4fab7d314b04dd8d86ac46f8254e58fcf79c4590a.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/0e12fecb17973f580973e681a4f23a58c4bcead8fc92b00c3fa48b301ff5b13a.json",
+        "api/v1/provenance/bd909ef8ba6e78a5a8723b3c25f3e12753b859d4a2c1104e33931d6460738a77.json"
+      ],
+      "source_revision": "3ac754a3f34984c7596f888ad2796e57eb8b6367",
+      "source_url": "https://github.com/CptPotato/helix-themes"
+    },
+    "source_id": "helix-cptpotato",
+    "source_theme_id": "everforest_dark_hc",
+    "styles": {
+      "attribute": {
+        "fg": "#7CC68E"
+      },
+      "comment": {
+        "fg": "#6B7974"
+      },
+      "constant": {
+        "fg": "#DE97BB"
+      },
+      "constant.character.escape": {
+        "fg": "#EC966A"
+      },
+      "constant.numeric": {
+        "fg": "#DE97BB"
+      },
+      "constructor": {
+        "fg": "#E3C277"
+      },
+      "diagnostic": {
+        "underline": {
+          "style": "curl"
+        }
+      },
+      "diagnostic.error": {
+        "underline": {
+          "color": "#EC7678",
+          "style": "curl"
+        }
+      },
+      "diagnostic.hint": {
+        "underline": {
+          "color": "#77C1B7",
+          "style": "dotted"
+        }
+      },
+      "diagnostic.info": {
+        "underline": {
+          "color": "#7CC68E",
+          "style": "dotted"
+        }
+      },
+      "diagnostic.warning": {
+        "underline": {
+          "color": "#E3C277",
+          "style": "curl"
+        }
+      },
+      "diff.delta": {
+        "fg": "#EC966A"
+      },
+      "diff.minus": {
+        "fg": "#EC7678"
+      },
+      "diff.plus": {
+        "fg": "#A9C678"
+      },
+      "error": {
+        "fg": "#EC7678"
+      },
+      "function": {
+        "fg": "#A9C678"
+      },
+      "function.builtin": {
+        "fg": "#77C1B7"
+      },
+      "function.macro": {
+        "fg": "#7CC68E"
+      },
+      "hint": {
+        "fg": "#77C1B7"
+      },
+      "info": {
+        "fg": "#7CC68E"
+      },
+      "keyword": {
+        "fg": "#EC7678"
+      },
+      "keyword.directive": {
+        "fg": "#7CC68E"
+      },
+      "label": {
+        "fg": "#7CC68E"
+      },
+      "markup.bold": {
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.1": {
+        "fg": "#EC7678",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.2": {
+        "fg": "#EC966A",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.3": {
+        "fg": "#E3C277",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.4": {
+        "fg": "#A9C678",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.5": {
+        "fg": "#77C1B7",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.6": {
+        "fg": "#DBCDAC",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.marker": {
+        "fg": "#9CABA0"
+      },
+      "markup.italic": {
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link.text": {
+        "fg": "#DE97BB"
+      },
+      "markup.link.url": {
+        "fg": "#77C1B7",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "markup.list": {
+        "fg": "#EC7678"
+      },
+      "markup.quote": {
+        "fg": "#9CABA0"
+      },
+      "markup.raw": {
+        "fg": "#A9C678"
+      },
+      "module": {
+        "fg": "#77C1B7"
+      },
+      "namespace": {
+        "fg": "#7CC68E"
+      },
+      "operator": {
+        "fg": "#EC966A"
+      },
+      "punctuation": {
+        "fg": "#9CABA0"
+      },
+      "punctuation.bracket": {
+        "fg": "#DBCDAC"
+      },
+      "punctuation.delimiter": {
+        "fg": "#9CABA0"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "#EC966A"
+      },
+      "string": {
+        "fg": "#A9C678"
+      },
+      "string.regexp": {
+        "fg": "#77C1B7"
+      },
+      "tag": {
+        "fg": "#E3C277"
+      },
+      "type": {
+        "fg": "#E3C277"
+      },
+      "ui.background": {
+        "bg": "#1D2329"
+      },
+      "ui.background.separator": {
+        "fg": "#6B7974"
+      },
+      "ui.bufferline": {
+        "bg": "#232B30",
+        "fg": "#6B7974"
+      },
+      "ui.bufferline.active": {
+        "bg": "#323E44",
+        "fg": "#DBCDAC",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.cursor": {
+        "bg": "#DBCDAC",
+        "fg": "#1D2329"
+      },
+      "ui.cursor.insert": {
+        "bg": "#849489",
+        "fg": "#1D2329"
+      },
+      "ui.cursor.match": {
+        "bg": "#39382F",
+        "fg": "#EC966A"
+      },
+      "ui.cursor.select": {
+        "bg": "#77C1B7",
+        "fg": "#1D2329"
+      },
+      "ui.cursorline.primary": {
+        "bg": "#232B30"
+      },
+      "ui.cursorline.secondary": {
+        "bg": "#232B30"
+      },
+      "ui.help": {
+        "bg": "#2B353A",
+        "fg": "#DBCDAC"
+      },
+      "ui.linenr": {
+        "fg": "#6B7974"
+      },
+      "ui.linenr.selected": {
+        "fg": "#DBCDAC"
+      },
+      "ui.menu": {
+        "bg": "#323E44",
+        "fg": "#DBCDAC"
+      },
+      "ui.menu.selected": {
+        "bg": "#A9C678",
+        "fg": "#1D2329"
+      },
+      "ui.popup": {
+        "bg": "#2B353A",
+        "fg": "#9CABA0"
+      },
+      "ui.selection": {
+        "bg": "#323E44"
+      },
+      "ui.statusline": {
+        "bg": "#323E44",
+        "fg": "#9CABA0"
+      },
+      "ui.statusline.inactive": {
+        "bg": "#232B30",
+        "fg": "#6B7974"
+      },
+      "ui.statusline.insert": {
+        "bg": "#E3C277",
+        "fg": "#1D2329",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.statusline.normal": {
+        "bg": "#9CABA0",
+        "fg": "#1D2329",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.statusline.select": {
+        "bg": "#77C1B7",
+        "fg": "#1D2329",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.text": {
+        "fg": "#DBCDAC"
+      },
+      "ui.text.focus": {
+        "fg": "#DBCDAC"
+      },
+      "ui.virtual.indent-guide": {
+        "fg": "#3A474B"
+      },
+      "ui.virtual.inlay-hint": {
+        "fg": "#6B7974"
+      },
+      "ui.virtual.ruler": {
+        "bg": "#323E44"
+      },
+      "ui.virtual.whitespace": {
+        "fg": "#3A474B"
+      },
+      "ui.window": {
+        "bg": "#1D2329",
+        "fg": "#6B7974"
+      },
+      "variable": {
+        "fg": "#DBCDAC"
+      },
+      "variable.builtin": {
+        "fg": "#77C1B7"
+      },
+      "variable.other.member": {
+        "fg": "#DBCDAC"
+      },
+      "variable.parameter": {
+        "fg": "#DBCDAC"
+      },
+      "warning": {
+        "fg": "#E3C277"
+      }
+    },
+    "warnings": []
+  }
+}

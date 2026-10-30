@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4585
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.063
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.163
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.433
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.4585
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.433
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6728
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.641
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6689
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6381
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.8458
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.8458
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4585
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4585
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6467
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "bcaaf43b0d67c58df88d336e809f69588963a64eeb5bfbfa7f94acc452da71d8",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/97964b763d683c43349a6c65fec6a383cd194f5a12814424c7e9fc13e5711539",
+    "name": "Qualia",
+    "palette": {
+      "activeLine": "#1E1E1E",
+      "background": "#101010",
+      "cursor": "#C0C0C0",
+      "foreground": "#C0C0C0",
+      "gutterActiveLine": "#1E1E1E",
+      "gutterBackground": "#101010",
+      "gutterForeground": "#7A7A7A",
+      "invisibles": "#454545",
+      "printMargin": "#3C3C3C",
+      "selection": "#3C3C3C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "isaacwhanson",
+        "author_name": "isaacwhanson",
+        "author_url": "",
+        "background": "#101010",
+        "color_01": "#101010",
+        "color_02": "#EFA6A2",
+        "color_03": "#80C990",
+        "color_04": "#E6A3DC",
+        "color_05": "#50CACD",
+        "color_06": "#E0AF85",
+        "color_07": "#C8C874",
+        "color_08": "#C0C0C0",
+        "color_09": "#454545",
+        "color_10": "#EFA6A2",
+        "color_11": "#80C990",
+        "color_12": "#E6A3DC",
+        "color_13": "#50CACD",
+        "color_14": "#E0AF85",
+        "color_15": "#C8C874",
+        "color_16": "#454545",
+        "cursor": "#C0C0C0",
+        "foreground": "#C0C0C0",
+        "hash": "1de372b1238a2566d08f8230c0c02fc5b0394bd9823a64f465b03b277501459d",
+        "hash_bg": "7425a82693ba3f69f6e8f7a6749ed63780bfe503f91a64de917aafb09f351f26",
+        "name": "Qualia",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "97964b763d683c43349a6c65fec6a383cd194f5a12814424c7e9fc13e5711539",
+    "syntax": {
+      "comment": "#7A7A7A",
+      "constant": "#C8C874",
+      "function": "#50CACD",
+      "invalid": "#EFA6A2",
+      "keyword": "#E0AF85",
+      "number": "#C8C874",
+      "operator": "#C0C0C0",
+      "string": "#80C990",
+      "type": "#E6A3DC",
+      "variable": "#C0C0C0"
+    }
+  }
+}

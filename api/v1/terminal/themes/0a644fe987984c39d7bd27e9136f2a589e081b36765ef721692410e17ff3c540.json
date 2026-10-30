@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/1ac04482d9a9d47f52536de6df769b7417c8e4318f278434e6bbbb2a0475302a",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "School Boy Mono",
+    "original": {
+      "author": "BrokenSideViewMirror (https://github.com/BrokenSideViewMirror)",
+      "author_name": "BrokenSideViewMirror",
+      "author_url": "https://github.com/BrokenSideViewMirror",
+      "background": "#0B230A",
+      "color_01": "#174715",
+      "color_02": "#BFBFBF",
+      "color_03": "#BFBFBF",
+      "color_04": "#BFBFBF",
+      "color_05": "#BFBFBF",
+      "color_06": "#BFBFBF",
+      "color_07": "#BFBFBF",
+      "color_08": "#BFBFBF",
+      "color_09": "#21631E",
+      "color_10": "#DDDDDD",
+      "color_11": "#DDDDDD",
+      "color_12": "#DDDDDD",
+      "color_13": "#DDDDDD",
+      "color_14": "#DDDDDD",
+      "color_15": "#DDDDDD",
+      "color_16": "#DDDDDD",
+      "cursor": "#BFBFBF",
+      "foreground": "#BFBFBF",
+      "hash": "6d6dbd470fb782f2f50741c9bed3fe5cc91d882d3a52ccbfd20b9d6bfbcbfb65",
+      "hash_bg": "2b8466b102e82536051ee6371faaec1556ac59ac54446450cd0d30995dfcc5e9",
+      "name": "School Boy Mono",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#BFBFBF",
+      "ansi": [
+        "#174715",
+        "#BFBFBF",
+        "#BFBFBF",
+        "#BFBFBF",
+        "#BFBFBF",
+        "#BFBFBF",
+        "#BFBFBF",
+        "#BFBFBF",
+        "#21631E",
+        "#DDDDDD",
+        "#DDDDDD",
+        "#DDDDDD",
+        "#DDDDDD",
+        "#DDDDDD",
+        "#DDDDDD",
+        "#DDDDDD"
+      ],
+      "background": "#0B230A",
+      "cursor": "#BFBFBF",
+      "foreground": "#BFBFBF"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "1ac04482d9a9d47f52536de6df769b7417c8e4318f278434e6bbbb2a0475302a",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "1ac04482d9a9d47f52536de6df769b7417c8e4318f278434e6bbbb2a0475302a"
+  }
+}

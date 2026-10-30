@@ -1,0 +1,235 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5705
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2452
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1345
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4757
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 4.5705
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4757
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9419
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2863
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4567
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5556
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0792
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0792
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5705
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5705
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8127
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "bb51b919c573dcb8dbea8cfcbec85bef451d9e2705058b68b58e456abf7381a0",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/1f23f538a25254ceba12882a46d17dae8740d02e0364efd0ce67be8d5c663bb8",
+    "name": "Atelier Savanna",
+    "palette": {
+      "activeLine": "#1F2521",
+      "background": "#171C19",
+      "cursor": "#78877D",
+      "foreground": "#78877D",
+      "gutterActiveLine": "#1F2521",
+      "gutterBackground": "#171C19",
+      "gutterForeground": "#515C55",
+      "invisibles": "#5F6D64",
+      "printMargin": "#2F3732",
+      "selection": "#2F3732"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna)",
+        "author_name": "Bram de Haan",
+        "author_url": "http://atelierbram.github.io/syntax-highlighting/atelier-schemes/savanna",
+        "background": "#171C19",
+        "color_01": "#171C19",
+        "color_02": "#B16139",
+        "color_03": "#489963",
+        "color_04": "#A07E3B",
+        "color_05": "#478C90",
+        "color_06": "#55859B",
+        "color_07": "#1C9AA0",
+        "color_08": "#87928A",
+        "color_09": "#5F6D64",
+        "color_10": "#9F713C",
+        "color_11": "#489963",
+        "color_12": "#A07E3B",
+        "color_13": "#478C90",
+        "color_14": "#55859B",
+        "color_15": "#1C9AA0",
+        "color_16": "#ECF4EE",
+        "cursor": "#78877D",
+        "foreground": "#78877D",
+        "hash": "69a27c177a36dc970be443faae2cf5b6c57817a993bffb9d87e325a944aeccee",
+        "hash_bg": "9cfeb7f018abbd7310d393b6a81c1ea48bdccb1ca11dc3ab686fddce53be7245",
+        "name": "Atelier Savanna",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "1f23f538a25254ceba12882a46d17dae8740d02e0364efd0ce67be8d5c663bb8",
+    "syntax": {
+      "comment": "#515C55",
+      "constant": "#1C9AA0",
+      "function": "#478C90",
+      "invalid": "#B16139",
+      "keyword": "#55859B",
+      "number": "#1C9AA0",
+      "operator": "#78877D",
+      "string": "#489963",
+      "type": "#A07E3B",
+      "variable": "#78877D"
+    }
+  }
+}

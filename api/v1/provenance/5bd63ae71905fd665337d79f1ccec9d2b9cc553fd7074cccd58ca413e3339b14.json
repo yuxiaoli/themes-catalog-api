@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "105edfe1daa3f61be8bf6f0b6f74a7f7b758674e45b6a082179e061d1000516a",
+  "text": "exports.isDark = false;\nexports.cssText = require(\"./crimson_editor-css\");\n\nexports.cssClass = \"ace-crimson-editor\";\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/crimson_editor.js"
+}

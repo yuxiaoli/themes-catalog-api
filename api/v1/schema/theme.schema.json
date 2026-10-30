@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "api_version": {
+      "const": "1"
+    },
+    "category": {
+      "enum": [
+        "editor",
+        "terminal"
+      ]
+    },
+    "theme": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "source_id": {
+          "type": "string"
+        },
+        "source_theme_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "source_id",
+        "source_theme_id",
+        "palette",
+        "publication"
+      ],
+      "type": "object"
+    }
+  },
+  "required": [
+    "api_version",
+    "category",
+    "theme"
+  ],
+  "type": "object"
+}

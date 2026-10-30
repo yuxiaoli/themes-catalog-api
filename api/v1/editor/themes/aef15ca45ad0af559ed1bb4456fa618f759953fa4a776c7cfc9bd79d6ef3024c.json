@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3572
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6682
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0542
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9609
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.3572
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9609
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.3888
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1356
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.5448
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.3148
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4913
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4913
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3572
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3572
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0511
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "ebf983cb3babe298da802f83c8bdbc4f80fb73359cbe0f25700c7ed928afe4f2",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/16b1b5abc1bcdd8d2f93d4f0874a5d3a8fe6ad545c809239c926c0ab54db723c",
+    "name": "Ultra Violent",
+    "palette": {
+      "activeLine": "#313334",
+      "background": "#242728",
+      "cursor": "#C1C1C1",
+      "foreground": "#C1C1C1",
+      "gutterActiveLine": "#313334",
+      "gutterBackground": "#242728",
+      "gutterForeground": "#828384",
+      "invisibles": "#636667",
+      "printMargin": "#4B4E4E",
+      "selection": "#4B4E4E"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#242728",
+        "color_01": "#242728",
+        "color_02": "#FF0090",
+        "color_03": "#B6FF00",
+        "color_04": "#FFF727",
+        "color_05": "#47E0FB",
+        "color_06": "#D731FF",
+        "color_07": "#0EFFBB",
+        "color_08": "#E1E1E1",
+        "color_09": "#636667",
+        "color_10": "#FB58B4",
+        "color_11": "#DEFF8C",
+        "color_12": "#EBE087",
+        "color_13": "#7FECFF",
+        "color_14": "#E681FF",
+        "color_15": "#69FCD3",
+        "color_16": "#F9F9F5",
+        "cursor": "#C1C1C1",
+        "foreground": "#C1C1C1",
+        "hash": "1a9ee2d72891920325035fd2a99b9a6410a47a66af38670d2b598de7a7d2d01e",
+        "hash_bg": "c33b635810a2f7b93ed967623c91552a3222f33b1de44493acb71a5b5210f0ad",
+        "name": "Ultra Violent",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "16b1b5abc1bcdd8d2f93d4f0874a5d3a8fe6ad545c809239c926c0ab54db723c",
+    "syntax": {
+      "comment": "#828384",
+      "constant": "#0EFFBB",
+      "function": "#47E0FB",
+      "invalid": "#FF0090",
+      "keyword": "#D731FF",
+      "number": "#0EFFBB",
+      "operator": "#C1C1C1",
+      "string": "#B6FF00",
+      "type": "#FFF727",
+      "variable": "#C1C1C1"
+    }
+  }
+}

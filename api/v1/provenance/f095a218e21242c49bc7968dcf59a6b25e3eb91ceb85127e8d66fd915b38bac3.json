@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "d97d4c94d24cab4e1b46138e1c9db07f4817f886dd8ad6cf16a4ab32c281799e",
+  "text": "# Seoul256 Light Hard\n# Author : EricHenry\n# Original Creator: https://github.com/junegunn/seoul256.vim\n\ninherits = \"seoul256-light\"\n\n\"ui.background\" = { bg = \"gray11\" }\n\"ui.cursor.match\" = { bg = \"gray10\", modifiers = [\"underlined\"] }\n\"ui.gutter\" = { bg = \"white1\" }\n\"ui.cursorline.primary\" = { bg = \"gray12\" }\n\"ui.gutter.selected\" = { bg = \"gray12\" }\n\"ui.linenr.selected\" = { bg = \"gray12\", fg = \"magenta\", modifiers = [\"bold\"] }\n\n\"ui.help\" = { fg = \"black1\", bg = \"gray12\" }\n\"ui.popup\" = { fg = \"black1\", bg = \"gray12\" }\n\"ui.menu\" = { fg = \"black1\", bg = \"gray12\" }\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/seoul256-light-hard.toml"
+}

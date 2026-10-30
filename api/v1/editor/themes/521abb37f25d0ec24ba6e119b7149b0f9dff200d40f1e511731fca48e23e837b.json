@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0584
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3833
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.692
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9941
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.9099
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9941
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0971
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5195
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.336
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6209
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4145
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4145
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0584
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0584
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6467
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "cc6a40c22098ecec34cba66af0d328f439aa638cb31c38547493c213443ebc40",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/6fb0b022e89cda14f19b1a8ca7f2c59f7f8cf05a61f5121d0f40e0b451a0f1d2",
+    "name": "Catppuccin Frappe",
+    "palette": {
+      "activeLine": "#3C4054",
+      "background": "#303446",
+      "cursor": "#F2D5CF",
+      "foreground": "#C6D0F5",
+      "gutterActiveLine": "#3C4054",
+      "gutterBackground": "#303446",
+      "gutterForeground": "#8A92AF",
+      "invisibles": "#626880",
+      "printMargin": "#565B72",
+      "selection": "#565B72"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Catppuccin (https://github.com/catppuccin)",
+        "author_name": "Catppuccin",
+        "author_url": "https://github.com/catppuccin",
+        "background": "#303446",
+        "color_01": "#51576D",
+        "color_02": "#E78284",
+        "color_03": "#A6D189",
+        "color_04": "#E5C890",
+        "color_05": "#8CAAEE",
+        "color_06": "#F4B8E4",
+        "color_07": "#81C8BE",
+        "color_08": "#A5ADCE",
+        "color_09": "#626880",
+        "color_10": "#E67172",
+        "color_11": "#8EC772",
+        "color_12": "#D9BA73",
+        "color_13": "#7B9EF0",
+        "color_14": "#F2A4DB",
+        "color_15": "#5ABFB5",
+        "color_16": "#B5BFE2",
+        "cursor": "#F2D5CF",
+        "foreground": "#C6D0F5",
+        "hash": "8c5ac4a0366e8e373fe0d32cfc299bfb53dbb331e1feca0f5e9f0022589695dc",
+        "hash_bg": "10fde7301a954b4e59536550bbd0ca65a690dd53057be237844848a1bab61a58",
+        "name": "Catppuccin Frappe",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "6fb0b022e89cda14f19b1a8ca7f2c59f7f8cf05a61f5121d0f40e0b451a0f1d2",
+    "syntax": {
+      "comment": "#8A92AF",
+      "constant": "#81C8BE",
+      "function": "#8CAAEE",
+      "invalid": "#E78284",
+      "keyword": "#F4B8E4",
+      "number": "#81C8BE",
+      "operator": "#C6D0F5",
+      "string": "#A6D189",
+      "type": "#E5C890",
+      "variable": "#C6D0F5"
+    }
+  }
+}

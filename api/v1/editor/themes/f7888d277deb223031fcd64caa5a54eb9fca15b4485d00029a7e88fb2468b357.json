@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.729
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8704
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.1797
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.622
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.729
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.622
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9732
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1337
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.8672
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.617
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.822
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.822
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.729
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.729
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1882
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "87e693250006139cd56026a8d21c9a1f285b8eeb3e377b78195f03512019d5fa",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/e659e5507d63581792a40616c4bf75cc5bb340c9c651808bb2503ab18e6d990f",
+    "name": "Kanso Ink",
+    "palette": {
+      "activeLine": "#22252B",
+      "background": "#14171D",
+      "cursor": "#C5C9C7",
+      "foreground": "#C5C9C7",
+      "gutterActiveLine": "#22252B",
+      "gutterBackground": "#14171D",
+      "gutterForeground": "#7E8283",
+      "invisibles": "#A4A7A4",
+      "printMargin": "#404448",
+      "selection": "#404448"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "webhooked (https://github.com/webhooked)",
+        "author_name": "webhooked",
+        "author_url": "https://github.com/webhooked",
+        "background": "#14171D",
+        "color_01": "#14171D",
+        "color_02": "#C4746E",
+        "color_03": "#8A9A7B",
+        "color_04": "#C4B28A",
+        "color_05": "#8BA4B0",
+        "color_06": "#A292A3",
+        "color_07": "#8EA4A2",
+        "color_08": "#C8C093",
+        "color_09": "#A4A7A4",
+        "color_10": "#E46876",
+        "color_11": "#87A987",
+        "color_12": "#E6C384",
+        "color_13": "#7FB4CA",
+        "color_14": "#938AA9",
+        "color_15": "#7AA89F",
+        "color_16": "#C5C9C7",
+        "cursor": "#C5C9C7",
+        "foreground": "#C5C9C7",
+        "hash": "05957d0ffd4aebe6c7856efb2a09106414522971204cca0893d5ae0e4d2d618a",
+        "hash_bg": "caf1a1c2574f3f343afd26538fee5c7fb44a332f4d75ca80be7b43e7381fa6ea",
+        "name": "Kanso Ink",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "e659e5507d63581792a40616c4bf75cc5bb340c9c651808bb2503ab18e6d990f",
+    "syntax": {
+      "comment": "#7E8283",
+      "constant": "#8EA4A2",
+      "function": "#8BA4B0",
+      "invalid": "#C4746E",
+      "keyword": "#A292A3",
+      "number": "#8EA4A2",
+      "operator": "#C5C9C7",
+      "string": "#8A9A7B",
+      "type": "#C4B28A",
+      "variable": "#C5C9C7"
+    }
+  }
+}

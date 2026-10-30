@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.3503
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8446
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.4264
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9628
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 4.1058
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9628
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.4284
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9832
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0757
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.7097
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6316
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6316
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.3503
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.3503
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3343
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "804ce1b706b5471727026bbc4cc9ecd8d997f52f808f0f3dff90a3654eaaf6c1",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/9d7206f932647d41d11c2b623655e68b97f9db3baad1fb12885c0dbe27591ba8",
+    "name": "Flatland",
+    "palette": {
+      "activeLine": "#292E31",
+      "background": "#1D1F21",
+      "cursor": "#708284",
+      "foreground": "#B8DBEF",
+      "gutterActiveLine": "#292E31",
+      "gutterBackground": "#1D1F21",
+      "gutterForeground": "#7A909D",
+      "invisibles": "#1D1D19",
+      "printMargin": "#444E55",
+      "selection": "#444E55"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "realchaseadams (http://www.snip2code.com/Snippet/148193/Flatland-color-scheme-for-iTerm2)",
+        "author_name": "realchaseadams",
+        "author_url": "http://www.snip2code.com/Snippet/148193/Flatland-color-scheme-for-iTerm2",
+        "background": "#1D1F21",
+        "color_01": "#1D1D19",
+        "color_02": "#F18339",
+        "color_03": "#9FD364",
+        "color_04": "#F4EF6D",
+        "color_05": "#5096BE",
+        "color_06": "#695ABC",
+        "color_07": "#D63865",
+        "color_08": "#FFFFFF",
+        "color_09": "#1D1D19",
+        "color_10": "#D22A24",
+        "color_11": "#A7D42C",
+        "color_12": "#FF8949",
+        "color_13": "#61B9D0",
+        "color_14": "#695ABC",
+        "color_15": "#D63865",
+        "color_16": "#FFFFFF",
+        "cursor": "#708284",
+        "foreground": "#B8DBEF",
+        "hash": "efaf2a676657d28be11d4a5768e7c74cc22f6f90cab20fe14ad01c3493dd8adc",
+        "hash_bg": "b29be55305e889dfa52c0fdc29cb9d5890cbdb807f6df267afdb97c14fe82ecc",
+        "name": "Flatland",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "9d7206f932647d41d11c2b623655e68b97f9db3baad1fb12885c0dbe27591ba8",
+    "syntax": {
+      "comment": "#7A909D",
+      "constant": "#D63865",
+      "function": "#5096BE",
+      "invalid": "#F18339",
+      "keyword": "#695ABC",
+      "number": "#D63865",
+      "operator": "#B8DBEF",
+      "string": "#9FD364",
+      "type": "#F4EF6D",
+      "variable": "#B8DBEF"
+    }
+  }
+}

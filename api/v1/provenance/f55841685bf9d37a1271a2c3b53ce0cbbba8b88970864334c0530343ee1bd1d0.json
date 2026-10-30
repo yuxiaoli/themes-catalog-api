@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "3f3cfa374fa6b17c2d6c5db7c3a5de1c777d0a106c6eadad140d3977a4fc961a",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-tomorrow-night\";\nexports.cssText = require(\"./tomorrow_night-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/tomorrow_night.js"
+}

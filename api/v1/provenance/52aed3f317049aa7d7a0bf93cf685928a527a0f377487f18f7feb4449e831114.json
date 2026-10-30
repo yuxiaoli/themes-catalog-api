@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "9f4d43375b61383d6b3e10880b1e2a3f6fc3a14851f99129be2a7b491ef4d588",
+  "text": "# Author: Paul Graydon <untimely.creation97@proton.me>\n\ninherits = \"tokyonight\"\n\n[palette]\nborder = \"#1d202f\"\nbg = \"#24283b\"\nbg-inlay = \"#233745\"\nbg-selection = \"#373d5a\"\nbg-menu = \"#1f2335\"\nbg-focus = \"#2e3c64\"\nborder-highlight = \"#29a4bd\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/tokyonight_storm.toml"
+}

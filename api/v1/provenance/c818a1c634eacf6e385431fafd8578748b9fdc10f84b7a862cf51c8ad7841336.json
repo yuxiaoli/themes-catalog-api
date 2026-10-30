@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "0646b07c6bd54ff1a577bda3a19aa7b6920a7a32439ad4359ef91e65d7df7ff6",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-github-light-default\";\nexports.cssText = require(\"./github_light_default-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/github_light_default.js"
+}

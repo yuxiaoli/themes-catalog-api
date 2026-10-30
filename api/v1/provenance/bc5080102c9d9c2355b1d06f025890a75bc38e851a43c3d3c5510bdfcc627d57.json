@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "bba9208fc4b2e5c4be2263d0214290479199acd0e6a56b908f4317073e97e4e7",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-github-dark\";\nexports.cssText = require(\"./github_dark-css\");\n\n    var dom = require(\"../lib/dom\");\n    dom.importCssString(exports.cssText, exports.cssClass, false);\n\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/github_dark.js"
+}

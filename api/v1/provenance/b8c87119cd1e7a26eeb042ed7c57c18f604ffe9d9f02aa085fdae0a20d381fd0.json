@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "b170c0b956a36ed84c63ff17a1c9cc7e1e5a4974646c86ded31ae7e9584ebb8b",
+  "text": "black = \"#181819\"\nbg0 = \"#2c2e34\"\nbg1 = \"#33353f\"\nbg2 = \"#363944\"\nbg3 = \"#3b3e48\"\nbg4 = \"#414550\"\nbg_red = \"#ff6077\"\ndiff_red = \"#55393d\"\nbg_green = \"#a7df78\"\ndiff_green = \"#394634\"\nbg_blue = \"#85d3f2\"\ndiff_blue = \"#354157\"\ndiff_yellow = \"#4e432f\"\nfg = \"#e2e2e3\"\nred = \"#fc5d7c\"\norange = \"#f39660\"\nyellow = \"#e7c664\"\ngreen = \"#9ed072\"\ncyan = \"#8dd0b6\" # added for compatibility with `edge` scheme\nblue = \"#76cce0\"\npurple = \"#b39df3\"\ngrey = \"#7f8490\"\ngrey_dim = \"#595f6f\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/sonokai/default"
+}

@@ -1,0 +1,44 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-kr-theme",
+    "css_text": ".ace-kr-theme .ace_gutter {\n  background: #1c1917;\n  color: #FCFFE0\n}\n\n.ace-kr-theme .ace_print-margin {\n  width: 1px;\n  background: #1c1917\n}\n\n.ace-kr-theme {\n  background-color: #0B0A09;\n  color: #FCFFE0\n}\n\n.ace-kr-theme .ace_cursor {\n  color: #FF9900\n}\n\n.ace-kr-theme .ace_marker-layer .ace_selection {\n  background: rgba(170, 0, 255, 0.45)\n}\n\n.ace-kr-theme.ace_multiselect .ace_selection.ace_start {\n  box-shadow: 0 0 3px 0px #0B0A09;\n}\n\n.ace-kr-theme .ace_marker-layer .ace_step {\n  background: rgb(102, 82, 0)\n}\n\n.ace-kr-theme .ace_marker-layer .ace_bracket {\n  margin: -1px 0 0 -1px;\n  border: 1px solid rgba(255, 177, 111, 0.32)\n}\n\n.ace-kr-theme .ace_marker-layer .ace_active-line {\n  background: #38403D\n}\n\n.ace-kr-theme .ace_gutter-active-line {\n  background-color : #38403D\n}\n\n.ace-kr-theme .ace_marker-layer .ace_selected-word {\n  border: 1px solid rgba(170, 0, 255, 0.45)\n}\n\n.ace-kr-theme .ace_invisible {\n  color: rgba(255, 177, 111, 0.32)\n}\n\n.ace-kr-theme .ace_keyword,\n.ace-kr-theme .ace_meta {\n  color: #949C8B\n}\n\n.ace-kr-theme .ace_constant,\n.ace-kr-theme .ace_constant.ace_character,\n.ace-kr-theme .ace_constant.ace_character.ace_escape,\n.ace-kr-theme .ace_constant.ace_other {\n  color: rgba(210, 117, 24, 0.76)\n}\n\n.ace-kr-theme .ace_invalid {\n  color: #F8F8F8;\n  background-color: #A41300\n}\n\n.ace-kr-theme .ace_support {\n  color: #9FC28A\n}\n\n.ace-kr-theme .ace_support.ace_constant {\n  color: #C27E66\n}\n\n.ace-kr-theme .ace_fold {\n  background-color: #949C8B;\n  border-color: #FCFFE0\n}\n\n.ace-kr-theme .ace_support.ace_function {\n  color: #85873A\n}\n\n.ace-kr-theme .ace_storage {\n  color: #FFEE80\n}\n\n.ace-kr-theme .ace_string {\n  color: rgba(164, 161, 181, 0.8)\n}\n\n.ace-kr-theme .ace_string.ace_regexp {\n  color: rgba(125, 255, 192, 0.65)\n}\n\n.ace-kr-theme .ace_comment {\n  font-style: italic;\n  color: #706D5B\n}\n\n.ace-kr-theme .ace_variable {\n  color: #D1A796\n}\n\n.ace-kr-theme .ace_list,\n.ace-kr-theme .ace_markup.ace_list {\n  background-color: #0F0040\n}\n\n.ace-kr-theme .ace_variable.ace_language {\n  color: #FF80E1\n}\n\n.ace-kr-theme .ace_meta.ace_tag {\n  color: #BABD9C\n}\n\n.ace-kr-theme .ace_indent-guide {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYFBXV/8PAAJoAXX4kT2EAAAAAElFTkSuQmCC) right repeat-y\n}\n\n.ace-kr-theme .ace_indent-guide-active {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;\n}\n",
+    "exports": {},
+    "id": "ace/kr_theme",
+    "is_dark": true,
+    "name": "krTheme",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/kr_theme-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/kr_theme.js"
+    },
+    "palette": {
+      "activeLine": "#38403D",
+      "background": "#0B0A09",
+      "cursor": "#FF9900",
+      "foreground": "#FCFFE0",
+      "gutterActiveLine": "#38403D",
+      "gutterBackground": "#1C1917",
+      "gutterForeground": "#FCFFE0",
+      "invisibles": "#FFB16F52",
+      "printMargin": "#1C1917",
+      "selection": "#AA00FF73"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/9d539e37445a20a6213af909e1a7a1f2e461aa760ae1d3b2992638519db99e79.json",
+        "api/v1/provenance/5b35b3592741931185b248686990de8c1c9ef362e26076a85608eb1c14012984.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "kr_theme"
+  }
+}

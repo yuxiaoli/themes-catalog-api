@@ -1,0 +1,44 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-one-dark",
+    "css_text": ".ace-one-dark .ace_gutter {\n    background: #282c34;\n    color: #6a6f7a\n}\n\n.ace-one-dark .ace_print-margin {\n    width: 1px;\n    background: #e8e8e8\n}\n\n.ace-one-dark {\n    background-color: #282c34;\n    color: #abb2bf\n}\n\n.ace-one-dark .ace_cursor {\n    color: #528bff\n}\n\n.ace-one-dark .ace_marker-layer .ace_selection {\n    background: #3d4350\n}\n\n.ace-one-dark.ace_multiselect .ace_selection.ace_start {\n    box-shadow: 0 0 3px 0 #282c34;\n    border-radius: 2px\n}\n\n.ace-one-dark .ace_marker-layer .ace_step {\n    background: #c6dbae\n}\n\n.ace-one-dark .ace_marker-layer .ace_bracket {\n    margin: -1px 0 0 -1px;\n    border: 1px solid #747369\n}\n\n.ace-one-dark .ace_marker-layer .ace_active-line {\n    background: rgba(76, 87, 103, .19)\n}\n\n.ace-one-dark .ace_gutter-active-line {\n    background-color: rgba(76, 87, 103, .19)\n}\n\n.ace-one-dark .ace_marker-layer .ace_selected-word {\n    border: 1px solid #3d4350\n}\n\n.ace-one-dark .ace_fold {\n    background-color: #61afef;\n    border-color: #abb2bf\n}\n\n.ace-one-dark .ace_keyword {\n    color: #c678dd\n}\n\n.ace-one-dark .ace_keyword.ace_operator {\n    color: #c678dd\n}\n\n.ace-one-dark .ace_keyword.ace_other.ace_unit {\n    color: #d19a66\n}\n\n.ace-one-dark .ace_constant.ace_language {\n    color: #d19a66\n}\n\n.ace-one-dark .ace_constant.ace_numeric {\n    color: #d19a66\n}\n\n.ace-one-dark .ace_constant.ace_character {\n    color: #56b6c2\n}\n\n.ace-one-dark .ace_constant.ace_other {\n    color: #56b6c2\n}\n\n.ace-one-dark .ace_support.ace_function {\n    color: #61afef\n}\n\n.ace-one-dark .ace_support.ace_constant {\n    color: #d19a66\n}\n\n.ace-one-dark .ace_support.ace_class {\n    color: #e5c07b\n}\n\n.ace-one-dark .ace_support.ace_type {\n    color: #e5c07b\n}\n\n.ace-one-dark .ace_storage {\n    color: #c678dd\n}\n\n.ace-one-dark .ace_storage.ace_type {\n    color: #c678dd\n}\n\n.ace-one-dark .ace_invalid {\n    color: #fff;\n    background-color: #f2777a\n}\n\n.ace-one-dark .ace_invalid.ace_deprecated {\n    color: #272b33;\n    background-color: #d27b53\n}\n\n.ace-one-dark .ace_string {\n    color: #98c379\n}\n\n.ace-one-dark .ace_string.ace_regexp {\n    color: #e06c75\n}\n\n.ace-one-dark .ace_comment {\n    font-style: italic;\n    color: #5c6370\n}\n\n.ace-one-dark .ace_variable {\n    color: #e06c75\n}\n\n.ace-one-dark .ace_variable.ace_parameter {\n    color: #d19a66\n}\n\n.ace-one-dark .ace_meta.ace_tag {\n    color: #e06c75\n}\n\n.ace-one-dark .ace_entity.ace_other.ace_attribute-name {\n    color: #e06c75\n}\n\n.ace-one-dark .ace_entity.ace_name.ace_function {\n    color: #61afef\n}\n\n.ace-one-dark .ace_entity.ace_name.ace_tag {\n    color: #e06c75\n}\n\n.ace-one-dark .ace_markup.ace_heading {\n    color: #98c379\n}\n\n.ace-one-dark .ace_indent-guide {\n    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWPQ09NrYAgMjP4PAAtGAwchHMyAAAAAAElFTkSuQmCC) right repeat-y\n}\n\n.ace-one-dark .ace_indent-guide-active {\n    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;\n}\n",
+    "exports": {},
+    "id": "ace/one_dark",
+    "is_dark": true,
+    "name": "One Dark",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/one_dark-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/one_dark.js"
+    },
+    "palette": {
+      "activeLine": "#4C576730",
+      "background": "#282C34",
+      "cursor": "#528BFF",
+      "foreground": "#ABB2BF",
+      "gutterActiveLine": "#4C576730",
+      "gutterBackground": "#282C34",
+      "gutterForeground": "#6A6F7A",
+      "invisibles": "#ABB2BF",
+      "printMargin": "#E8E8E8",
+      "selection": "#3D4350"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/1ea64d6efd79f9c8f7588e0c3aa82d76b7c7c0def5c732f3e3cd1907072d6a0f.json",
+        "api/v1/provenance/9d3c68e0a8e7ac03363ff34212c55cce3899275ad89738e226c43c038bf9f18e.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "one_dark"
+  }
+}

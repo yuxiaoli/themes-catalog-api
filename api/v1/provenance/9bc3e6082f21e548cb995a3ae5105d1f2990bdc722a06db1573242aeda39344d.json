@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "9d511c83f403a27c4bcdf641b1f71fa4f9f2688e57f734357aa59997348d1739",
+  "text": "# name = \"Ashokai Evermoor\"\n# author = \"TeriyakiBomb\"\n# version = \"1.0.0\"\n\ninherits = \"ashokai\"\n\n[palette]\nbg0 = \"#1D2A26\"\nbg1 = \"#14332A\"\nbg2 = \"#49385D\"\nbg3 = \"#3F6457\"\nfg0 = \"#F8FFF8\"\nhelptext = \"#5E9785\"\nhelpbg = \"#0F241E\"\ngrey = \"#70697D\"\ngrey1 = \"#667E99\"\nred = \"#FF5D5D\"\nyellow = \"#FBC664\"\ngreen = \"#7AEA92\"\nblue = \"#7AC3FF\"\nblue2 = \"#4E6A97\"\nlightblue = \"#B0DDD2\"\naqua = \"#5DB1B1\"\norange = \"#FF9647\"\npurple = \"#9983D7\"\nmagenta = \"#F94786\"\npink = \"#F9518C\"\n\ndiffgreen = \"#5B7753\"\n\nline_number = \"#32403B\"\nline_number_selected = \"#5E8F81\"\ncomment = \"#6C9286\"\n\ncursor = \"#5E8F81\"\ncursorline = \"#1E302A\"\nselection = \"#214037\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/ashokai_evermoor.toml"
+}

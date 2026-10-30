@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5931
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.754
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2249
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0961
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.5931
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0961
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1429
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0891
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1429
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6949
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5635
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5635
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5931
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.5931
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2857
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "8d99af537bfe054ffc2cf3eb1c9e4a780f788914bc5e492c4f6d9de299817fdc",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/f399359971d84a51dbcb0f0319dec6193950e4bf4c40eca1e69008cc5afd34ac",
+    "name": "Gruvbox Dark Medium Forest",
+    "palette": {
+      "activeLine": "#363432",
+      "background": "#282828",
+      "cursor": "#D5C4A1",
+      "foreground": "#D5C4A1",
+      "gutterActiveLine": "#363432",
+      "gutterBackground": "#282828",
+      "gutterForeground": "#908671",
+      "invisibles": "#665C50",
+      "printMargin": "#534F46",
+      "selection": "#534F46"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Muhammad Talha (muhammadtalha.quant@gmail.com), morhetz (https://github.com/morhetz/gruvbox)",
+        "author_name": "Muhammad Talha (muhammadtalha.quant@gmail.com), morhetz",
+        "author_url": "https://github.com/morhetz/gruvbox",
+        "background": "#282828",
+        "color_01": "#282828",
+        "color_02": "#FB4934",
+        "color_03": "#B8BB26",
+        "color_04": "#FABD2F",
+        "color_05": "#B8BB26",
+        "color_06": "#96BDA2",
+        "color_07": "#5F6C1F",
+        "color_08": "#D5C4A1",
+        "color_09": "#665C50",
+        "color_10": "#FB4934",
+        "color_11": "#B8BB26",
+        "color_12": "#FABD2F",
+        "color_13": "#B8BB26",
+        "color_14": "#96BDA2",
+        "color_15": "#5F6C1F",
+        "color_16": "#FBF1C7",
+        "cursor": "#D5C4A1",
+        "foreground": "#D5C4A1",
+        "hash": "19c63d8ddf8c727d83b3a84557076ed1e9f2c2e9f521d3df48c29bc9fa88f772",
+        "hash_bg": "692dd869c8a543dbc3e3df6d35207c5a8da6c187dc276f2cf17fd31d972f5ca5",
+        "name": "Gruvbox Dark Medium Forest",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f399359971d84a51dbcb0f0319dec6193950e4bf4c40eca1e69008cc5afd34ac",
+    "syntax": {
+      "comment": "#908671",
+      "constant": "#5F6C1F",
+      "function": "#B8BB26",
+      "invalid": "#FB4934",
+      "keyword": "#96BDA2",
+      "number": "#5F6C1F",
+      "operator": "#D5C4A1",
+      "string": "#B8BB26",
+      "type": "#FABD2F",
+      "variable": "#D5C4A1"
+    }
+  }
+}

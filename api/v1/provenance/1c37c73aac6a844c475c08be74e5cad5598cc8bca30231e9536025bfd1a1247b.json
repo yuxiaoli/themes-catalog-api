@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "a889d2a1ed7bdd976bfdbd6b273a1a112db1e5f8bfb44c5c997d84e23d09f92d",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-katzenmilch\";\nexports.cssText = require(\"./katzenmilch-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/katzenmilch.js"
+}

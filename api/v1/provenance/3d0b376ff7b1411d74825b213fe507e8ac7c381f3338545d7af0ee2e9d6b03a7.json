@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "82f22882df7cee82fdb29b586de9c332b11c44e1924071e686107a7e493c9840",
+  "text": "inherits = \"flexoki_light\"\n\n[palette]\ntx = \"#CECDC3\"\ntx-2 = \"#878580\"\ntx-3 = \"#575653\"\nui-3 = \"#403E3C\"\nui-2 = \"#343331\"\nui = \"#282726\"\nbg-2 = \"#1C1B1A\"\nbg = \"#100F0F\"\n\nre = \"#D14D41\"\nor = \"#DA702C\"\nye = \"#D0A215\"\ngr = \"#879A39\"\ncy = \"#3AA99F\"\nbl = \"#4385BE\"\npu = \"#8B7EC8\"\nma = \"#CE5D97\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/flexoki_dark.toml"
+}

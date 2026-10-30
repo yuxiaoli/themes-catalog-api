@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "b10f8839e3c19aca4ce0ba26cc9c08f72b0b4a2702e7e4f262a34d2d6cf03614",
+  "text": "# name = \"Ashokai Brahn\"\n# author = \"TeriyakiBomb\"\n# version = \"1.0.0\"\n\ninherits = \"ashokai\"\n\n[palette]\nbg0 = \"#2A211D\"\nbg1 = \"#3A2C27\"\nbg2 = \"#49385D\"\nbg3 = \"#4F3D35\"\nfg0 = \"#EEE3DC\"\nhelptext = \"#976E5E\"\nhelpbg = \"#24150F\"\ngrey = \"#70697D\"\ngrey1 = \"#667E99\"\nred = \"#FF5D5D\"\nyellow = \"#FBC664\"\ngreen = \"#43BB71\"\nblue = \"#7AC3FF\"\nblue2 = \"#9D7D6C\"\nlightblue = \"#EEE3DC\"\naqua = \"#5DB1B1\"\norange = \"#FF9647\"\npurple = \"#B57CED\"\nmagenta = \"#F94786\"\npink = \"#EA7AD5\"\n\ndiffgreen = \"#5B7753\"\n\nline_number = \"#574941\"\nline_number_selected = \"#7B665B\"\ncomment = \"#6F5D53\"\n\ncursor = \"#5E8F81\"\ncursorline = \"#30241C\"\nselection = \"#442E21\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/ashokai_brahn.toml"
+}

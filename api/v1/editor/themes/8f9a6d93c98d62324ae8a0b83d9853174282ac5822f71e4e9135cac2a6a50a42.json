@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.9109
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.4508
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.5567
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3626
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.9977
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3626
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.1863
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3567
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8291
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.2944
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.0981
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.0981
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.9109
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.9109
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2446
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "54741940c72f87e69057e4a41a2b33659e2ca717592441c55606431bdd9588b4",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/f4cc23d8f32ea47bd3fe3acaca244b27b13cf4ab3ebb50f10b7e97855ae8cddb",
+    "name": "SeedFlip Ember",
+    "palette": {
+      "activeLine": "#1C1C1C",
+      "background": "#0A0A0A",
+      "cursor": "#FF6B3D",
+      "foreground": "#EDEDED",
+      "gutterActiveLine": "#1C1C1C",
+      "gutterBackground": "#0A0A0A",
+      "gutterForeground": "#929292",
+      "invisibles": "#3D3D3D",
+      "printMargin": "#434343",
+      "selection": "#434343"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#0A0A0A",
+        "color_01": "#050505",
+        "color_02": "#F04242",
+        "color_03": "#42F07C",
+        "color_04": "#F0D342",
+        "color_05": "#428BF0",
+        "color_06": "#F042F0",
+        "color_07": "#42F0F0",
+        "color_08": "#FAFAFA",
+        "color_09": "#3D3D3D",
+        "color_10": "#F58989",
+        "color_11": "#89F5AD",
+        "color_12": "#F5E389",
+        "color_13": "#89B6F5",
+        "color_14": "#F589F5",
+        "color_15": "#89F5F5",
+        "color_16": "#FFFFFF",
+        "cursor": "#FF6B3D",
+        "foreground": "#EDEDED",
+        "hash": "ac7fc214ed4efe9ad5c7019636027adb4a6656d181cac336e175c5275be7ce0b",
+        "hash_bg": "328c0ac9bcb539f8023a5d5d54c82c788f71b73d4206b2664b4e2746a669a360",
+        "name": "SeedFlip Ember",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f4cc23d8f32ea47bd3fe3acaca244b27b13cf4ab3ebb50f10b7e97855ae8cddb",
+    "syntax": {
+      "comment": "#929292",
+      "constant": "#42F0F0",
+      "function": "#428BF0",
+      "invalid": "#F04242",
+      "keyword": "#F042F0",
+      "number": "#42F0F0",
+      "operator": "#EDEDED",
+      "string": "#42F07C",
+      "type": "#F0D342",
+      "variable": "#EDEDED"
+    }
+  }
+}

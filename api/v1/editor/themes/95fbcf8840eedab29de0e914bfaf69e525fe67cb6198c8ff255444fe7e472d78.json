@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9006
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.8468
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.4363
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.616
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.9006
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.616
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.2129
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2035
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8473
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.2095
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.0763
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.0763
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9006
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9006
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2378
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "f7f1a33e98bdda4d16470d89e6597421ec62aa02b8a3e06eb688662c6376c3f1",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0f791ebca54da8ce107727b5f019c68e3487c8054587804e1d72c8a2acda0063",
+    "name": "Synth Midnight Light",
+    "palette": {
+      "activeLine": "#CFD0D1",
+      "background": "#DDDFE0",
+      "cursor": "#28292A",
+      "foreground": "#28292A",
+      "gutterActiveLine": "#CFD0D1",
+      "gutterBackground": "#DDDFE0",
+      "gutterForeground": "#707273",
+      "invisibles": "#A3A5A6",
+      "printMargin": "#B0B2B3",
+      "selection": "#B0B2B3"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Michaël Ball (http://github.com/michael-ball/)",
+        "author_name": "Michaël Ball",
+        "author_url": "http://github.com/michael-ball/",
+        "background": "#DDDFE0",
+        "color_01": "#DDDFE0",
+        "color_02": "#B53B50",
+        "color_03": "#06EA61",
+        "color_04": "#C9D364",
+        "color_05": "#03AEFF",
+        "color_06": "#EA5CE2",
+        "color_07": "#42FFF9",
+        "color_08": "#28292A",
+        "color_09": "#A3A5A6",
+        "color_10": "#B53B50",
+        "color_11": "#06EA61",
+        "color_12": "#C9D364",
+        "color_13": "#03AEFF",
+        "color_14": "#EA5CE2",
+        "color_15": "#42FFF9",
+        "color_16": "#050608",
+        "cursor": "#28292A",
+        "foreground": "#28292A",
+        "hash": "5d4a023df0a7d7dbf752d1e766798489e83190a871c6f785b58dc79fb7672cc1",
+        "hash_bg": "06716ac9dccfde169c861d68d3509d0368425e5b42bc85941bcae6a07b9fd0dd",
+        "name": "Synth Midnight Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0f791ebca54da8ce107727b5f019c68e3487c8054587804e1d72c8a2acda0063",
+    "syntax": {
+      "comment": "#707273",
+      "constant": "#42FFF9",
+      "function": "#03AEFF",
+      "invalid": "#B53B50",
+      "keyword": "#EA5CE2",
+      "number": "#42FFF9",
+      "operator": "#28292A",
+      "string": "#06EA61",
+      "type": "#C9D364",
+      "variable": "#28292A"
+    }
+  }
+}

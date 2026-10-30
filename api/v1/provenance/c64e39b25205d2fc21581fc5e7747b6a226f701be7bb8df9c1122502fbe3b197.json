@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "53f7ce70adc09bc8c2b58bd04e79312ac10ae59bd9bedcf4be776b6033fb808e",
+  "text": "# Author : Rohan Jain <crodjer@pm.me> \n# Author : Jakub Bartodziej <kubabartodziej@gmail.com>\n# The theme uses the gruvbox light palette with standard contrast: github.com/morhetz/gruvbox\n\ninherits = \"gruvbox\"\n\n\"ui.cursor.primary\" = { modifiers = [\"reversed\"] }\n\"ui.cursor.match\" = { bg = \"bg2\" }\n\"ui.cursorline\" = { bg = \"bg1\" }\n\n[palette]\nbg0 = \"#fbf1c7\" # main background\nbg1 = \"#ebdbb2\"\nbg2 = \"#d5c4a1\"\nbg3 = \"#bdae93\"\nbg4 = \"#a89984\"\n\nfg0 = \"#282828\" # main foreground\nfg1 = \"#3c3836\"\nfg2 = \"#504945\"\nfg3 = \"#665c54\"\nfg4 = \"#7c6f64\" # gray0\n\ngray0 = \"#7c6f64\"\n\nred1 = \"#9d0006\" # bright\ngreen1 = \"#79740e\"\nyellow1 = \"#b57614\"\nblue1 = \"#076678\"\npurple1 = \"#8f3f71\"\naqua1 = \"#427b58\"\norange1 = \"#af3a03\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/gruvbox_light.toml"
+}

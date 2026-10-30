@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "9068e77afbfd2eb1eb89ac4ab536723b07546d62fd93ed3224d542e50ead8ba2",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-iplastic\";\nexports.cssText = require(\"./iplastic-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/iplastic.js"
+}

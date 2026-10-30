@@ -1,0 +1,457 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/neonotte84",
+    "inheritance": [
+      "neonotte"
+    ],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "neonotte84",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/neonotte.toml",
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/neonotte84.toml"
+    ],
+    "palette": {
+      "bg": "#151520",
+      "bg_dark": "#1F212D",
+      "bg_darkest": "#08080D",
+      "bg_highlight": "#42455D",
+      "bg_inactive": "#555973",
+      "bg_surface": "#272836",
+      "black": "terminal:black",
+      "blue": "#7BB1FF",
+      "comment": "#8F97B6",
+      "comment_alt": "#647A8C",
+      "comment_dark": "#7B82A0",
+      "cursorline": "#28293E",
+      "cyan": "#65CDFB",
+      "default": "terminal:default",
+      "fg": "#CDD6F4",
+      "fg_dark": "#A2ABCC",
+      "fg_subtle": "#B5BFE3",
+      "fuchsia": "#FFC1FC",
+      "gray": "terminal:gray",
+      "green": "#9FEB99",
+      "guide": "#696E89",
+      "indigo": "#ABB7FF",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "#F578DE",
+      "orange": "#EA8743",
+      "pink_hot": "#F7C8C8",
+      "pink_light": "#F8DED9",
+      "red": "#FF7EA2",
+      "red_muted": "#F497A6",
+      "secondary_cursor": "#B7A4A7",
+      "secondary_cursor_insert": "#78AD79",
+      "secondary_cursor_normal": "#8089C7",
+      "sky_blue": "#7DE4F7",
+      "teal": "#59D2BE",
+      "white": "terminal:white",
+      "yellow": "#FFD866"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/neonotte84.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/fc1cf11ae0432ae290ffd098f68fdecc6f48f91ff7a186c82cb031fe6296abe9.json",
+        "api/v1/provenance/41198e03d51d9bc33f792d2b0cc96d9cedbf3d6d34153e36e83d5f64a6a829ae.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "neonotte84",
+    "styles": {
+      "attribute": {
+        "fg": "#7BB1FF"
+      },
+      "comment": {
+        "fg": "#647A8C",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "constant": {
+        "fg": "#EA8743"
+      },
+      "constant.builtin": {
+        "fg": "#EA8743"
+      },
+      "constant.character": {
+        "fg": "#59D2BE"
+      },
+      "constant.character.escape": {
+        "fg": "#FFC1FC"
+      },
+      "constructor": {
+        "fg": "#65CDFB"
+      },
+      "diagnostic.error": {
+        "underline": {
+          "color": "#FF7EA2",
+          "style": "curl"
+        }
+      },
+      "diagnostic.hint": {
+        "underline": {
+          "color": "#59D2BE",
+          "style": "curl"
+        }
+      },
+      "diagnostic.info": {
+        "underline": {
+          "color": "#7DE4F7",
+          "style": "curl"
+        }
+      },
+      "diagnostic.warning": {
+        "underline": {
+          "color": "#FFD866",
+          "style": "curl"
+        }
+      },
+      "diff.delta": {
+        "fg": "#7BB1FF"
+      },
+      "diff.minus": {
+        "fg": "#FF7EA2"
+      },
+      "diff.plus": {
+        "fg": "#9FEB99"
+      },
+      "error": {
+        "fg": "#FF7EA2",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "function": {
+        "fg": "#7BB1FF"
+      },
+      "function.macro": {
+        "fg": "#F578DE"
+      },
+      "hint": {
+        "fg": "#59D2BE"
+      },
+      "info": {
+        "fg": "#7DE4F7"
+      },
+      "keyword": {
+        "fg": "#F578DE"
+      },
+      "keyword.control.conditional": {
+        "fg": "#F578DE"
+      },
+      "keyword.storage.modifier.ref": {
+        "fg": "#59D2BE"
+      },
+      "label": {
+        "fg": "#65CDFB"
+      },
+      "markup.bold": {
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading.1": {
+        "fg": "#ABB7FF"
+      },
+      "markup.heading.2": {
+        "fg": "#F578DE"
+      },
+      "markup.heading.3": {
+        "fg": "#9FEB99"
+      },
+      "markup.heading.4": {
+        "fg": "#FFD866"
+      },
+      "markup.heading.5": {
+        "fg": "#FFC1FC"
+      },
+      "markup.heading.6": {
+        "fg": "#59D2BE"
+      },
+      "markup.heading.marker": {
+        "fg": "#EA8743",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.italic": {
+        "fg": "#F8DED9"
+      },
+      "markup.link.text": {
+        "fg": "#7BB1FF"
+      },
+      "markup.link.url": {
+        "fg": "#F8DED9",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "markup.list": {
+        "fg": "#F578DE"
+      },
+      "markup.raw": {
+        "fg": "#F7C8C8"
+      },
+      "markup.strikethrough": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "namespace": {
+        "fg": "#EA8743"
+      },
+      "operator": {
+        "fg": "#FF7EA2"
+      },
+      "punctuation": {
+        "fg": "#8F97B6"
+      },
+      "punctuation.bracket": {
+        "fg": "#FF7EA2"
+      },
+      "punctuation.delimiter": {
+        "fg": "#FF7EA2",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "punctuation.special": {
+        "fg": "#7DE4F7"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "#7BB1FF"
+      },
+      "string": {
+        "fg": "#9FEB99"
+      },
+      "string.regexp": {
+        "fg": "#EA8743"
+      },
+      "string.special": {
+        "fg": "#7BB1FF"
+      },
+      "tag": {
+        "fg": "#F578DE"
+      },
+      "type": {
+        "fg": "#FFD866"
+      },
+      "ui.background": {
+        "bg": "#151520",
+        "fg": "#CDD6F4"
+      },
+      "ui.bufferline": {
+        "bg": "#1F212D",
+        "fg": "#A2ABCC"
+      },
+      "ui.bufferline.active": {
+        "bg": "#28293E",
+        "fg": "#7DE4F7",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.bufferline.background": {
+        "fg": "#151520"
+      },
+      "ui.cursor": {
+        "bg": "#B7A4A7",
+        "fg": "#151520"
+      },
+      "ui.cursor.insert": {
+        "bg": "#78AD79",
+        "fg": "#151520"
+      },
+      "ui.cursor.match": {
+        "fg": "#EA8743",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.cursor.normal": {
+        "bg": "#8089C7",
+        "fg": "#151520"
+      },
+      "ui.cursor.primary": {
+        "bg": "#F8DED9",
+        "fg": "#151520"
+      },
+      "ui.cursor.primary.insert": {
+        "bg": "#9FEB99",
+        "fg": "#151520"
+      },
+      "ui.cursor.primary.normal": {
+        "bg": "#ABB7FF",
+        "fg": "#151520"
+      },
+      "ui.cursor.primary.select": {
+        "bg": "#F7C8C8",
+        "fg": "#151520"
+      },
+      "ui.cursor.select": {
+        "bg": "#B7A4A7",
+        "fg": "#151520"
+      },
+      "ui.cursorline.primary": {
+        "bg": "#28293E"
+      },
+      "ui.help": {
+        "bg": "#272836",
+        "fg": "#8F97B6"
+      },
+      "ui.highlight": {
+        "bg": "#42455D",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.linenr": {
+        "fg": "#42455D"
+      },
+      "ui.linenr.selected": {
+        "fg": "#ABB7FF"
+      },
+      "ui.menu": {
+        "bg": "#272836",
+        "fg": "#8F97B6"
+      },
+      "ui.menu.selected": {
+        "bg": "#42455D",
+        "fg": "#CDD6F4",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.popup": {
+        "bg": "#272836",
+        "fg": "#CDD6F4"
+      },
+      "ui.selection": {
+        "bg": "#42455D"
+      },
+      "ui.statusline": {
+        "bg": "#1F212D",
+        "fg": "#B5BFE3"
+      },
+      "ui.statusline.inactive": {
+        "bg": "#1F212D",
+        "fg": "#555973"
+      },
+      "ui.statusline.insert": {
+        "bg": "#9FEB99",
+        "fg": "#151520",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.statusline.normal": {
+        "bg": "#ABB7FF",
+        "fg": "#151520",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.statusline.select": {
+        "bg": "#F7C8C8",
+        "fg": "#151520",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.text": {
+        "fg": "#CDD6F4"
+      },
+      "ui.text.focus": {
+        "bg": "#272836",
+        "fg": "#CDD6F4",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.text.inactive": {
+        "fg": "#7B82A0"
+      },
+      "ui.virtual": {
+        "fg": "#696E89"
+      },
+      "ui.virtual.indent-guide": {
+        "fg": "#272836"
+      },
+      "ui.virtual.inlay-hint": {
+        "bg": "#151520",
+        "fg": "#696E89"
+      },
+      "ui.virtual.ruler": {
+        "bg": "#272836"
+      },
+      "ui.window": {
+        "fg": "#08080D"
+      },
+      "variable": {
+        "fg": "#CDD6F4"
+      },
+      "variable.builtin": {
+        "fg": "#FF7EA2"
+      },
+      "variable.other.member": {
+        "fg": "#59D2BE"
+      },
+      "variable.parameter": {
+        "fg": "#F497A6"
+      },
+      "warning": {
+        "fg": "#FFD866",
+        "modifiers": [
+          "bold"
+        ]
+      }
+    },
+    "warnings": []
+  }
+}

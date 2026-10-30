@@ -1,0 +1,188 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/ttox",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "ttox",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/ttox.toml"
+    ],
+    "palette": {
+      "black": "terminal:black",
+      "blue": "terminal:blue",
+      "cyan": "terminal:cyan",
+      "default": "terminal:default",
+      "gray": "terminal:gray",
+      "green": "terminal:green",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "terminal:magenta",
+      "red": "terminal:red",
+      "white": "terminal:white",
+      "yellow": "terminal:yellow"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/ttox.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/209b8bf979f8964286a9276c3cd9acf763e2dd2173c0256dc3e29dc262abfade.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "ttox",
+    "styles": {
+      "comment": {
+        "bg": "terminal:light-magenta",
+        "fg": "terminal:black"
+      },
+      "constant": {
+        "bg": "terminal:light-cyan",
+        "fg": "terminal:black"
+      },
+      "diagnostic.deprecated": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "diagnostic.error": {
+        "bg": "terminal:light-red",
+        "fg": "terminal:black"
+      },
+      "diagnostic.hint": {
+        "bg": "terminal:light-blue",
+        "fg": "terminal:black"
+      },
+      "diagnostic.unnecessary": {
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "diagnostic.warning": {
+        "bg": "terminal:light-yellow",
+        "fg": "terminal:black"
+      },
+      "diff.delta": {
+        "fg": "terminal:gray"
+      },
+      "diff.minus": {
+        "fg": "terminal:red"
+      },
+      "diff.plus": {
+        "fg": "terminal:green"
+      },
+      "error": {
+        "bg": "terminal:light-red",
+        "fg": "terminal:black"
+      },
+      "hint": {
+        "bg": "terminal:light-blue",
+        "fg": "terminal:black"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "string": {
+        "bg": "terminal:light-green",
+        "fg": "terminal:black"
+      },
+      "ui.background.separator": {
+        "fg": "terminal:gray"
+      },
+      "ui.cursor": {
+        "bg": "terminal:light-gray",
+        "fg": "terminal:black"
+      },
+      "ui.cursor.match": {
+        "underline": {
+          "style": "line"
+        }
+      },
+      "ui.cursor.primary": {
+        "bg": "terminal:light-gray",
+        "fg": "terminal:black"
+      },
+      "ui.help": {
+        "bg": "terminal:black",
+        "fg": "terminal:white"
+      },
+      "ui.linenr": {
+        "fg": "terminal:gray"
+      },
+      "ui.linenr.selected": {
+        "bg": "terminal:gray",
+        "fg": "terminal:white"
+      },
+      "ui.menu": {
+        "bg": "terminal:black",
+        "fg": "terminal:white"
+      },
+      "ui.menu.selected": {
+        "bg": "terminal:light-gray",
+        "fg": "terminal:black"
+      },
+      "ui.popup": {
+        "bg": "terminal:black",
+        "fg": "terminal:white"
+      },
+      "ui.selection": {
+        "bg": "terminal:gray",
+        "fg": "terminal:white"
+      },
+      "ui.statusline": {
+        "bg": "terminal:black",
+        "fg": "terminal:white"
+      },
+      "ui.virtual.ruler": {
+        "underline": {
+          "style": "line"
+        }
+      },
+      "warning": {
+        "bg": "terminal:light-yellow",
+        "fg": "terminal:black"
+      }
+    },
+    "warnings": []
+  }
+}

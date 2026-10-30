@@ -1,0 +1,236 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.655
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2453
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.4725
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3232
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.655
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3232
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1442
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.467
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0852
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9391
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4537
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4537
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.655
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.655
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4421
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b6e6d3667c18d36202ef080d096c32fb0e98dc62985c4b435af11ac00afb3679",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/d48e90f54703ff3c911dd4eb6f7b2e031a662c16338399e826cb9edd78f0ec07",
+    "name": "Iceberg Light",
+    "palette": {
+      "activeLine": "#DADBDF",
+      "background": "#E8E9EC",
+      "cursor": "#33374C",
+      "foreground": "#33374C",
+      "gutterActiveLine": "#DADBDF",
+      "gutterBackground": "#E8E9EC",
+      "gutterForeground": "#7B7E8C",
+      "invisibles": "#8389A3",
+      "printMargin": "#BBBDC4",
+      "selection": "#BBBDC4"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "cocopon (https://github.com/cocopon/iceberg.vim)",
+        "author_name": "cocopon",
+        "author_url": "https://github.com/cocopon/iceberg.vim",
+        "background": "#E8E9EC",
+        "color_01": "#DCDFE7",
+        "color_02": "#CC517A",
+        "color_03": "#668E3D",
+        "color_04": "#C57339",
+        "color_05": "#2D539E",
+        "color_06": "#7759B4",
+        "color_07": "#3F83A6",
+        "color_08": "#33374C",
+        "color_09": "#8389A3",
+        "color_10": "#CC3768",
+        "color_11": "#598030",
+        "color_12": "#B6662D",
+        "color_13": "#22478E",
+        "color_14": "#6845AD",
+        "color_15": "#327698",
+        "color_16": "#262A3F",
+        "cursor": "#33374C",
+        "foreground": "#33374C",
+        "hash": "c36f02d2a51e9e8a868cc0b78a0db60b1da244e83daa90ea3fa7bc5e60252516",
+        "hash_bg": "36d9f8755df783b127b2120e99afc7aa557204b75de42aa5cdf661126b676622",
+        "name": "Iceberg Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "d48e90f54703ff3c911dd4eb6f7b2e031a662c16338399e826cb9edd78f0ec07",
+    "syntax": {
+      "comment": "#7B7E8C",
+      "constant": "#3F83A6",
+      "function": "#2D539E",
+      "invalid": "#CC517A",
+      "keyword": "#7759B4",
+      "number": "#3F83A6",
+      "operator": "#33374C",
+      "string": "#668E3D",
+      "type": "#C57339",
+      "variable": "#33374C"
+    }
+  }
+}
