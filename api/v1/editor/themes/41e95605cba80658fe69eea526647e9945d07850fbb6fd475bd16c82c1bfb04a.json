@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8805
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3904
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6661
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2872
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.8805
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2872
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8518
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0353
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4161
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9698
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0199
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0199
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8805
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8805
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1959
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "3bc884297cac7f1486b6d96c092427e98fe0b83f62c1e5d22810bda36f8af7b3",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/63b329d2b56aff1f24c922d07d2f8979bdd6a19ca93fa7fdb4bcfa9b191d879c",
+    "name": "Light Owl",
+    "palette": {
+      "activeLine": "#ECECEE",
+      "background": "#FBFBFB",
+      "cursor": "#403F53",
+      "foreground": "#403F53",
+      "gutterActiveLine": "#ECECEE",
+      "gutterBackground": "#FBFBFB",
+      "gutterForeground": "#8B8A96",
+      "invisibles": "#989FB1",
+      "printMargin": "#CCCCD1",
+      "selection": "#CCCCD1"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "zasdaym (https://github.com/zasdaym)",
+        "author_name": "zasdaym",
+        "author_url": "https://github.com/zasdaym",
+        "background": "#FBFBFB",
+        "color_01": "#403F53",
+        "color_02": "#DE3D3B",
+        "color_03": "#08916A",
+        "color_04": "#E0AF02",
+        "color_05": "#288ED7",
+        "color_06": "#D6438A",
+        "color_07": "#2AA298",
+        "color_08": "#F0F0F0",
+        "color_09": "#989FB1",
+        "color_10": "#DE3D3B",
+        "color_11": "#08916A",
+        "color_12": "#DAAA01",
+        "color_13": "#288ED7",
+        "color_14": "#D6438A",
+        "color_15": "#2AA298",
+        "color_16": "#F0F0F0",
+        "cursor": "#403F53",
+        "foreground": "#403F53",
+        "hash": "f62156dbc7f63e0f67a5af49943fac71707eccb2fff87e27bc8ad841f2713315",
+        "hash_bg": "cbd69647e6fe310849154d69fbfb6e7a0ab7771617417ccd122d3acdd9ff4944",
+        "name": "Light Owl",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "63b329d2b56aff1f24c922d07d2f8979bdd6a19ca93fa7fdb4bcfa9b191d879c",
+    "syntax": {
+      "comment": "#8B8A96",
+      "constant": "#2AA298",
+      "function": "#288ED7",
+      "invalid": "#DE3D3B",
+      "keyword": "#D6438A",
+      "number": "#2AA298",
+      "operator": "#403F53",
+      "string": "#08916A",
+      "type": "#E0AF02",
+      "variable": "#403F53"
+    }
+  }
+}

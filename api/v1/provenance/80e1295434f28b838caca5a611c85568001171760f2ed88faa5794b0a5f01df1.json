@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "c574f7c84eb4eeee25a34dbd7dcee40a00d1a1ff75553c21afe91a0c4e2835d2",
+  "text": "# Deprecation notice\n#\n# This theme has moved to jetbrains_cyan_light, make sure to update your configuration accordingly.\n\ninherits = \"jetbrains_cyan_light\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/cyan_light.toml"
+}

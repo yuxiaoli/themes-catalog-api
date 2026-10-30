@@ -1,0 +1,442 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/ataraxia",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "ataraxia",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/ataraxia.toml"
+    ],
+    "palette": {
+      "amethyst": "#9963FF",
+      "bad": "#EB3E5E",
+      "black": "terminal:black",
+      "blue": "terminal:blue",
+      "cool-sky": "#7A88FF",
+      "cyan": "terminal:cyan",
+      "dead-green": "#025C33",
+      "deep-grape": "#7640CC",
+      "deep-indigo": "#432775",
+      "default": "terminal:default",
+      "eggplant": "#301B4D",
+      "electric-violet": "#A600FF",
+      "gray": "terminal:gray",
+      "green": "terminal:green",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "terminal:magenta",
+      "midnight": "#1C0C28",
+      "muted-violet": "#7B52C7",
+      "neon-cyan": "#00D2F7",
+      "orchid": "#8F45FF",
+      "plum": "#6D4DB8",
+      "purple-gray": "#5C3A9E",
+      "red": "terminal:red",
+      "royal-blue": "#4264D9",
+      "sky-cyan": "#00DDFF",
+      "soft-blue": "#8AA3FE",
+      "ufo-green": "#00D974",
+      "white": "terminal:white",
+      "yellow": "terminal:yellow"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/ataraxia.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/203424a893477846e02e5655535a733a13865e411d675330631c9c1e94653537.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "ataraxia",
+    "styles": {
+      "attribute": {
+        "fg": "#7640CC"
+      },
+      "comment": {
+        "fg": "#5C3A9E"
+      },
+      "comment.block": {
+        "fg": "#025C33"
+      },
+      "comment.block.documentation": {
+        "fg": "#025C33"
+      },
+      "comment.line": {
+        "fg": "#5C3A9E"
+      },
+      "comment.line.documentation": {
+        "fg": "#5C3A9E"
+      },
+      "constant": {
+        "fg": "#8AA3FE"
+      },
+      "constant.builtin": {
+        "fg": "#4264D9"
+      },
+      "constant.builtin.boolean": {
+        "fg": "#00D974"
+      },
+      "constant.character": {
+        "fg": "#4264D9"
+      },
+      "constant.character.escape": {
+        "fg": "#4264D9"
+      },
+      "constant.numeric": {
+        "fg": "#7A88FF"
+      },
+      "constant.numeric.float": {
+        "fg": "#7A88FF"
+      },
+      "constant.numeric.integer": {
+        "fg": "#7A88FF"
+      },
+      "constructor": {
+        "fg": "#4264D9"
+      },
+      "diagnostic": {
+        "fg": "#7A88FF"
+      },
+      "diagnostic.error": {
+        "fg": "#A600FF"
+      },
+      "diagnostic.hint": {
+        "fg": "#00D2F7"
+      },
+      "diagnostic.info": {
+        "fg": "#00DDFF"
+      },
+      "diagnostic.warning": {
+        "fg": "#8AA3FE"
+      },
+      "diff.delta": {
+        "fg": "#8AA3FE"
+      },
+      "diff.minus": {
+        "fg": "#EB3E5E"
+      },
+      "diff.plus": {
+        "fg": "#00D974"
+      },
+      "error": {
+        "fg": "#A600FF"
+      },
+      "function": {
+        "fg": "#4264D9"
+      },
+      "function.builtin": {
+        "fg": "#4264D9"
+      },
+      "function.macro": {
+        "fg": "#00D974"
+      },
+      "function.method": {
+        "fg": "#4264D9"
+      },
+      "function.special": {
+        "fg": "#4264D9"
+      },
+      "hint": {
+        "fg": "#00D2F7"
+      },
+      "info": {
+        "fg": "#00DDFF"
+      },
+      "keyword": {
+        "fg": "#4264D9"
+      },
+      "keyword.control": {
+        "fg": "#8F45FF"
+      },
+      "keyword.control.conditional": {
+        "fg": "#7640CC"
+      },
+      "keyword.control.exception": {
+        "fg": "#8F45FF"
+      },
+      "keyword.control.import": {
+        "fg": "#4264D9"
+      },
+      "keyword.control.repeat": {
+        "fg": "#7640CC"
+      },
+      "keyword.control.return": {
+        "fg": "#7640CC"
+      },
+      "keyword.directive": {
+        "fg": "#4264D9"
+      },
+      "keyword.function": {
+        "fg": "#8F45FF"
+      },
+      "keyword.operator": {
+        "fg": "#4264D9"
+      },
+      "keyword.storage": {
+        "fg": "#8F45FF"
+      },
+      "markup.bold": {
+        "fg": "#8AA3FE"
+      },
+      "markup.heading.1": {
+        "fg": "#7640CC"
+      },
+      "markup.heading.2": {
+        "fg": "#7B52C7"
+      },
+      "markup.heading.3": {
+        "fg": "#8F45FF"
+      },
+      "markup.heading.4": {
+        "fg": "#9963FF"
+      },
+      "markup.heading.5": {
+        "fg": "#8AA3FE"
+      },
+      "markup.heading.6": {
+        "fg": "#7A88FF"
+      },
+      "markup.heading.marker": {
+        "fg": "#00D974"
+      },
+      "markup.italic": {
+        "fg": "#7A88FF"
+      },
+      "markup.link.text": {
+        "fg": "#8F45FF"
+      },
+      "markup.link.url": {
+        "fg": "#00DDFF"
+      },
+      "markup.list": {
+        "fg": "#00D974"
+      },
+      "markup.list.checked": {
+        "fg": "#00D974"
+      },
+      "markup.list.unchecked": {
+        "fg": "#432775"
+      },
+      "markup.quote": {
+        "fg": "#7B52C7"
+      },
+      "markup.raw": {
+        "fg": "#301B4D"
+      },
+      "markup.strikethrough": {
+        "fg": "#432775"
+      },
+      "namespace": {
+        "fg": "#7B52C7"
+      },
+      "operator": {
+        "fg": "#9963FF"
+      },
+      "punctuation.bracket": {
+        "fg": "#00D2F7"
+      },
+      "punctuation.delimiter": {
+        "fg": "#00D2F7"
+      },
+      "punctuation.special": {
+        "fg": "#00D2F7"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "#7A88FF"
+      },
+      "string": {
+        "fg": "#00D974"
+      },
+      "string.regexp": {
+        "fg": "#8F45FF"
+      },
+      "string.special": {
+        "fg": "#8F45FF"
+      },
+      "string.special.path": {
+        "fg": "#8F45FF"
+      },
+      "string.special.symbol": {
+        "fg": "#8F45FF"
+      },
+      "string.special.url": {
+        "fg": "#8F45FF"
+      },
+      "tag": {
+        "fg": "#00D2F7"
+      },
+      "tag.error": {
+        "fg": "#EB3E5E"
+      },
+      "type": {
+        "fg": "#8AA3FE"
+      },
+      "type.builtin": {
+        "fg": "#6D4DB8"
+      },
+      "type.enum": {
+        "fg": "#8AA3FE"
+      },
+      "type.enum.variant": {
+        "fg": "#4264D9"
+      },
+      "type.parameter": {
+        "fg": "#8F45FF"
+      },
+      "ui.background": {
+        "bg": "#1C0C28",
+        "fg": "#8F45FF"
+      },
+      "ui.bufferline": {
+        "bg": "#1C0C28",
+        "fg": "#8F45FF"
+      },
+      "ui.bufferline.active": {
+        "bg": "#1C0C28",
+        "fg": "#00D2F7"
+      },
+      "ui.cursor": {
+        "bg": "#00D2F7",
+        "fg": "#000000"
+      },
+      "ui.cursor.match": {
+        "fg": "#8F45FF"
+      },
+      "ui.cursor.primary": {
+        "bg": "#A600FF",
+        "fg": "#000000"
+      },
+      "ui.cursor.primary.insert": {
+        "bg": "#00D974",
+        "fg": "#000000"
+      },
+      "ui.cursor.primary.normal": {
+        "bg": "#00D2F7",
+        "fg": "#000000"
+      },
+      "ui.cursor.primary.select": {
+        "bg": "#7B52C7",
+        "fg": "#000000"
+      },
+      "ui.help": {
+        "bg": "#1C0C28",
+        "fg": "#00D2F7"
+      },
+      "ui.linenr": {
+        "fg": "#5C3A9E"
+      },
+      "ui.linenr.selected": {
+        "fg": "#00D2F7"
+      },
+      "ui.menu": {
+        "fg": "#8F45FF"
+      },
+      "ui.menu.selected": {
+        "fg": "#8F45FF"
+      },
+      "ui.popup": {
+        "bg": "#1C0C28",
+        "fg": "#00D2F7"
+      },
+      "ui.selection": {
+        "bg": "#7B52C7",
+        "fg": "#000000"
+      },
+      "ui.selection.primary": {
+        "bg": "#7B52C7",
+        "fg": "#000000"
+      },
+      "ui.statusline": {
+        "fg": "#00DDFF"
+      },
+      "ui.statusline.inactive": {
+        "fg": "#8F45FF"
+      },
+      "ui.statusline.insert": {
+        "fg": "#00D974"
+      },
+      "ui.statusline.normal": {
+        "fg": "#00D2F7"
+      },
+      "ui.statusline.select": {
+        "fg": "#7B52C7"
+      },
+      "ui.statusline.separator": {
+        "fg": "#00D2F7"
+      },
+      "ui.text": {
+        "bg": "#1C0C28",
+        "fg": "#00D2F7"
+      },
+      "ui.virtual": {
+        "fg": "#301B4D"
+      },
+      "ui.virtual.whitespace": {
+        "fg": "#432775"
+      },
+      "ui.window": {
+        "fg": "#8F45FF"
+      },
+      "variable": {
+        "fg": "#7640CC"
+      },
+      "variable.builtin": {
+        "fg": "#00D2F7"
+      },
+      "variable.other.member": {
+        "fg": "#8F45FF"
+      },
+      "variable.parameter": {
+        "fg": "#00D2F7"
+      },
+      "warning": {
+        "fg": "#8AA3FE"
+      }
+    },
+    "warnings": []
+  }
+}

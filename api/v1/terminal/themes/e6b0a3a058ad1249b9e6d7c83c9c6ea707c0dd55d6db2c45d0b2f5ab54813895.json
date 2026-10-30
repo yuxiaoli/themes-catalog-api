@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/3b2f1728ef3b3689df067e23d45372e852d900fb51b1a2f0b284bddd75824f14",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Atelier Plateau Light",
+    "original": {
+      "author": "Bram de Haan (http://atelierbramdehaan.nl)",
+      "author_name": "Bram de Haan",
+      "author_url": "http://atelierbramdehaan.nl",
+      "background": "#F4ECEC",
+      "color_01": "#F4ECEC",
+      "color_02": "#CA4949",
+      "color_03": "#4B8B8B",
+      "color_04": "#A06E3B",
+      "color_05": "#7272CA",
+      "color_06": "#8464C4",
+      "color_07": "#5485B6",
+      "color_08": "#585050",
+      "color_09": "#7E7777",
+      "color_10": "#CA4949",
+      "color_11": "#4B8B8B",
+      "color_12": "#A06E3B",
+      "color_13": "#7272CA",
+      "color_14": "#8464C4",
+      "color_15": "#5485B6",
+      "color_16": "#1B1818",
+      "cursor": "#585050",
+      "foreground": "#585050",
+      "hash": "ee1febd65d2f9b21a5b42fb91b8c70f4e1cf73cc8e18673d8433e6f50eb7f1e9",
+      "hash_bg": "21cd677b90a777ce5694d96f6142b35888dab6770b79b93f3637eeab617176a0",
+      "name": "Atelier Plateau Light",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#585050",
+      "ansi": [
+        "#F4ECEC",
+        "#CA4949",
+        "#4B8B8B",
+        "#A06E3B",
+        "#7272CA",
+        "#8464C4",
+        "#5485B6",
+        "#585050",
+        "#7E7777",
+        "#CA4949",
+        "#4B8B8B",
+        "#A06E3B",
+        "#7272CA",
+        "#8464C4",
+        "#5485B6",
+        "#1B1818"
+      ],
+      "background": "#F4ECEC",
+      "cursor": "#585050",
+      "foreground": "#585050"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "3b2f1728ef3b3689df067e23d45372e852d900fb51b1a2f0b284bddd75824f14",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "3b2f1728ef3b3689df067e23d45372e852d900fb51b1a2f0b284bddd75824f14"
+  }
+}

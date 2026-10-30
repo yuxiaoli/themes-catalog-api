@@ -1,0 +1,238 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5221
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.068
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6637
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9127
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 1.6428
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9127
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.6741
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3263
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2105
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.2824
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.6428
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.6428
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5221
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5221
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3595
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "f374b363760656170c7c42098de29a990cbdf80daeaa7b4f96e8b9adb9e28b8f",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "cursor",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/47e42be3559465abbaf3b2efbfc4097b0f7f54f588bc5cada6367a2dce2bf34c",
+    "name": "Nord Light",
+    "palette": {
+      "activeLine": "#D8DCE4",
+      "background": "#E5E9F0",
+      "cursor": "#88C0D0",
+      "foreground": "#414858",
+      "gutterActiveLine": "#D8DCE4",
+      "gutterBackground": "#E5E9F0",
+      "gutterForeground": "#838895",
+      "invisibles": "#4C566A",
+      "printMargin": "#BCC1CA",
+      "selection": "#BCC1CA"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Arctic Ice Studio (https://www.nordtheme.com/)",
+        "author_name": "Arctic Ice Studio",
+        "author_url": "https://www.nordtheme.com/",
+        "background": "#E5E9F0",
+        "color_01": "#3B4252",
+        "color_02": "#BF616A",
+        "color_03": "#A3BE8C",
+        "color_04": "#EBCB8B",
+        "color_05": "#81A1C1",
+        "color_06": "#B48EAD",
+        "color_07": "#88C0D0",
+        "color_08": "#D8DEE9",
+        "color_09": "#4C566A",
+        "color_10": "#BF616A",
+        "color_11": "#A3BE8C",
+        "color_12": "#EBCB8B",
+        "color_13": "#81A1C1",
+        "color_14": "#B48EAD",
+        "color_15": "#8FBCBB",
+        "color_16": "#ECEFF4",
+        "cursor": "#88C0D0",
+        "foreground": "#414858",
+        "hash": "087f1003359b85e7bd35234afd2a8fb48bb4da42a2ba1158faeb8544f766add3",
+        "hash_bg": "868e75db5555d7cb47b8a056634a1278e76637f8145d327547975fca16c6e4ff",
+        "name": "Nord Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "47e42be3559465abbaf3b2efbfc4097b0f7f54f588bc5cada6367a2dce2bf34c",
+    "syntax": {
+      "comment": "#838895",
+      "constant": "#88C0D0",
+      "function": "#81A1C1",
+      "invalid": "#BF616A",
+      "keyword": "#B48EAD",
+      "number": "#88C0D0",
+      "operator": "#414858",
+      "string": "#A3BE8C",
+      "type": "#EBCB8B",
+      "variable": "#414858"
+    }
+  }
+}

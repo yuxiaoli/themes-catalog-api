@@ -1,0 +1,236 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8853
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0639
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8617
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1339
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.8853
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1339
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5063
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.305
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.304
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8278
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0398
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0398
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8853
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8853
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8041
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "278dca9d07ec8a274221fb32a52f9df8183c92dd0dcc591f74e09480c1a72613",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/bc5e4a5767bbe8a41ad994c3a334f3aa0f77f4ab331dfa0c953906e9632e19fa",
+    "name": "Wizzy Muted",
+    "palette": {
+      "activeLine": "#1D1622",
+      "background": "#100814",
+      "cursor": "#B2B8C4",
+      "foreground": "#B2B8C4",
+      "gutterActiveLine": "#1D1622",
+      "gutterBackground": "#100814",
+      "gutterForeground": "#71727E",
+      "invisibles": "#4E4E4E",
+      "printMargin": "#393440",
+      "selection": "#393440"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "erin",
+        "author_name": "erin",
+        "author_url": "",
+        "background": "#100814",
+        "color_01": "#444444",
+        "color_02": "#9D5776",
+        "color_03": "#398484",
+        "color_04": "#6B6B88",
+        "color_05": "#4A6684",
+        "color_06": "#6F579D",
+        "color_07": "#42769D",
+        "color_08": "#9AADB2",
+        "color_09": "#4E4E4E",
+        "color_10": "#CF5E91",
+        "color_11": "#64B7B7",
+        "color_12": "#8D8DBA",
+        "color_13": "#588BC4",
+        "color_14": "#8F73C4",
+        "color_15": "#71A7CF",
+        "color_16": "#D1D1D1",
+        "cursor": "#B2B8C4",
+        "foreground": "#B2B8C4",
+        "hash": "9e7f99c7a135d829d7957cb59e4f24bf8bf232a3808dc16df6704faf54be0734",
+        "hash_bg": "62a41e8857a4ace80f678576dde8c8b3b9a30db97c63fbcadc0f7d8b84394b82",
+        "name": "Wizzy Muted",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "bc5e4a5767bbe8a41ad994c3a334f3aa0f77f4ab331dfa0c953906e9632e19fa",
+    "syntax": {
+      "comment": "#71727E",
+      "constant": "#42769D",
+      "function": "#4A6684",
+      "invalid": "#9D5776",
+      "keyword": "#6F579D",
+      "number": "#42769D",
+      "operator": "#B2B8C4",
+      "string": "#398484",
+      "type": "#6B6B88",
+      "variable": "#B2B8C4"
+    }
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4446
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6418
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1981
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0496
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.4446
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0496
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.3566
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2853
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0819
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.0914
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.8266
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.8266
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4446
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4446
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6499
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "82b959beb215d422c0c6a695c383b1b8bc3aa325d7722150a46eece9820f0fe6",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "text",
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.operator",
+        "syntax.variable"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/1565dfa8ac503f2f6dfbcdb81175af1697d9647dc47943b98d5c3dc45b01615e",
+    "name": "Summercamp",
+    "palette": {
+      "activeLine": "#231F16",
+      "background": "#1C1810",
+      "cursor": "#736E55",
+      "foreground": "#736E55",
+      "gutterActiveLine": "#231F16",
+      "gutterBackground": "#1C1810",
+      "gutterForeground": "#504C39",
+      "invisibles": "#504B38",
+      "printMargin": "#322E21",
+      "selection": "#322E21"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "zoe firi (zoefiri.github.io)",
+        "author_name": "zoe firi (zoefiri.github.io)",
+        "author_url": "",
+        "background": "#1C1810",
+        "color_01": "#1C1810",
+        "color_02": "#E35142",
+        "color_03": "#5CEB5A",
+        "color_04": "#F2FF27",
+        "color_05": "#489BF0",
+        "color_06": "#FF8080",
+        "color_07": "#5AEBBC",
+        "color_08": "#736E55",
+        "color_09": "#504B38",
+        "color_10": "#E35142",
+        "color_11": "#5CEB5A",
+        "color_12": "#F2FF27",
+        "color_13": "#489BF0",
+        "color_14": "#FF8080",
+        "color_15": "#5AEBBC",
+        "color_16": "#F8F5DE",
+        "cursor": "#736E55",
+        "foreground": "#736E55",
+        "hash": "b013f4718cd8432aa944c85b80ed82329b25fab2f33f6aedcbf9d8c480719f7b",
+        "hash_bg": "3933042e12aaf3ee48ca9fedb9cc2465eb5abf202974a4c8a3d055d8265328f0",
+        "name": "Summercamp",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "1565dfa8ac503f2f6dfbcdb81175af1697d9647dc47943b98d5c3dc45b01615e",
+    "syntax": {
+      "comment": "#504C39",
+      "constant": "#5AEBBC",
+      "function": "#489BF0",
+      "invalid": "#E35142",
+      "keyword": "#FF8080",
+      "number": "#5AEBBC",
+      "operator": "#736E55",
+      "string": "#5CEB5A",
+      "type": "#F2FF27",
+      "variable": "#736E55"
+    }
+  }
+}

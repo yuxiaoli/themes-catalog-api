@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/863a96c10e56201ca143e63965b9b64bfd77ed3ef7de380314e4091e640ab02a",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Sequoia Moonlight Dark",
+    "original": {
+      "author": "Michael Andreuzza (https://github.com/michael-andreuzza)",
+      "author_name": "Michael Andreuzza",
+      "author_url": "https://github.com/michael-andreuzza",
+      "background": "#0F1014",
+      "color_01": "#131317",
+      "color_02": "#F58EE0",
+      "color_03": "#8EB6F5",
+      "color_04": "#9898A6",
+      "color_05": "#C58FFF",
+      "color_06": "#FDFDFE",
+      "color_07": "#FFBB88",
+      "color_08": "#868690",
+      "color_09": "#575861",
+      "color_10": "#F58EE0",
+      "color_11": "#8EB6F5",
+      "color_12": "#9898A6",
+      "color_13": "#C58FFF",
+      "color_14": "#FDFDFE",
+      "color_15": "#FFBB88",
+      "color_16": "#868690",
+      "cursor": "#43444D",
+      "foreground": "#868690",
+      "hash": "ce18edbe45f032b57b73937f9075ab7d95d9e0b1f06daa1118a7215fb0b177bd",
+      "hash_bg": "dc260b6903e4fde3fa10aa1379445588f5150193f9d14fa806c259d3580dc767",
+      "name": "Sequoia Moonlight Dark",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#43444D",
+      "ansi": [
+        "#131317",
+        "#F58EE0",
+        "#8EB6F5",
+        "#9898A6",
+        "#C58FFF",
+        "#FDFDFE",
+        "#FFBB88",
+        "#868690",
+        "#575861",
+        "#F58EE0",
+        "#8EB6F5",
+        "#9898A6",
+        "#C58FFF",
+        "#FDFDFE",
+        "#FFBB88",
+        "#868690"
+      ],
+      "background": "#0F1014",
+      "cursor": "#43444D",
+      "foreground": "#868690"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "863a96c10e56201ca143e63965b9b64bfd77ed3ef7de380314e4091e640ab02a",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "863a96c10e56201ca143e63965b9b64bfd77ed3ef7de380314e4091e640ab02a"
+  }
+}

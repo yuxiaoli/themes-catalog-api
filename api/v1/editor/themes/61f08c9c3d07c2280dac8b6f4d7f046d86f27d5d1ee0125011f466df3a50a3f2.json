@@ -1,0 +1,44 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-solarized-dark",
+    "css_text": ".ace-solarized-dark .ace_gutter {\n  background: #01313f;\n  color: #d0edf7\n}\n\n.ace-solarized-dark .ace_print-margin {\n  width: 1px;\n  background: #33555E\n}\n\n.ace-solarized-dark {\n  background-color: #002B36;\n  color: #839496\n}\n\n.ace-solarized-dark .ace_entity.ace_other.ace_attribute-name,\n.ace-solarized-dark .ace_storage {\n  color: #839496\n}\n\n.ace-solarized-dark .ace_cursor,\n.ace-solarized-dark .ace_string.ace_regexp {\n  color: #D30102\n}\n\n.ace-solarized-dark .ace_marker-layer .ace_active-line,\n.ace-solarized-dark .ace_marker-layer .ace_selection {\n  background: rgba(255, 255, 255, 0.1)\n}\n\n.ace-solarized-dark.ace_multiselect .ace_selection.ace_start {\n  box-shadow: 0 0 3px 0px #002B36;\n}\n\n.ace-solarized-dark .ace_marker-layer .ace_step {\n  background: rgb(102, 82, 0)\n}\n\n.ace-solarized-dark .ace_marker-layer .ace_bracket {\n  margin: -1px 0 0 -1px;\n  border: 1px solid rgba(147, 161, 161, 0.50)\n}\n\n.ace-solarized-dark .ace_gutter-active-line {\n  background-color: #0d3440\n}\n\n.ace-solarized-dark .ace_marker-layer .ace_selected-word {\n  border: 1px solid #073642\n}\n\n.ace-solarized-dark .ace_invisible {\n  color: rgba(147, 161, 161, 0.50)\n}\n\n.ace-solarized-dark .ace_keyword,\n.ace-solarized-dark .ace_meta,\n.ace-solarized-dark .ace_support.ace_class,\n.ace-solarized-dark .ace_support.ace_type {\n  color: #859900\n}\n\n.ace-solarized-dark .ace_constant.ace_character,\n.ace-solarized-dark .ace_constant.ace_other {\n  color: #CB4B16\n}\n\n.ace-solarized-dark .ace_constant.ace_language {\n  color: #B58900\n}\n\n.ace-solarized-dark .ace_constant.ace_numeric {\n  color: #D33682\n}\n\n.ace-solarized-dark .ace_fold {\n  background-color: #268BD2;\n  border-color: #93A1A1\n}\n\n.ace-solarized-dark .ace_entity.ace_name.ace_function,\n.ace-solarized-dark .ace_entity.ace_name.ace_tag,\n.ace-solarized-dark .ace_support.ace_function,\n.ace-solarized-dark .ace_variable,\n.ace-solarized-dark .ace_variable.ace_language {\n  color: #268BD2\n}\n\n.ace-solarized-dark .ace_string {\n  color: #2AA198\n}\n\n.ace-solarized-dark .ace_comment {\n  font-style: italic;\n  color: #657B83\n}\n\n.ace-solarized-dark .ace_indent-guide {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNg0Db1ZVCxc/sPAAd4AlUHlLenAAAAAElFTkSuQmCC) right repeat-y\n}\n\n.ace-solarized-dark .ace_indent-guide-active {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;\n}\n",
+    "exports": {},
+    "id": "ace/solarized_dark",
+    "is_dark": true,
+    "name": "Solarized Dark",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/solarized_dark-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/solarized_dark.js"
+    },
+    "palette": {
+      "activeLine": "#FFFFFF1A",
+      "background": "#002B36",
+      "cursor": "#D30102",
+      "foreground": "#839496",
+      "gutterActiveLine": "#0D3440",
+      "gutterBackground": "#01313F",
+      "gutterForeground": "#D0EDF7",
+      "invisibles": "#93A1A180",
+      "printMargin": "#33555E",
+      "selection": "#FFFFFF1A"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/ba31116bd431a42e0df0fca756f65e3968b9817587241db5b54a7a98340a7ba0.json",
+        "api/v1/provenance/ae4099b345df631cce5f18b8e97240711217e1c20cab1c821a3cff9d66d8d25e.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "solarized_dark"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.4712
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1128
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3244
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2616
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.4712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2616
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1981
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6803
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7326
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.22
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1947
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1947
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.4712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.4712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5413
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "c8d11eef68ee26801301890dfb0fdedda67b5d42c10fbba3845b7cda28661532",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/e385b2d631ffb5fa765e5202d2d8093ba83aa46e19c2934b8578742abd189a06",
+    "name": "Terracotta",
+    "palette": {
+      "activeLine": "#E2DCD9",
+      "background": "#EFEAE8",
+      "cursor": "#473731",
+      "foreground": "#473731",
+      "gutterActiveLine": "#E2DCD9",
+      "gutterBackground": "#EFEAE8",
+      "gutterForeground": "#8A7F7A",
+      "invisibles": "#C0ACA4",
+      "printMargin": "#C5BDBA",
+      "selection": "#C5BDBA"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Alexander Rossell Hayes (https://github.com/rossellhayes)",
+        "author_name": "Alexander Rossell Hayes",
+        "author_url": "https://github.com/rossellhayes",
+        "background": "#EFEAE8",
+        "color_01": "#EFEAE8",
+        "color_02": "#A75045",
+        "color_03": "#7A894A",
+        "color_04": "#CE943E",
+        "color_05": "#625574",
+        "color_06": "#8D5968",
+        "color_07": "#847F9E",
+        "color_08": "#473731",
+        "color_09": "#C0ACA4",
+        "color_10": "#A75045",
+        "color_11": "#7A894A",
+        "color_12": "#CE943E",
+        "color_13": "#625574",
+        "color_14": "#8D5968",
+        "color_15": "#847F9E",
+        "color_16": "#241C19",
+        "cursor": "#473731",
+        "foreground": "#473731",
+        "hash": "46f95e9ab58cdc0667ff2ec2613e027da455cf1cc4381fa417012130ef325dbc",
+        "hash_bg": "0270640138a5e409dc493a2a52b7b6d9f66add8f33559ae5a55305da6546b459",
+        "name": "Terracotta",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "e385b2d631ffb5fa765e5202d2d8093ba83aa46e19c2934b8578742abd189a06",
+    "syntax": {
+      "comment": "#8A7F7A",
+      "constant": "#847F9E",
+      "function": "#625574",
+      "invalid": "#A75045",
+      "keyword": "#8D5968",
+      "number": "#847F9E",
+      "operator": "#473731",
+      "string": "#7A894A",
+      "type": "#CE943E",
+      "variable": "#473731"
+    }
+  }
+}

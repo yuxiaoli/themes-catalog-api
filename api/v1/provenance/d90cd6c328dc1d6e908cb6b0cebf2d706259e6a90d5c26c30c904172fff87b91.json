@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "e49ddcd962a69e6cfdb60adf9c097af415c81dada1694b7589a564ffdf0e2743",
+  "text": "bg0 = \"#2f383e\"\nbg1 = \"#374247\"\nbg2 = \"#404c51\"\nbg3 = \"#4a555b\"\nbg4 = \"#525c62\"\nbg5 = \"#596763\"\nbg_visual = \"#573e4c\"\nbg_red = \"#544247\"\nbg_green = \"#445349\"\nbg_blue = \"#3b5360\"\nbg_yellow = \"#504f45\"\n\nfg = \"#d3c6aa\"\nred = \"#e67e80\"\norange = \"#e69875\"\nyellow = \"#dbbc7f\"\ngreen = \"#a7c080\"\naqua = \"#83c092\"\nblue = \"#7fbbb3\"\npurple = \"#d699b6\"\ngrey0 = \"#7a8478\"\ngrey1 = \"#859289\"\ngrey2 = \"#9da9a0\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/everforest/dark_medium"
+}

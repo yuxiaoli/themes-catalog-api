@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3597
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8833
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2084
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8938
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.3597
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8938
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.4979
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.5213
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0529
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.9374
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6476
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6476
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3597
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3597
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5509
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "c9c608eafead4fef543dc0a4202b66c2c57e00eaac1f8d0c1a0d062e6029c227",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/b56e19ad088e38ecdb900f8dea6a45cbcf1b63df981c2eec6dc2ee93406e758a",
+    "name": "Sweet Mars",
+    "palette": {
+      "activeLine": "#262A2D",
+      "background": "#1A1E21",
+      "cursor": "#B6B7B9",
+      "foreground": "#B6B7B9",
+      "gutterActiveLine": "#262A2D",
+      "gutterBackground": "#1A1E21",
+      "gutterForeground": "#787A7C",
+      "invisibles": "#555753",
+      "printMargin": "#414447",
+      "selection": "#414447"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#1A1E21",
+        "color_01": "#2E3436",
+        "color_02": "#F67E7D",
+        "color_03": "#CAE7B9",
+        "color_04": "#E1DD8F",
+        "color_05": "#729FCF",
+        "color_06": "#D7BCC8",
+        "color_07": "#A0C1B9",
+        "color_08": "#D3D7CF",
+        "color_09": "#555753",
+        "color_10": "#F67E7D",
+        "color_11": "#CAE7B9",
+        "color_12": "#E1DD8F",
+        "color_13": "#729FCF",
+        "color_14": "#D7BCC8",
+        "color_15": "#A0C1B9",
+        "color_16": "#EEEEEC",
+        "cursor": "#B6B7B9",
+        "foreground": "#B6B7B9",
+        "hash": "d3cba0d18b4e3c50e9c802c89be6f651466822802b2a193658be3eb65b049c79",
+        "hash_bg": "c2deb8b5d9a7993c84025cdde42f07ffb7f93aff33fc01cc7e4f5470b6daed43",
+        "name": "Sweet Mars",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b56e19ad088e38ecdb900f8dea6a45cbcf1b63df981c2eec6dc2ee93406e758a",
+    "syntax": {
+      "comment": "#787A7C",
+      "constant": "#A0C1B9",
+      "function": "#729FCF",
+      "invalid": "#F67E7D",
+      "keyword": "#D7BCC8",
+      "number": "#A0C1B9",
+      "operator": "#B6B7B9",
+      "string": "#CAE7B9",
+      "type": "#E1DD8F",
+      "variable": "#B6B7B9"
+    }
+  }
+}

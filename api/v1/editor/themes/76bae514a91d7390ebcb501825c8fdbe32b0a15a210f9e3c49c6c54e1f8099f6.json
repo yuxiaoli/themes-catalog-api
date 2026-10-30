@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.3674
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5266
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.1306
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1368
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 11.3674
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1368
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0048
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6918
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0811
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1515
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.882
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.882
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.3674
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.3674
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4802
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "3072f1d19257f6a0917feb403713e5e4cdbc59dff26b1b2e843d8fd0b87982dc",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0b0d53f1944d51865128676ed5c1e8729b631af5f76a2234d831506f477a71e1",
+    "name": "Xcode WWDC",
+    "palette": {
+      "activeLine": "#383B44",
+      "background": "#292C36",
+      "cursor": "#E7E8EB",
+      "foreground": "#E7E8EB",
+      "gutterActiveLine": "#383B44",
+      "gutterBackground": "#292C36",
+      "gutterForeground": "#9B9DA3",
+      "invisibles": "#7F869E",
+      "printMargin": "#595B63",
+      "selection": "#595B63"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "lunacookies (https://github.com/lunacookies/vim-colors-xcode)",
+        "author_name": "lunacookies",
+        "author_url": "https://github.com/lunacookies/vim-colors-xcode",
+        "background": "#292C36",
+        "color_01": "#494D5C",
+        "color_02": "#BB383A",
+        "color_03": "#94C66E",
+        "color_04": "#D28E5D",
+        "color_05": "#8884C5",
+        "color_06": "#B73999",
+        "color_07": "#00ABA4",
+        "color_08": "#E7E8EB",
+        "color_09": "#7F869E",
+        "color_10": "#BB383A",
+        "color_11": "#94C66E",
+        "color_12": "#D28E5D",
+        "color_13": "#8884C5",
+        "color_14": "#B73999",
+        "color_15": "#00ABA4",
+        "color_16": "#E7E8EB",
+        "cursor": "#E7E8EB",
+        "foreground": "#E7E8EB",
+        "hash": "af4d69fb0e523e454d83400de192e1d2d89172b95eb1e37654ff9225a06ab1a2",
+        "hash_bg": "68e9f2da2f9fe17a6980d4083acaf7c99571edfd81d4fc1ed8babeac78848464",
+        "name": "Xcode WWDC",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0b0d53f1944d51865128676ed5c1e8729b631af5f76a2234d831506f477a71e1",
+    "syntax": {
+      "comment": "#9B9DA3",
+      "constant": "#00ABA4",
+      "function": "#8884C5",
+      "invalid": "#BB383A",
+      "keyword": "#B73999",
+      "number": "#00ABA4",
+      "operator": "#E7E8EB",
+      "string": "#94C66E",
+      "type": "#D28E5D",
+      "variable": "#E7E8EB"
+    }
+  }
+}

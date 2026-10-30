@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/bb1ab8e93b65b351d077de9a13c4ef1a0371fc216dfae885c5f986d9292ce8d0",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Doom One Lost",
+    "original": {
+      "author": "Henrik Lissner",
+      "author_name": "Henrik Lissner",
+      "author_url": "https://github.com/hlissner",
+      "background": "#21242B",
+      "color_01": "#1B2229",
+      "color_02": "#FF6C6B",
+      "color_03": "#98BE65",
+      "color_04": "#ECBE7B",
+      "color_05": "#2257A0",
+      "color_06": "#A9A1E1",
+      "color_07": "#5699AF",
+      "color_08": "#5B6268",
+      "color_09": "#3F444A",
+      "color_10": "#DA8548",
+      "color_11": "#4DB5BD",
+      "color_12": "#ECBE7B",
+      "color_13": "#51AFEF",
+      "color_14": "#C678DD",
+      "color_15": "#46D9FF",
+      "color_16": "#BBC2CF",
+      "cursor": "#5B6268",
+      "foreground": "#5B6268",
+      "hash": "a9f7311ccb0ebde983fd1b6a355ca2b2ea3a2816a939e0411ff7927b81002907",
+      "hash_bg": "dfc1bfaaacf4035210edb469f51e1f209e9dfacd9c5a6a85b3e2ed76fe3730eb",
+      "name": "Doom One Lost",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#5B6268",
+      "ansi": [
+        "#1B2229",
+        "#FF6C6B",
+        "#98BE65",
+        "#ECBE7B",
+        "#2257A0",
+        "#A9A1E1",
+        "#5699AF",
+        "#5B6268",
+        "#3F444A",
+        "#DA8548",
+        "#4DB5BD",
+        "#ECBE7B",
+        "#51AFEF",
+        "#C678DD",
+        "#46D9FF",
+        "#BBC2CF"
+      ],
+      "background": "#21242B",
+      "cursor": "#5B6268",
+      "foreground": "#5B6268"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "bb1ab8e93b65b351d077de9a13c4ef1a0371fc216dfae885c5f986d9292ce8d0",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "bb1ab8e93b65b351d077de9a13c4ef1a0371fc216dfae885c5f986d9292ce8d0"
+  }
+}

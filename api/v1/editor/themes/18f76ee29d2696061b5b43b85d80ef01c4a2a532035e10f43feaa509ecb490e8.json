@@ -1,0 +1,229 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2099
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3504
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.746
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.5391
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5956
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2614
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.065
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.2646
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6088
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.6088
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2099
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2099
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4676
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "e665dabf99895aa239c255a9b4cf30af5479c555fe6116e88b071c7a0244332c",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/d49e5ce044beaf3b10e6448721b4e2099b954fbf3183fcc7d27e38bf24259fa5",
+    "name": "Keys Ocean Sunset",
+    "palette": {
+      "activeLine": "#181F28",
+      "background": "#0A1018",
+      "cursor": "#FC9077",
+      "foreground": "#B8C8DC",
+      "gutterActiveLine": "#181F28",
+      "gutterBackground": "#0A1018",
+      "gutterForeground": "#727E8E",
+      "invisibles": "#344658",
+      "printMargin": "#363E49",
+      "selection": "#363E49"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#0A1018",
+        "color_01": "#101927",
+        "color_02": "#E85A52",
+        "color_03": "#4A9A72",
+        "color_04": "#E89A2E",
+        "color_05": "#5288B8",
+        "color_06": "#BC5090",
+        "color_07": "#5EC8C8",
+        "color_08": "#A5B5D5",
+        "color_09": "#344658",
+        "color_10": "#FC9077",
+        "color_11": "#62C48E",
+        "color_12": "#FFCB9A",
+        "color_13": "#5A8FD4",
+        "color_14": "#FDBFDE",
+        "color_15": "#7ED4E0",
+        "color_16": "#FFF5BE",
+        "cursor": "#FC9077",
+        "foreground": "#B8C8DC",
+        "hash": "eac2044b2e601f774dc7fb6ccb1634c819836aa4da95dc49abf6db5fc223933b",
+        "hash_bg": "f915d21f467dfc0fd66739b2073cdc7c63f815cbd8893b2b3128899ce57b1357",
+        "name": "Keys Ocean Sunset",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "d49e5ce044beaf3b10e6448721b4e2099b954fbf3183fcc7d27e38bf24259fa5",
+    "syntax": {
+      "comment": "#727E8E",
+      "constant": "#5EC8C8",
+      "function": "#5288B8",
+      "invalid": "#E85A52",
+      "keyword": "#BC5090",
+      "number": "#5EC8C8",
+      "operator": "#B8C8DC",
+      "string": "#4A9A72",
+      "type": "#E89A2E",
+      "variable": "#B8C8DC"
+    }
+  }
+}

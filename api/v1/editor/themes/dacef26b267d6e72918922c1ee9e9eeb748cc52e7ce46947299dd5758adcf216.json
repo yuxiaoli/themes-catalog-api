@@ -1,0 +1,243 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7099
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0982
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4974
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8441
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 2.7099
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8441
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.2638
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9546
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0285
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.0353
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5235
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5235
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7099
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7099
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2383
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "28d4d94db82f6d7b492bfb88f1c789839e1ef7163a1e83d670b3f05c1178b69b",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "text",
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "cursor",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.operator",
+        "syntax.variable",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/e3e13b0edad82f7b7ce925a480553b7840a4dcf17247ab9193a82e057ee318a6",
+    "name": "Nandos",
+    "palette": {
+      "activeLine": "#EA8E2F",
+      "background": "#E8841D",
+      "cursor": "#FFFFFF",
+      "foreground": "#FFFFFF",
+      "gutterActiveLine": "#EA8E2F",
+      "gutterBackground": "#E8841D",
+      "gutterForeground": "#F6CEA5",
+      "invisibles": "#FFFF00",
+      "printMargin": "#EEA356",
+      "selection": "#EEA356"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#E8841D",
+        "color_01": "#0C0C0C",
+        "color_02": "#C50F1F",
+        "color_03": "#13A10E",
+        "color_04": "#C19C00",
+        "color_05": "#0037DA",
+        "color_06": "#881798",
+        "color_07": "#FFFF00",
+        "color_08": "#FFFF00",
+        "color_09": "#FFFF00",
+        "color_10": "#FF0000",
+        "color_11": "#16C60C",
+        "color_12": "#FFFF00",
+        "color_13": "#3B78FF",
+        "color_14": "#B4009E",
+        "color_15": "#61D6D6",
+        "color_16": "#F2F2F2",
+        "cursor": "#FFFFFF",
+        "foreground": "#FFFFFF",
+        "hash": "4f88f6bca93b123a7863bf961229f0c9d7e8503bbcdc47f0db694c7e0ec5331b",
+        "hash_bg": "db9e30cd2012731b2f86f39d830c82f6a40557624bda69a6a8c6613754b41ab9",
+        "name": "Nandos",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "e3e13b0edad82f7b7ce925a480553b7840a4dcf17247ab9193a82e057ee318a6",
+    "syntax": {
+      "comment": "#F6CEA5",
+      "constant": "#FFFF00",
+      "function": "#0037DA",
+      "invalid": "#C50F1F",
+      "keyword": "#881798",
+      "number": "#FFFF00",
+      "operator": "#FFFFFF",
+      "string": "#13A10E",
+      "type": "#C19C00",
+      "variable": "#FFFFFF"
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8675
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3618
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5575
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9068
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 7.8675
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9068
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7318
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4389
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6223
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9802
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9373
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9373
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8675
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8675
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0206
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "aac49931bce21ccd78631616a957e2ab813e22f1168cace3e41ec224376fd725",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/6d8be650a6a17e37188908989ed331fcb1eb71940686175893f6ecb1f66c329f",
+    "name": "Dehydration",
+    "palette": {
+      "activeLine": "#3F3F3F",
+      "background": "#333333",
+      "cursor": "#CCCCCC",
+      "foreground": "#CCCCCC",
+      "gutterActiveLine": "#3F3F3F",
+      "gutterBackground": "#333333",
+      "gutterForeground": "#8F8F8F",
+      "invisibles": "#666666",
+      "printMargin": "#595959",
+      "selection": "#595959"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#333333",
+        "color_01": "#333333",
+        "color_02": "#FF5555",
+        "color_03": "#5FD38D",
+        "color_04": "#FF9955",
+        "color_05": "#3771C8",
+        "color_06": "#BC5FD3",
+        "color_07": "#5FD3BC",
+        "color_08": "#999999",
+        "color_09": "#666666",
+        "color_10": "#FF8080",
+        "color_11": "#87DEAA",
+        "color_12": "#FFB380",
+        "color_13": "#5F8DD3",
+        "color_14": "#CD87DE",
+        "color_15": "#87DECD",
+        "color_16": "#CCCCCC",
+        "cursor": "#CCCCCC",
+        "foreground": "#CCCCCC",
+        "hash": "143d36537ec384dd50be13bbbc50d91cb8c9ad660808cc8ec94c96120627688e",
+        "hash_bg": "93908647eee799e92be60d7b45e543db6e771e57b8ce28db219dbcf8b06c7a2a",
+        "name": "Dehydration",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "6d8be650a6a17e37188908989ed331fcb1eb71940686175893f6ecb1f66c329f",
+    "syntax": {
+      "comment": "#8F8F8F",
+      "constant": "#5FD3BC",
+      "function": "#3771C8",
+      "invalid": "#FF5555",
+      "keyword": "#BC5FD3",
+      "number": "#5FD3BC",
+      "operator": "#CCCCCC",
+      "string": "#5FD38D",
+      "type": "#FF9955",
+      "variable": "#CCCCCC"
+    }
+  }
+}

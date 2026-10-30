@@ -1,0 +1,44 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-tomorrow-night-bright",
+    "css_text": ".ace-tomorrow-night-bright .ace_gutter {\n  background: #1a1a1a;\n  color: #DEDEDE\n}\n\n.ace-tomorrow-night-bright .ace_print-margin {\n  width: 1px;\n  background: #1a1a1a\n}\n\n.ace-tomorrow-night-bright {\n  background-color: #000000;\n  color: #DEDEDE\n}\n\n.ace-tomorrow-night-bright .ace_cursor {\n  color: #9F9F9F\n}\n\n.ace-tomorrow-night-bright .ace_marker-layer .ace_selection {\n  background: #424242\n}\n\n.ace-tomorrow-night-bright.ace_multiselect .ace_selection.ace_start {\n  box-shadow: 0 0 3px 0px #000000;\n}\n\n.ace-tomorrow-night-bright .ace_marker-layer .ace_step {\n  background: rgb(102, 82, 0)\n}\n\n.ace-tomorrow-night-bright .ace_marker-layer .ace_bracket {\n  margin: -1px 0 0 -1px;\n  border: 1px solid #888888\n}\n\n.ace-tomorrow-night-bright .ace_marker-layer .ace_highlight {\n  border: 1px solid rgb(110, 119, 0);\n  border-bottom: 0;\n  box-shadow: inset 0 -1px rgb(110, 119, 0);\n  margin: -1px 0 0 -1px;\n  background: rgba(255, 235, 0, 0.1)\n}\n\n.ace-tomorrow-night-bright .ace_marker-layer .ace_active-line {\n  background: #2A2A2A\n}\n\n.ace-tomorrow-night-bright .ace_gutter-active-line {\n  background-color: #2A2A2A\n}\n\n.ace-tomorrow-night-bright .ace_stack {\n  background-color: rgb(66, 90, 44)\n}\n\n.ace-tomorrow-night-bright .ace_marker-layer .ace_selected-word {\n  border: 1px solid #888888\n}\n\n.ace-tomorrow-night-bright .ace_invisible {\n  color: #343434\n}\n\n.ace-tomorrow-night-bright .ace_keyword,\n.ace-tomorrow-night-bright .ace_meta,\n.ace-tomorrow-night-bright .ace_storage,\n.ace-tomorrow-night-bright .ace_storage.ace_type,\n.ace-tomorrow-night-bright .ace_support.ace_type {\n  color: #C397D8\n}\n\n.ace-tomorrow-night-bright .ace_keyword.ace_operator {\n  color: #70C0B1\n}\n\n.ace-tomorrow-night-bright .ace_constant.ace_character,\n.ace-tomorrow-night-bright .ace_constant.ace_language,\n.ace-tomorrow-night-bright .ace_constant.ace_numeric,\n.ace-tomorrow-night-bright .ace_keyword.ace_other.ace_unit,\n.ace-tomorrow-night-bright .ace_support.ace_constant,\n.ace-tomorrow-night-bright .ace_variable.ace_parameter {\n  color: #E78C45\n}\n\n.ace-tomorrow-night-bright .ace_constant.ace_other {\n  color: #EEEEEE\n}\n\n.ace-tomorrow-night-bright .ace_invalid {\n  color: #CED2CF;\n  background-color: #DF5F5F\n}\n\n.ace-tomorrow-night-bright .ace_invalid.ace_deprecated {\n  color: #CED2CF;\n  background-color: #B798BF\n}\n\n.ace-tomorrow-night-bright .ace_fold {\n  background-color: #7AA6DA;\n  border-color: #DEDEDE\n}\n\n.ace-tomorrow-night-bright .ace_entity.ace_name.ace_function,\n.ace-tomorrow-night-bright .ace_support.ace_function,\n.ace-tomorrow-night-bright .ace_variable {\n  color: #7AA6DA\n}\n\n.ace-tomorrow-night-bright .ace_support.ace_class,\n.ace-tomorrow-night-bright .ace_support.ace_type {\n  color: #E7C547\n}\n\n.ace-tomorrow-night-bright .ace_heading,\n.ace-tomorrow-night-bright .ace_markup.ace_heading,\n.ace-tomorrow-night-bright .ace_string {\n  color: #B9CA4A\n}\n\n.ace-tomorrow-night-bright .ace_entity.ace_name.ace_tag,\n.ace-tomorrow-night-bright .ace_entity.ace_other.ace_attribute-name,\n.ace-tomorrow-night-bright .ace_meta.ace_tag,\n.ace-tomorrow-night-bright .ace_string.ace_regexp,\n.ace-tomorrow-night-bright .ace_variable {\n  color: #D54E53\n}\n\n.ace-tomorrow-night-bright .ace_comment {\n  color: #969896\n}\n\n.ace-tomorrow-night-bright .ace_c9searchresults.ace_keyword {\n  color: #C2C280\n}\n\n.ace-tomorrow-night-bright .ace_indent-guide {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYFBXV/8PAAJoAXX4kT2EAAAAAElFTkSuQmCC) right repeat-y\n}\n\n.ace-tomorrow-night-bright .ace_indent-guide-active {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;\n}\n",
+    "exports": {},
+    "id": "ace/tomorrow_night_bright",
+    "is_dark": true,
+    "name": "Tomorrow Night Bright",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/tomorrow_night_bright-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/tomorrow_night_bright.js"
+    },
+    "palette": {
+      "activeLine": "#2A2A2A",
+      "background": "#000000",
+      "cursor": "#9F9F9F",
+      "foreground": "#DEDEDE",
+      "gutterActiveLine": "#2A2A2A",
+      "gutterBackground": "#1A1A1A",
+      "gutterForeground": "#DEDEDE",
+      "invisibles": "#343434",
+      "printMargin": "#1A1A1A",
+      "selection": "#424242"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/a3c4739965df6d5f901b5c3bc7a2d28b45ce5681fb1c9ec0359be66cccd3cfd9.json",
+        "api/v1/provenance/9b528f8dbad4ec80d6431df83e190c95b4c128e70c09d70d6e52976604f30382.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "tomorrow_night_bright"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/68cbeb4f5d500342f0a288062d62b7c03b05b8f3866909da5031a3125bca35cc",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Pyrokai",
+    "original": {
+      "author": "Patrick Serrano (https://patrickserrano.com)",
+      "author_name": "Patrick Serrano",
+      "author_url": "https://patrickserrano.com",
+      "background": "#151312",
+      "color_01": "#242120",
+      "color_02": "#EC6785",
+      "color_03": "#75AD2F",
+      "color_04": "#BB9500",
+      "color_05": "#2AA0F9",
+      "color_06": "#E76899",
+      "color_07": "#00AEBD",
+      "color_08": "#B4AFAD",
+      "color_09": "#807C7A",
+      "color_10": "#FA8099",
+      "color_11": "#8BBF53",
+      "color_12": "#D0A70E",
+      "color_13": "#5BB3FF",
+      "color_14": "#F681AC",
+      "color_15": "#00C3D3",
+      "color_16": "#FAF6F5",
+      "cursor": "#EA7332",
+      "foreground": "#FAF6F5",
+      "hash": "58c16f38d7e96778e559bb343e24299d4f7bed1409e5823315e96ec487fc0721",
+      "hash_bg": "8ac57480009c68c069229811213057016ee7f49c56e428e081d7b06cf7f96321",
+      "name": "Pyrokai",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#EA7332",
+      "ansi": [
+        "#242120",
+        "#EC6785",
+        "#75AD2F",
+        "#BB9500",
+        "#2AA0F9",
+        "#E76899",
+        "#00AEBD",
+        "#B4AFAD",
+        "#807C7A",
+        "#FA8099",
+        "#8BBF53",
+        "#D0A70E",
+        "#5BB3FF",
+        "#F681AC",
+        "#00C3D3",
+        "#FAF6F5"
+      ],
+      "background": "#151312",
+      "cursor": "#EA7332",
+      "foreground": "#FAF6F5"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "68cbeb4f5d500342f0a288062d62b7c03b05b8f3866909da5031a3125bca35cc",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "68cbeb4f5d500342f0a288062d62b7c03b05b8f3866909da5031a3125bca35cc"
+  }
+}

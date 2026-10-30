@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "ae8d1c18e76dc3129de6860e5959e4d77b703604124d7189cfc935385375f2dc",
+  "text": "exports.isDark = true;\n  exports.cssClass = \"ace-cloud9-night\";\n  exports.cssText = require(\"./cloud9_night-css\");\n\n  var dom = require(\"../lib/dom\");\n  dom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/cloud9_night.js"
+}

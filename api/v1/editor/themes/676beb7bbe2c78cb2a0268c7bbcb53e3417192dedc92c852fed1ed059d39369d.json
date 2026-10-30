@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1894
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9986
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2329
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7165
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.3465
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7165
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9059
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.6045
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8551
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2025
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9019
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9019
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1894
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1894
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0872
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b8858498f4aaa508660ea0638b5000e6c13de05c1f2319cb117be1daa82fe736",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.type",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/9b6874da7552dba41e47099b5335433f78311b9ba06a835234857622ddd89749",
+    "name": "Tomorrow Night Burns",
+    "palette": {
+      "activeLine": "#202122",
+      "background": "#151515",
+      "cursor": "#FF443E",
+      "foreground": "#A1B0B8",
+      "gutterActiveLine": "#202122",
+      "gutterBackground": "#151515",
+      "gutterForeground": "#697277",
+      "invisibles": "#5D6F71",
+      "printMargin": "#383C3E",
+      "selection": "#383C3E"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "ashwinv11 (https://github.com/ashwinv11/)",
+        "author_name": "ashwinv11",
+        "author_url": "https://github.com/ashwinv11/",
+        "background": "#151515",
+        "color_01": "#252525",
+        "color_02": "#832E31",
+        "color_03": "#A63C40",
+        "color_04": "#D3494E",
+        "color_05": "#FC595F",
+        "color_06": "#DF9395",
+        "color_07": "#BA8586",
+        "color_08": "#F5F5F5",
+        "color_09": "#5D6F71",
+        "color_10": "#832E31",
+        "color_11": "#A63C40",
+        "color_12": "#D2494E",
+        "color_13": "#FC595F",
+        "color_14": "#DF9395",
+        "color_15": "#BA8586",
+        "color_16": "#F5F5F5",
+        "cursor": "#FF443E",
+        "foreground": "#A1B0B8",
+        "hash": "e2b39d39b1f64ad66994eb8448cd80cd73e71adad2197c6a4eb20e858cac7813",
+        "hash_bg": "fec3618fa5751b2b633e2706704ec988fab0ee300cb4794b97c155817e2fc453",
+        "name": "Tomorrow Night Burns",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "9b6874da7552dba41e47099b5335433f78311b9ba06a835234857622ddd89749",
+    "syntax": {
+      "comment": "#697277",
+      "constant": "#BA8586",
+      "function": "#FC595F",
+      "invalid": "#832E31",
+      "keyword": "#DF9395",
+      "number": "#BA8586",
+      "operator": "#A1B0B8",
+      "string": "#A63C40",
+      "type": "#D3494E",
+      "variable": "#A1B0B8"
+    }
+  }
+}

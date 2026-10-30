@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "a2014cc9e7af31f051e88a7d48ced4f1ef0171f232507387fa81f74f89e793c6",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-cobalt\";\nexports.cssText = require(\"./cobalt-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/cobalt.js"
+}

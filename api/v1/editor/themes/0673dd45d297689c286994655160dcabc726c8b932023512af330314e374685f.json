@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8999
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8494
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2103
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0068
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.7296
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0068
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5052
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5052
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5635
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4806
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.232
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.232
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8999
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8999
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.647
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b7cf0527a8761e0311221b3a5a407f80e95b7bda3b30416e806484c19be2ac97",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/a9845f02267983fbc45e7e07153b79ce443f0a7856187c1dc4b107491412a3e0",
+    "name": "Base2Tone Garden",
+    "palette": {
+      "activeLine": "#282928",
+      "background": "#1E1F1E",
+      "cursor": "#BD5D0F",
+      "foreground": "#969C96",
+      "gutterActiveLine": "#282928",
+      "gutterBackground": "#1E1F1E",
+      "gutterForeground": "#666A66",
+      "invisibles": "#5D605C",
+      "printMargin": "#3C3E3C",
+      "selection": "#3C3E3C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#1E1F1E",
+        "color_01": "#1E1F1E",
+        "color_02": "#3FAC39",
+        "color_03": "#DB9257",
+        "color_04": "#E0CAB8",
+        "color_05": "#4CB946",
+        "color_06": "#DB9257",
+        "color_07": "#6BCC66",
+        "color_08": "#969C96",
+        "color_09": "#5D605C",
+        "color_10": "#DBA070",
+        "color_11": "#2B2C2A",
+        "color_12": "#505350",
+        "color_13": "#696D69",
+        "color_14": "#B7E3B5",
+        "color_15": "#DD843C",
+        "color_16": "#DCF0DB",
+        "cursor": "#BD5D0F",
+        "foreground": "#969C96",
+        "hash": "da3982a3222e4c9934b16f9534ce8b9d2ac6258faa41303d5011c863dae27430",
+        "hash_bg": "44318d971dd42d74ec1c14e75b1ceac849da7cd16eb91c80a84c529f71284bd8",
+        "name": "Base2Tone Garden",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "a9845f02267983fbc45e7e07153b79ce443f0a7856187c1dc4b107491412a3e0",
+    "syntax": {
+      "comment": "#666A66",
+      "constant": "#6BCC66",
+      "function": "#4CB946",
+      "invalid": "#3FAC39",
+      "keyword": "#DB9257",
+      "number": "#6BCC66",
+      "operator": "#969C96",
+      "string": "#DB9257",
+      "type": "#E0CAB8",
+      "variable": "#969C96"
+    }
+  }
+}

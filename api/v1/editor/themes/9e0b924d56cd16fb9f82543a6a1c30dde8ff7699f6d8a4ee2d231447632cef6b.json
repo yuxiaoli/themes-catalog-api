@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7534
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6875
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2087
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2201
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.7534
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2201
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4025
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7296
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6794
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7038
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0545
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0545
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7534
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7534
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0102
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b55269d45fcdfa0ac84978f1d172f7b9cda08f18c9ddd8463f1e63c85d64cfbf",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/cad0a523e43d3a7919a351311f6c19c23b35bdc43b3edacc90fda925d98bbc50",
+    "name": "Materia",
+    "palette": {
+      "activeLine": "#333F45",
+      "background": "#263238",
+      "cursor": "#CDD3DE",
+      "foreground": "#CDD3DE",
+      "gutterActiveLine": "#333F45",
+      "gutterBackground": "#263238",
+      "gutterForeground": "#8A939C",
+      "invisibles": "#707880",
+      "printMargin": "#505A62",
+      "selection": "#505A62"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Defman21",
+        "author_name": "Defman21",
+        "author_url": "",
+        "background": "#263238",
+        "color_01": "#263238",
+        "color_02": "#EC5F67",
+        "color_03": "#8BD649",
+        "color_04": "#FFCC00",
+        "color_05": "#89DDFF",
+        "color_06": "#82AAFF",
+        "color_07": "#80CBC4",
+        "color_08": "#CDD3DE",
+        "color_09": "#707880",
+        "color_10": "#EC5F67",
+        "color_11": "#8BD649",
+        "color_12": "#FFCC00",
+        "color_13": "#89DDFF",
+        "color_14": "#82AAFF",
+        "color_15": "#80CBC4",
+        "color_16": "#FFFFFF",
+        "cursor": "#CDD3DE",
+        "foreground": "#CDD3DE",
+        "hash": "12f4a4c3dd87214a94b47d8d60bc8c43b974b5635413c754f031d62ef93c47b4",
+        "hash_bg": "39c00808b86b40d58e031fbdcba60fe570f8324e03efa839c9c730a1b9b94205",
+        "name": "Materia",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "cad0a523e43d3a7919a351311f6c19c23b35bdc43b3edacc90fda925d98bbc50",
+    "syntax": {
+      "comment": "#8A939C",
+      "constant": "#80CBC4",
+      "function": "#89DDFF",
+      "invalid": "#EC5F67",
+      "keyword": "#82AAFF",
+      "number": "#80CBC4",
+      "operator": "#CDD3DE",
+      "string": "#8BD649",
+      "type": "#FFCC00",
+      "variable": "#CDD3DE"
+    }
+  }
+}

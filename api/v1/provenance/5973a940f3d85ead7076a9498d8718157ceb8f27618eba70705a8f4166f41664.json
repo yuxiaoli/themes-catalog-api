@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "956b867671a4c2a326c0a15fd459c8b370ac691b56973caba977695409a0bc42",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-solarized-light\";\nexports.cssText = require(\"./solarized_light-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/solarized_light.js"
+}

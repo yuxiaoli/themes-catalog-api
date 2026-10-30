@@ -1,0 +1,239 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7626
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3303
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6437
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.7067
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 2.7626
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.7067
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3783
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9929
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8268
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9913
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.597
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.597
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7626
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7626
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1015
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "0fc9c299f72dcd43086a9dec8085de8d1118e15e0938330527f908cd75b309cc",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "text",
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "cursor",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.type",
+        "syntax.operator",
+        "syntax.variable",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/c987160a16076fa43a106601d5a662c4e4467359ec68a43102ac5749aaa3688f",
+    "name": "Crayon Pony Fish",
+    "palette": {
+      "activeLine": "#1C0D0E",
+      "background": "#150707",
+      "cursor": "#68525A",
+      "foreground": "#68525A",
+      "gutterActiveLine": "#1C0D0E",
+      "gutterBackground": "#150707",
+      "gutterForeground": "#473439",
+      "invisibles": "#3D2B2E",
+      "printMargin": "#2A1A1C",
+      "selection": "#2A1A1C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+        "author_name": "zdj",
+        "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
+        "background": "#150707",
+        "color_01": "#2B1B1D",
+        "color_02": "#91002B",
+        "color_03": "#579524",
+        "color_04": "#AB311B",
+        "color_05": "#8C87B0",
+        "color_06": "#692F50",
+        "color_07": "#E8A866",
+        "color_08": "#68525A",
+        "color_09": "#3D2B2E",
+        "color_10": "#C5255D",
+        "color_11": "#8DFF57",
+        "color_12": "#C8381D",
+        "color_13": "#CFC9FF",
+        "color_14": "#FC6CBA",
+        "color_15": "#FFCEAF",
+        "color_16": "#B0949D",
+        "cursor": "#68525A",
+        "foreground": "#68525A",
+        "hash": "29b2c19d23a07619334b91be78bc25e06c4b1847c7bad0b7217d5df8974b2bcb",
+        "hash_bg": "119bb25a4823ef97ba5fd9d366609aff554bac89881a28b2ca452313466af03c",
+        "name": "Crayon Pony Fish",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "c987160a16076fa43a106601d5a662c4e4467359ec68a43102ac5749aaa3688f",
+    "syntax": {
+      "comment": "#473439",
+      "constant": "#E8A866",
+      "function": "#8C87B0",
+      "invalid": "#91002B",
+      "keyword": "#692F50",
+      "number": "#E8A866",
+      "operator": "#68525A",
+      "string": "#579524",
+      "type": "#AB311B",
+      "variable": "#68525A"
+    }
+  }
+}

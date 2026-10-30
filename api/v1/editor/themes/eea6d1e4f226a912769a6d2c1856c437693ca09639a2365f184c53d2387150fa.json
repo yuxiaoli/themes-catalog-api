@@ -1,0 +1,428 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/snazzy",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "snazzy",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/snazzy.toml"
+    ],
+    "palette": {
+      "background": "#282A36",
+      "background_dark": "#21222C",
+      "black": "terminal:black",
+      "blue": "#57C7FF",
+      "carnation": "#F99FC6",
+      "comment": "#A39E9B",
+      "coral": "#F97C7C",
+      "cyan": "#9AEDFE",
+      "default": "terminal:default",
+      "foreground": "#EFF0EB",
+      "gray": "terminal:gray",
+      "green": "#5AF78E",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "lilac": "#C9C5FB",
+      "magenta": "#FF6AC1",
+      "olive": "#B6D37C",
+      "opal": "#B1D7C7",
+      "primary_highlight": "#800049",
+      "purple": "#BD93F9",
+      "red": "#FF5C57",
+      "sand": "#FFAB6F",
+      "secondary_highlight": "#4D4F66",
+      "white": "terminal:white",
+      "yellow": "#F3F99D"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/snazzy.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/f6e319c8f2290d7c59ec90b20497827989fd96061e97cbc87aecbfcdfe90250f.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "snazzy",
+    "styles": {
+      "attribute": {
+        "fg": "#B1D7C7"
+      },
+      "comment": {
+        "fg": "#A39E9B"
+      },
+      "constant": {
+        "fg": "#BD93F9"
+      },
+      "constant.builtin": {
+        "fg": "#B6D37C"
+      },
+      "constant.character": {
+        "fg": "#F99FC6"
+      },
+      "constant.character.escape": {
+        "fg": "#FF6AC1"
+      },
+      "constant.numeric": {
+        "fg": "#9AEDFE"
+      },
+      "constant.numeric.float": {
+        "fg": "#FF5C57"
+      },
+      "constructor": {
+        "fg": "#FFAB6F"
+      },
+      "diagnostic": {
+        "bg": "#9AEDFE",
+        "underline": {
+          "color": "#F97C7C",
+          "style": "line"
+        }
+      },
+      "diagnostic.deprecated": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "diagnostic.error": {
+        "underline": {
+          "color": "#FF5C57",
+          "style": "curl"
+        }
+      },
+      "diagnostic.hint": {
+        "underline": {
+          "color": "#9AEDFE",
+          "style": "line"
+        }
+      },
+      "diagnostic.info": {
+        "underline": {
+          "style": "line"
+        }
+      },
+      "diagnostic.unnecessary": {
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "diagnostic.warning": {
+        "underline": {
+          "color": "#F3F99D",
+          "style": "curl"
+        }
+      },
+      "diff.delta": {
+        "fg": "#57C7FF"
+      },
+      "diff.minus": {
+        "fg": "#FF5C57"
+      },
+      "diff.plus": {
+        "fg": "#5AF78E"
+      },
+      "error": {
+        "fg": "#FF5C57"
+      },
+      "function": {
+        "fg": "#5AF78E"
+      },
+      "function.builtin": {
+        "fg": "#FFAB6F"
+      },
+      "function.macro": {
+        "fg": "#57C7FF"
+      },
+      "function.method": {
+        "fg": "#B1D7C7"
+      },
+      "keyword": {
+        "fg": "#FF6AC1",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword.control": {
+        "fg": "#F99FC6",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword.control.exception": {
+        "fg": "#FF5C57",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword.function": {
+        "fg": "#C9C5FB",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword.operator": {
+        "fg": "#F97C7C",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword.storage": {
+        "fg": "#F97C7C",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "label": {
+        "fg": "#FF6AC1"
+      },
+      "markup.bold": {
+        "fg": "#57C7FF",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading": {
+        "fg": "#BD93F9",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.italic": {
+        "fg": "#F3F99D",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link.label": {
+        "fg": "#57C7FF",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link.text": {
+        "fg": "#FF6AC1"
+      },
+      "markup.link.url": {
+        "fg": "#9AEDFE"
+      },
+      "markup.list": {
+        "fg": "#9AEDFE"
+      },
+      "markup.quote": {
+        "fg": "#F3F99D",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.raw": {
+        "fg": "#EFF0EB"
+      },
+      "markup.strikethrough": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "namespace": {
+        "fg": "#B6D37C"
+      },
+      "operator": {
+        "fg": "#F97C7C"
+      },
+      "punctuation": {
+        "fg": "#FF6AC1"
+      },
+      "punctuation.bracket": {
+        "fg": "#EFF0EB"
+      },
+      "punctuation.delimiter": {
+        "fg": "#F97C7C"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "#FF6AC1"
+      },
+      "string": {
+        "fg": "#F3F99D"
+      },
+      "string.regexp": {
+        "fg": "#FF5C57"
+      },
+      "string.special": {
+        "fg": "#57C7FF"
+      },
+      "tag": {
+        "fg": "#F99FC6"
+      },
+      "type": {
+        "fg": "#B1D7C7"
+      },
+      "type.builtin": {
+        "fg": "#F3F99D"
+      },
+      "type.enum.variant": {
+        "fg": "#FFAB6F"
+      },
+      "type.variant": {
+        "fg": "#FFAB6F"
+      },
+      "ui.background": {
+        "bg": "#282A36",
+        "fg": "#EFF0EB"
+      },
+      "ui.cursor": {
+        "bg": "#57C7FF",
+        "fg": "#282A36",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "ui.cursor.match": {
+        "fg": "#5AF78E",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "ui.cursor.primary": {
+        "bg": "#9AEDFE",
+        "fg": "#282A36",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "ui.cursorline": {
+        "bg": "#21222C"
+      },
+      "ui.help": {
+        "bg": "#21222C",
+        "fg": "#EFF0EB"
+      },
+      "ui.linenr": {
+        "fg": "#A39E9B"
+      },
+      "ui.linenr.selected": {
+        "fg": "#EFF0EB"
+      },
+      "ui.menu": {
+        "bg": "#21222C",
+        "fg": "#EFF0EB"
+      },
+      "ui.menu.selected": {
+        "bg": "#21222C",
+        "fg": "#9AEDFE"
+      },
+      "ui.popup": {
+        "bg": "#21222C",
+        "fg": "#EFF0EB"
+      },
+      "ui.selection": {
+        "bg": "#4D4F66"
+      },
+      "ui.selection.primary": {
+        "bg": "#800049"
+      },
+      "ui.statusline": {
+        "bg": "#21222C",
+        "fg": "#EFF0EB"
+      },
+      "ui.statusline.inactive": {
+        "bg": "#21222C",
+        "fg": "#A39E9B"
+      },
+      "ui.statusline.insert": {
+        "bg": "#21222C",
+        "fg": "#B6D37C"
+      },
+      "ui.statusline.normal": {
+        "bg": "#21222C",
+        "fg": "#B1D7C7"
+      },
+      "ui.statusline.select": {
+        "bg": "#21222C",
+        "fg": "#F99FC6"
+      },
+      "ui.text": {
+        "fg": "#EFF0EB"
+      },
+      "ui.text.focus": {
+        "fg": "#9AEDFE"
+      },
+      "ui.virtual.indent-guide": {
+        "fg": "#B1D7C7"
+      },
+      "ui.virtual.inlay-hint": {
+        "bg": "#21222C",
+        "fg": "#A39E9B"
+      },
+      "ui.virtual.ruler": {
+        "bg": "#21222C"
+      },
+      "ui.virtual.whitespace": {
+        "fg": "#A39E9B"
+      },
+      "ui.window": {
+        "fg": "#EFF0EB"
+      },
+      "variable": {
+        "fg": "#9AEDFE"
+      },
+      "variable.builtin": {
+        "fg": "#B6D37C"
+      },
+      "variable.other.member": {
+        "fg": "#C9C5FB"
+      },
+      "variable.parameter": {
+        "fg": "#57C7FF",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "warning": {
+        "fg": "#9AEDFE"
+      }
+    },
+    "warnings": []
+  }
+}

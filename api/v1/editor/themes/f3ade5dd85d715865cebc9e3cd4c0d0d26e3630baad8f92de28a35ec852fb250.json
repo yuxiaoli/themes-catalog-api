@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 21.0
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.3684
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.4225
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 21.0
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9488
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1899
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5436
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3755
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9657
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9657
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 21.0
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 21.0
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5675
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "9543e83712c1ca0cb3c18a2c4d44f2c488bd48f9442e8d3d269ce71460b0169c",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/8ae3d6c726a7eb82c2dd37da5666d53063236ed2605af648b48803e8e8828c6c",
+    "name": "Builtin Tango Dark",
+    "palette": {
+      "activeLine": "#141414",
+      "background": "#000000",
+      "cursor": "#FFFFFF",
+      "foreground": "#FFFFFF",
+      "gutterActiveLine": "#141414",
+      "gutterBackground": "#000000",
+      "gutterForeground": "#999999",
+      "invisibles": "#555753",
+      "printMargin": "#404040",
+      "selection": "#404040"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#000000",
+        "color_01": "#000000",
+        "color_02": "#CC0000",
+        "color_03": "#4E9A06",
+        "color_04": "#C4A000",
+        "color_05": "#3465A4",
+        "color_06": "#75507B",
+        "color_07": "#06989A",
+        "color_08": "#D3D7CF",
+        "color_09": "#555753",
+        "color_10": "#EF2929",
+        "color_11": "#8AE234",
+        "color_12": "#FCE94F",
+        "color_13": "#729FCF",
+        "color_14": "#AD7FA8",
+        "color_15": "#34E2E2",
+        "color_16": "#EEEEEC",
+        "cursor": "#FFFFFF",
+        "foreground": "#FFFFFF",
+        "hash": "7cd9f63961ccfa75c1838a8be3a33b4ca94f663b097f0fbd8ad9dd172bb76131",
+        "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+        "name": "Builtin Tango Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "8ae3d6c726a7eb82c2dd37da5666d53063236ed2605af648b48803e8e8828c6c",
+    "syntax": {
+      "comment": "#999999",
+      "constant": "#06989A",
+      "function": "#3465A4",
+      "invalid": "#CC0000",
+      "keyword": "#75507B",
+      "number": "#06989A",
+      "operator": "#FFFFFF",
+      "string": "#4E9A06",
+      "type": "#C4A000",
+      "variable": "#FFFFFF"
+    }
+  }
+}

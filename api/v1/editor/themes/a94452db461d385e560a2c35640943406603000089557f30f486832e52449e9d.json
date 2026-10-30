@@ -1,0 +1,238 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2211
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6391
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2221
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3477
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.2211
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3477
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1767
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0936
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.3836
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5192
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.284
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.284
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2211
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2211
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.872
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "80ae44739bf3a3371e79a0ca523bae119dffcc1b503996a5123e3e6dd26a6d62",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/b40a3e9d2c256d7e6c5f43b897be5533d877325109a990a069fc7cd5797f6124",
+    "name": "Lunaria Dark",
+    "palette": {
+      "activeLine": "#425159",
+      "background": "#36464E",
+      "cursor": "#CACED8",
+      "foreground": "#CACED8",
+      "gutterActiveLine": "#425159",
+      "gutterBackground": "#36464E",
+      "gutterForeground": "#8F98A1",
+      "invisibles": "#404F56",
+      "printMargin": "#5B6871",
+      "selection": "#5B6871"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#36464E",
+        "color_01": "#36464E",
+        "color_02": "#846560",
+        "color_03": "#809984",
+        "color_04": "#A79A79",
+        "color_05": "#555673",
+        "color_06": "#866C83",
+        "color_07": "#7E98B4",
+        "color_08": "#CACED8",
+        "color_09": "#404F56",
+        "color_10": "#BB928B",
+        "color_11": "#BFDCC2",
+        "color_12": "#F1DFB6",
+        "color_13": "#777798",
+        "color_14": "#BF9DB9",
+        "color_15": "#BDDCFF",
+        "color_16": "#DFE2ED",
+        "cursor": "#CACED8",
+        "foreground": "#CACED8",
+        "hash": "b94e7e9e929f5c6d55f401fe3c351e226b0d10a6e372a3f5b806b58c1fa7a084",
+        "hash_bg": "8033106a4be31e8be2e9ca44316138973de8736f4aa5c4d53c3970dc488f72b2",
+        "name": "Lunaria Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b40a3e9d2c256d7e6c5f43b897be5533d877325109a990a069fc7cd5797f6124",
+    "syntax": {
+      "comment": "#8F98A1",
+      "constant": "#7E98B4",
+      "function": "#555673",
+      "invalid": "#846560",
+      "keyword": "#866C83",
+      "number": "#7E98B4",
+      "operator": "#CACED8",
+      "string": "#809984",
+      "type": "#A79A79",
+      "variable": "#CACED8"
+    }
+  }
+}

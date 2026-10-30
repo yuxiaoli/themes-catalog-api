@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "8a05e47e64a4b34b5e983df60b17058c5cacc291b5697fc9b78a076f8e07e179",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-monokai\";\nexports.cssText = require(\"./monokai-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/monokai.js"
+}

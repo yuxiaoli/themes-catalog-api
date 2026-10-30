@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "6d9b1ca0817fdda67cca20285e768f29268d13db493806a497fa3d5df353998f",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-nord-dark\";\nexports.cssText = require(\"./nord_dark-css\");\nexports.$selectionColorConflict = true;\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/nord_dark.js"
+}

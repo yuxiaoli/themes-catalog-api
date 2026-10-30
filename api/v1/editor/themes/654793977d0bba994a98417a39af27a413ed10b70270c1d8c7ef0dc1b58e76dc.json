@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4825
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2326
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.4886
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.823
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.4825
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.823
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5731
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8377
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.421
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1807
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0372
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0372
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4825
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4825
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5208
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "7c4ed0924546e2697ba90a1c3712b29454db353cf4df006801fcfee5dab9e8e8",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/04e75bec288c1db3a66c52a23a99394e69defc88af5e94942abcc07c885b5b4b",
+    "name": "Sonokai",
+    "palette": {
+      "activeLine": "#3B3C42",
+      "background": "#2C2E34",
+      "cursor": "#E2E2E3",
+      "foreground": "#E2E2E3",
+      "gutterActiveLine": "#3B3C42",
+      "gutterBackground": "#2C2E34",
+      "gutterForeground": "#999A9D",
+      "invisibles": "#7F8490",
+      "printMargin": "#5A5B60",
+      "selection": "#5A5B60"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "sainnhe (https://github.com/sainnhe/sonokai)",
+        "author_name": "sainnhe",
+        "author_url": "https://github.com/sainnhe/sonokai",
+        "background": "#2C2E34",
+        "color_01": "#181819",
+        "color_02": "#FC5D7C",
+        "color_03": "#9ED072",
+        "color_04": "#E7C664",
+        "color_05": "#76CCE0",
+        "color_06": "#B39DF3",
+        "color_07": "#F39660",
+        "color_08": "#E2E2E3",
+        "color_09": "#7F8490",
+        "color_10": "#FC5D7C",
+        "color_11": "#9ED072",
+        "color_12": "#E7C664",
+        "color_13": "#76CCE0",
+        "color_14": "#B39DF3",
+        "color_15": "#F39660",
+        "color_16": "#E2E2E3",
+        "cursor": "#E2E2E3",
+        "foreground": "#E2E2E3",
+        "hash": "8b12c319b014c641f450521c36596fe2fc70839f2edd8200408caf51cf2486fb",
+        "hash_bg": "5a5379539d58afd38dfbaa775acc9c786f255484e3b70edee8ceef8f331e6518",
+        "name": "Sonokai",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "04e75bec288c1db3a66c52a23a99394e69defc88af5e94942abcc07c885b5b4b",
+    "syntax": {
+      "comment": "#999A9D",
+      "constant": "#F39660",
+      "function": "#76CCE0",
+      "invalid": "#FC5D7C",
+      "keyword": "#B39DF3",
+      "number": "#F39660",
+      "operator": "#E2E2E3",
+      "string": "#9ED072",
+      "type": "#E7C664",
+      "variable": "#E2E2E3"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-gruvbox",
+    "css_text": ".ace-gruvbox .ace_gutter-active-line {\n  background-color: #3C3836;\n}\n\n.ace-gruvbox {\n  color: #EBDAB4;\n  background-color: #1D2021;\n}\n\n.ace-gruvbox .ace_invisible {\n  color: #504945;\n}\n\n.ace-gruvbox .ace_marker-layer .ace_selection {\n  background: rgba(179, 101, 57, 0.75)\n}\n\n.ace-gruvbox.ace_multiselect .ace_selection.ace_start {\n  box-shadow: 0 0 3px 0px #002240;\n}\n\n.ace-gruvbox .ace_keyword {\n  color: #8ec07c;\n}\n\n.ace-gruvbox .ace_comment {\n  font-style: italic;\n  color: #928375;\n}\n\n.ace-gruvbox .ace-statement {\n  color: red;\n}\n\n.ace-gruvbox .ace_variable {\n  color: #84A598;\n}\n\n.ace-gruvbox .ace_variable.ace_language {\n  color: #D2879B;\n}\n\n.ace-gruvbox .ace_constant {\n  color: #C2859A;\n}\n\n.ace-gruvbox .ace_constant.ace_language {\n  color: #C2859A;\n}\n\n.ace-gruvbox .ace_constant.ace_numeric {\n  color: #C2859A;\n}\n\n.ace-gruvbox .ace_string {\n  color: #B8BA37;\n}\n\n.ace-gruvbox .ace_support {\n  color: #F9BC41;\n}\n\n.ace-gruvbox .ace_support.ace_function {\n  color: #F84B3C;\n}\n\n.ace-gruvbox .ace_storage {\n  color: #8FBF7F;\n}\n\n.ace-gruvbox .ace_keyword.ace_operator {\n  color: #EBDAB4;\n}\n\n.ace-gruvbox .ace_punctuation.ace_operator {\n  color: yellow;\n}\n\n.ace-gruvbox .ace_marker-layer .ace_active-line {\n  background: #3C3836;\n}\n\n.ace-gruvbox .ace_marker-layer .ace_selected-word {\n  border-radius: 4px;\n  border: 8px solid #3f475d;\n}\n\n.ace-gruvbox .ace_print-margin {\n  width: 5px;\n  background: #3C3836;\n}\n\n.ace-gruvbox .ace_indent-guide {\n  background: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNQUFD4z6Crq/sfAAuYAuYl+7lfAAAAAElFTkSuQmCC\") right repeat-y;\n}\n\n.ace-gruvbox .ace_indent-guide-active {\n  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQIW2PQ1dX9zzBz5sz/ABCcBFFentLlAAAAAElFTkSuQmCC) right repeat-y;\n}\n",
+    "exports": {},
+    "id": "ace/gruvbox",
+    "is_dark": true,
+    "name": "Gruvbox",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/gruvbox-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/gruvbox.js"
+    },
+    "palette": {
+      "activeLine": "#3C3836",
+      "background": "#1D2021",
+      "cursor": "#EBDAB4",
+      "foreground": "#EBDAB4",
+      "gutterActiveLine": "#3C3836",
+      "gutterBackground": "#00000000",
+      "gutterForeground": "#EBDAB4",
+      "invisibles": "#504945",
+      "printMargin": "#3C3836",
+      "selection": "#B36539BF"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/e1f1b6168a9467ab68f0208bee43c6eb9bf497b08181fa1e1da8c70a2b71ee97.json",
+        "api/v1/provenance/50c2784f13fa734d0005cd2361ce5b30e96bff07a934d34442413e3e2d360461.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "gruvbox"
+  }
+}

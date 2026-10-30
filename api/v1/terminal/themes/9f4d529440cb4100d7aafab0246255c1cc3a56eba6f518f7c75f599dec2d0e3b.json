@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/b7e541a196268510c8ca97f5254e82bec5798774b6334085fe84cc3dc431f527",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "One Dark Two",
+    "original": {
+      "author": "beatreichenbach (https://github.com/beatreichenbach/one-dark-two)",
+      "author_name": "beatreichenbach",
+      "author_url": "https://github.com/beatreichenbach/one-dark-two",
+      "background": "#21252B",
+      "color_01": "#1D1F23",
+      "color_02": "#E27881",
+      "color_03": "#98C379",
+      "color_04": "#EAC786",
+      "color_05": "#71B9F4",
+      "color_06": "#C88BDA",
+      "color_07": "#62BAC6",
+      "color_08": "#C9CCD3",
+      "color_09": "#4A505A",
+      "color_10": "#E68991",
+      "color_11": "#A8CC8E",
+      "color_12": "#EDCF97",
+      "color_13": "#8DC7F6",
+      "color_14": "#D3A2E2",
+      "color_15": "#78C4CE",
+      "color_16": "#E6E6E6",
+      "cursor": "#E6E6E6",
+      "foreground": "#E6E6E6",
+      "hash": "d68a6ee92fdff03f45b0b86e4a04c91ebb290b3e07ea307a6d266e5175529b2f",
+      "hash_bg": "91371d133c12ef26a7acd2e38ff83ac117890dc1adbdb4a414afd7f84e1df1ab",
+      "name": "One Dark Two",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#E6E6E6",
+      "ansi": [
+        "#1D1F23",
+        "#E27881",
+        "#98C379",
+        "#EAC786",
+        "#71B9F4",
+        "#C88BDA",
+        "#62BAC6",
+        "#C9CCD3",
+        "#4A505A",
+        "#E68991",
+        "#A8CC8E",
+        "#EDCF97",
+        "#8DC7F6",
+        "#D3A2E2",
+        "#78C4CE",
+        "#E6E6E6"
+      ],
+      "background": "#21252B",
+      "cursor": "#E6E6E6",
+      "foreground": "#E6E6E6"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "b7e541a196268510c8ca97f5254e82bec5798774b6334085fe84cc3dc431f527",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b7e541a196268510c8ca97f5254e82bec5798774b6334085fe84cc3dc431f527"
+  }
+}

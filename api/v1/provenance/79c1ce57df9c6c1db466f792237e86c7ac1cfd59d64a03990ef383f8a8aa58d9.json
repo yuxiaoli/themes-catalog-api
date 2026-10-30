@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "4e60eb5f1057a65c5d476a5c00b7617ffb71346dbc6700f4665e54f8f9427d4b",
+  "text": "# Kanagawa palette, partially adjusted\n\"fujiWhite\" = \"#DCD7BA\"\n\"oldWhite\" = \"#C8C093\"\n\"sumiInk0\" = \"#16161D\"\n\"sumiInk1\" = \"#1F1F28\"\n\"sumiInk1_5\" = \"#252530\"\n\"sumiInk2\" = \"#2A2A37\"\n\"sumiInk3\" = \"#363646\"\n\"sumiInk4\" = \"#54546D\"\n\"waveBlue1\" = \"#252E42\"\n\"waveBlue1_5\" = \"#2A3D5A\"\n\"waveBlue2\" = \"#2F496C\"\n\"winterGreen\" = \"#2B3328\"\n\"winterYellow\" = \"#49443C\"\n\"winterRed\" = \"#43242B\"\n\"winterBlue\" = \"#252535\"\n\"autumnGreen\" = \"#76946A\"\n\"autumnRed\" = \"#C34043\"\n\"autumnYellow\" = \"#DCA561\"\n\"samuraiRed\" = \"#E82424\"\n\"roninYellow\" = \"#FF9E3B\"\n\"waveAqua1\" = \"#6A9589\"\n\"dragonBlue\" = \"#658594\"\n\"fujiGray\" = \"#727169\"\n\"springViolet1\" = \"#938AA9\"\n\"oniViolet\" = \"#957FB8\"\n\"crystalBlue\" = \"#7E9CD8\"\n\"springViolet2\" = \"#9CABCA\"\n\"springBlue\" = \"#7FB4CA\"\n\"lightBlue\" = \"#A3D4D5\"\n\"waveAqua2\" = \"#7AA89F\"\n\"springGreen\" = \"#98BB6C\"\n\"boatYellow1\" = \"#938056\"\n\"boatYellow2\" = \"#C0A36E\"\n\"carpYellow\" = \"#E6C384\"\n\"sakuraPink\" = \"#D27E99\"\n\"waveRed\" = \"#E46876\"\n\"peachRed\" = \"#FF5D62\"\n\"surimiOrange\" = \"#FFA066\"\n\"katanaGray\" = \"#717C7C\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/kanabox/default"
+}

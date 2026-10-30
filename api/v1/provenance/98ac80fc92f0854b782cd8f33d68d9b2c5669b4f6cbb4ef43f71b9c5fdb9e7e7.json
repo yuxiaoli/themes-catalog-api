@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "14ac68ba417bf845d8232469ae89dc0c3ccf8e4dd572eb040878ccda99c413b2",
+  "text": "# Author : Sven-Hendrik Haase <svenstaro@gmail.com>\n# Author : Jakub Bartodziej <kubabartodziej@gmail.com>\n# The theme uses the gruvbox dark palette with hard contrast: github.com/morhetz/gruvbox\n\ninherits = \"gruvbox\"\n\n\"ui.cursor.primary\" = { modifiers = [\"reversed\"] }\n\"ui.cursor.match\" = { bg = \"bg2\" }\n\n\"diagnostic.error\" = { underline = { color = \"red0\", style = \"curl\"} }\n\n[palette]\nbg0 = \"#1d2021\" # main background\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/gruvbox_dark_hard.toml"
+}

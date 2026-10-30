@@ -1,0 +1,235 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9256
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9707
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6431
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1923
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.9256
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1923
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8741
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3553
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8741
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.8026
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8741
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8741
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9256
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9256
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0122
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "16ead442f3bcc511933bcc00d9b1401ffa2ce6d7e5fcfda2159923f29a13ff87",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "text",
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.operator",
+        "syntax.variable"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/84eb690d9b454739c1062a75bd1a192466fb934ee57585f3cfe138b0fff1ef2c",
+    "name": "Vulcan",
+    "palette": {
+      "activeLine": "#0B1D2B",
+      "background": "#041523",
+      "cursor": "#5B778C",
+      "foreground": "#5B778C",
+      "gutterActiveLine": "#0B1D2B",
+      "gutterBackground": "#041523",
+      "gutterForeground": "#385062",
+      "invisibles": "#7A5759",
+      "printMargin": "#1A2E3D",
+      "selection": "#1A2E3D"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Andrey Varfolomeev",
+        "author_name": "Andrey Varfolomeev",
+        "author_url": "",
+        "background": "#041523",
+        "color_01": "#041523",
+        "color_02": "#818591",
+        "color_03": "#977D7C",
+        "color_04": "#ADB4B9",
+        "color_05": "#977D7C",
+        "color_06": "#9198A3",
+        "color_07": "#977D7C",
+        "color_08": "#5B778C",
+        "color_09": "#7A5759",
+        "color_10": "#818591",
+        "color_11": "#977D7C",
+        "color_12": "#ADB4B9",
+        "color_13": "#977D7C",
+        "color_14": "#9198A3",
+        "color_15": "#977D7C",
+        "color_16": "#214D68",
+        "cursor": "#5B778C",
+        "foreground": "#5B778C",
+        "hash": "7acc0470edd5af758f0ebe84a212794b5501c9bd167f7df5143c25a464469165",
+        "hash_bg": "ae32cab36e4094afaa157c5aa142619d49c6241a9915b710f1216f551c4b37a1",
+        "name": "Vulcan",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "84eb690d9b454739c1062a75bd1a192466fb934ee57585f3cfe138b0fff1ef2c",
+    "syntax": {
+      "comment": "#385062",
+      "constant": "#977D7C",
+      "function": "#977D7C",
+      "invalid": "#818591",
+      "keyword": "#9198A3",
+      "number": "#977D7C",
+      "operator": "#5B778C",
+      "string": "#977D7C",
+      "type": "#ADB4B9",
+      "variable": "#5B778C"
+    }
+  }
+}

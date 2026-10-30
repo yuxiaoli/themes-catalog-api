@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4229
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.646
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3201
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4584
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.7342
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4584
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.185
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6809
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4241
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7632
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0289
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0289
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4229
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4229
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4549
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "832fdf83621fab0ad391fb78789832fc8ada27929294254595aff77af643b684",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/24da01d3eb51e1de24a520885d454da5e5b2e5f618c6ac56c7ab7db96875a8b0",
+    "name": "Seoulbones Dark",
+    "palette": {
+      "activeLine": "#575757",
+      "background": "#4B4B4B",
+      "cursor": "#E2E2E2",
+      "foreground": "#DDDDDD",
+      "gutterActiveLine": "#575757",
+      "gutterBackground": "#4B4B4B",
+      "gutterForeground": "#A3A3A3",
+      "invisibles": "#6C6465",
+      "printMargin": "#707070",
+      "selection": "#707070"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#4B4B4B",
+        "color_01": "#4B4B4B",
+        "color_02": "#E388A3",
+        "color_03": "#98BD99",
+        "color_04": "#FFDF9B",
+        "color_05": "#97BDDE",
+        "color_06": "#A5A6C5",
+        "color_07": "#6FBDBE",
+        "color_08": "#DDDDDD",
+        "color_09": "#6C6465",
+        "color_10": "#EB99B1",
+        "color_11": "#8FCD92",
+        "color_12": "#FFE5B3",
+        "color_13": "#A2C8E9",
+        "color_14": "#B2B3DA",
+        "color_15": "#6BCACB",
+        "color_16": "#A8A8A8",
+        "cursor": "#E2E2E2",
+        "foreground": "#DDDDDD",
+        "hash": "f123818a0a3f7e914b3276b45c5b70ded241eae78b32a5720c689213bfef17e4",
+        "hash_bg": "fbbe2f9e0dfd28a2ae62fd342d41dfd101c8313a92cf39bcf790cb1782b4175e",
+        "name": "Seoulbones Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "24da01d3eb51e1de24a520885d454da5e5b2e5f618c6ac56c7ab7db96875a8b0",
+    "syntax": {
+      "comment": "#A3A3A3",
+      "constant": "#6FBDBE",
+      "function": "#97BDDE",
+      "invalid": "#E388A3",
+      "keyword": "#A5A6C5",
+      "number": "#6FBDBE",
+      "operator": "#DDDDDD",
+      "string": "#98BD99",
+      "type": "#FFDF9B",
+      "variable": "#DDDDDD"
+    }
+  }
+}

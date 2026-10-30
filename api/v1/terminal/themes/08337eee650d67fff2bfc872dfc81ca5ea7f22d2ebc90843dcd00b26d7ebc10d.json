@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/b09dddcfd36498e309daed321c12df10fee8aadfeb5328b0b3c126d55ef1c9a1",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Solarized Dark Higher Contrast",
+    "original": {
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "background": "#001E27",
+      "color_01": "#002831",
+      "color_02": "#D11C24",
+      "color_03": "#6CBE6C",
+      "color_04": "#A57706",
+      "color_05": "#2176C7",
+      "color_06": "#C61C6F",
+      "color_07": "#259286",
+      "color_08": "#EAE3CB",
+      "color_09": "#006488",
+      "color_10": "#F5163B",
+      "color_11": "#51EF84",
+      "color_12": "#B27E28",
+      "color_13": "#178EC8",
+      "color_14": "#E24D8E",
+      "color_15": "#00B39E",
+      "color_16": "#FCF4DC",
+      "cursor": "#F34B00",
+      "foreground": "#9CC2C3",
+      "hash": "3c2a262417451d4c5c6ad443df5e3829d4674b1b6102cb74c2f4a864185cbc6d",
+      "hash_bg": "70c870089f3b222d01ae3f98d86dc53e11cb7f4cde69ecfe1f1a90a541811b2e",
+      "name": "Solarized Dark Higher Contrast",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#F34B00",
+      "ansi": [
+        "#002831",
+        "#D11C24",
+        "#6CBE6C",
+        "#A57706",
+        "#2176C7",
+        "#C61C6F",
+        "#259286",
+        "#EAE3CB",
+        "#006488",
+        "#F5163B",
+        "#51EF84",
+        "#B27E28",
+        "#178EC8",
+        "#E24D8E",
+        "#00B39E",
+        "#FCF4DC"
+      ],
+      "background": "#001E27",
+      "cursor": "#F34B00",
+      "foreground": "#9CC2C3"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "b09dddcfd36498e309daed321c12df10fee8aadfeb5328b0b3c126d55ef1c9a1",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b09dddcfd36498e309daed321c12df10fee8aadfeb5328b0b3c126d55ef1c9a1"
+  }
+}

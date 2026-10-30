@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "75bcba5e24134e8922509a820611cf7cf04c8a14f07c15dc39934060332254cd",
+  "text": "black = \"#181a1c\"\nbg0 = \"#2a2f38\"\nbg1 = \"#333846\"\nbg2 = \"#373c4b\"\nbg3 = \"#3d4455\"\nbg4 = \"#424b5b\"\nbg_red = \"#ff6d7e\"\ndiff_red = \"#55393d\"\nbg_green = \"#a5e179\"\ndiff_green = \"#394634\"\nbg_blue = \"#7ad5f1\"\ndiff_blue = \"#354157\"\ndiff_yellow = \"#4e432f\"\nfg = \"#e1e3e4\"\nred = \"#ff6578\"\norange = \"#f69c5e\"\nyellow = \"#eacb64\"\ngreen = \"#9dd274\"\ncyan = \"#8cd1bd\" # added for compatibility with `edge` scheme\nblue = \"#72cce8\"\npurple = \"#ba9cf3\"\ngrey = \"#828a9a\"\ngrey_dim = \"#5a6477\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/sonokai/atlantis"
+}

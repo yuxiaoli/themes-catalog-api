@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7165
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5016
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0727
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2934
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 1.3411
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2934
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0396
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7165
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.209
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.481
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9448
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.9448
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7165
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.7165
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0538
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "f8b9f467266814d272a7df1d0acffd9c956e3a92d4f1e3658d4a153d19efb886",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "cursor",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/3eabbcae3ac7ba31b490fed045024863e7133afec411c8aecb566fd0a2cee21c",
+    "name": "Django Smooth",
+    "palette": {
+      "activeLine": "#355D42",
+      "background": "#245032",
+      "cursor": "#336442",
+      "foreground": "#F8F8F8",
+      "gutterActiveLine": "#355D42",
+      "gutterBackground": "#245032",
+      "gutterForeground": "#A3B5A9",
+      "invisibles": "#323232",
+      "printMargin": "#597A64",
+      "selection": "#597A64"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Jannis Leidel (https://code.djangoproject.com/wiki/TextMate)",
+        "author_name": "Jannis Leidel",
+        "author_url": "https://code.djangoproject.com/wiki/TextMate",
+        "background": "#245032",
+        "color_01": "#000000",
+        "color_02": "#FD6209",
+        "color_03": "#41A83E",
+        "color_04": "#FFE862",
+        "color_05": "#989898",
+        "color_06": "#F8F8F8",
+        "color_07": "#9DF39F",
+        "color_08": "#E8E8E7",
+        "color_09": "#323232",
+        "color_10": "#FF943B",
+        "color_11": "#73DA70",
+        "color_12": "#FFFF94",
+        "color_13": "#CACACA",
+        "color_14": "#FFFFFF",
+        "color_15": "#CFFFD1",
+        "color_16": "#FFFFFF",
+        "cursor": "#336442",
+        "foreground": "#F8F8F8",
+        "hash": "6b235b09569bc214a8dfe7295a00791c901495582c301108d06700d5a584f811",
+        "hash_bg": "67bc11074bf3e7f13234fd1ccd396f662a7c738e712f25c55943650fabfd37dd",
+        "name": "Django Smooth",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "3eabbcae3ac7ba31b490fed045024863e7133afec411c8aecb566fd0a2cee21c",
+    "syntax": {
+      "comment": "#A3B5A9",
+      "constant": "#9DF39F",
+      "function": "#989898",
+      "invalid": "#FD6209",
+      "keyword": "#F8F8F8",
+      "number": "#9DF39F",
+      "operator": "#F8F8F8",
+      "string": "#41A83E",
+      "type": "#FFE862",
+      "variable": "#F8F8F8"
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.797
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0403
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.0649
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.521
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 16.797
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.521
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.6734
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.6814
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.8861
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.6358
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.8861
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.8861
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.797
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.797
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4013
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "96415219b7808900a0cc859a4df3864a738fa76ed574bd50c4873f388eb8f652",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/26db557fd272e420789a217d54f0aeafa44dea14412a40de42ccebfa48d525d8",
+    "name": "Paris",
+    "palette": {
+      "activeLine": "#2C1C41",
+      "background": "#1A0A30",
+      "cursor": "#F7F1FF",
+      "foreground": "#F7F1FF",
+      "gutterActiveLine": "#2C1C41",
+      "gutterBackground": "#1A0A30",
+      "gutterForeground": "#9F95AC",
+      "invisibles": "#C4BDFF",
+      "printMargin": "#514464",
+      "selection": "#514464"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "xscriptor (https://github.com/xscriptor)",
+        "author_name": "xscriptor",
+        "author_url": "https://github.com/xscriptor",
+        "background": "#1A0A30",
+        "color_01": "#1A0A30",
+        "color_02": "#FC618D",
+        "color_03": "#7BD88F",
+        "color_04": "#FCE566",
+        "color_05": "#A3F3FF",
+        "color_06": "#C4BDFF",
+        "color_07": "#A3F3FF",
+        "color_08": "#1A0A30",
+        "color_09": "#C4BDFF",
+        "color_10": "#FC618D",
+        "color_11": "#7BD88F",
+        "color_12": "#FCE566",
+        "color_13": "#A3F3FF",
+        "color_14": "#C4BDFF",
+        "color_15": "#A3F3FF",
+        "color_16": "#F7F1FF",
+        "cursor": "#F7F1FF",
+        "foreground": "#F7F1FF",
+        "hash": "d757ff0ef8f85381f4ee8b05e08e7ad88bf1f89e2b52f867db4d17aa654181df",
+        "hash_bg": "68ded65a3c47044d45f62112cf8604c136b055915e729e180ded7421328aa07c",
+        "name": "Paris",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "26db557fd272e420789a217d54f0aeafa44dea14412a40de42ccebfa48d525d8",
+    "syntax": {
+      "comment": "#9F95AC",
+      "constant": "#A3F3FF",
+      "function": "#A3F3FF",
+      "invalid": "#FC618D",
+      "keyword": "#C4BDFF",
+      "number": "#A3F3FF",
+      "operator": "#F7F1FF",
+      "string": "#7BD88F",
+      "type": "#FCE566",
+      "variable": "#F7F1FF"
+    }
+  }
+}

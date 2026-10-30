@@ -1,0 +1,425 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/term16_light",
+    "inheritance": [
+      "term16_dark"
+    ],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "term16_light",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/term16_dark.toml",
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/term16_light.toml"
+    ],
+    "palette": {
+      "black": "terminal:black",
+      "blue": "terminal:blue",
+      "cyan": "terminal:cyan",
+      "default": "terminal:default",
+      "gray": "terminal:gray",
+      "green": "terminal:green",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "terminal:magenta",
+      "red": "terminal:red",
+      "white": "terminal:white",
+      "yellow": "terminal:yellow"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/term16_light.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/62f6aa4525edabac90eb008a495af1d47b67f2a94027dc15d9800535cfe59d0a.json",
+        "api/v1/provenance/61453c52ac0c4d69d3207312e51115c7d8ee0c1d1a4f85425efbf586f40365d3.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "term16_light",
+    "styles": {
+      "attribute": {
+        "fg": "terminal:yellow"
+      },
+      "comment": {
+        "fg": "terminal:gray",
+        "modifiers": [
+          "italic",
+          "dim"
+        ]
+      },
+      "constant": {
+        "fg": "terminal:yellow",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "constant.character.escape": {
+        "fg": "terminal:blue"
+      },
+      "constant.numeric": {
+        "fg": "terminal:yellow",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "constructor": {
+        "fg": "terminal:blue"
+      },
+      "debug": {
+        "fg": "terminal:light-yellow"
+      },
+      "diagnostic.error": {
+        "underline": {
+          "color": "terminal:red",
+          "style": "curl"
+        }
+      },
+      "diagnostic.hint": {
+        "underline": {
+          "color": "terminal:cyan",
+          "style": "curl"
+        }
+      },
+      "diagnostic.info": {
+        "underline": {
+          "color": "terminal:blue",
+          "style": "curl"
+        }
+      },
+      "diagnostic.warning": {
+        "underline": {
+          "color": "terminal:yellow",
+          "style": "curl"
+        }
+      },
+      "diff.delta": {
+        "fg": "terminal:yellow"
+      },
+      "diff.minus": {
+        "fg": "terminal:red"
+      },
+      "diff.plus": {
+        "fg": "terminal:green"
+      },
+      "error": {
+        "fg": "terminal:red"
+      },
+      "function": {
+        "fg": "terminal:blue"
+      },
+      "function.builtin": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "function.macro": {
+        "fg": "terminal:light-red"
+      },
+      "hint": {
+        "fg": "terminal:cyan"
+      },
+      "info": {
+        "fg": "terminal:blue"
+      },
+      "keyword": {
+        "fg": "terminal:magenta"
+      },
+      "keyword.control.exception": {
+        "fg": "terminal:red"
+      },
+      "keyword.directive": {
+        "fg": "terminal:yellow",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword.operator": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "label": {
+        "fg": "terminal:red"
+      },
+      "markup.bold": {
+        "fg": "terminal:cyan",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.italic": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link.text": {
+        "fg": "terminal:magenta",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.link.url": {
+        "fg": "terminal:magenta",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "markup.list": {
+        "fg": "terminal:red"
+      },
+      "markup.quote": {
+        "fg": "terminal:cyan"
+      },
+      "markup.raw": {
+        "fg": "terminal:blue"
+      },
+      "markup.strikethrough": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "namespace": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "terminal:red"
+      },
+      "string": {
+        "fg": "terminal:green"
+      },
+      "tag": {
+        "fg": "terminal:magenta",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "type": {
+        "fg": "terminal:blue"
+      },
+      "type.builtin": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "type.enum.variant": {
+        "fg": "terminal:magenta",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "ui.background": {},
+      "ui.background.separator": {
+        "fg": "terminal:light-gray"
+      },
+      "ui.cursor": {
+        "fg": "terminal:gray",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursor.match": {
+        "fg": "terminal:yellow",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursor.primary": {
+        "fg": "terminal:black",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursor.secondary": {
+        "fg": "terminal:gray",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursorcolumn.primary": {
+        "bg": "terminal:white"
+      },
+      "ui.cursorcolumn.secondary": {
+        "bg": "terminal:white"
+      },
+      "ui.cursorline.primary": {
+        "bg": "terminal:white"
+      },
+      "ui.cursorline.secondary": {
+        "bg": "terminal:white"
+      },
+      "ui.gutter": {},
+      "ui.gutter.selected": {
+        "bg": "terminal:white"
+      },
+      "ui.help": {},
+      "ui.linenr": {
+        "fg": "terminal:gray",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "ui.linenr.selected": {
+        "fg": "terminal:black",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.menu": {
+        "bg": "terminal:light-gray"
+      },
+      "ui.menu.scroll": {
+        "fg": "terminal:light-blue"
+      },
+      "ui.menu.selected": {
+        "bg": "terminal:gray",
+        "fg": "terminal:white",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.popup": {
+        "bg": "terminal:white"
+      },
+      "ui.selection": {
+        "bg": "terminal:light-gray"
+      },
+      "ui.statusline": {
+        "bg": "terminal:white"
+      },
+      "ui.statusline.inactive": {
+        "fg": "terminal:gray",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "ui.statusline.insert": {
+        "bg": "terminal:blue",
+        "fg": "terminal:white"
+      },
+      "ui.statusline.select": {
+        "bg": "terminal:magenta",
+        "fg": "terminal:white"
+      },
+      "ui.text": {},
+      "ui.text.focus": {},
+      "ui.virtual": {
+        "fg": "terminal:light-gray"
+      },
+      "ui.virtual.indent-guide": {
+        "fg": "terminal:light-gray",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "ui.virtual.inlay-hint": {
+        "fg": "terminal:light-gray",
+        "modifiers": [
+          "dim",
+          "italic"
+        ]
+      },
+      "ui.virtual.inlay-hint.parameter": {
+        "fg": "terminal:yellow",
+        "modifiers": [
+          "dim",
+          "italic"
+        ]
+      },
+      "ui.virtual.inlay-hint.type": {
+        "fg": "terminal:blue",
+        "modifiers": [
+          "dim",
+          "italic"
+        ]
+      },
+      "ui.virtual.ruler": {
+        "bg": "terminal:white"
+      },
+      "ui.virtual.whitespace": {},
+      "ui.virtual.wrap": {
+        "fg": "terminal:light-gray"
+      },
+      "ui.window": {
+        "fg": "terminal:gray",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "variable": {
+        "fg": "terminal:black",
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "variable.other.member": {
+        "fg": "terminal:green"
+      },
+      "variable.parameter": {
+        "fg": "terminal:red",
+        "modifiers": [
+          "italic",
+          "dim"
+        ]
+      },
+      "warning": {
+        "fg": "terminal:yellow"
+      }
+    },
+    "warnings": []
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.82
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3877
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5692
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8243
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.8185
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8243
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5919
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7543
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9145
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1449
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8185
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.8185
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.82
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.82
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0726
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "7f681a70a628e32decbfc2b765c67aa23c52a3dcd74ff84f315e56d35d544f22",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/dc3ba856c0644fac19208ca0db4f2dc4dfd860537ac550cf2a7522c9b5adeafb",
+    "name": "Doom One",
+    "palette": {
+      "activeLine": "#343840",
+      "background": "#282C34",
+      "cursor": "#51AFEF",
+      "foreground": "#BBC2CF",
+      "gutterActiveLine": "#343840",
+      "gutterBackground": "#282C34",
+      "gutterForeground": "#808691",
+      "invisibles": "#000000",
+      "printMargin": "#4D525B",
+      "selection": "#4D525B"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Henrik Lissner",
+        "author_name": "Henrik Lissner",
+        "author_url": "https://github.com/hlissner",
+        "background": "#282C34",
+        "color_01": "#000000",
+        "color_02": "#FF6C6B",
+        "color_03": "#98BE65",
+        "color_04": "#ECBE7B",
+        "color_05": "#A9A1E1",
+        "color_06": "#C678DD",
+        "color_07": "#51AFEF",
+        "color_08": "#BBC2CF",
+        "color_09": "#000000",
+        "color_10": "#FF6655",
+        "color_11": "#99BB66",
+        "color_12": "#ECBE7B",
+        "color_13": "#A9A1E1",
+        "color_14": "#C678DD",
+        "color_15": "#51AFEF",
+        "color_16": "#BFBFBF",
+        "cursor": "#51AFEF",
+        "foreground": "#BBC2CF",
+        "hash": "8e6ad3eee6a1f0e39deb7ae0c809319270f43a202ad176028524c211350d7a16",
+        "hash_bg": "5e8eab6831045b60ca66d1dee977bb724c2cab9963110788954ed06cf9366b15",
+        "name": "Doom One",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "dc3ba856c0644fac19208ca0db4f2dc4dfd860537ac550cf2a7522c9b5adeafb",
+    "syntax": {
+      "comment": "#808691",
+      "constant": "#51AFEF",
+      "function": "#A9A1E1",
+      "invalid": "#FF6C6B",
+      "keyword": "#C678DD",
+      "number": "#51AFEF",
+      "operator": "#BBC2CF",
+      "string": "#98BE65",
+      "type": "#ECBE7B",
+      "variable": "#BBC2CF"
+    }
+  }
+}

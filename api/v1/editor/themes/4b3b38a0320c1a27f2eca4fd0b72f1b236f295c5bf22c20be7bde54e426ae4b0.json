@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.881
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.4067
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.9025
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9929
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.2146
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9929
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8098
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2146
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9716
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7501
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0352
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0352
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.881
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.881
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.6841
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "d51897b09033e725f497e2e73941de008033a6ec3f033649a8b6dcf57fd6eee0",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/04fc2ec5f5f683380ea728a6abe773f9b6f617bc448e6531c25b096413baa1d4",
+    "name": "Grok Day",
+    "palette": {
+      "activeLine": "#E4E4E4",
+      "background": "#F5F5F5",
+      "cursor": "#7D4BC6",
+      "foreground": "#262626",
+      "gutterActiveLine": "#E4E4E4",
+      "gutterBackground": "#F5F5F5",
+      "gutterForeground": "#797979",
+      "invisibles": "#767676",
+      "printMargin": "#C1C1C1",
+      "selection": "#C1C1C1"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#F5F5F5",
+        "color_01": "#262626",
+        "color_02": "#CD3048",
+        "color_03": "#378E23",
+        "color_04": "#A27612",
+        "color_05": "#2F64D2",
+        "color_06": "#7D4BC6",
+        "color_07": "#0082AA",
+        "color_08": "#BBBBBB",
+        "color_09": "#767676",
+        "color_10": "#CD3048",
+        "color_11": "#378E23",
+        "color_12": "#A27612",
+        "color_13": "#2F64D2",
+        "color_14": "#7D4BC6",
+        "color_15": "#0082AA",
+        "color_16": "#444444",
+        "cursor": "#7D4BC6",
+        "foreground": "#262626",
+        "hash": "c244199e4542c5ccad3a67b8cbadc06df8819e0a799c7c5f0437d46cc99ef7e9",
+        "hash_bg": "e155ed1a43c8e11f69abfd5ecef16e53ae81c351a1b676b24ccbea1ef6ee85e7",
+        "name": "Grok Day",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "04fc2ec5f5f683380ea728a6abe773f9b6f617bc448e6531c25b096413baa1d4",
+    "syntax": {
+      "comment": "#797979",
+      "constant": "#0082AA",
+      "function": "#2F64D2",
+      "invalid": "#CD3048",
+      "keyword": "#7D4BC6",
+      "number": "#0082AA",
+      "operator": "#262626",
+      "string": "#378E23",
+      "type": "#A27612",
+      "variable": "#262626"
+    }
+  }
+}

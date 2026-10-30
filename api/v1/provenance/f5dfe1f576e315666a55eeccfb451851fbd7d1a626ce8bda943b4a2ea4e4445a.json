@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "9142bda211e398c296a0efe83123a93d010e628e70d1b6031dd4a383927572c7",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-idle-fingers\";\nexports.cssText = require(\"./idle_fingers-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/idle_fingers.js"
+}

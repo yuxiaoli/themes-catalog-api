@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "151a5313f774ba5619c35012915c60c75892cd8e261945bb185ec0310d915f02",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-merbivore\";\nexports.cssText = require(\"./merbivore-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/merbivore.js"
+}

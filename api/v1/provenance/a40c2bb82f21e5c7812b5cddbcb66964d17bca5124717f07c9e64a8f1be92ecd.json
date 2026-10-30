@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "9b498f0defb2365169baa2f8bd760b5bbe10c3c4f0affc01b985c9101c38fbb5",
+  "text": "black = \"#1f1e1c\"\nbg0 = \"#312c2b\"\nbg1 = \"#393230\"\nbg2 = \"#413937\"\nbg3 = \"#49403c\"\nbg4 = \"#4e433f\"\nbg_red = \"#fd6883\"\ndiff_red = \"#55393d\"\nbg_green = \"#adda78\"\ndiff_green = \"#394634\"\nbg_blue = \"#85dad2\"\ndiff_blue = \"#354157\"\ndiff_yellow = \"#4e432f\"\nfg = \"#e4e3e1\"\nred = \"#f86882\"\norange = \"#f08d71\"\nyellow = \"#f0c66f\"\ngreen = \"#a6cd77\"\ncyan = \"#95cea6\" # added for compatibility with `edge` scheme\nblue = \"#81d0c9\"\npurple = \"#9fa0e1\"\ngrey = \"#90817b\"\ngrey_dim = \"#6a5e59\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/sonokai/espresso"
+}

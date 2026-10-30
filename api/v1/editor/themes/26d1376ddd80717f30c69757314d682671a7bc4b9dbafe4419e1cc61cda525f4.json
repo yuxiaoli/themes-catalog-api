@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7627
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7656
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.3435
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5398
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 10.7627
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5398
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4449
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4441
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5983
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.7131
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4843
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4843
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7627
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7627
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5104
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "a0f156db0c9ea861be503545f7a81e6caf1eb8692082aa2d42fe73c143ed3f1e",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/de370dd903a8c3d856cf76e61c42df83d91ce08aad4e55000aa560b30ced3467",
+    "name": "Leaf Light",
+    "palette": {
+      "activeLine": "#D3D5CE",
+      "background": "#E1E4DC",
+      "cursor": "#2E2C2F",
+      "foreground": "#2E2C2F",
+      "gutterActiveLine": "#D3D5CE",
+      "gutterBackground": "#E1E4DC",
+      "gutterForeground": "#767674",
+      "invisibles": "#403F42",
+      "printMargin": "#B4B6B1",
+      "selection": "#B4B6B1"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "qewer33, brought to kitty by KodiakWeb",
+        "author_name": "qewer33, brought to kitty by KodiakWeb",
+        "author_url": "",
+        "background": "#E1E4DC",
+        "color_01": "#2E2C2F",
+        "color_02": "#BA5860",
+        "color_03": "#729B79",
+        "color_04": "#CCAA6C",
+        "color_05": "#5292C6",
+        "color_06": "#8C6AA8",
+        "color_07": "#489CA5",
+        "color_08": "#E1E4DC",
+        "color_09": "#403F42",
+        "color_10": "#9D4B53",
+        "color_11": "#59795F",
+        "color_12": "#A78A58",
+        "color_13": "#40739A",
+        "color_14": "#715688",
+        "color_15": "#3B8187",
+        "color_16": "#B1B3AD",
+        "cursor": "#2E2C2F",
+        "foreground": "#2E2C2F",
+        "hash": "038e8eea4d2f617bc720d17bb81ba530873b395ab2189c2888cdf14e5d8019fe",
+        "hash_bg": "5fe9e60064f30aec7f979dac37b27a0d37c436e9da2c9d654f124ef931060756",
+        "name": "Leaf Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "de370dd903a8c3d856cf76e61c42df83d91ce08aad4e55000aa560b30ced3467",
+    "syntax": {
+      "comment": "#767674",
+      "constant": "#489CA5",
+      "function": "#5292C6",
+      "invalid": "#BA5860",
+      "keyword": "#8C6AA8",
+      "number": "#489CA5",
+      "operator": "#2E2C2F",
+      "string": "#729B79",
+      "type": "#CCAA6C",
+      "variable": "#2E2C2F"
+    }
+  }
+}

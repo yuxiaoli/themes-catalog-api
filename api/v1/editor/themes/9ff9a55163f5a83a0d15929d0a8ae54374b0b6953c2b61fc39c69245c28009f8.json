@@ -1,0 +1,235 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.491
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.7212
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.7726
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7955
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.1864
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7955
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2362
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.491
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6133
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5906
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3924
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3924
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.491
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.491
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5443
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "bbf03f197adc7e64c9c93f62316a0aa5089dc462e9d3008ac0e92f5f6e5d950b",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.function",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/442ab25c8c617d1543e91c8eb9dee462e423e72bb556362e9c2f4bfda9b96bee",
+    "name": "Sequoia Moonlight Light",
+    "palette": {
+      "activeLine": "#DDDEE2",
+      "background": "#EDEEF2",
+      "cursor": "#565760",
+      "foreground": "#282930",
+      "gutterActiveLine": "#DDDEE2",
+      "gutterBackground": "#EDEEF2",
+      "gutterForeground": "#77787E",
+      "invisibles": "#42434E",
+      "printMargin": "#BCBDC2",
+      "selection": "#BCBDC2"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Michael Andreuzza (https://github.com/michael-andreuzza)",
+        "author_name": "Michael Andreuzza",
+        "author_url": "https://github.com/michael-andreuzza",
+        "background": "#EDEEF2",
+        "color_01": "#D4D5DC",
+        "color_02": "#C94DA8",
+        "color_03": "#4A85D4",
+        "color_04": "#6A6A78",
+        "color_05": "#9A5FD9",
+        "color_06": "#282930",
+        "color_07": "#D9884A",
+        "color_08": "#282930",
+        "color_09": "#42434E",
+        "color_10": "#C94DA8",
+        "color_11": "#4A85D4",
+        "color_12": "#6A6A78",
+        "color_13": "#9A5FD9",
+        "color_14": "#282930",
+        "color_15": "#D9884A",
+        "color_16": "#282930",
+        "cursor": "#565760",
+        "foreground": "#282930",
+        "hash": "376006aca2f07b472abede6c09b4a472ae4b84c9540520e184e176045cd4f793",
+        "hash_bg": "feb96b0405819351f1bbf447deca2444d9779e1febded3b9ef617803d120ea9a",
+        "name": "Sequoia Moonlight Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "442ab25c8c617d1543e91c8eb9dee462e423e72bb556362e9c2f4bfda9b96bee",
+    "syntax": {
+      "comment": "#77787E",
+      "constant": "#D9884A",
+      "function": "#9A5FD9",
+      "invalid": "#C94DA8",
+      "keyword": "#282930",
+      "number": "#D9884A",
+      "operator": "#282930",
+      "string": "#4A85D4",
+      "type": "#6A6A78",
+      "variable": "#282930"
+    }
+  }
+}

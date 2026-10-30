@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "25e2cd34e501a27c425d4e452e8c15c1e35966699cc911c2bb963e0f6e0af54a",
+  "text": "black = \"#181a1c\"\nbg0 = \"#2b2d3a\"\nbg1 = \"#333648\"\nbg2 = \"#363a4e\"\nbg3 = \"#393e53\"\nbg4 = \"#3f445b\"\nbg_red = \"#ff6188\"\ndiff_red = \"#55393d\"\nbg_green = \"#a9dc76\"\ndiff_green = \"#394634\"\nbg_blue = \"#77d5f0\"\ndiff_blue = \"#354157\"\ndiff_yellow = \"#4e432f\"\nfg = \"#e1e3e4\"\nred = \"#fb617e\"\norange = \"#f89860\"\nyellow = \"#edc763\"\ngreen = \"#9ed06c\"\ncyan = \"#ef9062\" # added for compatibility with `edge` scheme\nblue = \"#6dcae8\"\npurple = \"#bb97ee\"\ngrey = \"#7e8294\"\ngrey_dim = \"#5a5e7a\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/sonokai/andromeda"
+}

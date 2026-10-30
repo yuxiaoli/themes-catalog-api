@@ -1,0 +1,239 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3346
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0721
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0765
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7595
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 2.6263
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7595
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0281
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9205
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2312
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2787
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9103
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9103
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3346
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3346
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9089
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b24072ed7caf3ea4674a8cb442b96e570ff6fffc095ff9c52718629e590b17c5",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "cursor",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/f580523039ce1d1961b5592727972395f98baaae0e5d9af187d7be1382993487",
+    "name": "Solarized Darcula",
+    "palette": {
+      "activeLine": "#494B4D",
+      "background": "#3D3F41",
+      "cursor": "#708284",
+      "foreground": "#D2D8D9",
+      "gutterActiveLine": "#494B4D",
+      "gutterBackground": "#3D3F41",
+      "gutterForeground": "#969B9C",
+      "invisibles": "#25292A",
+      "printMargin": "#626567",
+      "selection": "#626567"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "@rickhanlonii (https://github.com/rickhanlonii)",
+        "author_name": "@rickhanlonii",
+        "author_url": "https://github.com/rickhanlonii",
+        "background": "#3D3F41",
+        "color_01": "#25292A",
+        "color_02": "#F24840",
+        "color_03": "#629655",
+        "color_04": "#B68800",
+        "color_05": "#2075C7",
+        "color_06": "#797FD4",
+        "color_07": "#15968D",
+        "color_08": "#D2D8D9",
+        "color_09": "#25292A",
+        "color_10": "#F24840",
+        "color_11": "#629655",
+        "color_12": "#B68800",
+        "color_13": "#2075C7",
+        "color_14": "#797FD4",
+        "color_15": "#15968D",
+        "color_16": "#D2D8D9",
+        "cursor": "#708284",
+        "foreground": "#D2D8D9",
+        "hash": "c73deba91f4f087d7ffebd3bf009cf25133074e39db202c3e752ccfa2f4ad383",
+        "hash_bg": "19194ce3cc0aa6d027ce3da9fa4228efe71c0bbb8c6ec79e9384669a17ca794d",
+        "name": "Solarized Darcula",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f580523039ce1d1961b5592727972395f98baaae0e5d9af187d7be1382993487",
+    "syntax": {
+      "comment": "#969B9C",
+      "constant": "#15968D",
+      "function": "#2075C7",
+      "invalid": "#F24840",
+      "keyword": "#797FD4",
+      "number": "#15968D",
+      "operator": "#D2D8D9",
+      "string": "#629655",
+      "type": "#B68800",
+      "variable": "#D2D8D9"
+    }
+  }
+}

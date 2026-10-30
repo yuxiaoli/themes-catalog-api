@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "fd30cb1afba89abadb93ac77d179cc188b0b1d61186db0586773c1e261768f68",
+  "text": "# Nord Night\n#\n# Based on the Nord theme, with minor modifications.\n# The Background and the Primary Text color have been slightly darkened.\n# The Aurora color palette has been used more generously.\n\ninherits = 'nord'\n\n'constant' = 'nord13'\n'constant.builtin.boolean' = 'nord13'\n'constant.numeric' = 'nord13'\n\n'keyword.control' = 'nord11'\n'keyword.control.conditional' = 'nord11'\n'keyword.control.exception' = 'nord11'\n'keyword.control.repeat' = 'nord11'\n'keyword.control.return' = 'nord11'\n\n'variable.parameter' = 'nord15'\n\n[palette]\nnord0 = '#252933'\nnord4 = '#C0C5CF'\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/nord-night.toml"
+}

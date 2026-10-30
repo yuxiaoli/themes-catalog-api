@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "4f15febb82b6ca1ff53d1a8cd01ad40157658f3a20bd2611ae792aa8c6e6e5e5",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-dracula\";\nexports.cssText = require(\"./dracula-css\");\nexports.$selectionColorConflict = true;\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/dracula.js"
+}

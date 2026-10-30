@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "2b806e0a738cc2d62cc6bbc06a27c699efc62bf282fc74ee5fb5083013eec81b",
+  "text": "bg0 = \"#2b3339\"\nbg1 = \"#323c41\"\nbg2 = \"#3a454a\"\nbg3 = \"#445055\"\nbg4 = \"#4c555b\"\nbg5 = \"#53605c\"\nbg_visual = \"#503946\"\nbg_red = \"#4e3e43\"\nbg_green = \"#404d44\"\nbg_blue = \"#394f5a\"\nbg_yellow = \"#4a4940\"\n\nfg = \"#d3c6aa\"\nred = \"#e67e80\"\norange = \"#e69875\"\nyellow = \"#dbbc7f\"\ngreen = \"#a7c080\"\naqua = \"#83c092\"\nblue = \"#7fbbb3\"\npurple = \"#d699b6\"\ngrey0 = \"#7a8478\"\ngrey1 = \"#859289\"\ngrey2 = \"#9da9a0\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/everforest/dark_hard"
+}

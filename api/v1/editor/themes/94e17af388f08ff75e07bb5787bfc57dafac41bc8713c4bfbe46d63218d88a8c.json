@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.6746
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7709
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.2045
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.478
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 16.6746
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.478
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2745
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.8011
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7035
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1496
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7035
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7035
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.6746
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.6746
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.4449
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "e34e15a4b9307347e87d28c733a760a5a224ac5b505a2e494644a6c33ba7a118",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/7f80f46b412970af648645d88ad352a95e93fe13905696896584ee0253b18188",
+    "name": "Madrid",
+    "palette": {
+      "activeLine": "#E8E8E8",
+      "background": "#FAFAFA",
+      "cursor": "#1A1A1A",
+      "foreground": "#1A1A1A",
+      "gutterActiveLine": "#E8E8E8",
+      "gutterBackground": "#FAFAFA",
+      "gutterForeground": "#747474",
+      "invisibles": "#4D4D4D",
+      "printMargin": "#C2C2C2",
+      "selection": "#C2C2C2"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "xscriptor (https://github.com/xscriptor)",
+        "author_name": "xscriptor",
+        "author_url": "https://github.com/xscriptor",
+        "background": "#FAFAFA",
+        "color_01": "#FAFAFA",
+        "color_02": "#990026",
+        "color_03": "#007A28",
+        "color_04": "#8A6408",
+        "color_05": "#007A9E",
+        "color_06": "#4D2699",
+        "color_07": "#007A9E",
+        "color_08": "#1A1A1A",
+        "color_09": "#4D4D4D",
+        "color_10": "#990026",
+        "color_11": "#007A28",
+        "color_12": "#8A6408",
+        "color_13": "#007A9E",
+        "color_14": "#4D2699",
+        "color_15": "#007A9E",
+        "color_16": "#1A1A1A",
+        "cursor": "#1A1A1A",
+        "foreground": "#1A1A1A",
+        "hash": "fe2e1969e9a57a43d597e00891297dfade40d457bae62da7c74b62e6efaed065",
+        "hash_bg": "7f6fe813de8e07553a3eb71e309f1f710f53117b136cfaec174e6a04c653bc88",
+        "name": "Madrid",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "7f80f46b412970af648645d88ad352a95e93fe13905696896584ee0253b18188",
+    "syntax": {
+      "comment": "#747474",
+      "constant": "#007A9E",
+      "function": "#007A9E",
+      "invalid": "#990026",
+      "keyword": "#4D2699",
+      "number": "#007A9E",
+      "operator": "#1A1A1A",
+      "string": "#007A28",
+      "type": "#8A6408",
+      "variable": "#1A1A1A"
+    }
+  }
+}

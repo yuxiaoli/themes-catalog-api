@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/02a314e773ffa894b63ec49a585d963ddc397e0b2a6e5e994c57eef10c14f9f2",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Mona Lisa",
+    "original": {
+      "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+      "author_name": "zdj",
+      "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
+      "background": "#120B0D",
+      "color_01": "#351B0E",
+      "color_02": "#9B291C",
+      "color_03": "#636232",
+      "color_04": "#C36E28",
+      "color_05": "#515C5D",
+      "color_06": "#9B1D29",
+      "color_07": "#588056",
+      "color_08": "#F7D75C",
+      "color_09": "#874228",
+      "color_10": "#FF4331",
+      "color_11": "#B4B264",
+      "color_12": "#FF9566",
+      "color_13": "#9EB2B4",
+      "color_14": "#FF5B6A",
+      "color_15": "#8ACD8F",
+      "color_16": "#FFE598",
+      "cursor": "#C46C32",
+      "foreground": "#F7D66A",
+      "hash": "2c360748a7eddf7e7166d73d5047f84a9a7af607a11d9c1af620f31b067b0af6",
+      "hash_bg": "b1e583221c3e72e5be01ac74391fd46eef30c240ca1b4fbd165e1dda46b13190",
+      "name": "Mona Lisa",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#C46C32",
+      "ansi": [
+        "#351B0E",
+        "#9B291C",
+        "#636232",
+        "#C36E28",
+        "#515C5D",
+        "#9B1D29",
+        "#588056",
+        "#F7D75C",
+        "#874228",
+        "#FF4331",
+        "#B4B264",
+        "#FF9566",
+        "#9EB2B4",
+        "#FF5B6A",
+        "#8ACD8F",
+        "#FFE598"
+      ],
+      "background": "#120B0D",
+      "cursor": "#C46C32",
+      "foreground": "#F7D66A"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "02a314e773ffa894b63ec49a585d963ddc397e0b2a6e5e994c57eef10c14f9f2",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "02a314e773ffa894b63ec49a585d963ddc397e0b2a6e5e994c57eef10c14f9f2"
+  }
+}

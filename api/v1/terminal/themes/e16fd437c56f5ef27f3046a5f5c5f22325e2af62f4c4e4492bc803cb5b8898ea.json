@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/00b0e570cd437e69f362509660d4cbbd094551c37bf9c8f7e61bd810cee33dbe",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Tomorrow Night Bright",
+    "original": {
+      "author": "Chris Kempson (http://chriskempson.com)",
+      "author_name": "Chris Kempson",
+      "author_url": "http://chriskempson.com",
+      "background": "#000000",
+      "color_01": "#000000",
+      "color_02": "#D54E53",
+      "color_03": "#B9CA4A",
+      "color_04": "#E7C547",
+      "color_05": "#7AA6DA",
+      "color_06": "#C397D8",
+      "color_07": "#70C0B1",
+      "color_08": "#FFFFFF",
+      "color_09": "#000000",
+      "color_10": "#D54E53",
+      "color_11": "#B9CA4A",
+      "color_12": "#E7C547",
+      "color_13": "#7AA6DA",
+      "color_14": "#C397D8",
+      "color_15": "#70C0B1",
+      "color_16": "#FFFFFF",
+      "cursor": "#EAEAEA",
+      "foreground": "#EAEAEA",
+      "hash": "215b77c2ab563ff2811d3437b33e094b7a6f44f656ebd4420ae732ffb5ae825c",
+      "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+      "name": "Tomorrow Night Bright",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#EAEAEA",
+      "ansi": [
+        "#000000",
+        "#D54E53",
+        "#B9CA4A",
+        "#E7C547",
+        "#7AA6DA",
+        "#C397D8",
+        "#70C0B1",
+        "#FFFFFF",
+        "#000000",
+        "#D54E53",
+        "#B9CA4A",
+        "#E7C547",
+        "#7AA6DA",
+        "#C397D8",
+        "#70C0B1",
+        "#FFFFFF"
+      ],
+      "background": "#000000",
+      "cursor": "#EAEAEA",
+      "foreground": "#EAEAEA"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "00b0e570cd437e69f362509660d4cbbd094551c37bf9c8f7e61bd810cee33dbe",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "00b0e570cd437e69f362509660d4cbbd094551c37bf9c8f7e61bd810cee33dbe"
+  }
+}

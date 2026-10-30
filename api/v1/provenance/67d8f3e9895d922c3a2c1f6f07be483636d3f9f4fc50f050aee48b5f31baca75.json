@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "d7b1a0e64c1beed2b69a172e706aae1d23dc7f70d2adc47cd2ed3c01120e3ddd",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-chaos\";\nexports.cssText = require(\"./chaos-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/chaos.js"
+}

@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "d8ce80123aa259250a6f07659c3c0dbc84b3e1f87419eaa5ff407578b83449ab",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-github\";\nexports.cssText = require(\"./github-css\");\n\n    var dom = require(\"../lib/dom\");\n    dom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/github.js"
+}

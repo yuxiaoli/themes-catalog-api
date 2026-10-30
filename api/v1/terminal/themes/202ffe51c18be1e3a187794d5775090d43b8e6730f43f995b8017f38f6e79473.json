@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/6d2fa47872c51850f35b50d81a0183be3c4165a4cd3ff55add5d3f382fd3e38f",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Piatto Light",
+    "original": {
+      "author": "kovv (https://github.com/kovv)",
+      "author_name": "kovv",
+      "author_url": "https://github.com/kovv",
+      "background": "#FFFFFF",
+      "color_01": "#414141",
+      "color_02": "#B23771",
+      "color_03": "#66781E",
+      "color_04": "#CD6F34",
+      "color_05": "#3C5EA8",
+      "color_06": "#A454B2",
+      "color_07": "#66781E",
+      "color_08": "#FFFFFF",
+      "color_09": "#3F3F3F",
+      "color_10": "#DB3365",
+      "color_11": "#829429",
+      "color_12": "#CD6F34",
+      "color_13": "#3C5EA8",
+      "color_14": "#A454B2",
+      "color_15": "#829429",
+      "color_16": "#F2F2F2",
+      "cursor": "#5E77C8",
+      "foreground": "#414141",
+      "hash": "9587a07719561f3473ba0277bad94ddd4536bfd23472049f28a01477edbdc3fc",
+      "hash_bg": "07ee686b3ce29f11070f5edcd6f0da03659e67becfba76650c1c6b5ac079847a",
+      "name": "Piatto Light",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#5E77C8",
+      "ansi": [
+        "#414141",
+        "#B23771",
+        "#66781E",
+        "#CD6F34",
+        "#3C5EA8",
+        "#A454B2",
+        "#66781E",
+        "#FFFFFF",
+        "#3F3F3F",
+        "#DB3365",
+        "#829429",
+        "#CD6F34",
+        "#3C5EA8",
+        "#A454B2",
+        "#829429",
+        "#F2F2F2"
+      ],
+      "background": "#FFFFFF",
+      "cursor": "#5E77C8",
+      "foreground": "#414141"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "6d2fa47872c51850f35b50d81a0183be3c4165a4cd3ff55add5d3f382fd3e38f",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "6d2fa47872c51850f35b50d81a0183be3c4165a4cd3ff55add5d3f382fd3e38f"
+  }
+}

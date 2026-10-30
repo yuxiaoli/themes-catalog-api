@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "3546e0c9785b4f08231c6d01b079e8c35d4c19ffb74da693ba5b7ae9fe5b2aa1",
+  "text": "# NeoNotte84 Theme\n#\n# Author: b52es (https://github.com/b52es)\n# Inspired by Catppuccin Mocha and Tokyo Night.\n\n# Inherits from neonotte.toml and applies a few modifications.\ninherits = \"neonotte\"\n\n# Syntax highlighting overrides\n# ---------------------------\n\"comment\" = { fg = \"comment_alt\", modifiers = [\"italic\"] }\n\n# Palette overrides\n# -----------------\n[palette]\nmagenta = \"#f578de\"\nyellow = \"#ffd866\"\ncomment_alt = \"#647a8c\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/neonotte84.toml"
+}

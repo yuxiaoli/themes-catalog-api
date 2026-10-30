@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "f00637e8b6e3aed77e5958f3a1e5a1760d5016a94fcc2cff8ec9f40567beca9f",
+  "text": "# Author: Michael McClintock <michael.mcclintock@hey.com>\n# License: MIT\n\n# Yo - Themes for Helix inspired by Zenbones & Alabaster with Radix Colors.\n# https://github.com/mrmcc3/yo-theme-helix\n\ninherits = \"yo\"\n\n\"ui.virtual.inlay-hint\" = { fg = \"p8\", underline.style = \"dotted\" }\n\"markup.quote\" = { fg = \"p9\" }\n\n[palette]\n\n# gray\np1 = \"#fcfcfc\"\np2 = \"#f9f9f9\"\np3 = \"#f0f0f0\"\np4 = \"#e8e8e8\"\np5 = \"#e0e0e0\"\np6 = \"#d9d9d9\"\np7 = \"#cecece\"\np8 = \"#bbbbbb\"\np9 = \"#8d8d8d\"\np10 = \"#838383\"\np11 = \"#646464\"\np12 = \"#202020\"\n\nerror = \"#dc3e42\"   # red-10\nwarning = \"#ef5f00\" # orange-10\ninfo = \"#0588f0\"    # blue-10\n\nstring = \"#2b9a66\"   # green-10\nconstant = \"#8347b9\" # purple-10\nkeyword = \"#957468\"  # bronze-10\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/yo_light.toml"
+}

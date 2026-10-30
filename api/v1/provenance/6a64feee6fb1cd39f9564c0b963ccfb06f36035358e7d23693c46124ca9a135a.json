@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "469ca7ef277571eda0c9ddc2420f2e81c7b4024f545584c61190a53414b1fffd",
+  "text": "inherits = \"monokai\"\n\n\"keyword.control.import\" = { fg = \"cyan\", modifiers = [\"italic\"] }\n\"keyword.function\" = { fg = \"cyan\", modifiers = [\"italic\"] }\n\"keyword.storage.type\" = { fg = \"cyan\", modifiers = [\"italic\"] }\n\n\"namespace\" = { fg = \"text\" }\n\n\"type\" = { fg = \"type\", modifiers = [\"bold\"] }\n\n# Malformed ANSI: light-black, purple. See 'https://github.com/helix-editor/helix/issues/5709'\n# \"ui.statusline.normal\" = { fg = \"light-black\", bg = \"cyan\" }\n\"ui.statusline.normal\" = { bg = \"cyan\" }\n# \"ui.statusline.insert\" = { fg = \"light-black\", bg = \"green\" }\n\"ui.statusline.insert\" = { bg = \"green\" }\n# \"ui.statusline.select\" = { fg = \"light-black\", bg = \"purple\" }\n\n\"ui.virtual.jump-label\" = { fg = \"cyan\", modifiers = [\"bold\"] }\n\n[palette]\ncyan = \"#66D9EF\"\ntype = \"#66D9EF\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/monokai_aqua.toml"
+}

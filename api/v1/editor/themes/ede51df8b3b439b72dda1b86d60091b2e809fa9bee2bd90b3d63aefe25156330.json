@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0312
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9353
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.945
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1343
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.0312
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1343
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0965
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.061
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0782
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0663
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1642
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1642
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0312
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0312
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0773
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "23ea227d6b6eaed214fedae820030a970d5bc4d2b62969ab79879611b2840ed1",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/2f987857dfa30a081525ffda6d0d58be15b3b986fbe2278174c76f636b5ca1c7",
+    "name": "Tempus Totus",
+    "palette": {
+      "activeLine": "#F1F0F1",
+      "background": "#FFFFFF",
+      "cursor": "#4A484D",
+      "foreground": "#4A484D",
+      "gutterActiveLine": "#F1F0F1",
+      "gutterBackground": "#FFFFFF",
+      "gutterForeground": "#929194",
+      "invisibles": "#5E4B4F",
+      "printMargin": "#D2D1D3",
+      "selection": "#D2D1D3"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Protesilaos Stavrou (https://protesilaos.com)",
+        "author_name": "Protesilaos Stavrou",
+        "author_url": "https://protesilaos.com",
+        "background": "#FFFFFF",
+        "color_01": "#4A484D",
+        "color_02": "#A50000",
+        "color_03": "#005D26",
+        "color_04": "#714700",
+        "color_05": "#1D3CCF",
+        "color_06": "#88267A",
+        "color_07": "#185570",
+        "color_08": "#EFEFEF",
+        "color_09": "#5E4B4F",
+        "color_10": "#992030",
+        "color_11": "#4A5500",
+        "color_12": "#8A3600",
+        "color_13": "#2D45B0",
+        "color_14": "#700DC9",
+        "color_15": "#005289",
+        "color_16": "#FFFFFF",
+        "cursor": "#4A484D",
+        "foreground": "#4A484D",
+        "hash": "4f3b5563be1315ca2d8f89fe32657f165f2f46a10e6850e4aa24afddf0c0dc6a",
+        "hash_bg": "07ee686b3ce29f11070f5edcd6f0da03659e67becfba76650c1c6b5ac079847a",
+        "name": "Tempus Totus",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "2f987857dfa30a081525ffda6d0d58be15b3b986fbe2278174c76f636b5ca1c7",
+    "syntax": {
+      "comment": "#929194",
+      "constant": "#185570",
+      "function": "#1D3CCF",
+      "invalid": "#A50000",
+      "keyword": "#88267A",
+      "number": "#185570",
+      "operator": "#4A484D",
+      "string": "#005D26",
+      "type": "#714700",
+      "variable": "#4A484D"
+    }
+  }
+}

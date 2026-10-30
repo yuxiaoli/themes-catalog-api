@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.062
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8243
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2818
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7983
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 2.336
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7983
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.9566
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3353
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3448
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3142
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3115
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3115
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.062
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.062
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8015
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "5fa0be70ed0a83afb5c10afd25ea15bdc53ae9e0446914957018c4edabbaf4af",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "cursor",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/8f965b2e144d39740d50807c8e3ebe5c6b4a2cd976007ae21eeb7dd6c971a517",
+    "name": "Catppuccin Latte",
+    "palette": {
+      "activeLine": "#E2E4EA",
+      "background": "#EFF1F5",
+      "cursor": "#DC8A78",
+      "foreground": "#4C4F69",
+      "gutterActiveLine": "#E2E4EA",
+      "gutterBackground": "#EFF1F5",
+      "gutterForeground": "#8D90A1",
+      "invisibles": "#6C6F85",
+      "printMargin": "#C6C9D2",
+      "selection": "#C6C9D2"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Catppuccin (https://github.com/catppuccin)",
+        "author_name": "Catppuccin",
+        "author_url": "https://github.com/catppuccin",
+        "background": "#EFF1F5",
+        "color_01": "#5C5F77",
+        "color_02": "#D20F39",
+        "color_03": "#40A02B",
+        "color_04": "#DF8E1D",
+        "color_05": "#1E66F5",
+        "color_06": "#EA76CB",
+        "color_07": "#179299",
+        "color_08": "#ACB0BE",
+        "color_09": "#6C6F85",
+        "color_10": "#DE293E",
+        "color_11": "#49AF3D",
+        "color_12": "#EEA02D",
+        "color_13": "#456EFF",
+        "color_14": "#FE85D8",
+        "color_15": "#2D9FA8",
+        "color_16": "#BCC0CC",
+        "cursor": "#DC8A78",
+        "foreground": "#4C4F69",
+        "hash": "d3f0a63e5ffef3cb607a2880f6a3afd337e4d448c721e230aff8c20929a40cfc",
+        "hash_bg": "8dce150120541ad4fedc2a41ed24ae58b40985c6d7f56e4bf7a0570367a28bed",
+        "name": "Catppuccin Latte",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "8f965b2e144d39740d50807c8e3ebe5c6b4a2cd976007ae21eeb7dd6c971a517",
+    "syntax": {
+      "comment": "#8D90A1",
+      "constant": "#179299",
+      "function": "#1E66F5",
+      "invalid": "#D20F39",
+      "keyword": "#EA76CB",
+      "number": "#179299",
+      "operator": "#4C4F69",
+      "string": "#40A02B",
+      "type": "#DF8E1D",
+      "variable": "#4C4F69"
+    }
+  }
+}

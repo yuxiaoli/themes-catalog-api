@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/9b3d4383a40c934af3fa298f9f54ca0b3c89491a52c801fbcd0718fbd22bf103",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Jubi",
+    "original": {
+      "author": "Julia Tretel (https://github.com/jutretel)",
+      "author_name": "Julia Tretel",
+      "author_url": "https://github.com/jutretel",
+      "background": "#262B33",
+      "color_01": "#3B3750",
+      "color_02": "#CF7B98",
+      "color_03": "#90A94B",
+      "color_04": "#6EBFC0",
+      "color_05": "#576EA6",
+      "color_06": "#BC4F68",
+      "color_07": "#75A7D2",
+      "color_08": "#C3D3DE",
+      "color_09": "#A874CE",
+      "color_10": "#DE90AB",
+      "color_11": "#BCDD61",
+      "color_12": "#87E9EA",
+      "color_13": "#8C9FCD",
+      "color_14": "#E16C87",
+      "color_15": "#B7C9EF",
+      "color_16": "#D5E5F1",
+      "cursor": "#C3D3DE",
+      "foreground": "#C3D3DE",
+      "hash": "45a520488c893e52d6e33439e14959b392fc53119fa7a66658bfe04fc0b4b19c",
+      "hash_bg": "8d49195fb1df3bcdf6d47ea562ed876387564655029d4ddc28818cc8a2750b28",
+      "name": "Jubi",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#C3D3DE",
+      "ansi": [
+        "#3B3750",
+        "#CF7B98",
+        "#90A94B",
+        "#6EBFC0",
+        "#576EA6",
+        "#BC4F68",
+        "#75A7D2",
+        "#C3D3DE",
+        "#A874CE",
+        "#DE90AB",
+        "#BCDD61",
+        "#87E9EA",
+        "#8C9FCD",
+        "#E16C87",
+        "#B7C9EF",
+        "#D5E5F1"
+      ],
+      "background": "#262B33",
+      "cursor": "#C3D3DE",
+      "foreground": "#C3D3DE"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "9b3d4383a40c934af3fa298f9f54ca0b3c89491a52c801fbcd0718fbd22bf103",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "9b3d4383a40c934af3fa298f9f54ca0b3c89491a52c801fbcd0718fbd22bf103"
+  }
+}

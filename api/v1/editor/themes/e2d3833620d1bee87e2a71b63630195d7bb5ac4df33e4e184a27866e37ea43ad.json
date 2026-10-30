@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0396
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0948
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3097
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6574
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.0396
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6574
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4545
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1676
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3255
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0929
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.8473
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.8473
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0396
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0396
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.438
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "7264de57f1750e4c050211845cb13e4d8ca3241b24ad9be229f1bbff1470a50b",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/68d98753d55f362d383c24553677303f89e4b32ef701e85d5ab9b48b4ffa1d4a",
+    "name": "Gnome Ish Gray On Black",
+    "palette": {
+      "activeLine": "#0E0E0E",
+      "background": "#000000",
+      "cursor": "#AAAAAA",
+      "foreground": "#AAAAAA",
+      "gutterActiveLine": "#0E0E0E",
+      "gutterBackground": "#000000",
+      "gutterForeground": "#666666",
+      "invisibles": "#5D5D5D",
+      "printMargin": "#2B2B2B",
+      "selection": "#2B2B2B"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Ittner (https://www.ittner.com.br)",
+        "author_name": "Ittner",
+        "author_url": "https://www.ittner.com.br",
+        "background": "#000000",
+        "color_01": "#1E1E1E",
+        "color_02": "#C01C28",
+        "color_03": "#26A269",
+        "color_04": "#A2734C",
+        "color_05": "#12488B",
+        "color_06": "#A347BA",
+        "color_07": "#2AA1B3",
+        "color_08": "#CFCFCF",
+        "color_09": "#5D5D5D",
+        "color_10": "#F66151",
+        "color_11": "#33D17A",
+        "color_12": "#E9AD0C",
+        "color_13": "#2A7BDE",
+        "color_14": "#C061CB",
+        "color_15": "#33C7DE",
+        "color_16": "#FFFFFF",
+        "cursor": "#AAAAAA",
+        "foreground": "#AAAAAA",
+        "hash": "0121645ca879b7777bbf1e53e10df868e717b895c3329ce60682c06c1e8a2c6c",
+        "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+        "name": "Gnome Ish Gray On Black",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "68d98753d55f362d383c24553677303f89e4b32ef701e85d5ab9b48b4ffa1d4a",
+    "syntax": {
+      "comment": "#666666",
+      "constant": "#2AA1B3",
+      "function": "#12488B",
+      "invalid": "#C01C28",
+      "keyword": "#A347BA",
+      "number": "#2AA1B3",
+      "operator": "#AAAAAA",
+      "string": "#26A269",
+      "type": "#A2734C",
+      "variable": "#AAAAAA"
+    }
+  }
+}

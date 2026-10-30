@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "ea891d226cad53a114d7452e88e75613938feedd2959fe70c7f6c52b8dc30e09",
+  "text": "# Author: Rosé Pine <hi@rosepinetheme.com>\n# Upstream: https://github.com/rose-pine/helix\n# Contributing:\n#   Please submit changes to https://github.com/rose-pine/helix.\n#   The Rosé Pine team will update Helix, including you as a co-author.\n\ninherits = \"rose_pine\"\n\n[palette]\nbase           = \"#232136\" \nsurface        = \"#2a273f\" \noverlay        = \"#393552\"\nmuted          = \"#6e6a86\"\nsubtle         = \"#908caa\"\ntext           = \"#e0def4\"\nlove           = \"#eb6f92\"\nlove_10        = \"#3a2841\"\ngold           = \"#f6c177\"\ngold_10        = \"#39313e\"\nrose           = \"#ea9a97\"\nrose_10        = \"#392d41\"\npine           = \"#3e8fb0\"\npine_10        = \"#252c44\"\nfoam           = \"#9ccfd8\"\nfoam_10        = \"#2e3248\"\niris           = \"#c4a7e7\"\niris_10        = \"#342e4a\"\nhighlight_low  = \"#2a283e\"\nhighlight_med  = \"#44415a\"\nhighlight_high = \"#56526e\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/rose_pine_moon.toml"
+}

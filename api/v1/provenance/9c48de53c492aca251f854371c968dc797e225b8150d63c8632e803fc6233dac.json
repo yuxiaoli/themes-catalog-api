@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "31b8e0c6335534243865f872fb14353b94cab37bee9798e71f00fe3812ec422c",
+  "text": "inherits = \"catppuccin_mocha\"\n\n[palette]\nrosewater = \"#f2d5cf\"\nflamingo = \"#eebebe\"\npink = \"#f4b8e4\"\nmauve = \"#ca9ee6\"\nred = \"#e78284\"\nmaroon = \"#ea999c\"\npeach = \"#ef9f76\"\nyellow = \"#e5c890\"\ngreen = \"#a6d189\"\nteal = \"#81c8be\"\nsky = \"#99d1db\"\nsapphire = \"#85c1dc\"\nblue = \"#8caaee\"\nlavender = \"#babbf1\"\ntext = \"#c6d0f5\"\nsubtext1 = \"#b5bfe2\"\nsubtext0 = \"#a5adce\"\noverlay2 = \"#949cbb\"\noverlay1 = \"#838ba7\"\noverlay0 = \"#737994\"\nsurface2 = \"#626880\"\nsurface1 = \"#51576d\"\nsurface0 = \"#414559\"\nbase = \"#303446\"\nmantle = \"#292c3c\"\ncrust = \"#232634\"\n\ncursorline = \"#3b3f52\"\nsecondary_cursor = \"#b8a5a6\"\nsecondary_cursor_select = \"#9192be\"\nsecondary_cursor_normal = \"#b8a5a6\"\nsecondary_cursor_insert = \"#83a275\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/catppuccin_frappe.toml"
+}

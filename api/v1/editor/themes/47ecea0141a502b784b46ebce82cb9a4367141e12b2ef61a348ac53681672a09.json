@@ -1,0 +1,238 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3486
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.4338
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6677
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6447
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.3486
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6447
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3829
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0761
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2378
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.6613
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.598
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.598
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3486
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3486
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2423
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "029e7ee80b2dfed2042ae881e1bb1e9e429d4e96a0e6f76a02ad744b35bdc5b8",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/2b5ce71f96f89db35e85c2ea68c793a45ec0b748d69750bc44c4fbd7c8906e6a",
+    "name": "Danqing Light",
+    "palette": {
+      "activeLine": "#EFF1F0",
+      "background": "#FCFEFD",
+      "cursor": "#5A605D",
+      "foreground": "#5A605D",
+      "gutterActiveLine": "#EFF1F0",
+      "gutterBackground": "#FCFEFD",
+      "gutterForeground": "#9B9F9D",
+      "invisibles": "#CAD8D2",
+      "printMargin": "#D4D7D5",
+      "selection": "#D4D7D5"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)",
+        "author_name": "Wenhan Zhu (Cosmos) (zhuwenhan950913@gmail.com)",
+        "author_url": "",
+        "background": "#FCFEFD",
+        "color_01": "#FCFEFD",
+        "color_02": "#F9906F",
+        "color_03": "#8AB361",
+        "color_04": "#F0C239",
+        "color_05": "#B0A4E3",
+        "color_06": "#CCA4E3",
+        "color_07": "#30DFF3",
+        "color_08": "#5A605D",
+        "color_09": "#CAD8D2",
+        "color_10": "#F9906F",
+        "color_11": "#8AB361",
+        "color_12": "#F0C239",
+        "color_13": "#B0A4E3",
+        "color_14": "#CCA4E3",
+        "color_15": "#30DFF3",
+        "color_16": "#2D302F",
+        "cursor": "#5A605D",
+        "foreground": "#5A605D",
+        "hash": "2d480abd8d7d0ae8137c3ebd9035014f563e2ebc596576614e58dd5873daecb9",
+        "hash_bg": "1b0dc823ad8bd806c2a98fdace202b97bf72f51df7b805ad228eb69cacf4fcd6",
+        "name": "Danqing Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "2b5ce71f96f89db35e85c2ea68c793a45ec0b748d69750bc44c4fbd7c8906e6a",
+    "syntax": {
+      "comment": "#9B9F9D",
+      "constant": "#30DFF3",
+      "function": "#B0A4E3",
+      "invalid": "#F9906F",
+      "keyword": "#CCA4E3",
+      "number": "#30DFF3",
+      "operator": "#5A605D",
+      "string": "#8AB361",
+      "type": "#F0C239",
+      "variable": "#5A605D"
+    }
+  }
+}

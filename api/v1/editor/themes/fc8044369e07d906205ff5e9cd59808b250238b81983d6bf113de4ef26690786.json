@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.8001
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2733
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.8312
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3638
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 4.5652
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.3638
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2727
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.7054
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0829
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.0794
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.9406
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.9406
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.8001
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.8001
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1548
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "6d46a909ebe4a279944f32cf92182df5f59b0731e3d93402576df9227697942a",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/171fe746d6d96e506ef89638df22a4ef057db33ff4e213fa6831d9945ff4fae7",
+    "name": "Wild Cherry",
+    "palette": {
+      "activeLine": "#2E2937",
+      "background": "#1F1726",
+      "cursor": "#DD00FF",
+      "foreground": "#DAFAFF",
+      "gutterActiveLine": "#2E2937",
+      "gutterBackground": "#1F1726",
+      "gutterForeground": "#8F9FA8",
+      "invisibles": "#009CC9",
+      "printMargin": "#4E505C",
+      "selection": "#4E505C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "mashaal (https://github.com/mashaal/wild-cherry)",
+        "author_name": "mashaal",
+        "author_url": "https://github.com/mashaal/wild-cherry",
+        "background": "#1F1726",
+        "color_01": "#000507",
+        "color_02": "#D94085",
+        "color_03": "#2AB250",
+        "color_04": "#FFD16F",
+        "color_05": "#883CDC",
+        "color_06": "#ECECEC",
+        "color_07": "#C1B8B7",
+        "color_08": "#FFF8DE",
+        "color_09": "#009CC9",
+        "color_10": "#DA6BAC",
+        "color_11": "#F4DCA5",
+        "color_12": "#EAC066",
+        "color_13": "#308CBA",
+        "color_14": "#AE636B",
+        "color_15": "#FF919D",
+        "color_16": "#E4838D",
+        "cursor": "#DD00FF",
+        "foreground": "#DAFAFF",
+        "hash": "684c650765289e31bfe6996c33c4d9cd99dcd54eb9279dab5ef50a80d29bc6bf",
+        "hash_bg": "aa22b6ead8410ca12ce1a2c5cd906bf1ceee20981fe51d60cfb1301a2a4d4249",
+        "name": "Wild Cherry",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "171fe746d6d96e506ef89638df22a4ef057db33ff4e213fa6831d9945ff4fae7",
+    "syntax": {
+      "comment": "#8F9FA8",
+      "constant": "#C1B8B7",
+      "function": "#883CDC",
+      "invalid": "#D94085",
+      "keyword": "#ECECEC",
+      "number": "#C1B8B7",
+      "operator": "#DAFAFF",
+      "string": "#2AB250",
+      "type": "#FFD16F",
+      "variable": "#DAFAFF"
+    }
+  }
+}

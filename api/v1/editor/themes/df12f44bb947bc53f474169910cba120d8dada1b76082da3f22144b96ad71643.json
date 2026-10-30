@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.6712
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3396
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.1981
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7679
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 16.6712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.7679
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.124
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3085
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8461
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0431
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4359
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4359
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.6712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.6712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7293
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "e16b9d9098ca6c97960a83342ada32acddb74c1e469c7ef664db53559e885726",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/81a65be1637cd135db247235b138877cd6dfd7915db4b7b6b0d27c64083cfcf0",
+    "name": "Gnome Terminal",
+    "palette": {
+      "activeLine": "#303030",
+      "background": "#1E1E1E",
+      "cursor": "#FFFFFF",
+      "foreground": "#FFFFFF",
+      "gutterActiveLine": "#303030",
+      "gutterBackground": "#1E1E1E",
+      "gutterForeground": "#A5A5A5",
+      "invisibles": "#5E5C64",
+      "printMargin": "#565656",
+      "selection": "#565656"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#1E1E1E",
+        "color_01": "#171421",
+        "color_02": "#C01C28",
+        "color_03": "#26A269",
+        "color_04": "#A2734C",
+        "color_05": "#12488B",
+        "color_06": "#A347BA",
+        "color_07": "#2AA1B3",
+        "color_08": "#D0CFCC",
+        "color_09": "#5E5C64",
+        "color_10": "#F66151",
+        "color_11": "#33D17A",
+        "color_12": "#E9AD0C",
+        "color_13": "#2A7BDE",
+        "color_14": "#C061CB",
+        "color_15": "#33C7DE",
+        "color_16": "#FFFFFF",
+        "cursor": "#FFFFFF",
+        "foreground": "#FFFFFF",
+        "hash": "48f7bb404eafc94715ed436f21d03475e8fc15ad8e0ff3138329328b1fe19912",
+        "hash_bg": "af7cd9f2913f3f7bb60dd9395af6c5a757e69612e3b7cb09d2034878101d4589",
+        "name": "Gnome Terminal",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "81a65be1637cd135db247235b138877cd6dfd7915db4b7b6b0d27c64083cfcf0",
+    "syntax": {
+      "comment": "#A5A5A5",
+      "constant": "#2AA1B3",
+      "function": "#12488B",
+      "invalid": "#C01C28",
+      "keyword": "#A347BA",
+      "number": "#2AA1B3",
+      "operator": "#FFFFFF",
+      "string": "#26A269",
+      "type": "#A2734C",
+      "variable": "#FFFFFF"
+    }
+  }
+}

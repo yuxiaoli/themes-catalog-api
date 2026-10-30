@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.0544
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.361
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 15.2471
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.7768
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9886
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6067
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.8241
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5977
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1964
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1964
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.0544
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 18.0544
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1438
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "7ce05041923bc9652966763f927e5a2d559ea668b3a9a9cd63c9e36dc982a5e5",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.string",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/a1d08607fac3f34cb22dd9f0967786bd4f43ae8b813d6be330302cd42322ef9f",
+    "name": "Seoulism Light",
+    "palette": {
+      "activeLine": "#E7E7E5",
+      "background": "#FAFAF7",
+      "cursor": "#808080",
+      "foreground": "#101114",
+      "gutterActiveLine": "#E7E7E5",
+      "gutterBackground": "#FAFAF7",
+      "gutterForeground": "#6E6E6F",
+      "invisibles": "#5A5C64",
+      "printMargin": "#C0C0BE",
+      "selection": "#C0C0BE"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Lee Yunjin (https://oborona.zip)",
+        "author_name": "Lee Yunjin",
+        "author_url": "https://oborona.zip",
+        "background": "#FAFAF7",
+        "color_01": "#101114",
+        "color_02": "#C83024",
+        "color_03": "#108C76",
+        "color_04": "#C46E0A",
+        "color_05": "#244CC8",
+        "color_06": "#8040D2",
+        "color_07": "#1880B4",
+        "color_08": "#C8C8C4",
+        "color_09": "#5A5C64",
+        "color_10": "#E24E42",
+        "color_11": "#1EA68C",
+        "color_12": "#DE8A1E",
+        "color_13": "#466CE2",
+        "color_14": "#9E62E4",
+        "color_15": "#3298CC",
+        "color_16": "#ECECE9",
+        "cursor": "#808080",
+        "foreground": "#101114",
+        "hash": "75ce702cbc55ff8d7baf97854cbd35586342844017be32530a67bf2769676211",
+        "hash_bg": "1497509b136e2fe45363f43505a7314b4e3ff15efc351a45a3439691ce3c0232",
+        "name": "Seoulism Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "a1d08607fac3f34cb22dd9f0967786bd4f43ae8b813d6be330302cd42322ef9f",
+    "syntax": {
+      "comment": "#6E6E6F",
+      "constant": "#1880B4",
+      "function": "#244CC8",
+      "invalid": "#C83024",
+      "keyword": "#8040D2",
+      "number": "#1880B4",
+      "operator": "#101114",
+      "string": "#108C76",
+      "type": "#C46E0A",
+      "variable": "#101114"
+    }
+  }
+}

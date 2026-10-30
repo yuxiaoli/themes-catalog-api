@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "b14c1f86f6e546d3f689ac3d1c474e9df70044666b49bd013662457f1138a752",
+  "text": "black = \"#202023\"\nbg0 = \"#2c2e34\"\nbg1 = \"#33353f\"\nbg2 = \"#363944\"\nbg3 = \"#3b3e48\"\nbg4 = \"#414550\"\nbg_grey = \"#828a98\"\nbg_red = \"#ec7279\"\ndiff_red = \"#55393d\"\nbg_green = \"#a0c980\"\ndiff_green = \"#394634\"\nbg_blue = \"#6cb6eb\"\ndiff_blue = \"#354157\"\nbg_purple = \"#d38aea\"\ndiff_yellow = \"#4e432f\"\nfg = \"#c5cdd9\"\nred = \"#ec7279\"\norange = \"#e59b77\" # added for compatibility with `sonokai` scheme\nyellow = \"#deb974\"\ngreen = \"#a0c980\"\ncyan = \"#5dbbc1\"\nblue = \"#6cb6eb\"\npurple = \"#d38aea\"\ngrey = \"#7f8490\"\ngrey_dim = \"#5b616e\"\n",
+  "url": "https://raw.githubusercontent.com/CptPotato/helix-themes/3ac754a3f34984c7596f888ad2796e57eb8b6367/palettes/edge/default"
+}

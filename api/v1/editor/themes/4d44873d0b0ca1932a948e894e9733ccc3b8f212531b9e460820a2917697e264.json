@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2001
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0715
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9788
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6724
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 7.2001
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6724
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4753
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.5951
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8514
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8901
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9193
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9193
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2001
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2001
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6904
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "b95218a3db92830be972c64a8f468ded58e1f523d3b48443d1cd4e8ecddde051",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/00ea9d9f7bd695732fb10ee911b4f86a658d2b4ba5b31cb26df163d07b9baa00",
+    "name": "Renault Style Light",
+    "palette": {
+      "activeLine": "#48463F",
+      "background": "#3A3A3A",
+      "cursor": "#E9CB7B",
+      "foreground": "#E9CB7B",
+      "gutterActiveLine": "#48463F",
+      "gutterBackground": "#3A3A3A",
+      "gutterForeground": "#A39161",
+      "invisibles": "#323232",
+      "printMargin": "#665E4A",
+      "selection": "#665E4A"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#3A3A3A",
+        "color_01": "#000000",
+        "color_02": "#DA4839",
+        "color_03": "#509F50",
+        "color_04": "#FFD249",
+        "color_05": "#46657D",
+        "color_06": "#CFCFFF",
+        "color_07": "#87C1F1",
+        "color_08": "#FFFFFF",
+        "color_09": "#323232",
+        "color_10": "#FF7B6A",
+        "color_11": "#83D082",
+        "color_12": "#FFFF7B",
+        "color_13": "#9FCEF0",
+        "color_14": "#FFFFFF",
+        "color_15": "#A4D4F8",
+        "color_16": "#FFFFFF",
+        "cursor": "#E9CB7B",
+        "foreground": "#E9CB7B",
+        "hash": "f060e18db2a90d2e23ba23431f7dadd3bf8c60f096578f3cceb4c8dc6e6a274f",
+        "hash_bg": "c83b56fcbe3e47a97cdf2e50a19e44f54d6f26348362972a3693ad8dd609a9b1",
+        "name": "Renault Style Light",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "00ea9d9f7bd695732fb10ee911b4f86a658d2b4ba5b31cb26df163d07b9baa00",
+    "syntax": {
+      "comment": "#A39161",
+      "constant": "#87C1F1",
+      "function": "#46657D",
+      "invalid": "#DA4839",
+      "keyword": "#CFCFFF",
+      "number": "#87C1F1",
+      "operator": "#E9CB7B",
+      "string": "#509F50",
+      "type": "#FFD249",
+      "variable": "#E9CB7B"
+    }
+  }
+}

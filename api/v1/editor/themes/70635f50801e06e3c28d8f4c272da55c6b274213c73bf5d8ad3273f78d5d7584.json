@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2664
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.936
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.4623
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.8215
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.1984
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.8215
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9802
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1984
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.0057
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8055
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8126
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8126
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2664
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2664
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5054
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "f9d805834d56f6018c668df61f8dc9e7e1ee4ec95b0075e7a3ada0a6375276ad",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/eea17d6e4ebd28e4baa1ed6f1b99791ca85a2649b40894528d4acff1ec122919",
+    "name": "Monospace Light",
+    "palette": {
+      "activeLine": "#E6EAF1",
+      "background": "#F4F7FD",
+      "cursor": "#6F4CDE",
+      "foreground": "#475365",
+      "gutterActiveLine": "#E6EAF1",
+      "gutterBackground": "#F4F7FD",
+      "gutterForeground": "#8C95A2",
+      "invisibles": "#000000",
+      "printMargin": "#C9CED7",
+      "selection": "#C9CED7"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "conventoangelo (https://github.com/conventoangelo)",
+        "author_name": "conventoangelo",
+        "author_url": "https://github.com/conventoangelo",
+        "background": "#F4F7FD",
+        "color_01": "#333E4F",
+        "color_02": "#D03941",
+        "color_03": "#007B49",
+        "color_04": "#A65921",
+        "color_05": "#3C60DD",
+        "color_06": "#6F4CDE",
+        "color_07": "#0075A2",
+        "color_08": "#5D6A7D",
+        "color_09": "#000000",
+        "color_10": "#A52430",
+        "color_11": "#00522F",
+        "color_12": "#904B1A",
+        "color_13": "#002487",
+        "color_14": "#4D21BB",
+        "color_15": "#00607E",
+        "color_16": "#475365",
+        "cursor": "#6F4CDE",
+        "foreground": "#475365",
+        "hash": "334fbfbacdab6ced5b9e4d79c8fce1670b937d2b23b1af919f4912033c49b0bb",
+        "hash_bg": "fc4227c79f4877e6ccbf5dc5da31f02433dc1fe32a25e893633f166e6548446b",
+        "name": "Monospace Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "eea17d6e4ebd28e4baa1ed6f1b99791ca85a2649b40894528d4acff1ec122919",
+    "syntax": {
+      "comment": "#8C95A2",
+      "constant": "#0075A2",
+      "function": "#3C60DD",
+      "invalid": "#D03941",
+      "keyword": "#6F4CDE",
+      "number": "#0075A2",
+      "operator": "#475365",
+      "string": "#007B49",
+      "type": "#A65921",
+      "variable": "#475365"
+    }
+  }
+}

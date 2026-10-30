@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.73
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.8179
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4334
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6118
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 6.3838
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6118
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1816
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6152
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3186
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.1999
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3908
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3908
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.73
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.73
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.507
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "f58b7399b33a622f38e0916e41d310382551f92edb3afa2b7e31e327c0dcd9d1",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/bfb8b42b2fbfb98f80dc2b402210ca6577d025796e142502c29cc3b93b32dc1a",
+    "name": "London Soho Night",
+    "palette": {
+      "activeLine": "#2B2621",
+      "background": "#1A1612",
+      "cursor": "#FF5DB1",
+      "foreground": "#EBE0C8",
+      "gutterActiveLine": "#2B2621",
+      "gutterBackground": "#1A1612",
+      "gutterForeground": "#978F7F",
+      "invisibles": "#6B5A48",
+      "printMargin": "#4E4940",
+      "selection": "#4E4940"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Scott Matthews (https://github.com/scottmatthews7)",
+        "author_name": "Scott Matthews",
+        "author_url": "https://github.com/scottmatthews7",
+        "background": "#1A1612",
+        "color_01": "#2A221A",
+        "color_02": "#D4574A",
+        "color_03": "#8FAE5E",
+        "color_04": "#E8B04A",
+        "color_05": "#6A8FB5",
+        "color_06": "#D96AA5",
+        "color_07": "#9AB8A8",
+        "color_08": "#EBE0C8",
+        "color_09": "#6B5A48",
+        "color_10": "#E87765",
+        "color_11": "#AAC874",
+        "color_12": "#F4C560",
+        "color_13": "#88A8C8",
+        "color_14": "#ED85B8",
+        "color_15": "#B8CEBD",
+        "color_16": "#F8EED2",
+        "cursor": "#FF5DB1",
+        "foreground": "#EBE0C8",
+        "hash": "1d2b66667858b37500f7f847e4b76e2588dffa011d4d46c8904be595bf24d11d",
+        "hash_bg": "cb2a30365f0807f3b325d7b3e57aa700d3433c43dc7393d48d2761e67f4e01c4",
+        "name": "London Soho Night",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "bfb8b42b2fbfb98f80dc2b402210ca6577d025796e142502c29cc3b93b32dc1a",
+    "syntax": {
+      "comment": "#978F7F",
+      "constant": "#9AB8A8",
+      "function": "#6A8FB5",
+      "invalid": "#D4574A",
+      "keyword": "#D96AA5",
+      "number": "#9AB8A8",
+      "operator": "#EBE0C8",
+      "string": "#8FAE5E",
+      "type": "#E8B04A",
+      "variable": "#EBE0C8"
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/ee637a4f4e9bc740d703e18ffb4a92a9fb92f5d84ca000caac59b7dc6496cb26",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Borland",
+    "original": {
+      "author": "delip (https://gist.github.com/delip/9e16c606d9331d69d681)",
+      "author_name": "delip",
+      "author_url": "https://gist.github.com/delip/9e16c606d9331d69d681",
+      "background": "#0000A4",
+      "color_01": "#4F4F4F",
+      "color_02": "#FF6C60",
+      "color_03": "#A8FF60",
+      "color_04": "#FFFFB6",
+      "color_05": "#96CBFE",
+      "color_06": "#FF73FD",
+      "color_07": "#C6C5FE",
+      "color_08": "#EEEEEE",
+      "color_09": "#7C7C7C",
+      "color_10": "#FFB6B0",
+      "color_11": "#CEFFAC",
+      "color_12": "#FFFFCC",
+      "color_13": "#B5DCFF",
+      "color_14": "#FF9CFE",
+      "color_15": "#DFDFFE",
+      "color_16": "#FFFFFF",
+      "cursor": "#FFA560",
+      "foreground": "#FFFF4E",
+      "hash": "3138a715c82bcc7759b5a62cb7fa58d5cc4457dfe19bdeb93cfede3a5c357fa7",
+      "hash_bg": "c8bfe2a6c29242b71fa9e95c1129f20ac27cb85db98c0fc943a048d776ab3483",
+      "name": "Borland",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#FFA560",
+      "ansi": [
+        "#4F4F4F",
+        "#FF6C60",
+        "#A8FF60",
+        "#FFFFB6",
+        "#96CBFE",
+        "#FF73FD",
+        "#C6C5FE",
+        "#EEEEEE",
+        "#7C7C7C",
+        "#FFB6B0",
+        "#CEFFAC",
+        "#FFFFCC",
+        "#B5DCFF",
+        "#FF9CFE",
+        "#DFDFFE",
+        "#FFFFFF"
+      ],
+      "background": "#0000A4",
+      "cursor": "#FFA560",
+      "foreground": "#FFFF4E"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "ee637a4f4e9bc740d703e18ffb4a92a9fb92f5d84ca000caac59b7dc6496cb26",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "ee637a4f4e9bc740d703e18ffb4a92a9fb92f5d84ca000caac59b7dc6496cb26"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "991fe9c6b1c1a8f2d3c3f4125acb631a24b1a6a5d62e89272ba6d01f5c42f9f4",
+  "text": "# Author : Twinkle <saintwinkle@gmail.com>\n# The theme uses the gruvbox light palette with soft contrast: github.com/morhetz/gruvbox\n\ninherits = \"gruvbox_light\"\n\n[palette]\nbg0 = \"#f2e5bc\" # main background\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/gruvbox_light_soft.toml"
+}

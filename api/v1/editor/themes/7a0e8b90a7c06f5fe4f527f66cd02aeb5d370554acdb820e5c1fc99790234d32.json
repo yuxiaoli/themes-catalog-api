@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.6943
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3405
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.9025
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4055
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.1308
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4055
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0792
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4101
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.8153
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.1709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2959
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.2959
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.6943
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.6943
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.527
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "6e9ec8b120c5713953725fb72fac8610a9fd12b9999ea9118abbf9bc3aeac843",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/02a314e773ffa894b63ec49a585d963ddc397e0b2a6e5e994c57eef10c14f9f2",
+    "name": "Mona Lisa",
+    "palette": {
+      "activeLine": "#241B14",
+      "background": "#120B0D",
+      "cursor": "#C46C32",
+      "foreground": "#F7D66A",
+      "gutterActiveLine": "#241B14",
+      "gutterBackground": "#120B0D",
+      "gutterForeground": "#9B8545",
+      "invisibles": "#874228",
+      "printMargin": "#4B3E24",
+      "selection": "#4B3E24"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+        "author_name": "zdj",
+        "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
+        "background": "#120B0D",
+        "color_01": "#351B0E",
+        "color_02": "#9B291C",
+        "color_03": "#636232",
+        "color_04": "#C36E28",
+        "color_05": "#515C5D",
+        "color_06": "#9B1D29",
+        "color_07": "#588056",
+        "color_08": "#F7D75C",
+        "color_09": "#874228",
+        "color_10": "#FF4331",
+        "color_11": "#B4B264",
+        "color_12": "#FF9566",
+        "color_13": "#9EB2B4",
+        "color_14": "#FF5B6A",
+        "color_15": "#8ACD8F",
+        "color_16": "#FFE598",
+        "cursor": "#C46C32",
+        "foreground": "#F7D66A",
+        "hash": "2c360748a7eddf7e7166d73d5047f84a9a7af607a11d9c1af620f31b067b0af6",
+        "hash_bg": "b1e583221c3e72e5be01ac74391fd46eef30c240ca1b4fbd165e1dda46b13190",
+        "name": "Mona Lisa",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "02a314e773ffa894b63ec49a585d963ddc397e0b2a6e5e994c57eef10c14f9f2",
+    "syntax": {
+      "comment": "#9B8545",
+      "constant": "#588056",
+      "function": "#515C5D",
+      "invalid": "#9B291C",
+      "keyword": "#9B1D29",
+      "number": "#588056",
+      "operator": "#F7D66A",
+      "string": "#636232",
+      "type": "#C36E28",
+      "variable": "#F7D66A"
+    }
+  }
+}

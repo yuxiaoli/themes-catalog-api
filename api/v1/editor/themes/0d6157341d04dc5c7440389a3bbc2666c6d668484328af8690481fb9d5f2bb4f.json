@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.899
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2643
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4658
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5314
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.6188
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5314
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8129
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1764
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4032
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5866
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1359
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1359
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.899
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.899
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.3985
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "4abee9fcbc9508d60902f50ccf5172b6dbae8877dfee4cadc0f6abff17d3fc4b",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/ad4d41ea17137a63cb0fcf1d2f191ff4a6ff0a923926175dbeb16e4447c8072e",
+    "name": "Farmhouse Dark",
+    "palette": {
+      "activeLine": "#2D3036",
+      "background": "#1D2027",
+      "cursor": "#006EFE",
+      "foreground": "#E8E4E1",
+      "gutterActiveLine": "#2D3036",
+      "gutterBackground": "#1D2027",
+      "gutterForeground": "#979697",
+      "invisibles": "#394047",
+      "printMargin": "#505156",
+      "selection": "#505156"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "mattly (https://github.com/mattly)",
+        "author_name": "mattly",
+        "author_url": "https://github.com/mattly",
+        "background": "#1D2027",
+        "color_01": "#1D2027",
+        "color_02": "#BA0004",
+        "color_03": "#549D00",
+        "color_04": "#C87300",
+        "color_05": "#0049E6",
+        "color_06": "#9F1B61",
+        "color_07": "#1FB65C",
+        "color_08": "#E8E4E1",
+        "color_09": "#394047",
+        "color_10": "#EB0009",
+        "color_11": "#7AC100",
+        "color_12": "#EA9A00",
+        "color_13": "#006EFE",
+        "color_14": "#BF3B7F",
+        "color_15": "#19E062",
+        "color_16": "#F4EEF0",
+        "cursor": "#006EFE",
+        "foreground": "#E8E4E1",
+        "hash": "b0526587f4616d0c82c60761c31338746308f6062eec948beb2989a214156ed2",
+        "hash_bg": "b4d638401d86a0189c0cccfd2ed949eeebc6a80b35d708ddaa1f34edbb64f421",
+        "name": "Farmhouse Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "ad4d41ea17137a63cb0fcf1d2f191ff4a6ff0a923926175dbeb16e4447c8072e",
+    "syntax": {
+      "comment": "#979697",
+      "constant": "#1FB65C",
+      "function": "#0049E6",
+      "invalid": "#BA0004",
+      "keyword": "#9F1B61",
+      "number": "#1FB65C",
+      "operator": "#E8E4E1",
+      "string": "#549D00",
+      "type": "#C87300",
+      "variable": "#E8E4E1"
+    }
+  }
+}

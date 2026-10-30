@@ -1,0 +1,234 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.785
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8059
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3085
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1351
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.785
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1351
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1429
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.6949
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4847
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.7621
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1886
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1886
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.785
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.785
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3906
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "94f3af80153262a9e9ccee2c562461209327e7d2523d3af448a95e10e3f12f7e",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.function",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/725f3de6f86703fa682a5290aa66258a79a1592e32bcf491d9000818ce04a76c",
+    "name": "Ascendancy",
+    "palette": {
+      "activeLine": "#363532",
+      "background": "#282828",
+      "cursor": "#D5C7A1",
+      "foreground": "#D5C7A1",
+      "gutterActiveLine": "#363532",
+      "gutterBackground": "#282828",
+      "gutterForeground": "#908771",
+      "invisibles": "#928374",
+      "printMargin": "#535046",
+      "selection": "#535046"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "EmergentMind (https://github.com/emergentmind/ascendancy-scheme)",
+        "author_name": "EmergentMind",
+        "author_url": "https://github.com/emergentmind/ascendancy-scheme",
+        "background": "#282828",
+        "color_01": "#282828",
+        "color_02": "#D05000",
+        "color_03": "#B8BB26",
+        "color_04": "#FFCC1B",
+        "color_05": "#458588",
+        "color_06": "#FABD2F",
+        "color_07": "#8F3F71",
+        "color_08": "#D5C7A1",
+        "color_09": "#928374",
+        "color_10": "#D05000",
+        "color_11": "#B8BB26",
+        "color_12": "#FFCC1B",
+        "color_13": "#458588",
+        "color_14": "#FABD2F",
+        "color_15": "#8F3F71",
+        "color_16": "#FBF1C7",
+        "cursor": "#D5C7A1",
+        "foreground": "#D5C7A1",
+        "hash": "711a5841bc9122ac54ebcc8247152580ab45bf3b537ecc7a4afa879e45b5f726",
+        "hash_bg": "692dd869c8a543dbc3e3df6d35207c5a8da6c187dc276f2cf17fd31d972f5ca5",
+        "name": "Ascendancy",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "725f3de6f86703fa682a5290aa66258a79a1592e32bcf491d9000818ce04a76c",
+    "syntax": {
+      "comment": "#908771",
+      "constant": "#8F3F71",
+      "function": "#458588",
+      "invalid": "#D05000",
+      "keyword": "#FABD2F",
+      "number": "#8F3F71",
+      "operator": "#D5C7A1",
+      "string": "#B8BB26",
+      "type": "#FFCC1B",
+      "variable": "#D5C7A1"
+    }
+  }
+}

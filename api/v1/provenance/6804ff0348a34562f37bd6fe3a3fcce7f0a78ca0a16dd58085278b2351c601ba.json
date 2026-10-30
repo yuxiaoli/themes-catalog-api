@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "add9d10b30d7ed5a21d6f132f9a9aa03c8bcddcdd62d47370ebb8471fdd22754",
+  "text": "\"use strict\";\n\n  exports.isDark = false;\n  exports.cssClass = \"ace-cloud9-day\";\n  exports.cssText = require(\"./cloud9_day-css\");\n\n  var dom = require(\"../lib/dom\");\n  dom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/cloud9_day.js"
+}

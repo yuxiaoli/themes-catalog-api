@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.9053
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8633
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4338
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1611
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.9053
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1611
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.9176
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.34
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0604
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.3672
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4441
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.4441
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.9053
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.9053
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5953
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "e21e0759286913fcf716b38461dac79b2e7def901fda5d0c513c96a9e0ec0f28",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/0f55529ba84cab2ee203bbda7dd91a1e76ad37a38ab15082626f51d57cfb9b31",
+    "name": "Material Theme Mod",
+    "palette": {
+      "activeLine": "#2B353A",
+      "background": "#1E282D",
+      "cursor": "#C4C7D1",
+      "foreground": "#C4C7D1",
+      "gutterActiveLine": "#2B353A",
+      "gutterBackground": "#1E282D",
+      "gutterForeground": "#82878F",
+      "invisibles": "#A1A1A1",
+      "printMargin": "#485056",
+      "selection": "#485056"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#1E282D",
+        "color_01": "#666666",
+        "color_02": "#EB606B",
+        "color_03": "#C3E88D",
+        "color_04": "#F7EB95",
+        "color_05": "#80CBC4",
+        "color_06": "#FF2F90",
+        "color_07": "#AEDDFF",
+        "color_08": "#FFFFFF",
+        "color_09": "#A1A1A1",
+        "color_10": "#EB606B",
+        "color_11": "#C3E88D",
+        "color_12": "#F7EB95",
+        "color_13": "#7DC6BF",
+        "color_14": "#6C71C4",
+        "color_15": "#35434D",
+        "color_16": "#FFFFFF",
+        "cursor": "#C4C7D1",
+        "foreground": "#C4C7D1",
+        "hash": "d7c19efbbf112f8d3ff14fa78d085780f83df8a1ac668b25f07556dd4a55a1c5",
+        "hash_bg": "0dbb90254fa1e536d95a37c08e4c7c53c64f1eebbf0da8ef06044132f45ae2c7",
+        "name": "Material Theme Mod",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0f55529ba84cab2ee203bbda7dd91a1e76ad37a38ab15082626f51d57cfb9b31",
+    "syntax": {
+      "comment": "#82878F",
+      "constant": "#AEDDFF",
+      "function": "#80CBC4",
+      "invalid": "#EB606B",
+      "keyword": "#FF2F90",
+      "number": "#AEDDFF",
+      "operator": "#C4C7D1",
+      "string": "#C3E88D",
+      "type": "#F7EB95",
+      "variable": "#C4C7D1"
+    }
+  }
+}

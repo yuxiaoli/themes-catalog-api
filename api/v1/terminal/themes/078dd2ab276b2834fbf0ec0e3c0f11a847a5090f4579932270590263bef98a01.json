@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/0c2471742a513372e8fa196f8593823849b0a09f0554ff70d8d829ff1246d649",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Equilibrium Gray Dark",
+    "original": {
+      "author": "Carlo Abelli",
+      "author_name": "Carlo Abelli",
+      "author_url": "",
+      "background": "#111111",
+      "color_01": "#111111",
+      "color_02": "#F04339",
+      "color_03": "#7F8B00",
+      "color_04": "#BB8801",
+      "color_05": "#008DD1",
+      "color_06": "#6A7FD2",
+      "color_07": "#00948B",
+      "color_08": "#ABABAB",
+      "color_09": "#777777",
+      "color_10": "#F04339",
+      "color_11": "#7F8B00",
+      "color_12": "#BB8801",
+      "color_13": "#008DD1",
+      "color_14": "#6A7FD2",
+      "color_15": "#00948B",
+      "color_16": "#E2E2E2",
+      "cursor": "#ABABAB",
+      "foreground": "#ABABAB",
+      "hash": "bbbc20c937b9eb04c6a9f50714f054e5fa1e8ccfd64507d5ba35d844652d8e28",
+      "hash_bg": "be5cc131d721af7085df4c15654b12c6534be6f8b5e616bd7dfc2aab35b75484",
+      "name": "Equilibrium Gray Dark",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#ABABAB",
+      "ansi": [
+        "#111111",
+        "#F04339",
+        "#7F8B00",
+        "#BB8801",
+        "#008DD1",
+        "#6A7FD2",
+        "#00948B",
+        "#ABABAB",
+        "#777777",
+        "#F04339",
+        "#7F8B00",
+        "#BB8801",
+        "#008DD1",
+        "#6A7FD2",
+        "#00948B",
+        "#E2E2E2"
+      ],
+      "background": "#111111",
+      "cursor": "#ABABAB",
+      "foreground": "#ABABAB"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "0c2471742a513372e8fa196f8593823849b0a09f0554ff70d8d829ff1246d649",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0c2471742a513372e8fa196f8593823849b0a09f0554ff70d8d829ff1246d649"
+  }
+}

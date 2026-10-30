@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "240e551b7e20a1f4c7815ed14cfd30c9416bfec8c24d0ca3ad6ed9994dd5c837",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-vibrant-ink\";\nexports.cssText = require(\"./vibrant_ink-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/vibrant_ink.js"
+}

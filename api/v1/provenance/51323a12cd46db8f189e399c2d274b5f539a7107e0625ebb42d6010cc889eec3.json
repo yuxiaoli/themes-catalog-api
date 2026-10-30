@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "28af564ee208e74a6c0bc3b16fa955c2ee2d77fcb7f22fcfd998b83dfffe92e8",
+  "text": "# Author : tangowithfoxtrot\n# Eldritch theme with a transparent background\n\ninherits = \"eldritch\"\n\n\"ui.background\" = { }\n\"ui.popup\"      = { modifiers = [\"italic\"] }\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/eldritch_transparent.toml"
+}

@@ -1,0 +1,242 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3325
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5809
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.078
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9316
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 3.3325
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.9316
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0613
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2773
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.7717
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.798
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4211
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4211
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3325
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3325
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6518
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "a84148840770022189d39b58c52fd2e6bc5b824e90b23cfaea6024b348c9bf72",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "text",
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.operator",
+        "syntax.variable",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/be8e995808311ec9187ba8bcb9e7eece00a4a4ee8a2d3fae427028ed8c37ed35",
+    "name": "Cupcake",
+    "palette": {
+      "activeLine": "#F2E8EB",
+      "background": "#FBF1F2",
+      "cursor": "#8B8198",
+      "foreground": "#8B8198",
+      "gutterActiveLine": "#F2E8EB",
+      "gutterBackground": "#FBF1F2",
+      "gutterForeground": "#B8AEBC",
+      "invisibles": "#BFB9C6",
+      "printMargin": "#DFD5DC",
+      "selection": "#DFD5DC"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Chris Kempson (http://chriskempson.com)",
+        "author_name": "Chris Kempson",
+        "author_url": "http://chriskempson.com",
+        "background": "#FBF1F2",
+        "color_01": "#FBF1F2",
+        "color_02": "#D57E85",
+        "color_03": "#A3B367",
+        "color_04": "#DCB16C",
+        "color_05": "#7297B9",
+        "color_06": "#BB99B4",
+        "color_07": "#69A9A7",
+        "color_08": "#8B8198",
+        "color_09": "#BFB9C6",
+        "color_10": "#D57E85",
+        "color_11": "#A3B367",
+        "color_12": "#DCB16C",
+        "color_13": "#7297B9",
+        "color_14": "#BB99B4",
+        "color_15": "#69A9A7",
+        "color_16": "#585062",
+        "cursor": "#8B8198",
+        "foreground": "#8B8198",
+        "hash": "5ec0e3ac2efe1e507b432df12e7ad10060f686bcc300bcfaf2581bf192b4c896",
+        "hash_bg": "94e8eaecadd8f1af1975b15e5da617d2942ec6829d73db7d9888f355dfe66b15",
+        "name": "Cupcake",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "be8e995808311ec9187ba8bcb9e7eece00a4a4ee8a2d3fae427028ed8c37ed35",
+    "syntax": {
+      "comment": "#B8AEBC",
+      "constant": "#69A9A7",
+      "function": "#7297B9",
+      "invalid": "#D57E85",
+      "keyword": "#BB99B4",
+      "number": "#69A9A7",
+      "operator": "#8B8198",
+      "string": "#A3B367",
+      "type": "#DCB16C",
+      "variable": "#8B8198"
+    }
+  }
+}

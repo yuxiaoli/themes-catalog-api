@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9768
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3981
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.64
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9358
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 7.9768
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.9358
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9809
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7848
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2864
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.947
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5735
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5735
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9768
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9768
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1861
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "5626e13ccd0a7d3321adee5c1f65146188115845f75076f908f909ecd89ead8f",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/928731a117ecef026b51d4fd869d7ec2e6e57fc3f9606dc2e0efb98e9eb701d5",
+    "name": "Gruvbox Material Dark Soft",
+    "palette": {
+      "activeLine": "#403C38",
+      "background": "#32302F",
+      "cursor": "#DDC7A1",
+      "foreground": "#DDC7A1",
+      "gutterActiveLine": "#403C38",
+      "gutterBackground": "#32302F",
+      "gutterForeground": "#998B73",
+      "invisibles": "#7C6F64",
+      "printMargin": "#5D564C",
+      "selection": "#5D564C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Mayush Kumar, sainnhe (https://github.com/MayushKumar)",
+        "author_name": "Mayush Kumar, sainnhe",
+        "author_url": "https://github.com/MayushKumar",
+        "background": "#32302F",
+        "color_01": "#32302F",
+        "color_02": "#EA6962",
+        "color_03": "#A9B665",
+        "color_04": "#D8A657",
+        "color_05": "#7DAEA3",
+        "color_06": "#D3869B",
+        "color_07": "#89B482",
+        "color_08": "#DDC7A1",
+        "color_09": "#7C6F64",
+        "color_10": "#EA6962",
+        "color_11": "#A9B665",
+        "color_12": "#D8A657",
+        "color_13": "#7DAEA3",
+        "color_14": "#D3869B",
+        "color_15": "#89B482",
+        "color_16": "#FBF1C7",
+        "cursor": "#DDC7A1",
+        "foreground": "#DDC7A1",
+        "hash": "9436721c28bdeb880cb00dbfce485e2e6f91ec2ea924b6fa75d1a1e49f0a6da6",
+        "hash_bg": "99e92cd5e1ece158b8a0e8c0cee1c459549eb90b3ace70bb539bc4a7c51bb882",
+        "name": "Gruvbox Material Dark Soft",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "928731a117ecef026b51d4fd869d7ec2e6e57fc3f9606dc2e0efb98e9eb701d5",
+    "syntax": {
+      "comment": "#998B73",
+      "constant": "#89B482",
+      "function": "#7DAEA3",
+      "invalid": "#EA6962",
+      "keyword": "#D3869B",
+      "number": "#89B482",
+      "operator": "#DDC7A1",
+      "string": "#A9B665",
+      "type": "#D8A657",
+      "variable": "#DDC7A1"
+    }
+  }
+}

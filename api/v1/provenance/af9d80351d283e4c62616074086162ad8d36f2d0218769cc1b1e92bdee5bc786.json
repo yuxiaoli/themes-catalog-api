@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "bc0308763712617597d31b0546f20888a9e145870c4a4a44c6ac1a589c2c32a7",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-terminal-theme\";\nexports.cssText = require(\"./terminal-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/terminal.js"
+}

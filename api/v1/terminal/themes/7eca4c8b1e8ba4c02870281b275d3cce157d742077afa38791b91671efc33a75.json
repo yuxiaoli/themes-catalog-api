@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/3cefba377b980ebfa4801cebc5f1366ec63359a3fbd993ebbfdc62befba60849",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Noctis Hibernus",
+    "original": {
+      "author": "Liviu Schera (https://github.com/liviuschera)",
+      "author_name": "Liviu Schera",
+      "author_url": "https://github.com/liviuschera",
+      "background": "#F4F6F6",
+      "color_01": "#003B42",
+      "color_02": "#E34E1C",
+      "color_03": "#00B368",
+      "color_04": "#F49725",
+      "color_05": "#0094F0",
+      "color_06": "#FF5792",
+      "color_07": "#00BDD6",
+      "color_08": "#8CA6A6",
+      "color_09": "#004D57",
+      "color_10": "#FF4000",
+      "color_11": "#00D17A",
+      "color_12": "#FF8C00",
+      "color_13": "#0FA3FF",
+      "color_14": "#FF6B9F",
+      "color_15": "#00CBE6",
+      "color_16": "#BBC3C4",
+      "cursor": "#005661",
+      "foreground": "#005661",
+      "hash": "9aea0d7acb7d186cff08603191bdcc20ae4509a5370fe0fc79cf3366a47d5603",
+      "hash_bg": "03f4576a78279d85eca017255aa48f105bd62cd8590e797685589b4fd171ddc8",
+      "name": "Noctis Hibernus",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#005661",
+      "ansi": [
+        "#003B42",
+        "#E34E1C",
+        "#00B368",
+        "#F49725",
+        "#0094F0",
+        "#FF5792",
+        "#00BDD6",
+        "#8CA6A6",
+        "#004D57",
+        "#FF4000",
+        "#00D17A",
+        "#FF8C00",
+        "#0FA3FF",
+        "#FF6B9F",
+        "#00CBE6",
+        "#BBC3C4"
+      ],
+      "background": "#F4F6F6",
+      "cursor": "#005661",
+      "foreground": "#005661"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "3cefba377b980ebfa4801cebc5f1366ec63359a3fbd993ebbfdc62befba60849",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "3cefba377b980ebfa4801cebc5f1366ec63359a3fbd993ebbfdc62befba60849"
+  }
+}

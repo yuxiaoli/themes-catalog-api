@@ -1,0 +1,236 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8893
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3821
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.582
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8725
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 7.8893
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8725
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2266
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.351
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.5854
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.4604
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3172
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3172
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8893
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.8893
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5568
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "814c7129afd2c46e7dfb09f2f88c016a0fb991df02c2d110ba5e56c49c406348",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/00c4dafb5b4850068b0d9f77aba4fb4e795eab89ae8da7239eb8964e0da9d8ee",
+    "name": "Kokuban",
+    "palette": {
+      "activeLine": "#1D5619",
+      "background": "#0D4A08",
+      "cursor": "#D8E2D7",
+      "foreground": "#D8E2D7",
+      "gutterActiveLine": "#1D5619",
+      "gutterBackground": "#0D4A08",
+      "gutterForeground": "#87A584",
+      "invisibles": "#34934F",
+      "printMargin": "#40703C",
+      "selection": "#40703C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#0D4A08",
+        "color_01": "#2E8744",
+        "color_02": "#D84E4C",
+        "color_03": "#95DA5A",
+        "color_04": "#D6E264",
+        "color_05": "#4B9ED7",
+        "color_06": "#945FC5",
+        "color_07": "#D89B25",
+        "color_08": "#D8E2D7",
+        "color_09": "#34934F",
+        "color_10": "#FF4F59",
+        "color_11": "#AFF56A",
+        "color_12": "#FCFF75",
+        "color_13": "#57AEFF",
+        "color_14": "#AE63E9",
+        "color_15": "#FFAA2B",
+        "color_16": "#FFFEFE",
+        "cursor": "#D8E2D7",
+        "foreground": "#D8E2D7",
+        "hash": "5883f8b068950221a1ce087052a50907a9eb590a2b127d663ddc2f1f6285acab",
+        "hash_bg": "041f1c05d8087cdebf114252f7f202407951d9f3d4a3cc83a05a9ac65d546385",
+        "name": "Kokuban",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "00c4dafb5b4850068b0d9f77aba4fb4e795eab89ae8da7239eb8964e0da9d8ee",
+    "syntax": {
+      "comment": "#87A584",
+      "constant": "#D89B25",
+      "function": "#4B9ED7",
+      "invalid": "#D84E4C",
+      "keyword": "#945FC5",
+      "number": "#D89B25",
+      "operator": "#D8E2D7",
+      "string": "#95DA5A",
+      "type": "#D6E264",
+      "variable": "#D8E2D7"
+    }
+  }
+}

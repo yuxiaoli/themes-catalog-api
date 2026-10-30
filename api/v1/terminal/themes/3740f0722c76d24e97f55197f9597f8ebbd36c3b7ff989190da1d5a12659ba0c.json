@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/b4dcd64d3042fbd9778189cc5724f4df203169277850c586c55b9af7b1717c43",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Solarized Osaka Dark",
+    "original": {
+      "author": "Folke Lemaitre",
+      "author_name": "Folke Lemaitre",
+      "author_url": "",
+      "background": "#001419",
+      "color_01": "#001014",
+      "color_02": "#DB302D",
+      "color_03": "#849900",
+      "color_04": "#B28500",
+      "color_05": "#268BD3",
+      "color_06": "#D23681",
+      "color_07": "#29A298",
+      "color_08": "#839395",
+      "color_09": "#576D74",
+      "color_10": "#DB302D",
+      "color_11": "#849900",
+      "color_12": "#B28500",
+      "color_13": "#268BD3",
+      "color_14": "#D23681",
+      "color_15": "#29A298",
+      "color_16": "#839395",
+      "cursor": "#839395",
+      "foreground": "#839395",
+      "hash": "68ccbde1c320c3f9c5e192c4ab4645f9af8c722acadd6f6623da784212162c5b",
+      "hash_bg": "f4a7932c42497e1dd273a7787e181c0d3c7be6cab91ac6128e251ed67a6bfa20",
+      "name": "Solarized Osaka Dark",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#839395",
+      "ansi": [
+        "#001014",
+        "#DB302D",
+        "#849900",
+        "#B28500",
+        "#268BD3",
+        "#D23681",
+        "#29A298",
+        "#839395",
+        "#576D74",
+        "#DB302D",
+        "#849900",
+        "#B28500",
+        "#268BD3",
+        "#D23681",
+        "#29A298",
+        "#839395"
+      ],
+      "background": "#001419",
+      "cursor": "#839395",
+      "foreground": "#839395"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "b4dcd64d3042fbd9778189cc5724f4df203169277850c586c55b9af7b1717c43",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b4dcd64d3042fbd9778189cc5724f4df203169277850c586c55b9af7b1717c43"
+  }
+}

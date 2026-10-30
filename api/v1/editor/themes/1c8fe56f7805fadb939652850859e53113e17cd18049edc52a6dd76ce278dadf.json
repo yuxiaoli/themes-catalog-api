@@ -1,0 +1,235 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 19.6571
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.3998
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.6927
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1901
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 15.8296
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1901
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6521
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.6394
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 1.8871
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.4681
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0895
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0895
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 19.6571
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 19.6571
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5474
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "61d6cd97f8137421add3fe115c6afc675d6007a3de1443ca66682393e87342c2",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/75c03aa599c1b1c834255bbcfa5f0c11bb7c14562247478dd73190fc5975a322",
+    "name": "Vaombe",
+    "palette": {
+      "activeLine": "#151E1C",
+      "background": "#010A08",
+      "cursor": "#9DF5E2",
+      "foreground": "#F5FFFD",
+      "gutterActiveLine": "#151E1C",
+      "gutterBackground": "#010A08",
+      "gutterForeground": "#939D9B",
+      "invisibles": "#212927",
+      "printMargin": "#3E4745",
+      "selection": "#3E4745"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Daniel Perez (https://www.github.com/sysaloe)",
+        "author_name": "Daniel Perez",
+        "author_url": "https://www.github.com/sysaloe",
+        "background": "#010A08",
+        "color_01": "#111413",
+        "color_02": "#8F3232",
+        "color_03": "#3B5C3B",
+        "color_04": "#7A6322",
+        "color_05": "#28405C",
+        "color_06": "#46285C",
+        "color_07": "#346666",
+        "color_08": "#D1D1D1",
+        "color_09": "#212927",
+        "color_10": "#B84242",
+        "color_11": "#57A355",
+        "color_12": "#DBBB60",
+        "color_13": "#5183B8",
+        "color_14": "#935FB8",
+        "color_15": "#51B8B0",
+        "color_16": "#F5FFFD",
+        "cursor": "#9DF5E2",
+        "foreground": "#F5FFFD",
+        "hash": "491c6c7303a77369b88af4e412f59edda91ff312e375ea3deca61af4ad40c1fd",
+        "hash_bg": "1592b4f4c1e5927de5ea7e7acd53df1e1ba9277ae32f4c342ecd7f86e1a30bcd",
+        "name": "Vaombe",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "75c03aa599c1b1c834255bbcfa5f0c11bb7c14562247478dd73190fc5975a322",
+    "syntax": {
+      "comment": "#939D9B",
+      "constant": "#346666",
+      "function": "#28405C",
+      "invalid": "#8F3232",
+      "keyword": "#46285C",
+      "number": "#346666",
+      "operator": "#F5FFFD",
+      "string": "#3B5C3B",
+      "type": "#7A6322",
+      "variable": "#F5FFFD"
+    }
+  }
+}

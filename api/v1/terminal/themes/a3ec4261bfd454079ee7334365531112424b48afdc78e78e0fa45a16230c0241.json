@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/0f7aa46961ef8edb4f1b3895765fa33c379b8da69aad6c90c7a32124ff7b396d",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Pastel Cyberpunk",
+    "original": {
+      "author": "chuck (based on Cyberpunk Neon by Theo)",
+      "author_name": "chuck (based on Cyberpunk Neon by Theo)",
+      "author_url": "",
+      "background": "#333B4B",
+      "color_01": "#38404F",
+      "color_02": "#FF3838",
+      "color_03": "#DC38D0",
+      "color_04": "#F79538",
+      "color_05": "#4B6C9B",
+      "color_06": "#904DA9",
+      "color_07": "#3FCBD2",
+      "color_08": "#3FCBD2",
+      "color_09": "#4D83CF",
+      "color_10": "#FF3333",
+      "color_11": "#DB33CF",
+      "color_12": "#FF7899",
+      "color_13": "#38FF38",
+      "color_14": "#8D49A7",
+      "color_15": "#3BCAD1",
+      "color_16": "#3BCAD1",
+      "cursor": "#3FCBD2",
+      "foreground": "#3FCBD2",
+      "hash": "1197e90609e4fbeece74eb164bac29def2e16feb042e43f3b690705605d17152",
+      "hash_bg": "1d694a2aad1c7b0d825be2f502f530791dc4c2a601ee5886de87bd6b89091d6b",
+      "name": "Pastel Cyberpunk",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#3FCBD2",
+      "ansi": [
+        "#38404F",
+        "#FF3838",
+        "#DC38D0",
+        "#F79538",
+        "#4B6C9B",
+        "#904DA9",
+        "#3FCBD2",
+        "#3FCBD2",
+        "#4D83CF",
+        "#FF3333",
+        "#DB33CF",
+        "#FF7899",
+        "#38FF38",
+        "#8D49A7",
+        "#3BCAD1",
+        "#3BCAD1"
+      ],
+      "background": "#333B4B",
+      "cursor": "#3FCBD2",
+      "foreground": "#3FCBD2"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "0f7aa46961ef8edb4f1b3895765fa33c379b8da69aad6c90c7a32124ff7b396d",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "0f7aa46961ef8edb4f1b3895765fa33c379b8da69aad6c90c7a32124ff7b396d"
+  }
+}

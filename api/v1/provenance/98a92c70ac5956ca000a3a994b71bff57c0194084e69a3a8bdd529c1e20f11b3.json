@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "36f43ed397ed67ec25da7ec7fccc78ec0a90f4586a5d72bf307d6424b838aa68",
+  "text": "# Author : portalsurfer <https://github.com/PORTALSURFER>\n\ninherits = \"hex_steel\"\n\n[palette]\nt1 = \"#101719\"\nt2 = \"#1b2a32\"\nt3 = \"#4b5968\"\nt4 = \"#8792ab\"\nt5 = \"#6f91bc\"\nt6 = \"#8bb2b9\"\nt7 = \"#eeac90\"\nt8 = \"#b0bd9f\"\nt9 = \"#b3ccd0\"\nt10 = \"#b0d4d8\"\nt11 = \"#ffbf52\"\n\nhighlight = \"#ff0a50\"\nhighlight_two = \"#0affa9\"\nhighlight_three = \"#f8ed8b\"\n\nblack = \"#000000\"\n\nselection = \"#b10656\"\nselection_fg = \"#101719\"\n\ncomment = \"#417e8c\"\ncomment_doc = \"#234048\"\n\nerror = \"#ff0900\"\nwarning = \"#ffbf00\"\ndisplay = \"#57ff89\"\ninfo = \"#dad7d5\"\n\nhints = \"#39515c\"\nruler  = \"#1e3039\"\n\ndiff_minus = \"#ff4000\"\ndiff_delta = \"#0078bd\"\ndiff_plus = \"#c9d400\"\ndiff_delta_moved = \"#0048bd\"",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/hex_toxic.toml"
+}

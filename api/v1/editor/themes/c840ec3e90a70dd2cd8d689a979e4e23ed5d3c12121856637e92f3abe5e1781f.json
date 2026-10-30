@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.3803
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.5892
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4077
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0496
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 7.9854
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0496
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.1378
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3062
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1784
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.53
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0874
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0874
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.3803
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.3803
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4803
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "723e5452c4865d8cfea3feb1dbb8131d93ac27a2b4cc387b70cda9d97c6c9efb",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/97528e227526f547f3b29042a54706e61a6ae8beaa27ac1e127b6db0914cb2df",
+    "name": "Monokai Pro Spectrum",
+    "palette": {
+      "activeLine": "#333334",
+      "background": "#222222",
+      "cursor": "#BAB6C0",
+      "foreground": "#F7F1FF",
+      "gutterActiveLine": "#333334",
+      "gutterBackground": "#222222",
+      "gutterForeground": "#A29EA7",
+      "invisibles": "#69676C",
+      "printMargin": "#575659",
+      "selection": "#575659"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Monokai (https://monokai.com/)",
+        "author_name": "Monokai",
+        "author_url": "https://monokai.com/",
+        "background": "#222222",
+        "color_01": "#222222",
+        "color_02": "#FC618D",
+        "color_03": "#7BD88F",
+        "color_04": "#FCE566",
+        "color_05": "#FD9353",
+        "color_06": "#948AE3",
+        "color_07": "#5AD4E6",
+        "color_08": "#F7F1FF",
+        "color_09": "#69676C",
+        "color_10": "#FC618D",
+        "color_11": "#7BD88F",
+        "color_12": "#FCE566",
+        "color_13": "#FD9353",
+        "color_14": "#948AE3",
+        "color_15": "#5AD4E6",
+        "color_16": "#F7F1FF",
+        "cursor": "#BAB6C0",
+        "foreground": "#F7F1FF",
+        "hash": "bfaaeaa5ed14696fc67abb274328dfe7a732e5fa02a22c086bbef5f575de7df8",
+        "hash_bg": "0ab9b7707742f7dcbadf8f430a75575121e5e4564fe75b1b0932bb9d376e6bff",
+        "name": "Monokai Pro Spectrum",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "97528e227526f547f3b29042a54706e61a6ae8beaa27ac1e127b6db0914cb2df",
+    "syntax": {
+      "comment": "#A29EA7",
+      "constant": "#5AD4E6",
+      "function": "#FD9353",
+      "invalid": "#FC618D",
+      "keyword": "#948AE3",
+      "number": "#5AD4E6",
+      "operator": "#F7F1FF",
+      "string": "#7BD88F",
+      "type": "#FCE566",
+      "variable": "#F7F1FF"
+    }
+  }
+}

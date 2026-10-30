@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "acf161f615e6703350e5557477662f27bdfe8ebf5698a94aa22c549e4f035092",
+  "text": "# Author: Paul Graydon <untimely.creation97@proton.me>\n\ninherits = \"tokyonight\"\n\n[palette]\nred = \"#f52a65\"\norange = \"#b15c00\"\nyellow = \"#8c6c3e\"\nlight-green = \"#587539\"\ngreen = \"#387068\"\naqua = \"#188092\"\nteal = \"#118c74\"\nturquoise = \"#006a83\"\nlight-cyan = \"#2e5857\"\ncyan = \"#007197\"\nblue = \"#2e7de9\"\npurple = \"#7847bd\"\nmagenta = \"#9854f1\"\ncomment = \"#848cb5\"\nblack = \"#a1a6c5\"\n\nadd = \"#aecde6\"\nchange = \"#d6d8e3\"\ndelete = \"#dfccd4\"\n\nerror = \"#c64343\"\nhint = \"#118c74\"\ninfo = \"#07879d\"\n\nfg = \"#3760bf\"\nfg-dark = \"#6172b0\"\nfg-gutter = \"#a8aecb\"\nfg-linenr = \"#68709a\"\nfg-selected = \"#b3b8d1\"\nborder = \"#e9e9ed\"\nborder-highlight = \"#2496ac\"\nbg = \"#e1e2e7\"\nbg-inlay = \"#acd7eb\"\nbg-selection = \"#c4c8da\"\nbg-menu = \"#e9e9ec\"\nbg-focus = \"#b6bfe2\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/tokyonight_day.toml"
+}

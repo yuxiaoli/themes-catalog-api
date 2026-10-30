@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/46d08203e1d4d0a9b7817a486af22386c36dabb39427787171b4dea8bcb0b203",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Humanoid Dark",
+    "original": {
+      "author": "Thomas (tasmo) Friese",
+      "author_name": "Thomas (tasmo) Friese",
+      "author_url": "",
+      "background": "#232629",
+      "color_01": "#232629",
+      "color_02": "#F11235",
+      "color_03": "#02D849",
+      "color_04": "#FFB627",
+      "color_05": "#00A6FB",
+      "color_06": "#F15EE3",
+      "color_07": "#0DD9D6",
+      "color_08": "#F8F8F2",
+      "color_09": "#60615D",
+      "color_10": "#F11235",
+      "color_11": "#02D849",
+      "color_12": "#FFB627",
+      "color_13": "#00A6FB",
+      "color_14": "#F15EE3",
+      "color_15": "#0DD9D6",
+      "color_16": "#FCFCFC",
+      "cursor": "#F8F8F2",
+      "foreground": "#F8F8F2",
+      "hash": "f77bdc94e1b029ccfc1683b0f1dd51b06ca71944a313f8dce08768f9458fc193",
+      "hash_bg": "bce1c822ce201c44add4e728e406fd3646b7fb5ed2ca3f23b2554050ea967a92",
+      "name": "Humanoid Dark",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#F8F8F2",
+      "ansi": [
+        "#232629",
+        "#F11235",
+        "#02D849",
+        "#FFB627",
+        "#00A6FB",
+        "#F15EE3",
+        "#0DD9D6",
+        "#F8F8F2",
+        "#60615D",
+        "#F11235",
+        "#02D849",
+        "#FFB627",
+        "#00A6FB",
+        "#F15EE3",
+        "#0DD9D6",
+        "#FCFCFC"
+      ],
+      "background": "#232629",
+      "cursor": "#F8F8F2",
+      "foreground": "#F8F8F2"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "46d08203e1d4d0a9b7817a486af22386c36dabb39427787171b4dea8bcb0b203",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "46d08203e1d4d0a9b7817a486af22386c36dabb39427787171b4dea8bcb0b203"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.114
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0755
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.0008
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2285
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 9.2274
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2285
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7527
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5874
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.1329
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2386
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7006
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7006
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.114
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.114
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.404
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "d1a14f374920be5599f6a20144aa2b1b2e10b6dde97b8f4de50efa5e6bf24941",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/130030e5d4cc4ad1c6dccc9ebde1c4b5db67de9f889945da9424d4e1029cdb23",
+    "name": "Adventure Time",
+    "palette": {
+      "activeLine": "#302C4F",
+      "background": "#1F1D45",
+      "cursor": "#EFBF38",
+      "foreground": "#F8DCC0",
+      "gutterActiveLine": "#302C4F",
+      "gutterBackground": "#1F1D45",
+      "gutterForeground": "#A1908F",
+      "invisibles": "#4E7CBF",
+      "printMargin": "#554D64",
+      "selection": "#554D64"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+        "author_name": "zdj",
+        "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
+        "background": "#1F1D45",
+        "color_01": "#050404",
+        "color_02": "#BD0013",
+        "color_03": "#4AB118",
+        "color_04": "#E7741E",
+        "color_05": "#0F4AC6",
+        "color_06": "#665993",
+        "color_07": "#70A598",
+        "color_08": "#F8DCC0",
+        "color_09": "#4E7CBF",
+        "color_10": "#FC5F5A",
+        "color_11": "#9EFF6E",
+        "color_12": "#EFC11A",
+        "color_13": "#1997C6",
+        "color_14": "#9B5953",
+        "color_15": "#C8FAF4",
+        "color_16": "#F6F5FB",
+        "cursor": "#EFBF38",
+        "foreground": "#F8DCC0",
+        "hash": "06ab9dbba59d016bfc4748f055a93d15b918b15eeb2ad9e62b7fe0cfb0fb5895",
+        "hash_bg": "610a83c30971d95793df248cd518fd7019cfd784ba12b7b34a585a380a18d5a3",
+        "name": "Adventure Time",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "130030e5d4cc4ad1c6dccc9ebde1c4b5db67de9f889945da9424d4e1029cdb23",
+    "syntax": {
+      "comment": "#A1908F",
+      "constant": "#70A598",
+      "function": "#0F4AC6",
+      "invalid": "#BD0013",
+      "keyword": "#665993",
+      "number": "#70A598",
+      "operator": "#F8DCC0",
+      "string": "#4AB118",
+      "type": "#E7741E",
+      "variable": "#F8DCC0"
+    }
+  }
+}

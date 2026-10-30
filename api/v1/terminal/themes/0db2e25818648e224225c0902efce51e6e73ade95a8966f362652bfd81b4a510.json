@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/97db04bce75d94fdc6727308383f1e0de7186ab7a20b413dfe2a9add2c71cdd9",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Windows 10 Light",
+    "original": {
+      "author": "Fergus Collins (https://github.com/ferguscollins)",
+      "author_name": "Fergus Collins",
+      "author_url": "https://github.com/ferguscollins",
+      "background": "#F2F2F2",
+      "color_01": "#F2F2F2",
+      "color_02": "#C50F1F",
+      "color_03": "#13A10E",
+      "color_04": "#C19C00",
+      "color_05": "#0037DA",
+      "color_06": "#881798",
+      "color_07": "#3A96DD",
+      "color_08": "#767676",
+      "color_09": "#CCCCCC",
+      "color_10": "#C50F1F",
+      "color_11": "#13A10E",
+      "color_12": "#C19C00",
+      "color_13": "#0037DA",
+      "color_14": "#881798",
+      "color_15": "#3A96DD",
+      "color_16": "#0C0C0C",
+      "cursor": "#767676",
+      "foreground": "#767676",
+      "hash": "b35d3e64b97c9fd03463e357320c0549d4cdd1d99d1eb0c1a2d60d65f2826aaa",
+      "hash_bg": "5dbda9e5535d96523f5f86e1d4e4b3fdf8c6273f5f7143d15221080986435fdb",
+      "name": "Windows 10 Light",
+      "variant": "light"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#767676",
+      "ansi": [
+        "#F2F2F2",
+        "#C50F1F",
+        "#13A10E",
+        "#C19C00",
+        "#0037DA",
+        "#881798",
+        "#3A96DD",
+        "#767676",
+        "#CCCCCC",
+        "#C50F1F",
+        "#13A10E",
+        "#C19C00",
+        "#0037DA",
+        "#881798",
+        "#3A96DD",
+        "#0C0C0C"
+      ],
+      "background": "#F2F2F2",
+      "cursor": "#767676",
+      "foreground": "#767676"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "97db04bce75d94fdc6727308383f1e0de7186ab7a20b413dfe2a9add2c71cdd9",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "97db04bce75d94fdc6727308383f1e0de7186ab7a20b413dfe2a9add2c71cdd9"
+  }
+}

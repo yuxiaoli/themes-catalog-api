@@ -1,0 +1,232 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.5461
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6435
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3708
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1028
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 17.468
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1028
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.412
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.761
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3307
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.5981
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3024
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3024
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.5461
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.5461
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5004
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "2da3792fb82ec351ae73b6e38e6c01bbbd5c075da2f275fd6d14bf00d757faaa",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/9b66cefed4c63b7fb97a08fde3301067921058dbfd06308410321f8d67c332dd",
+    "name": "Blue Berry Pie",
+    "palette": {
+      "activeLine": "#291A34",
+      "background": "#1C0C28",
+      "cursor": "#FCFAD6",
+      "foreground": "#BABAB9",
+      "gutterActiveLine": "#291A34",
+      "gutterBackground": "#1C0C28",
+      "gutterForeground": "#7B747F",
+      "invisibles": "#201637",
+      "printMargin": "#44384C",
+      "selection": "#44384C"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "murmurlilia (https://www.instagram.com/the.julias/)",
+        "author_name": "murmurlilia",
+        "author_url": "https://www.instagram.com/the.julias/",
+        "background": "#1C0C28",
+        "color_01": "#0A4C62",
+        "color_02": "#99246E",
+        "color_03": "#5CB1B3",
+        "color_04": "#EAB9A8",
+        "color_05": "#90A5BD",
+        "color_06": "#9D54A7",
+        "color_07": "#7E83CC",
+        "color_08": "#F0E8D6",
+        "color_09": "#201637",
+        "color_10": "#C87272",
+        "color_11": "#0A6C7E",
+        "color_12": "#7A3188",
+        "color_13": "#39173D",
+        "color_14": "#BC94B7",
+        "color_15": "#5E6071",
+        "color_16": "#0A6C7E",
+        "cursor": "#FCFAD6",
+        "foreground": "#BABAB9",
+        "hash": "1913d485b537521704780adfa90d05ea048dcb1a91b55f76036a36cc9de890b3",
+        "hash_bg": "b5f2280bf544fec32e11fe41fe152984abb4ada6f8e4900acc74144a4030fdb4",
+        "name": "Blue Berry Pie",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "9b66cefed4c63b7fb97a08fde3301067921058dbfd06308410321f8d67c332dd",
+    "syntax": {
+      "comment": "#7B747F",
+      "constant": "#7E83CC",
+      "function": "#90A5BD",
+      "invalid": "#99246E",
+      "keyword": "#9D54A7",
+      "number": "#7E83CC",
+      "operator": "#BABAB9",
+      "string": "#5CB1B3",
+      "type": "#EAB9A8",
+      "variable": "#BABAB9"
+    }
+  }
+}

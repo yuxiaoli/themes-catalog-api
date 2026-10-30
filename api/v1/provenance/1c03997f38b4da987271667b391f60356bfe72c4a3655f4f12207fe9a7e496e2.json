@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "eb6fd29b878591815f94f98cf48a2e7d7618a8f2138fb4fa1adfbbe38c2012a3",
+  "text": "# Author: Alexis Mousset <contact@amousset.me>\n# modus_operandi.toml variant\n# Version 4.6.0\n\ninherits = \"modus_operandi\"\n\n\"comment\" = \"red-faint\"\n\n\"ui.cursor.primary\" = { fg = \"bg-main\", bg = \"red-intense\" }\n\n[palette]\n# Basic values\nbg-main = \"#fbf7f0\"\nbg-dim = \"#efe9dd\"\nbg-active = \"#c9b9b0\"\nbg-inactive = \"#dfd5cf\"\nborder = \"#9f9690\"\n\n# Common accent backgrounds\nbg-red-nuanced = \"#ffe8e8\"\nbg-green-nuanced = \"#e0f6e0\"\nbg-yellow-nuanced = \"#f8f0d0\"\nbg-blue-nuanced = \"#ecedff\"\nbg-magenta-nuanced = \"#f8e6f5\"\nbg-cyan-nuanced = \"#e0f2fa\"\n\n# Special purpose\nbg-completion = \"#f0c1cf\"\nbg-hl-line = \"#f1d5d0\"\nbg-region = \"#c2bcb5\"\n\nbg-mode-line-active = \"#cab9b2\"\nborder-mode-line-active = \"#545454\"\nbg-mode-line-inactive = \"#dfd9cf\"\nborder-mode-line-inactive = \"#a59a94\"\n\nbg-tab-bar = \"#e0d4ce\"\nbg-tab-current = \"#fbf7f0\"\nbg-tab-other = \"#c8b8b2\"\n\n# Diffs\nbg-added = \"#c3ebc1\"\nbg-removed = \"#f4d0cf\"\n\n# Paren match\nbg-paren-match = \"#7fdfcf\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/modus_operandi_tinted.toml"
+}

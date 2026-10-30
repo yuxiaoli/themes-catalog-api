@@ -1,0 +1,46 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "css_class": "ace-nord-dark",
+    "css_text": ".ace-nord-dark .ace_gutter {\n  color: #616e88;\n}\n\n.ace-nord-dark .ace_print-margin {\n  width: 1px;\n  background: #4c566a;\n}\n\n.ace-nord-dark {\n  background-color: #2e3440;\n  color: #d8dee9;\n}\n\n.ace-nord-dark .ace_entity.ace_other.ace_attribute-name,\n.ace-nord-dark .ace_storage {\n  color: #d8dee9;\n}\n\n.ace-nord-dark .ace_cursor {\n  color: #d8dee9;\n}\n\n.ace-nord-dark .ace_string.ace_regexp {\n  color: #bf616a;\n}\n\n.ace-nord-dark .ace_marker-layer .ace_active-line {\n  background: #434c5ecc;\n}\n.ace-nord-dark .ace_marker-layer .ace_selection {\n  background: #434c5ecc;\n}\n\n.ace-nord-dark.ace_multiselect .ace_selection.ace_start {\n  box-shadow: 0 0 3px 0px #2e3440;\n}\n\n.ace-nord-dark .ace_marker-layer .ace_step {\n  background: #ebcb8b;\n}\n\n.ace-nord-dark .ace_marker-layer .ace_bracket {\n  margin: -1px 0 0 -1px;\n  border: 1px solid #88c0d066;\n}\n\n.ace-nord-dark .ace_gutter-active-line {\n  background-color: #434c5ecc;\n}\n\n.ace-nord-dark .ace_marker-layer .ace_selected-word {\n  border: 1px solid #88c0d066;\n}\n\n.ace-nord-dark .ace_invisible {\n  color: #4c566a;\n}\n\n.ace-nord-dark .ace_keyword,\n.ace-nord-dark .ace_meta,\n.ace-nord-dark .ace_support.ace_class,\n.ace-nord-dark .ace_support.ace_type {\n  color: #81a1c1;\n}\n\n.ace-nord-dark .ace_constant.ace_character,\n.ace-nord-dark .ace_constant.ace_other {\n  color: #d8dee9;\n}\n\n.ace-nord-dark .ace_constant.ace_language {\n  color: #5e81ac;\n}\n\n.ace-nord-dark .ace_constant.ace_escape {\n  color: #ebcB8b;\n}\n\n.ace-nord-dark .ace_constant.ace_numeric {\n  color: #b48ead;\n}\n\n.ace-nord-dark .ace_fold {\n  background-color: #4c566a;\n  border-color: #d8dee9;\n}\n\n.ace-nord-dark .ace_entity.ace_name.ace_function,\n.ace-nord-dark .ace_entity.ace_name.ace_tag,\n.ace-nord-dark .ace_support.ace_function,\n.ace-nord-dark .ace_variable,\n.ace-nord-dark .ace_variable.ace_language {\n  color: #8fbcbb;\n}\n\n.ace-nord-dark .ace_string {\n  color: #a3be8c;\n}\n\n.ace-nord-dark .ace_comment {\n  color: #616e88;\n}\n\n.ace-nord-dark .ace_indent-guide {\n  box-shadow: inset -1px 0 0 0 #434c5eb3;\n}\n\n.ace-nord-dark .ace_indent-guide-active {\n  box-shadow: inset -1px 0 0 0 #8395b8b3;\n}\n",
+    "exports": {
+      "$selectionColorConflict": true
+    },
+    "id": "ace/nord_dark",
+    "is_dark": true,
+    "name": "Nord Dark",
+    "originals": {
+      "base_css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/css/editor-css.js",
+      "css": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/nord_dark-css.js",
+      "wrapper": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/nord_dark.js"
+    },
+    "palette": {
+      "activeLine": "#434C5ECC",
+      "background": "#2E3440",
+      "cursor": "#D8DEE9",
+      "foreground": "#D8DEE9",
+      "gutterActiveLine": "#434C5ECC",
+      "gutterBackground": "#00000000",
+      "gutterForeground": "#616E88",
+      "invisibles": "#4C566A",
+      "printMargin": "#4C566A",
+      "selection": "#434C5ECC"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+      ],
+      "license_note": "Ace BSD-style license plus retained theme-specific notices (including Dracula MIT).",
+      "original_documents": [
+        "api/v1/provenance/06a9553e5c6b616b7904420000cd93a681f2460191246cbbbceb61ed78b84bef.json",
+        "api/v1/provenance/a2f1823dee0aa814353ec7939105bb31baea3f25ece403562851cf9876edc91e.json",
+        "api/v1/provenance/798d43b785db785de787293e8f02e69b26ad880edc69a3bd8ad37167ce9e15da.json"
+      ],
+      "source_revision": "62d5ffd789b4eb29ef7c1acc17554c91c745a307",
+      "source_url": "https://github.com/ajaxorg/ace/tree/master/src/theme"
+    },
+    "source_id": "ace",
+    "source_theme_id": "nord_dark"
+  }
+}

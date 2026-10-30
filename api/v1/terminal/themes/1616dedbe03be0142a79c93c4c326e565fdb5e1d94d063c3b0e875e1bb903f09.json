@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/bd6fa9a9eeb3ed6fca2182fb980067308ef3d25d7eef3191909b5aa324bc76c0",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Under The Sea",
+    "original": {
+      "author": "peterpme (https://github.com/peterpme)",
+      "author_name": "peterpme",
+      "author_url": "https://github.com/peterpme",
+      "background": "#011116",
+      "color_01": "#022026",
+      "color_02": "#B2302D",
+      "color_03": "#00A941",
+      "color_04": "#59819C",
+      "color_05": "#459A86",
+      "color_06": "#00599D",
+      "color_07": "#5D7E19",
+      "color_08": "#405555",
+      "color_09": "#384451",
+      "color_10": "#FF4242",
+      "color_11": "#2AEA5E",
+      "color_12": "#8ED4FD",
+      "color_13": "#61D5BA",
+      "color_14": "#1298FF",
+      "color_15": "#98D028",
+      "color_16": "#58FBD6",
+      "cursor": "#4AFCD6",
+      "foreground": "#FFFFFF",
+      "hash": "fce327906f5a53fe44d15722c36a3d3bfe0ffb1de284485cd2675dd1e1fafa30",
+      "hash_bg": "7e52988d49e06b0c4687d244de18139daa7b68162943a5fbf7bac5303663ad22",
+      "name": "Under The Sea",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#4AFCD6",
+      "ansi": [
+        "#022026",
+        "#B2302D",
+        "#00A941",
+        "#59819C",
+        "#459A86",
+        "#00599D",
+        "#5D7E19",
+        "#405555",
+        "#384451",
+        "#FF4242",
+        "#2AEA5E",
+        "#8ED4FD",
+        "#61D5BA",
+        "#1298FF",
+        "#98D028",
+        "#58FBD6"
+      ],
+      "background": "#011116",
+      "cursor": "#4AFCD6",
+      "foreground": "#FFFFFF"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "bd6fa9a9eeb3ed6fca2182fb980067308ef3d25d7eef3191909b5aa324bc76c0",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "bd6fa9a9eeb3ed6fca2182fb980067308ef3d25d7eef3191909b5aa324bc76c0"
+  }
+}

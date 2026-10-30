@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/612988fdb4d31657dd7415072aa1e21e2ff0ae0c0fcbcf70463dafeb4bfe1847",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Galizur",
+    "original": {
+      "author": "Raziel Anarki (https://github.com/razielanarki)",
+      "author_name": "Raziel Anarki",
+      "author_url": "https://github.com/razielanarki",
+      "background": "#071317",
+      "color_01": "#223344",
+      "color_02": "#AA1122",
+      "color_03": "#33AA11",
+      "color_04": "#CCAA22",
+      "color_05": "#2255CC",
+      "color_06": "#7755AA",
+      "color_07": "#22BBDD",
+      "color_08": "#8899AA",
+      "color_09": "#556677",
+      "color_10": "#FF1133",
+      "color_11": "#33FF11",
+      "color_12": "#FFDD33",
+      "color_13": "#3377FF",
+      "color_14": "#AA77FF",
+      "color_15": "#33DDFF",
+      "color_16": "#BBCCDD",
+      "cursor": "#DDEEFF",
+      "foreground": "#DDEEFF",
+      "hash": "0a6390b27989abb347a5c4ef193ef90b89fef7f221d6047ccb3f15b5446757dd",
+      "hash_bg": "c22fa3285c3cc0a1a476e49ba7c7f190ff3f1835142cfba21afaf3674d97fe44",
+      "name": "Galizur",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#DDEEFF",
+      "ansi": [
+        "#223344",
+        "#AA1122",
+        "#33AA11",
+        "#CCAA22",
+        "#2255CC",
+        "#7755AA",
+        "#22BBDD",
+        "#8899AA",
+        "#556677",
+        "#FF1133",
+        "#33FF11",
+        "#FFDD33",
+        "#3377FF",
+        "#AA77FF",
+        "#33DDFF",
+        "#BBCCDD"
+      ],
+      "background": "#071317",
+      "cursor": "#DDEEFF",
+      "foreground": "#DDEEFF"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "612988fdb4d31657dd7415072aa1e21e2ff0ae0c0fcbcf70463dafeb4bfe1847",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "612988fdb4d31657dd7415072aa1e21e2ff0ae0c0fcbcf70463dafeb4bfe1847"
+  }
+}

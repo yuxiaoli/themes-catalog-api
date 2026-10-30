@@ -1,0 +1,369 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix-gokayburuc/neon-city",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/gokayburuc/helix-themes/a1a5542077159f8c11e124343ab7da13c4e16ae1/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "neon-city",
+    "originals": [
+      "https://raw.githubusercontent.com/gokayburuc/helix-themes/a1a5542077159f8c11e124343ab7da13c4e16ae1/neon-city.toml"
+    ],
+    "palette": {
+      "base2": "#130A1D",
+      "base3": "#0F0A14",
+      "base4": "#3E255A",
+      "bg": "#170625",
+      "bg-alt": "#170625",
+      "black": "#170625",
+      "blue": "#02B9E5",
+      "cyan": "#76E5C9",
+      "default": "terminal:default",
+      "fg": "#E5E5E5",
+      "gray": "#7E7986",
+      "green": "#16CF47",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "#FF008B",
+      "orange": "#FF5C00",
+      "red": "#FF6E98",
+      "white": "#E5E5E5",
+      "yellow": "#D7FFA3"
+    },
+    "provenance": {
+      "paths": [
+        "neon-city.toml"
+      ],
+      "repository": "gokayburuc/helix-themes",
+      "revision": "a1a5542077159f8c11e124343ab7da13c4e16ae1"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/cc2a7d4b5ddb09b88ac44c24629535eb2e89a7c161cfccd7dc8f58a40d2059c7.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/57cace03d41913bf8a3476855fc1348c3b0926bb5767312f4c785355a4741782.json"
+      ],
+      "source_revision": "a1a5542077159f8c11e124343ab7da13c4e16ae1",
+      "source_url": "https://github.com/gokayburuc/helix-themes"
+    },
+    "source_id": "helix-gokayburuc",
+    "source_theme_id": "neon-city",
+    "styles": {
+      "attribute": {
+        "fg": "#02B9E5"
+      },
+      "comment": {
+        "fg": "#7E7986",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "comment.block": {
+        "fg": "#16CF47",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "comment.block.documentation": {
+        "fg": "#16CF47",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "constant": {
+        "fg": "#FF008B"
+      },
+      "constant.numeric": {
+        "fg": "#FF5C00"
+      },
+      "constructor": {
+        "fg": "#FF6E98"
+      },
+      "diagnostic.deprecated": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "diagnostic.error": {
+        "underline": {
+          "color": "#FF6E98",
+          "style": "curl"
+        }
+      },
+      "diagnostic.hint": {
+        "underline": {
+          "color": "#FF6E98",
+          "style": "curl"
+        }
+      },
+      "diagnostic.info": {
+        "underline": {
+          "color": "#02B9E5",
+          "style": "curl"
+        }
+      },
+      "diagnostic.unnecessary": {
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "diagnostic.warning": {
+        "underline": {
+          "color": "#D7FFA3",
+          "style": "curl"
+        }
+      },
+      "diff.delta": {
+        "fg": "#02B9E5"
+      },
+      "diff.minus": {
+        "fg": "#FF6E98"
+      },
+      "diff.plus": {
+        "fg": "#16CF47"
+      },
+      "error": {
+        "fg": "#FF6E98",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "function": {
+        "fg": "#D7FFA3"
+      },
+      "function.builtin": {
+        "fg": "#02B9E5"
+      },
+      "function.method": {
+        "fg": "#E5E5E5"
+      },
+      "hint": {
+        "fg": "#02B9E5",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "info": {
+        "fg": "#02B9E5",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword": {
+        "fg": "#FF6E98"
+      },
+      "label": {
+        "fg": "#16CF47"
+      },
+      "markup.bold": {
+        "fg": "#FF5C00",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading": {
+        "fg": "#FF6E98"
+      },
+      "markup.italic": {
+        "fg": "#FF008B",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link": {
+        "fg": "#FF5C00"
+      },
+      "markup.link.label": {
+        "fg": "#16CF47"
+      },
+      "markup.link.text": {
+        "fg": "#FF5C00"
+      },
+      "markup.link.url": {
+        "fg": "#FF008B"
+      },
+      "markup.list": {
+        "fg": "#FF6E98"
+      },
+      "markup.quote": {
+        "fg": "#16CF47",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.raw.block": {
+        "bg": "#170625",
+        "fg": "#16CF47"
+      },
+      "markup.raw.inline": {
+        "bg": "#170625",
+        "fg": "#16CF47"
+      },
+      "markup.strikethrough": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "namespace": {
+        "fg": "#E5E5E5"
+      },
+      "operator": {
+        "fg": "#02B9E5"
+      },
+      "punctuation.bracket": {
+        "fg": "#FF6E98"
+      },
+      "punctuation.delimiter": {
+        "fg": "#FF6E98",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "punctuation.special": {
+        "fg": "#FF6E98"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "#FF5C00"
+      },
+      "string": {
+        "fg": "#16CF47"
+      },
+      "tag": {
+        "fg": "#FF6E98"
+      },
+      "type": {
+        "fg": "#02B9E5"
+      },
+      "ui.background": {
+        "bg": "#170625"
+      },
+      "ui.bufferline": {
+        "bg": "#130A1D",
+        "fg": "#7E7986"
+      },
+      "ui.bufferline.active": {
+        "bg": "#3E255A",
+        "fg": "#E5E5E5"
+      },
+      "ui.bufferline.background": {
+        "bg": "#170625"
+      },
+      "ui.cursor": {
+        "bg": "#FF008B",
+        "fg": "#170625"
+      },
+      "ui.cursor.match": {
+        "fg": "#FF6E98",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.cursorline": {
+        "bg": "#170625"
+      },
+      "ui.help": {
+        "bg": "#130A1D",
+        "fg": "#E5E5E5"
+      },
+      "ui.linenr": {
+        "fg": "#3E255A"
+      },
+      "ui.linenr.selected": {
+        "bg": "#170625",
+        "fg": "#E5E5E5",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.menu": {
+        "bg": "#170625",
+        "fg": "#E5E5E5"
+      },
+      "ui.menu.selected": {
+        "bg": "#0F0A14",
+        "fg": "#E5E5E5"
+      },
+      "ui.popup": {
+        "bg": "#170625"
+      },
+      "ui.selection": {
+        "bg": "#3E255A"
+      },
+      "ui.statusline": {
+        "bg": "#0F0A14",
+        "fg": "#E5E5E5"
+      },
+      "ui.statusline.insert": {
+        "bg": "#0F0A14"
+      },
+      "ui.statusline.normal": {
+        "bg": "#0F0A14"
+      },
+      "ui.statusline.select": {
+        "bg": "#0F0A14"
+      },
+      "ui.text": {
+        "fg": "#E5E5E5"
+      },
+      "ui.text.focus": {
+        "bg": "#170625",
+        "fg": "#E5E5E5"
+      },
+      "ui.text.info": {
+        "fg": "#E5E5E5"
+      },
+      "ui.virtual.ruler": {
+        "bg": "#170625"
+      },
+      "ui.virtual.whitespace": {
+        "fg": "#130A1D"
+      },
+      "ui.window": {
+        "fg": "#7E7986"
+      },
+      "variable": {
+        "fg": "#76E5C9"
+      },
+      "variable.parameter": {
+        "fg": "#E5E5E5"
+      },
+      "warning": {
+        "fg": "#FF5C00"
+      }
+    },
+    "warnings": []
+  }
+}

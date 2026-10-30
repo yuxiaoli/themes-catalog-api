@@ -1,0 +1,240 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3712
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.5944
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.1213
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0123
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 11.1657
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.0123
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7944
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.4371
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3842
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.946
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6622
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6622
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.3712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6704
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "153f9316a2e5b6a9728e383cf939f2b828337352703d90d9fe3ceb3335a62086",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "text",
+        "selection_text",
+        "active_line_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.operator",
+        "syntax.variable",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/b7007cef17db6df48f1f49fc423c061070420c4b8e5b825cf0da48bb69e85fb9",
+    "name": "Treehouse",
+    "palette": {
+      "activeLine": "#21201E",
+      "background": "#191919",
+      "cursor": "#FAC814",
+      "foreground": "#786B53",
+      "gutterActiveLine": "#21201E",
+      "gutterBackground": "#191919",
+      "gutterForeground": "#524A3C",
+      "invisibles": "#433626",
+      "printMargin": "#312E28",
+      "selection": "#312E28"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "zdj (https://github.com/zdj/themes/tree/master/iterm2)",
+        "author_name": "zdj",
+        "author_url": "https://github.com/zdj/themes/tree/master/iterm2",
+        "background": "#191919",
+        "color_01": "#321300",
+        "color_02": "#B2270E",
+        "color_03": "#44A900",
+        "color_04": "#AA820C",
+        "color_05": "#58859A",
+        "color_06": "#97363D",
+        "color_07": "#B25A1E",
+        "color_08": "#786B53",
+        "color_09": "#433626",
+        "color_10": "#ED5D20",
+        "color_11": "#55F238",
+        "color_12": "#F2B732",
+        "color_13": "#85CFED",
+        "color_14": "#E14C5A",
+        "color_15": "#F07D14",
+        "color_16": "#FFC800",
+        "cursor": "#FAC814",
+        "foreground": "#786B53",
+        "hash": "46cbb4a7f80dacfd489dbc731f01baa2644832f2b071275bfb536aa2fd0f4f61",
+        "hash_bg": "74fdfc67436b3623da346243598b759bae86cf6a084fedf77fa779f9037c623a",
+        "name": "Treehouse",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "b7007cef17db6df48f1f49fc423c061070420c4b8e5b825cf0da48bb69e85fb9",
+    "syntax": {
+      "comment": "#524A3C",
+      "constant": "#B25A1E",
+      "function": "#58859A",
+      "invalid": "#B2270E",
+      "keyword": "#97363D",
+      "number": "#B25A1E",
+      "operator": "#786B53",
+      "string": "#44A900",
+      "type": "#AA820C",
+      "variable": "#786B53"
+    }
+  }
+}

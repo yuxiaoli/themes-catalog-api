@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/f1a87cf8f18a2e0a3065c581224e463b76ed23d590c62d1c3ff4afa4099b0d29",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Liquid Carbon Transparent",
+    "original": {
+      "author": "markcho (https://github.com/markcho/iTerm2_LiquidCarbon)",
+      "author_name": "markcho",
+      "author_url": "https://github.com/markcho/iTerm2_LiquidCarbon",
+      "background": "#000000",
+      "color_01": "#000000",
+      "color_02": "#FF3030",
+      "color_03": "#559A70",
+      "color_04": "#CCAC00",
+      "color_05": "#0099CC",
+      "color_06": "#CC69C8",
+      "color_07": "#7AC4CC",
+      "color_08": "#BCCCCC",
+      "color_09": "#000000",
+      "color_10": "#FF3030",
+      "color_11": "#559A70",
+      "color_12": "#CCAC00",
+      "color_13": "#0099CC",
+      "color_14": "#CC69C8",
+      "color_15": "#7AC4CC",
+      "color_16": "#BCCCCC",
+      "cursor": "#FFFFFF",
+      "foreground": "#AFC2C2",
+      "hash": "4a04a327ff9a90dacfba37722f9b7019bd0f8d75d992be26e5cb8ffcb75693c5",
+      "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+      "name": "Liquid Carbon Transparent",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#FFFFFF",
+      "ansi": [
+        "#000000",
+        "#FF3030",
+        "#559A70",
+        "#CCAC00",
+        "#0099CC",
+        "#CC69C8",
+        "#7AC4CC",
+        "#BCCCCC",
+        "#000000",
+        "#FF3030",
+        "#559A70",
+        "#CCAC00",
+        "#0099CC",
+        "#CC69C8",
+        "#7AC4CC",
+        "#BCCCCC"
+      ],
+      "background": "#000000",
+      "cursor": "#FFFFFF",
+      "foreground": "#AFC2C2"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "f1a87cf8f18a2e0a3065c581224e463b76ed23d590c62d1c3ff4afa4099b0d29",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f1a87cf8f18a2e0a3065c581224e463b76ed23d590c62d1c3ff4afa4099b0d29"
+  }
+}

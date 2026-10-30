@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.1431
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1004
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.7495
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.594
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 16.1431
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.594
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.9813
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4081
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0833
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9652
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2802
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.2802
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.1431
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.1431
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.485
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "874560b002678034eaa790ff0b5f495f77410d6e4f4eb91c454b6c847c929bed",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/1d79eb5e47d115c051d2c7a68499d4f9f07b00efe9457130ed757487aee66e40",
+    "name": "Thelovelace",
+    "palette": {
+      "activeLine": "#2F3139",
+      "background": "#1D1F28",
+      "cursor": "#FDFDFD",
+      "foreground": "#FDFDFD",
+      "gutterActiveLine": "#2F3139",
+      "gutterBackground": "#1D1F28",
+      "gutterForeground": "#A3A4A8",
+      "invisibles": "#414458",
+      "printMargin": "#55575D",
+      "selection": "#55575D"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "",
+        "author_name": "",
+        "author_url": "",
+        "background": "#1D1F28",
+        "color_01": "#282A36",
+        "color_02": "#F37F97",
+        "color_03": "#5ADECD",
+        "color_04": "#F2A272",
+        "color_05": "#8897F4",
+        "color_06": "#C574DD",
+        "color_07": "#79E6F3",
+        "color_08": "#FDFDFD",
+        "color_09": "#414458",
+        "color_10": "#FF4971",
+        "color_11": "#18E3C8",
+        "color_12": "#EBCB8B",
+        "color_13": "#FF8037",
+        "color_14": "#556FFF",
+        "color_15": "#3FDCEE",
+        "color_16": "#BEBEC1",
+        "cursor": "#FDFDFD",
+        "foreground": "#FDFDFD",
+        "hash": "cf4d07de00ff5fbdf54a3773a0b628353a4050952469a35ed8076740e4d925a9",
+        "hash_bg": "03f439f27f5a97653c83cefe2c8dcb39bb8aaf9d6bb1af77589a57385a0e28fc",
+        "name": "Thelovelace",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "1d79eb5e47d115c051d2c7a68499d4f9f07b00efe9457130ed757487aee66e40",
+    "syntax": {
+      "comment": "#A3A4A8",
+      "constant": "#79E6F3",
+      "function": "#8897F4",
+      "invalid": "#F37F97",
+      "keyword": "#C574DD",
+      "number": "#79E6F3",
+      "operator": "#FDFDFD",
+      "string": "#5ADECD",
+      "type": "#F2A272",
+      "variable": "#FDFDFD"
+    }
+  }
+}

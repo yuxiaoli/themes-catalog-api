@@ -1,0 +1,231 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1709
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7909
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.2971
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9128
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 11.1709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.9128
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0458
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2423
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1723
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.478
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3581
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3581
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.1709
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2977
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "82345f925f6780d95bac10fc6a77ea0db1f3ba84821600afedb44730a3bd6328",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/6654b4f0c1dc8758c241614304bb8f115153e5ed03b7ac0e07e73fb8d4edd90a",
+    "name": "Helios",
+    "palette": {
+      "activeLine": "#2C2E2F",
+      "background": "#1D2021",
+      "cursor": "#D5D5D5",
+      "foreground": "#D5D5D5",
+      "gutterActiveLine": "#2C2E2F",
+      "gutterBackground": "#1D2021",
+      "gutterForeground": "#8B8D8D",
+      "invisibles": "#6F7579",
+      "printMargin": "#4B4D4E",
+      "selection": "#4B4D4E"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Alex Meyer (https://github.com/reyemxela)",
+        "author_name": "Alex Meyer",
+        "author_url": "https://github.com/reyemxela",
+        "background": "#1D2021",
+        "color_01": "#1D2021",
+        "color_02": "#D72638",
+        "color_03": "#88B92D",
+        "color_04": "#F19D1A",
+        "color_05": "#1E8BAC",
+        "color_06": "#BE4264",
+        "color_07": "#1BA595",
+        "color_08": "#D5D5D5",
+        "color_09": "#6F7579",
+        "color_10": "#D72638",
+        "color_11": "#88B92D",
+        "color_12": "#F19D1A",
+        "color_13": "#1E8BAC",
+        "color_14": "#BE4264",
+        "color_15": "#1BA595",
+        "color_16": "#E5E5E5",
+        "cursor": "#D5D5D5",
+        "foreground": "#D5D5D5",
+        "hash": "79f14c7245f34f2e8f431a458a6cfa34ad9abe9ebe737639b2eea4c031e784ba",
+        "hash_bg": "3934a4e8079e372a18fe53e3046e902052594a64d28d2b803fc97434197aa537",
+        "name": "Helios",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "6654b4f0c1dc8758c241614304bb8f115153e5ed03b7ac0e07e73fb8d4edd90a",
+    "syntax": {
+      "comment": "#8B8D8D",
+      "constant": "#1BA595",
+      "function": "#1E8BAC",
+      "invalid": "#D72638",
+      "keyword": "#BE4264",
+      "number": "#1BA595",
+      "operator": "#D5D5D5",
+      "string": "#88B92D",
+      "type": "#F19D1A",
+      "variable": "#D5D5D5"
+    }
+  }
+}

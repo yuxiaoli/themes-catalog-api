@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 20.9622
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.4199
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 17.5814
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7315
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": false,
+          "ratio": 2.8663
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.7315
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2045
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.4966
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.3714
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.2142
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0054
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0054
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 20.9622
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 20.9622
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.2141
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "45f244bff21c47b18546b32ea92801d7d235c9a9c20503bd6514c122c262d225",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "cursor",
+        "syntax.string",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/ffd850370116b876d362bf6d1a8f67cdc1f31f63945e2d543b3a5e62a7481f06",
+    "name": "Apple System Colors Light",
+    "palette": {
+      "activeLine": "#EAEBEB",
+      "background": "#FEFFFF",
+      "cursor": "#98989D",
+      "foreground": "#000000",
+      "gutterActiveLine": "#EAEBEB",
+      "gutterBackground": "#FEFFFF",
+      "gutterForeground": "#666666",
+      "invisibles": "#464646",
+      "printMargin": "#BFBFBF",
+      "selection": "#BFBFBF"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Aaron-212 (https://github.com/Aaron-212)",
+        "author_name": "Aaron-212",
+        "author_url": "https://github.com/Aaron-212",
+        "background": "#FEFFFF",
+        "color_01": "#1A1A1A",
+        "color_02": "#BC4437",
+        "color_03": "#51A148",
+        "color_04": "#C7AD3A",
+        "color_05": "#2E68C5",
+        "color_06": "#8C4BB8",
+        "color_07": "#5E9CBE",
+        "color_08": "#98989D",
+        "color_09": "#464646",
+        "color_10": "#EB5545",
+        "color_11": "#6BD45F",
+        "color_12": "#F8D84A",
+        "color_13": "#3B82F7",
+        "color_14": "#B260EA",
+        "color_15": "#8DD3FB",
+        "color_16": "#FFFFFF",
+        "cursor": "#98989D",
+        "foreground": "#000000",
+        "hash": "c93acfee4a1a904eec1296952c6dc1c6207c6490b61897237836056528277dfa",
+        "hash_bg": "d9aea8359ef8d61c1f925e7c33df5f5bf728dbf2301285090d5e5eec5db052bd",
+        "name": "Apple System Colors Light",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "ffd850370116b876d362bf6d1a8f67cdc1f31f63945e2d543b3a5e62a7481f06",
+    "syntax": {
+      "comment": "#666666",
+      "constant": "#5E9CBE",
+      "function": "#2E68C5",
+      "invalid": "#BC4437",
+      "keyword": "#8C4BB8",
+      "number": "#5E9CBE",
+      "operator": "#000000",
+      "string": "#51A148",
+      "type": "#C7AD3A",
+      "variable": "#000000"
+    }
+  }
+}

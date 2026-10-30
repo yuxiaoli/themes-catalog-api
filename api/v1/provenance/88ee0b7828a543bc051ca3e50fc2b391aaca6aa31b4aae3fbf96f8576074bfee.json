@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "e030f8ff58ccb527ddd9a5f24fc5f06ee654987fc4b21f9567b4468f1953619f",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-tomorrow\";\nexports.cssText = require(\"./tomorrow-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/tomorrow.js"
+}

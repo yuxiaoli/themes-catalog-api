@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3499
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.8687
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1938
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8954
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.3499
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8954
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2535
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1668
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1925
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2815
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2206
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2206
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3499
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.3499
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.1977
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "3b66cbf870044ea0eacd1d6e7d5c4cfa4001182441bdcb7688705c55eb8ca6b1",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/c5f40504bc28f4a4ce35e56494d8a7dec20fe0a627ce898ca67ac839daa92274",
+    "name": "Precious Dark Eleven",
+    "palette": {
+      "activeLine": "#282A2C",
+      "background": "#1C1E20",
+      "cursor": "#B8B7B6",
+      "foreground": "#B8B7B6",
+      "gutterActiveLine": "#282A2C",
+      "gutterBackground": "#1C1E20",
+      "gutterForeground": "#7A7A7A",
+      "invisibles": "#858585",
+      "printMargin": "#434446",
+      "selection": "#434446"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "4lex4",
+        "author_name": "4lex4",
+        "author_url": "",
+        "background": "#1C1E20",
+        "color_01": "#1C1E20",
+        "color_02": "#FF8782",
+        "color_03": "#95B658",
+        "color_04": "#D0A543",
+        "color_05": "#68B0EE",
+        "color_06": "#B799FE",
+        "color_07": "#42BDA7",
+        "color_08": "#B8B7B6",
+        "color_09": "#858585",
+        "color_10": "#FF8782",
+        "color_11": "#95B658",
+        "color_12": "#D0A543",
+        "color_13": "#68B0EE",
+        "color_14": "#B799FE",
+        "color_15": "#42BDA7",
+        "color_16": "#B8B7B6",
+        "cursor": "#B8B7B6",
+        "foreground": "#B8B7B6",
+        "hash": "8d485bfda1ce5efba000469e08674ce9a307f1e96219028d972c0d9e2b4c5dd7",
+        "hash_bg": "a43f314d16b268d2118664521d953b08e151ccfbdaeb003adda681d46d6c8da6",
+        "name": "Precious Dark Eleven",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "c5f40504bc28f4a4ce35e56494d8a7dec20fe0a627ce898ca67ac839daa92274",
+    "syntax": {
+      "comment": "#7A7A7A",
+      "constant": "#42BDA7",
+      "function": "#68B0EE",
+      "invalid": "#FF8782",
+      "keyword": "#B799FE",
+      "number": "#42BDA7",
+      "operator": "#B8B7B6",
+      "string": "#95B658",
+      "type": "#D0A543",
+      "variable": "#B8B7B6"
+    }
+  }
+}

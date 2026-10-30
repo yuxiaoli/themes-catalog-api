@@ -1,0 +1,354 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "format": "helix",
+    "id": "helix/noctis_bordo",
+    "inheritance": [],
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/LICENSE"
+      ],
+      "expression": null
+    },
+    "name": "noctis_bordo",
+    "originals": [
+      "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/noctis_bordo.toml"
+    ],
+    "palette": {
+      "base00": "#322A2D",
+      "base01": "#2C2528",
+      "base02": "#997582",
+      "base03": "#585858",
+      "base04": "#322A2D",
+      "base05": "#CBBEC2",
+      "base06": "#E8E8E8",
+      "base07": "#F8F8F8",
+      "base08": "#E4B781",
+      "base09": "#D5971A",
+      "base0A": "#DF769B",
+      "base0B": "#49E9A6",
+      "base0C": "#16B673",
+      "base0D": "#16A3B6",
+      "base0E": "#BA8BAF",
+      "base0F": "#D67E5C",
+      "base10": "#B0B0FF",
+      "black": "terminal:black",
+      "blue": "terminal:blue",
+      "cyan": "terminal:cyan",
+      "default": "terminal:default",
+      "gray": "terminal:gray",
+      "green": "terminal:green",
+      "light-blue": "terminal:light-blue",
+      "light-cyan": "terminal:light-cyan",
+      "light-gray": "terminal:light-gray",
+      "light-green": "terminal:light-green",
+      "light-magenta": "terminal:light-magenta",
+      "light-red": "terminal:light-red",
+      "light-yellow": "terminal:light-yellow",
+      "magenta": "terminal:magenta",
+      "red": "terminal:red",
+      "white": "terminal:white",
+      "yellow": "terminal:yellow"
+    },
+    "provenance": {
+      "paths": [
+        "runtime/themes/noctis_bordo.toml"
+      ],
+      "repository": "helix-editor/helix",
+      "revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/df35c4247868baf0ea2c3a4ae320021078eb368245e05793f1b008bbc5b134c8.txt"
+      ],
+      "license_note": "Retained source notices govern; official Helix source uses MPL-2.0 except where a retained file-level license applies; that file-level license also governs its transformed styles. Secondary sources retain their MIT notices and any inherited source notices.",
+      "original_documents": [
+        "api/v1/provenance/a57fef2cf9ea70cb4cd17e9f418affb58116b5b171e2615a82d3e04c86b66a35.json"
+      ],
+      "source_revision": "ba40e547426b0f9896c8bdc699a4ab11f2b37dbc",
+      "source_url": "https://github.com/helix-editor/helix"
+    },
+    "source_id": "helix",
+    "source_theme_id": "noctis_bordo",
+    "styles": {
+      "attribute": {
+        "fg": "#7060EB",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "comment": {
+        "fg": "#585858",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "comment.block.documentation": {
+        "fg": "#E8E8E8",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "comment.line.documentation": {
+        "fg": "#E8E8E8",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "constant": {
+        "fg": "#D5971A"
+      },
+      "constant.character.escape": {
+        "fg": "#16B673"
+      },
+      "constant.numeric": {
+        "fg": "#7060EB"
+      },
+      "constructor": {
+        "fg": "#16A3B6"
+      },
+      "debug": {
+        "fg": "#585858"
+      },
+      "diagnostic.deprecated": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "diagnostic.error": {
+        "underline": {
+          "color": "#E4B781",
+          "style": "curl"
+        }
+      },
+      "diagnostic.hint": {
+        "underline": {
+          "color": "#585858",
+          "style": "curl"
+        }
+      },
+      "diagnostic.info": {
+        "underline": {
+          "color": "#16A3B6",
+          "style": "curl"
+        }
+      },
+      "diagnostic.unnecessary": {
+        "modifiers": [
+          "dim"
+        ]
+      },
+      "diagnostic.warning": {
+        "underline": {
+          "color": "#D5971A",
+          "style": "curl"
+        }
+      },
+      "diff.delta": {
+        "fg": "#D5971A"
+      },
+      "diff.minus": {
+        "fg": "#E4B781"
+      },
+      "diff.plus": {
+        "fg": "#49E9A6"
+      },
+      "error": {
+        "fg": "#E4B781"
+      },
+      "function": {
+        "fg": "#16A3B6"
+      },
+      "hint": {
+        "fg": "#585858"
+      },
+      "info": {
+        "fg": "#16A3B6"
+      },
+      "keyword": {
+        "fg": "#BA8BAF"
+      },
+      "keyword.control": {
+        "fg": "#BA8BAF",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "keyword.directive": {
+        "fg": "terminal:white"
+      },
+      "keyword.import": {
+        "fg": "#DF769B"
+      },
+      "keyword.operator": {
+        "fg": "#BA8BAF",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "label": {
+        "fg": "#BA8BAF"
+      },
+      "markup.bold": {
+        "fg": "#DF769B",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "markup.heading": {
+        "fg": "#16A3B6"
+      },
+      "markup.italic": {
+        "fg": "#BA8BAF",
+        "modifiers": [
+          "italic"
+        ]
+      },
+      "markup.link.text": {
+        "fg": "#E4B781"
+      },
+      "markup.link.url": {
+        "fg": "#D5971A",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "markup.list": {
+        "fg": "#E4B781"
+      },
+      "markup.quote": {
+        "fg": "#16B673"
+      },
+      "markup.raw": {
+        "fg": "#49E9A6"
+      },
+      "markup.strikethrough": {
+        "modifiers": [
+          "crossed_out"
+        ]
+      },
+      "namespace": {
+        "fg": "#BA8BAF"
+      },
+      "operator": {
+        "fg": "#CBBEC2"
+      },
+      "rainbow": [
+        {
+          "fg": "terminal:red"
+        },
+        {
+          "fg": "terminal:yellow"
+        },
+        {
+          "fg": "terminal:green"
+        },
+        {
+          "fg": "terminal:blue"
+        },
+        {
+          "fg": "terminal:cyan"
+        },
+        {
+          "fg": "terminal:magenta"
+        }
+      ],
+      "special": {
+        "fg": "#16A3B6"
+      },
+      "string": {
+        "fg": "#49E9A6"
+      },
+      "type": {
+        "fg": "#B0B0FF"
+      },
+      "ui.background": {
+        "bg": "#322A2D"
+      },
+      "ui.cursor": {
+        "fg": "#322A2D",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursor.match": {
+        "fg": "#DF769B",
+        "underline": {
+          "style": "line"
+        }
+      },
+      "ui.cursor.primary": {
+        "fg": "#CBBEC2",
+        "modifiers": [
+          "reversed"
+        ]
+      },
+      "ui.cursorline": {
+        "bg": "#2C2528"
+      },
+      "ui.gutter": {
+        "bg": "#2C2528"
+      },
+      "ui.help": {
+        "bg": "#2C2528",
+        "fg": "#E8E8E8"
+      },
+      "ui.linenr": {
+        "bg": "#2C2528",
+        "fg": "#715B63"
+      },
+      "ui.linenr.selected": {
+        "bg": "#2C2528",
+        "fg": "#997582",
+        "modifiers": [
+          "bold"
+        ]
+      },
+      "ui.menu": {
+        "bg": "#2C2528",
+        "fg": "#CBBEC2"
+      },
+      "ui.menu.selected": {
+        "bg": "#2C2528",
+        "fg": "#49E9A6"
+      },
+      "ui.popup": {
+        "bg": "#2C2528"
+      },
+      "ui.selection": {
+        "bg": "#997582",
+        "fg": "#CBBEC2"
+      },
+      "ui.statusline": {
+        "bg": "#2C2528",
+        "fg": "#997582"
+      },
+      "ui.text": {
+        "fg": "#CBBEC2"
+      },
+      "ui.text.focus": {
+        "fg": "#CBBEC2"
+      },
+      "ui.virtual": {
+        "fg": "#585858"
+      },
+      "ui.virtual.ruler": {
+        "bg": "#2C2528"
+      },
+      "ui.window": {
+        "bg": "#2C2528"
+      },
+      "variable": {
+        "fg": "#E4B781"
+      },
+      "variable.other.member": {
+        "fg": "#E4B781"
+      },
+      "warning": {
+        "fg": "#D5971A"
+      }
+    },
+    "warnings": []
+  }
+}

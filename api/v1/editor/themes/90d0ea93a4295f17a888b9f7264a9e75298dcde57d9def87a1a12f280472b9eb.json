@@ -1,0 +1,233 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0162
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.6675
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1022
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8315
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 14.3539
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8315
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.0205
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2981
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.6828
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.9503
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6201
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.6201
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0162
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.0162
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.0832
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "d97d7c1a6d2e11c05b49bfb86469665eeb814f71023df224e6f75271f74140a9",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment",
+        "syntax.keyword",
+        "syntax.function",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/34f0d96916d679cb2a6aca3df41831c2e91da33a0f661b578ce1f09d411c3126",
+    "name": "Hipster Green",
+    "palette": {
+      "activeLine": "#191A09",
+      "background": "#100B05",
+      "cursor": "#23FF18",
+      "foreground": "#84C138",
+      "gutterActiveLine": "#191A09",
+      "gutterBackground": "#100B05",
+      "gutterForeground": "#567824",
+      "invisibles": "#666666",
+      "printMargin": "#2D3912",
+      "selection": "#2D3912"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Unkulunkulu (https://github.com/Unkulunkulu)",
+        "author_name": "Unkulunkulu",
+        "author_url": "https://github.com/Unkulunkulu",
+        "background": "#100B05",
+        "color_01": "#000000",
+        "color_02": "#B6214A",
+        "color_03": "#00A600",
+        "color_04": "#BFBF00",
+        "color_05": "#246EB2",
+        "color_06": "#B200B2",
+        "color_07": "#00A6B2",
+        "color_08": "#BFBFBF",
+        "color_09": "#666666",
+        "color_10": "#E50000",
+        "color_11": "#86A93E",
+        "color_12": "#E5E500",
+        "color_13": "#0000FF",
+        "color_14": "#E500E5",
+        "color_15": "#00E5E5",
+        "color_16": "#E5E5E5",
+        "cursor": "#23FF18",
+        "foreground": "#84C138",
+        "hash": "556c7840306175ae88b0b8e311cad53c1de32562c502a4e5669526eb5caafa2d",
+        "hash_bg": "af862182440b98ea99e42d2da0e20bf713319bccc0dfa65527827ec9c7b01a25",
+        "name": "Hipster Green",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "34f0d96916d679cb2a6aca3df41831c2e91da33a0f661b578ce1f09d411c3126",
+    "syntax": {
+      "comment": "#567824",
+      "constant": "#00A6B2",
+      "function": "#246EB2",
+      "invalid": "#B6214A",
+      "keyword": "#B200B2",
+      "number": "#00A6B2",
+      "operator": "#84C138",
+      "string": "#00A600",
+      "type": "#BFBF00",
+      "variable": "#84C138"
+    }
+  }
+}

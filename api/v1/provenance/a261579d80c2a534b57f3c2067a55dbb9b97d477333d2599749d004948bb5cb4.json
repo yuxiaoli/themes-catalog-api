@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "f2f22b553a4e7e1f7488c6f05c97655348259772bd9af81084e7a78cfc2c637b",
+  "text": "exports.isDark = false;\nexports.cssClass = \"ace-dawn\";\nexports.cssText = require(\"./dawn-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/dawn.js"
+}

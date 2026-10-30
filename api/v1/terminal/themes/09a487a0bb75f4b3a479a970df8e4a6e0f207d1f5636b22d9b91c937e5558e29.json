@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/f8948dedd4e6e35c6e1d4aa27907f1e5316c6c50eba9d5812d38f322ac7394c5",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Spacegray Eighties Dull",
+    "original": {
+      "author": "mhkeller (https://github.com/mhkeller/spacegray-eighties-iterm)",
+      "author_name": "mhkeller",
+      "author_url": "https://github.com/mhkeller/spacegray-eighties-iterm",
+      "background": "#222222",
+      "color_01": "#15171C",
+      "color_02": "#B24A56",
+      "color_03": "#92B477",
+      "color_04": "#C6735A",
+      "color_05": "#7C8FA5",
+      "color_06": "#A5789E",
+      "color_07": "#80CDCB",
+      "color_08": "#B3B8C3",
+      "color_09": "#555555",
+      "color_10": "#EC5F67",
+      "color_11": "#89E986",
+      "color_12": "#FEC254",
+      "color_13": "#5486C0",
+      "color_14": "#BF83C1",
+      "color_15": "#58C2C1",
+      "color_16": "#FFFFFF",
+      "cursor": "#BBBBBB",
+      "foreground": "#C9C6BC",
+      "hash": "b4f5de24b6b6930bd536becd91fef4df5f05c2694d47670513e84d0b09383721",
+      "hash_bg": "0ab9b7707742f7dcbadf8f430a75575121e5e4564fe75b1b0932bb9d376e6bff",
+      "name": "Spacegray Eighties Dull",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#BBBBBB",
+      "ansi": [
+        "#15171C",
+        "#B24A56",
+        "#92B477",
+        "#C6735A",
+        "#7C8FA5",
+        "#A5789E",
+        "#80CDCB",
+        "#B3B8C3",
+        "#555555",
+        "#EC5F67",
+        "#89E986",
+        "#FEC254",
+        "#5486C0",
+        "#BF83C1",
+        "#58C2C1",
+        "#FFFFFF"
+      ],
+      "background": "#222222",
+      "cursor": "#BBBBBB",
+      "foreground": "#C9C6BC"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "f8948dedd4e6e35c6e1d4aa27907f1e5316c6c50eba9d5812d38f322ac7394c5",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f8948dedd4e6e35c6e1d4aa27907f1e5316c6c50eba9d5812d38f322ac7394c5"
+  }
+}

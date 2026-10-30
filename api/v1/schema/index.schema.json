@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "properties": {
+    "api_version": {
+      "const": "1"
+    },
+    "available_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "category": {
+      "enum": [
+        "editor",
+        "terminal"
+      ]
+    },
+    "entries": {
+      "items": {
+        "additionalProperties": false,
+        "properties": {
+          "format": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "source_id",
+          "format",
+          "path"
+        ],
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "excluded_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "names": {
+      "additionalProperties": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "type": "object"
+    },
+    "source_count": {
+      "minimum": 0,
+      "type": "integer"
+    },
+    "status": {
+      "const": "partial"
+    }
+  },
+  "required": [
+    "api_version",
+    "category",
+    "status",
+    "source_count",
+    "available_count",
+    "excluded_count",
+    "entries",
+    "names",
+    "excluded"
+  ],
+  "type": "object"
+}

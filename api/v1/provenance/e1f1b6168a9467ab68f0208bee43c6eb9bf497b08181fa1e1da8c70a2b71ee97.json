@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "19cec813c5a7ac6cfa9033a3fe3bf106bd6a19778cc379ef3aa4a65230aeb8e0",
+  "text": "exports.isDark = true;\nexports.cssClass = \"ace-gruvbox\";\nexports.cssText = require(\"./gruvbox-css\");\n\nvar dom = require(\"../lib/dom\");\ndom.importCssString(exports.cssText, exports.cssClass, false);\n",
+  "url": "https://raw.githubusercontent.com/ajaxorg/ace/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/theme/gruvbox.js"
+}

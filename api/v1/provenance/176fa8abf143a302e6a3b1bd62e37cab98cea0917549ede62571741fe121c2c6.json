@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "dac4ef398906f91a2443fdb4a5418217e9c85f707f1d45a14a277166ad5be89b",
+  "text": "# Author : broke <broke@in-fucking.space>\n# The theme uses the gruvbox dark palette with soft contrast: github.com/morhetz/gruvbox\n\ninherits = \"gruvbox\"\n\n[palette]\nbg0 = \"#32302f\" # main background\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/gruvbox_dark_soft.toml"
+}

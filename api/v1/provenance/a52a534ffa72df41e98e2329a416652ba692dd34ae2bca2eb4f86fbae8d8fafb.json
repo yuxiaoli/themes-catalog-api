@@ -1,0 +1,7 @@
+{
+  "encoding": "utf-8",
+  "media_type": "text/plain",
+  "sha256": "031fc4e44bf47b7829c343a03e446c9a7488a233b51620bc55987ff287e70889",
+  "text": "# Author : Chromo-residuum-opec <development.0extl@simplelogin.com>\n\ninherits = \"iceberg-dark\"\n\"ui.menu.selected\" = { fg = \"background_fg\", bg = \"menusel_bg\" }\n\n[palette]\n\norange = \"#c67439\"\npale = \"#505695\"\npurple = \"#785ab5\"\n\nblack = \"#dcdfe7\"\ngray = \"#8389a3\"\nred = \"#cd517a\"\nlight-red = \"#cc3768\"\ngreen = \"#668f3d\"\nlight-green = \"#598030\"\nyellow = \"#c57339\"\nlight-yellow = \"#b6662d\"\nblue = \"#2e539e\"\nlight-blue = \"#22478e\"\nmagenta = \"#7759b4\"\nlight-magenta = \"#6845ad\"\ncyan = \"#3f84a6\"\nlight-cyan = \"#327698\"\nwhite = \"#33374c\"\nlight-gray = \"#262a3f\"\n\nbackground_bg = \"#e9e9ed\"\nbackground_fg = \"#33374d\"\ncomment_fg = \"#8489a4\"\ncursorlinenr_bg = \"#cccfe0\"\nlinenr_bg = \"#dddfe9\"\nlinenr_fg = \"#a0a5c0\"\nmatchparen_bg = \"#bec0ca\"\nmenusel_bg = \"#a9afd1\"\nsel_bg = \"#cacdd8\"\nstatusline_bg = \"#cad0de\"\nstatusline_fg = \"#757da3\"\n",
+  "url": "https://raw.githubusercontent.com/helix-editor/helix/ba40e547426b0f9896c8bdc699a4ab11f2b37dbc/runtime/themes/iceberg-light.toml"
+}

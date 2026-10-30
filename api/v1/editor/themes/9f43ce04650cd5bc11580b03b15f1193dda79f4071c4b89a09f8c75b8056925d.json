@@ -1,0 +1,227 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.184
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.9312
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 13.5829
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2629
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 5.4712
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.2629
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.7789
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.9164
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.2921
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 12.5029
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.8101
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 11.8101
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.184
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 16.184
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5937
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "cd76e57df21d1af9345e126cdae8bd5ae01b148f4403e875e81aa4e5b973267c",
+      "version": "ansi-editor-v1",
+      "warnings": []
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/f4b8f4c412de327b8510e39d66b400095a6ab3335df4e0cab7b288a1777460a4",
+    "name": "Miami Heat",
+    "palette": {
+      "activeLine": "#251D3F",
+      "background": "#120B2E",
+      "cursor": "#FF2E97",
+      "foreground": "#FCE7FF",
+      "gutterActiveLine": "#251D3F",
+      "gutterBackground": "#120B2E",
+      "gutterForeground": "#9E8FAB",
+      "invisibles": "#5E5388",
+      "printMargin": "#4D4262",
+      "selection": "#4D4262"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "PoshPalette (https://github.com/livlign/posh-palette)",
+        "author_name": "PoshPalette",
+        "author_url": "https://github.com/livlign/posh-palette",
+        "background": "#120B2E",
+        "color_01": "#2A1A4A",
+        "color_02": "#FF3D7F",
+        "color_03": "#2EE6B6",
+        "color_04": "#FFCB52",
+        "color_05": "#29B6FF",
+        "color_06": "#B86BFF",
+        "color_07": "#18E0FF",
+        "color_08": "#E6D4FF",
+        "color_09": "#5E5388",
+        "color_10": "#FF2E97",
+        "color_11": "#2EE6B6",
+        "color_12": "#FF7847",
+        "color_13": "#29B6FF",
+        "color_14": "#B86BFF",
+        "color_15": "#18E0FF",
+        "color_16": "#FCE7FF",
+        "cursor": "#FF2E97",
+        "foreground": "#FCE7FF",
+        "hash": "b07178db69a8a8dab3c1d6d255469c57ed17e30eaeaf710c9c90bcf799f4fd5c",
+        "hash_bg": "94a72d7babf215e052d74d7cb65961a81c2ef49870d8331495cb3ac1ee9cc711",
+        "name": "Miami Heat",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f4b8f4c412de327b8510e39d66b400095a6ab3335df4e0cab7b288a1777460a4",
+    "syntax": {
+      "comment": "#9E8FAB",
+      "constant": "#18E0FF",
+      "function": "#29B6FF",
+      "invalid": "#FF3D7F",
+      "keyword": "#B86BFF",
+      "number": "#18E0FF",
+      "operator": "#FCE7FF",
+      "string": "#2EE6B6",
+      "type": "#FFCB52",
+      "variable": "#FCE7FF"
+    }
+  }
+}

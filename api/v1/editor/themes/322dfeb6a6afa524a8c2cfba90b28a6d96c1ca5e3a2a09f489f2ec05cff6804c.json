@@ -1,0 +1,230 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0955
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.7758
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.0125
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7733
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 8.0955
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7733
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 9.3518
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.3886
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.1056
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 7.2744
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.5248
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 14.5248
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0955
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 8.0955
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 10.587
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "1dcbb4858f80d587942dc1e00cc71057e937e377f934249cda1f3c6d25a31859",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "gutter_text",
+        "syntax.comment"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/6a08f149a25f8e7a7f8d7e891a761cc65852390e2842bdbcc7285e1a4f26a195",
+    "name": "Tokyo Night Dark",
+    "palette": {
+      "activeLine": "#252734",
+      "background": "#1A1B26",
+      "cursor": "#A9B1D6",
+      "foreground": "#A9B1D6",
+      "gutterActiveLine": "#252734",
+      "gutterBackground": "#1A1B26",
+      "gutterForeground": "#707590",
+      "invisibles": "#444B6A",
+      "printMargin": "#3E4152",
+      "selection": "#3E4152"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "Michaël Ball, based on Tokyo Night by enkia (https://github.com/enkia/tokyo-night-vscode-theme)",
+        "author_name": "Michaël Ball, based on Tokyo Night by enkia",
+        "author_url": "https://github.com/enkia/tokyo-night-vscode-theme",
+        "background": "#1A1B26",
+        "color_01": "#1A1B26",
+        "color_02": "#C0CAF5",
+        "color_03": "#9ECE6A",
+        "color_04": "#0DB9D7",
+        "color_05": "#2AC3DE",
+        "color_06": "#BB9AF7",
+        "color_07": "#B4F9F8",
+        "color_08": "#A9B1D6",
+        "color_09": "#444B6A",
+        "color_10": "#FF7A93",
+        "color_11": "#73DACA",
+        "color_12": "#FF9E64",
+        "color_13": "#89DDFF",
+        "color_14": "#BB9AF7",
+        "color_15": "#7DCFFF",
+        "color_16": "#D5D6DB",
+        "cursor": "#A9B1D6",
+        "foreground": "#A9B1D6",
+        "hash": "9ca1ceb66759a23c404e2fbd9f395d1dbeed4c84db8017953a8f1eac8a0cef81",
+        "hash_bg": "8f34c28b391549f50aafa7fe8179aba73a8722962445e52f41f23bc94cdac13e",
+        "name": "Tokyo Night Dark",
+        "variant": "dark"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "6a08f149a25f8e7a7f8d7e891a761cc65852390e2842bdbcc7285e1a4f26a195",
+    "syntax": {
+      "comment": "#707590",
+      "constant": "#B4F9F8",
+      "function": "#2AC3DE",
+      "invalid": "#C0CAF5",
+      "keyword": "#BB9AF7",
+      "number": "#B4F9F8",
+      "operator": "#A9B1D6",
+      "string": "#9ECE6A",
+      "type": "#0DB9D7",
+      "variable": "#A9B1D6"
+    }
+  }
+}

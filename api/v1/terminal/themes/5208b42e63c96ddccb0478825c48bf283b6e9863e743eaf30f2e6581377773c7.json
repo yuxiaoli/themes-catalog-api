@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/48b056882bfc34d4c128995573dd3c05ddd1d30a4165e34fcac40a32ac49aa7f",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Nighty",
+    "original": {
+      "author": "",
+      "author_name": "",
+      "author_url": "",
+      "background": "#2F2F2F",
+      "color_01": "#373D48",
+      "color_02": "#9B3E46",
+      "color_03": "#095B32",
+      "color_04": "#808020",
+      "color_05": "#1D3E6F",
+      "color_06": "#823065",
+      "color_07": "#3A7458",
+      "color_08": "#828282",
+      "color_09": "#5C6370",
+      "color_10": "#D0555F",
+      "color_11": "#119955",
+      "color_12": "#DFE048",
+      "color_13": "#4674B8",
+      "color_14": "#ED86C9",
+      "color_15": "#70D2A4",
+      "color_16": "#DFDFDF",
+      "cursor": "#DFDFDF",
+      "foreground": "#DFDFDF",
+      "hash": "19204c185ab66ec97d1ae4f7f861d08235c4e8ec8424a70653f6926f80c27495",
+      "hash_bg": "bbb3e16bf28d665b038e9dd5c31b770a44a4dcd2637771a1eb7961aa0ee68056",
+      "name": "Nighty",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#DFDFDF",
+      "ansi": [
+        "#373D48",
+        "#9B3E46",
+        "#095B32",
+        "#808020",
+        "#1D3E6F",
+        "#823065",
+        "#3A7458",
+        "#828282",
+        "#5C6370",
+        "#D0555F",
+        "#119955",
+        "#DFE048",
+        "#4674B8",
+        "#ED86C9",
+        "#70D2A4",
+        "#DFDFDF"
+      ],
+      "background": "#2F2F2F",
+      "cursor": "#DFDFDF",
+      "foreground": "#DFDFDF"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "48b056882bfc34d4c128995573dd3c05ddd1d30a4165e34fcac40a32ac49aa7f",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "48b056882bfc34d4c128995573dd3c05ddd1d30a4165e34fcac40a32ac49aa7f"
+  }
+}

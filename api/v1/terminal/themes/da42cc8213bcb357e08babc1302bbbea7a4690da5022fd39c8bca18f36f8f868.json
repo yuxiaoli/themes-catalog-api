@@ -1,0 +1,90 @@
+{
+  "api_version": "1",
+  "category": "terminal",
+  "theme": {
+    "format": "gogh",
+    "id": "gogh/f103aac3e8c9a26e61d08e312599f775774159887ba3b8b14e2c2e01e2514a39",
+    "license": {
+      "documents": [
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-MIT",
+        "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/LICENSE-APACHE"
+      ],
+      "expression": "MIT OR Apache-2.0"
+    },
+    "name": "Adwaita Darker",
+    "original": {
+      "author": "Emil Löfquist (https://github.com/ewal)",
+      "author_name": "Emil Löfquist",
+      "author_url": "https://github.com/ewal",
+      "background": "#000000",
+      "color_01": "#000000",
+      "color_02": "#ED333B",
+      "color_03": "#57E389",
+      "color_04": "#FF7800",
+      "color_05": "#62A0EA",
+      "color_06": "#9141AC",
+      "color_07": "#5BC8AF",
+      "color_08": "#DEDDDA",
+      "color_09": "#9A9996",
+      "color_10": "#F66151",
+      "color_11": "#8FF0A4",
+      "color_12": "#FFA348",
+      "color_13": "#99C1F1",
+      "color_14": "#DC8ADD",
+      "color_15": "#93DDC2",
+      "color_16": "#F6F5F4",
+      "cursor": "#DEDDDA",
+      "foreground": "#DEDDDA",
+      "hash": "38eef8a9b292626eab05da3315c83c36aaa689310b32d924fcd8257775c0699b",
+      "hash_bg": "7b2817bf9b80e66d07f28095dcd1244590692778dc617a53cbd666ad280872ed",
+      "name": "Adwaita Darker",
+      "variant": "dark"
+    },
+    "originals": {
+      "catalog": "https://raw.githubusercontent.com/Gogh-Co/Gogh/3277da1a295142cd8664e0657c5a3c2a44cc520a/data/themes.json"
+    },
+    "palette": {
+      "accent": "#DEDDDA",
+      "ansi": [
+        "#000000",
+        "#ED333B",
+        "#57E389",
+        "#FF7800",
+        "#62A0EA",
+        "#9141AC",
+        "#5BC8AF",
+        "#DEDDDA",
+        "#9A9996",
+        "#F66151",
+        "#8FF0A4",
+        "#FFA348",
+        "#99C1F1",
+        "#DC8ADD",
+        "#93DDC2",
+        "#F6F5F4"
+      ],
+      "background": "#000000",
+      "cursor": "#DEDDDA",
+      "foreground": "#DEDDDA"
+    },
+    "provenance": {
+      "accent_policy": "cursor (Gogh has no separate accent role)",
+      "record_sha256": "f103aac3e8c9a26e61d08e312599f775774159887ba3b8b14e2c2e01e2514a39",
+      "repository": "Gogh-Co/Gogh",
+      "revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "f103aac3e8c9a26e61d08e312599f775774159887ba3b8b14e2c2e01e2514a39"
+  }
+}

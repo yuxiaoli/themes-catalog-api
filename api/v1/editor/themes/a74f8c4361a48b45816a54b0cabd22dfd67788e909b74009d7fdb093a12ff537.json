@@ -1,0 +1,237 @@
+{
+  "api_version": "1",
+  "category": "editor",
+  "theme": {
+    "conversion": {
+      "contrast_checks": [
+        {
+          "background_role": "background",
+          "foreground_role": "foreground",
+          "id": "text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1856
+        },
+        {
+          "background_role": "selection",
+          "foreground_role": "foreground",
+          "id": "selection_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.3008
+        },
+        {
+          "background_role": "activeLine",
+          "foreground_role": "foreground",
+          "id": "active_line_text",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 5.5357
+        },
+        {
+          "background_role": "gutterBackground",
+          "foreground_role": "gutterForeground",
+          "id": "gutter_text",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6353
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "cursor",
+          "id": "cursor",
+          "minimum": 3.0,
+          "passes": true,
+          "ratio": 7.7499
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "comment",
+          "id": "syntax.comment",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 2.6353
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "string",
+          "id": "syntax.string",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.2623
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "keyword",
+          "id": "syntax.keyword",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.7319
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "function",
+          "id": "syntax.function",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 4.5937
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "type",
+          "id": "syntax.type",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.1486
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "number",
+          "id": "syntax.number",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8761
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "constant",
+          "id": "syntax.constant",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 3.8761
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "operator",
+          "id": "syntax.operator",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1856
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "variable",
+          "id": "syntax.variable",
+          "minimum": 4.5,
+          "passes": true,
+          "ratio": 6.1856
+        },
+        {
+          "background_role": "background",
+          "foreground_role": "invalid",
+          "id": "syntax.invalid",
+          "minimum": 4.5,
+          "passes": false,
+          "ratio": 4.0564
+        }
+      ],
+      "contrast_exceptions": {},
+      "derived": true,
+      "effective_mapping": {
+        "activeLine": "derived_active_line",
+        "background": "background",
+        "comment": "derived_comment",
+        "constant": "cyan",
+        "cursor": "accent",
+        "foreground": "foreground",
+        "function": "blue",
+        "gutterActiveLine": "derived_active_line",
+        "gutterBackground": "background",
+        "gutterForeground": "derived_comment",
+        "invalid": "red",
+        "invisibles": "bright_black",
+        "keyword": "magenta",
+        "number": "cyan",
+        "operator": "foreground",
+        "printMargin": "derived_selection",
+        "selection": "derived_selection",
+        "string": "green",
+        "type": "yellow",
+        "variable": "foreground"
+      },
+      "lossless": false,
+      "overrides": {},
+      "source_palette_sha256": "0ae1011b4cee9bf2f2079d23995e76235457996cd69588b8c96b1b10fdc8ce70",
+      "version": "ansi-editor-v1",
+      "warnings": [
+        "selection_text",
+        "gutter_text",
+        "syntax.comment",
+        "syntax.string",
+        "syntax.keyword",
+        "syntax.type",
+        "syntax.number",
+        "syntax.constant",
+        "syntax.invalid"
+      ]
+    },
+    "format": "derived-editor",
+    "id": "derived/gogh/15958ad0473b807776ac87d194740492267f08008a99309d07a11efdf873a18a",
+    "name": "Kanagawa Lotus",
+    "palette": {
+      "activeLine": "#E5E0B5",
+      "background": "#F2ECBC",
+      "cursor": "#43436C",
+      "foreground": "#545464",
+      "gutterActiveLine": "#E5E0B5",
+      "gutterBackground": "#F2ECBC",
+      "gutterForeground": "#939187",
+      "invisibles": "#8A8980",
+      "printMargin": "#CBC6A6",
+      "selection": "#CBC6A6"
+    },
+    "publication": {
+      "license_documents": [
+        "licenses/658ad11f8bd83cc7522be34377850c667a78d89cec6c769d5153d512467d5808.txt",
+        "licenses/c67cff8ed83de6a51c525017de854192bb2751d7922fc62ad210b32808c7da0f.txt",
+        "licenses/f5a8f1cb463ed0cf09044ad808f82048ea45e061154ddc67299ae848bdbf4e91.txt"
+      ],
+      "original_documents": [],
+      "original_record": {
+        "author": "rebelot (https://github.com/rebelot)",
+        "author_name": "rebelot",
+        "author_url": "https://github.com/rebelot",
+        "background": "#F2ECBC",
+        "color_01": "#1F1F28",
+        "color_02": "#C84053",
+        "color_03": "#6F894E",
+        "color_04": "#77713F",
+        "color_05": "#4D699B",
+        "color_06": "#B35B79",
+        "color_07": "#597B75",
+        "color_08": "#545464",
+        "color_09": "#8A8980",
+        "color_10": "#D7474B",
+        "color_11": "#6E915F",
+        "color_12": "#836F4A",
+        "color_13": "#6693BF",
+        "color_14": "#624C83",
+        "color_15": "#5E857A",
+        "color_16": "#43436C",
+        "cursor": "#43436C",
+        "foreground": "#545464",
+        "hash": "2debfb6d598e89431711a4a103b084be59235399a46755b1cb413f1a1496d248",
+        "hash_bg": "ff9584cfc0c676f9816c0835ec7795eaa25ce443cca6d3935bcacc24bcc98d5c",
+        "name": "Kanagawa Lotus",
+        "variant": "light"
+      },
+      "source_license_expression": "MIT OR Apache-2.0",
+      "source_revision": "3277da1a295142cd8664e0657c5a3c2a44cc520a",
+      "source_url": "https://raw.githubusercontent.com/Gogh-Co/Gogh/master/data/themes.json"
+    },
+    "source_id": "gogh",
+    "source_theme_id": "15958ad0473b807776ac87d194740492267f08008a99309d07a11efdf873a18a",
+    "syntax": {
+      "comment": "#939187",
+      "constant": "#597B75",
+      "function": "#4D699B",
+      "invalid": "#C84053",
+      "keyword": "#B35B79",
+      "number": "#597B75",
+      "operator": "#545464",
+      "string": "#6F894E",
+      "type": "#77713F",
+      "variable": "#545464"
+    }
+  }
+}
