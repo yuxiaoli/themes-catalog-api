@@ -1,0 +1,745 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Themes Catalog API",
+    "version": "1",
+    "description": "Static, read-only JSON files served by GitHub Pages. No authentication, server-side search, query filters, pagination, or write operations. Fetch the catalog index, choose editor or terminal, then resolve every returned path against https://yuxiaoli.github.io/themes-catalog-api/. The base URL itself currently returns an HTML 404; /api/v1/index.json is the catalog entry point.\n\nNames are not unique. In a category index, names maps each exact display name to an array of full namespaced IDs. Explicitly select an ID, find entries[].id, and GET its path. IDs and display names are not dynamic URL routes. Per-theme file keys are SHA-256 of UTF-8(category + NUL + full namespaced ID), where NUL is one zero byte.\n\nThe export is partial: consult counts, excluded, and limitations. TerminalColors records and derived counterparts are withheld because distribution licensing is unverified. Native Helix terminal:/indexed: colors remain unresolved. Derived schemes are not lossless equivalents or accessibility guarantees. Preserve theme-specific publication, original source documents, and license notices; official Helix MPL/source-form obligations and file-specific Vim/GPL terms remain applicable. See the repository ATTRIBUTION.md; no blanket license supersedes upstream rights."
+  },
+  "servers": [
+    {
+      "url": "https://yuxiaoli.github.io/themes-catalog-api",
+      "description": "Published GitHub Pages base. All response file paths resolve against this URL with a trailing slash."
+    }
+  ],
+  "security": [],
+  "externalDocs": {
+    "description": "Usage guide, complete clickable examples, and attribution links",
+    "url": "https://github.com/yuxiaoli/themes-catalog-api/blob/develop/README.md"
+  },
+  "paths": {
+    "/api/v1/index.json": {
+      "get": {
+        "operationId": "getCatalogIndex",
+        "summary": "Get categories, counts, and limitations",
+        "description": "Start here. categories contains editor and terminal, each with a category-index path and counts. source_count includes available and excluded records. Fetch returned paths against the Pages base, not this JSON URL.",
+        "responses": {
+          "200": {
+            "description": "The published static file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CatalogIndex"
+                },
+                "examples": {
+                  "currentSnapshot": {
+                    "summary": "Published catalog snapshot; counts can change in later exports.",
+                    "value": {
+                      "api_version": "1",
+                      "categories": {
+                        "editor": {
+                          "available_count": 1570,
+                          "excluded_count": 112,
+                          "path": "api/v1/editor/index.json",
+                          "source_count": 1682
+                        },
+                        "terminal": {
+                          "available_count": 1251,
+                          "excluded_count": 112,
+                          "path": "api/v1/terminal/index.json",
+                          "source_count": 1363
+                        }
+                      },
+                      "limitations": [
+                        "TerminalColors records and derived counterparts are withheld: distribution license unverified.",
+                        "Helix file-level Vim and GPL licenses are retained separately; GPL without a specified version is distributed under GPL-3.0 under its version-selection provision.",
+                        "Native Helix terminal/indexed colors remain unresolved by design; 14 upstream style warnings are retained.",
+                        "This is a static versioned export, not a dynamic server or a claim that every theme is available."
+                      ],
+                      "path_resolution": "All path fields are relative to the repository Pages root, not the current JSON URL.",
+                      "status": "partial"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1/{category}/index.json": {
+      "get": {
+        "operationId": "getCategoryIndex",
+        "summary": "List available themes and withheld records",
+        "description": "Download the complete category index and filter locally. entries provides format, ID, name, source_id, and path. names provides display-name lookup to arrays of IDs; excluded lists withheld records without paths. The index.schema.json contract applies to this response, not to the top-level catalog.",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "description": "Select one published category. These are the only supported categories; availability and formats differ.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "editor",
+                "terminal"
+              ]
+            },
+            "example": "editor"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The published static file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CategoryIndex"
+                },
+                "examples": {
+                  "editor": {
+                    "summary": "Editor category index",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/editor/index.json"
+                  },
+                  "terminal": {
+                    "summary": "Terminal category index",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/terminal/index.json"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1/{category}/themes/{theme_key}.json": {
+      "get": {
+        "operationId": "getTheme",
+        "summary": "Fetch an indexed theme file",
+        "description": "This template describes existing static files only. Use entries[].path from the category index. Do not substitute a display name or namespaced ID for theme_key. The same display name can have multiple IDs and different file keys. Theme responses preserve format-specific data, warnings, and publication links.",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "description": "Select one published category. These are the only supported categories; availability and formats differ.",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "editor",
+                "terminal"
+              ]
+            },
+            "example": "editor"
+          },
+          {
+            "name": "theme_key",
+            "in": "path",
+            "required": true,
+            "description": "Lowercase SHA-256 hex from the indexed filename: UTF-8(category + NUL + full namespaced ID). Prefer the supplied path.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "example": "c6135ba3c41cde85980a8679d8a3279adc3328b089a4a2d938cebd22222581ad"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The published static file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ThemeResponse"
+                },
+                "examples": {
+                  "aceDracula": {
+                    "summary": "Editor Ace Dracula",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/editor/themes/c6135ba3c41cde85980a8679d8a3279adc3328b089a4a2d938cebd22222581ad.json"
+                  },
+                  "derivedDracula": {
+                    "summary": "Different editor Dracula ID: derived Gogh conversion",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/editor/themes/9b4f639181d334d8cc0af4db702cf3b8b308cae6e8ed4fd94fb3fb14227e9a0c.json"
+                  },
+                  "goghSpaceduck": {
+                    "summary": "Terminal Gogh Spaceduck; choose category terminal",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/terminal/themes/907b41fd19d0ebcfa49f6b66c8a6638008c3eddfceac853fb8a3ff1845639ffa.json"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1/schema/index.schema.json": {
+      "get": {
+        "operationId": "getCategoryIndexSchema",
+        "summary": "Get the category-index JSON Schema",
+        "description": "Draft 2020-12 schema for editor/index.json and terminal/index.json. It does not describe api/v1/index.json.",
+        "responses": {
+          "200": {
+            "description": "The published static file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                },
+                "examples": {
+                  "schema": {
+                    "summary": "Category-index contract",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/schema/index.schema.json"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1/schema/theme.schema.json": {
+      "get": {
+        "operationId": "getThemeSchema",
+        "summary": "Get the theme-response JSON Schema",
+        "description": "Draft 2020-12 schema for the api_version/category/theme response envelope and required common theme fields. Additional format-specific theme fields remain in the response.",
+        "responses": {
+          "200": {
+            "description": "The published static file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonSchemaDocument"
+                },
+                "examples": {
+                  "schema": {
+                    "summary": "Theme-response contract",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/schema/theme.schema.json"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/api/v1/provenance/{document_key}.json": {
+      "get": {
+        "operationId": "getOriginalDocument",
+        "summary": "Get a referenced original source document",
+        "description": "Follow theme.publication.original_documents; resolve each value against the Pages base. These are retained source documents, not a searchable inventory. The filename key is distinct from the sha256 field, which hashes the retained source text.",
+        "parameters": [
+          {
+            "name": "document_key",
+            "in": "path",
+            "required": true,
+            "description": "Filename key from a publication.original_documents path. Do not infer it from the retained text sha256.",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "example": "7a1589f084b98d5c1d34b2a006fe1ceddf017eb2dcf9ec563e3c539241d0a00d"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "The published static file.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ProvenanceDocument"
+                },
+                "examples": {
+                  "source": {
+                    "summary": "Retained original document referenced by Ace Dracula",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/api/v1/provenance/7a1589f084b98d5c1d34b2a006fe1ceddf017eb2dcf9ec563e3c539241d0a00d.json"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    },
+    "/licenses/{document}": {
+      "get": {
+        "operationId": "getLicenseDocument",
+        "summary": "Get a referenced license text",
+        "description": "Follow theme.publication.license_documents against the Pages base. Filenames may be hashes or named files such as Vim.txt or GPL-3.0.txt. Preserve all applicable upstream and file-specific notices; the API wrapper does not relicense themes.",
+        "parameters": [
+          {
+            "name": "document",
+            "in": "path",
+            "required": true,
+            "description": "Exact filename, including .txt, from a publication.license_documents path.",
+            "schema": {
+              "type": "string"
+            },
+            "example": "1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Retained license text.",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                },
+                "examples": {
+                  "ace": {
+                    "summary": "Ace BSD-style license",
+                    "externalValue": "https://yuxiaoli.github.io/themes-catalog-api/licenses/1558f80d012c1536b0e19b01b53fb785d864b7cc20f400c1274cdf6643d11b93.txt"
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "$ref": "#/components/responses/NotFound"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CatalogIndex": {
+        "type": "object",
+        "required": [
+          "api_version",
+          "status",
+          "categories",
+          "limitations",
+          "path_resolution"
+        ],
+        "properties": {
+          "api_version": {
+            "type": "string",
+            "const": "1"
+          },
+          "status": {
+            "type": "string",
+            "const": "partial",
+            "description": "This export intentionally withholds some source records."
+          },
+          "categories": {
+            "type": "object",
+            "required": [
+              "editor",
+              "terminal"
+            ],
+            "properties": {
+              "editor": {
+                "$ref": "#/components/schemas/CategorySummary"
+              },
+              "terminal": {
+                "$ref": "#/components/schemas/CategorySummary"
+              }
+            }
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Snapshot coverage, licensing, and unresolved-color limitations."
+            }
+          },
+          "path_resolution": {
+            "type": "string",
+            "description": "Explains that file paths are relative to the repository Pages root."
+          }
+        }
+      },
+      "CategorySummary": {
+        "type": "object",
+        "required": [
+          "available_count",
+          "excluded_count",
+          "source_count",
+          "path"
+        ],
+        "properties": {
+          "available_count": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Number of published theme entries."
+          },
+          "excluded_count": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Number of withheld records."
+          },
+          "source_count": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Total records considered for this category, including exclusions."
+          },
+          "path": {
+            "type": "string",
+            "description": "Category-index file path. Resolve against https://yuxiaoli.github.io/themes-catalog-api/, never the current response URL or https://yuxiaoli.github.io/."
+          }
+        }
+      },
+      "CategoryIndex": {
+        "type": "object",
+        "required": [
+          "api_version",
+          "category",
+          "status",
+          "source_count",
+          "available_count",
+          "excluded_count",
+          "entries",
+          "names",
+          "excluded"
+        ],
+        "properties": {
+          "api_version": {
+            "type": "string",
+            "const": "1"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "editor",
+              "terminal"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "const": "partial"
+          },
+          "source_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "available_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "excluded_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "entries": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ThemeEntry"
+            }
+          },
+          "names": {
+            "type": "object",
+            "description": "Exact, case-sensitive display name to an array of available namespaced IDs. Names can have multiple matches. Choose an ID explicitly; never silently take the first.",
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "description": "Full namespaced theme ID, matching entries[].id."
+              }
+            },
+            "examples": [
+              {
+                "Dracula": [
+                  "ace/dracula",
+                  "derived/gogh/0aa8623f8cb06b648c27935591ef98c22267a35a76c2e240dd1a6b9df19f4212"
+                ]
+              }
+            ]
+          },
+          "excluded": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ExcludedTheme"
+            },
+            "description": "Withheld records and reasons, separate from available entries. These records have no download path."
+          }
+        },
+        "description": "Category-index contract, corresponding to api/v1/schema/index.schema.json. Counts describe this category only."
+      },
+      "ThemeEntry": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "source_id",
+          "format",
+          "path"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Full namespaced ID. Preserve it exactly, including slashes; it is an identifier, not a request path."
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name; not unique."
+          },
+          "source_id": {
+            "type": "string",
+            "description": "Source namespace."
+          },
+          "format": {
+            "type": "string",
+            "description": "Payload format. Current editor values are ace, helix, and derived-editor; terminal entries are gogh. Ace theme payloads do not repeat this field."
+          },
+          "path": {
+            "type": "string",
+            "description": "Published per-theme JSON file. Prefer this value over computing the hash. Resolve against https://yuxiaoli.github.io/themes-catalog-api/, never the current response URL or https://yuxiaoli.github.io/."
+          }
+        },
+        "additionalProperties": false,
+        "examples": [
+          {
+            "format": "ace",
+            "id": "ace/dracula",
+            "name": "Dracula",
+            "path": "api/v1/editor/themes/c6135ba3c41cde85980a8679d8a3279adc3328b089a4a2d938cebd22222581ad.json",
+            "source_id": "ace"
+          },
+          {
+            "format": "derived-editor",
+            "id": "derived/gogh/0aa8623f8cb06b648c27935591ef98c22267a35a76c2e240dd1a6b9df19f4212",
+            "name": "Dracula",
+            "path": "api/v1/editor/themes/9b4f639181d334d8cc0af4db702cf3b8b308cae6e8ed4fd94fb3fb14227e9a0c.json",
+            "source_id": "gogh"
+          },
+          {
+            "format": "gogh",
+            "id": "gogh/0017ed9517f6c24cd4b9ff6b0e8475f26423775cba11ce9cee7e4a75c2fe5b5a",
+            "name": "Spaceduck",
+            "path": "api/v1/terminal/themes/907b41fd19d0ebcfa49f6b66c8a6638008c3eddfceac853fb8a3ff1845639ffa.json",
+            "source_id": "gogh"
+          }
+        ]
+      },
+      "ExcludedTheme": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "source_id",
+          "reason"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Withheld namespaced ID."
+          },
+          "name": {
+            "type": "string",
+            "description": "Withheld display name."
+          },
+          "source_id": {
+            "type": "string",
+            "description": "Source namespace."
+          },
+          "reason": {
+            "type": "string",
+            "description": "Current reason: distribution-license-unverified. Exclusion is not evidence of permission to redistribute."
+          }
+        },
+        "examples": [
+          {
+            "id": "derived/terminal/apprentice/default",
+            "name": "Default",
+            "reason": "distribution-license-unverified",
+            "source_id": "terminal"
+          }
+        ]
+      },
+      "ThemeResponse": {
+        "type": "object",
+        "required": [
+          "api_version",
+          "category",
+          "theme"
+        ],
+        "properties": {
+          "api_version": {
+            "type": "string",
+            "const": "1"
+          },
+          "category": {
+            "type": "string",
+            "enum": [
+              "editor",
+              "terminal"
+            ]
+          },
+          "theme": {
+            "$ref": "#/components/schemas/Theme"
+          }
+        },
+        "additionalProperties": false,
+        "description": "Theme envelope corresponding to api/v1/schema/theme.schema.json. Source-specific fields are preserved inside theme."
+      },
+      "Theme": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "source_id",
+          "source_theme_id",
+          "palette",
+          "publication"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Exact full namespaced ID from the category index."
+          },
+          "name": {
+            "type": "string",
+            "description": "Display name; duplicates exist."
+          },
+          "source_id": {
+            "type": "string",
+            "description": "Source namespace."
+          },
+          "source_theme_id": {
+            "type": "string",
+            "description": "Identifier within its source."
+          },
+          "palette": {
+            "type": "object",
+            "additionalProperties": true,
+            "description": "Format-specific palette. Values are not uniformly RGB strings: terminal palettes include an ansi array; native Helix terminal: and indexed: values remain unresolved dependencies."
+          },
+          "publication": {
+            "$ref": "#/components/schemas/Publication"
+          }
+        },
+        "additionalProperties": true,
+        "description": "Common fields only. Additional source-specific fields include CSS, styles, original records, conversion metadata, or warnings when present. Use the index format and inspect the actual payload. Derived schemes are not lossless equivalents or accessibility guarantees."
+      },
+      "Publication": {
+        "type": "object",
+        "required": [
+          "source_url",
+          "source_revision",
+          "license_documents",
+          "original_documents"
+        ],
+        "properties": {
+          "source_url": {
+            "type": "string",
+            "description": "Upstream source location retained for attribution."
+          },
+          "source_revision": {
+            "type": "string",
+            "description": "Upstream snapshot revision."
+          },
+          "license_documents": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Retained license text file. Preserve applicable notices and terms. Resolve against https://yuxiaoli.github.io/themes-catalog-api/, never the current response URL or https://yuxiaoli.github.io/."
+            }
+          },
+          "original_documents": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "description": "Provenance JSON file containing retained source text. Resolve against https://yuxiaoli.github.io/themes-catalog-api/, never the current response URL or https://yuxiaoli.github.io/."
+            },
+            "description": "May be empty: Gogh original records are embedded in the theme, and derived Gogh editor themes also retain publication.original_record."
+          }
+        },
+        "additionalProperties": true,
+        "description": "Retained source and licensing information. Additional publication fields vary, including original_record, file_license, and modification notices. No API-wide license supersedes upstream rights; see ATTRIBUTION.md and all referenced documents."
+      },
+      "ProvenanceDocument": {
+        "type": "object",
+        "required": [
+          "encoding",
+          "media_type",
+          "sha256",
+          "text",
+          "url"
+        ],
+        "properties": {
+          "encoding": {
+            "type": "string",
+            "description": "Source text encoding; utf-8 in this snapshot."
+          },
+          "media_type": {
+            "type": "string",
+            "description": "Retained source media type; text/plain in this snapshot."
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$",
+            "description": "SHA-256 of the retained source text, not the provenance filename key."
+          },
+          "text": {
+            "type": "string",
+            "description": "Exact unmodified source text, including applicable source headers and notices."
+          },
+          "url": {
+            "type": "string",
+            "description": "Immutable upstream source URL retained with the text."
+          }
+        }
+      },
+      "JsonSchemaDocument": {
+        "type": "object",
+        "description": "A JSON Schema Draft 2020-12 document. This is the schema document itself, not a catalog or theme response.",
+        "required": [
+          "$schema",
+          "type",
+          "properties",
+          "required"
+        ],
+        "properties": {
+          "$schema": {
+            "type": "string",
+            "const": "https://json-schema.org/draft/2020-12/schema"
+          },
+          "type": {
+            "type": "string",
+            "const": "object"
+          },
+          "properties": {
+            "type": "object"
+          },
+          "required": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "responses": {
+      "NotFound": {
+        "description": "File not found. GitHub Pages returns an HTML error page, not a structured JSON API error. Check the HTTP status before parsing JSON.",
+        "content": {
+          "text/html": {
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}
