@@ -66,3 +66,77 @@ The export is partial. The current catalog reports 1,570 available editor themes
 - Native Helix `terminal:` and `indexed:` colors are unresolved dependencies, not fabricated RGB values. Derived schemes are not lossless equivalents or accessibility guarantees.
 
 See [ATTRIBUTION.md](ATTRIBUTION.md). No blanket license supersedes upstream rights.
+
+## Popularity is category metadata
+
+Popularity is an optional flag within a category, not a third category or a
+separate endpoint. Fetch the existing [terminal index](https://yuxiaoli.github.io/themes-catalog-api/api/v1/terminal/index.json)
+and filter locally. Adding `?popular=true` does not filter a static Pages response.
+
+The optional top-level `popularity` object uses metadata version `"1"` inside
+API v1. Existing `entries`, IDs, paths, palette files, exclusions and category
+counts are unchanged. Flags are keyed by full stable ID instead of adding fields
+to the previously strict entry objects; the updated index also validates against
+the original v1 schema.
+
+- `popularity.flags[id] === true`: a confirmed member of the upstream subset.
+- `false`: evaluated against that subset and not a member. This is not a quality score.
+- Missing object or ID: **unknown**. Editor themes and the 112 license-unverified
+  terminal entries have no assigned popularity; conversion does not transfer it.
+- `order`: matched IDs in upstream declaration order, including any unavailable
+  member. Intersect with `entries` before fetching. This is not a guaranteed live
+  website display order: clicking Gogh's Popular filter selects Shuffle.
+- `unmatched`: upstream names absent or ambiguous in this palette snapshot,
+  with original one-based positions. Ambiguous matches receive no flag.
+- `unavailable`: matched but withheld members, with reasons and positions.
+  They remain excluded and have no fetchable palette path.
+
+The definition is the exact `POPULAR_THEME_NAMES` set in
+[Gogh's website source](https://github.com/Gogh-Co/gogh-website/blob/a5ca684f9aa82bc20ef62990eed7df9bc3408fa7/app/pages/index.vue#L499-L548),
+not our own popularity research or a live vote count. Its authors describe a
+September 2026 selection using several signals. We preserve their membership
+without independently endorsing the cited figures. The website deployment run
+[39970200009](https://github.com/Gogh-Co/gogh-website/actions/runs/39970200009)
+succeeded for that revision; the palette source is independently pinned to
+Gogh `3277da1a295142cd8664e0657c5a3c2a44cc520a`. All 48 names match uniquely;
+none are unavailable or unmatched in this snapshot. Later upstream changes
+require a reviewed metadata refresh; this static export does not track them live.
+
+```javascript
+const index = await fetch('https://yuxiaoli.github.io/themes-catalog-api/api/v1/terminal/index.json').then(r => r.json());
+const flags = index.popularity?.flags ?? {};
+const popular = index.entries.filter(theme => flags[theme.id] === true);
+// Preserve upstream declaration order when desired:
+const available = new Map(index.entries.map(theme => [theme.id, theme]));
+const ordered = (index.popularity?.order ?? []).flatMap(id => available.has(id) ? [available.get(id)] : []);
+```
+
+```powershell
+$index = Invoke-RestMethod 'https://yuxiaoli.github.io/themes-catalog-api/api/v1/terminal/index.json'
+$index.entries | Where-Object { $index.popularity -and $index.popularity.flags.($_.id) -eq $true }
+```
+
+Reproduce with Python 3.10+: `python tools/update-popularity.py --check` and
+`python -m unittest discover -s tests -v`. To independently verify the saved
+48-name snapshot, download the exact upstream `index.vue` from its pinned raw
+GitHub URL and pass `--source-file /path/to/index.vue`. The generator verifies
+the reviewed Git blob before extracting membership, and reads only the public
+export. No private catalogue data or withheld palettes are imported.
+
+### Editor popularity evidence
+
+The editor index remains fully available at `api/v1/editor/index.json` (1,570
+published entries and 112 withheld summaries). Its popularity is unknown.
+The pinned [Ace enumeration](https://github.com/ajaxorg/ace/blob/62d5ffd789b4eb29ef7c1acc17554c91c745a307/src/ext/themelist.js)
+defines captions, paths, names and light/dark classification; it does not
+declare popularity. The pinned Helix, CptPotato and gokayburuc source guides
+describe theme collections and installation, without a comparable Popular
+selection. This is evidence about the reviewed source contracts, not a claim
+that no external editor-theme popularity source exists.
+
+A future editor client can use the same optional flags contract, but must show
+"popularity unavailable" when metadata is absent. It must not interpret all
+editor entries as false, transfer terminal membership to converted themes, or
+present an empty filtered result as an authoritative editor Popular list.
+An editor Popular feature needs a separately approved upstream source or curated
+definition and a documented mapping to editor IDs.
