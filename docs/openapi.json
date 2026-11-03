@@ -73,7 +73,7 @@
       "get": {
         "operationId": "getCategoryIndex",
         "summary": "List available themes and withheld records",
-        "description": "Download the complete category index and filter locally. entries provides format, ID, name, source_id, and path. names provides display-name lookup to arrays of IDs; excluded lists withheld records without paths. The index.schema.json contract applies to this response, not to the top-level catalog.",
+        "description": "Download the complete category index and filter locally. entries provides format, ID, name, source_id, and path. names provides display-name lookup to arrays of IDs; excluded lists withheld records without paths. The index.schema.json contract applies to this response, not to the top-level catalog. Optional top-level popularity.flags maps stable IDs to boolean membership; missing means unknown, not false. Popularity remains category metadata. Fetch the full static index and filter locally; no query parameter filters the server response. See popularity.source and order for pinned provenance and upstream declaration order.",
         "parameters": [
           {
             "name": "category",
@@ -469,6 +469,146 @@
               "$ref": "#/components/schemas/ExcludedTheme"
             },
             "description": "Withheld records and reasons, separate from available entries. These records have no download path."
+          },
+          "popularity": {
+            "type": "object",
+            "description": "Optional upstream-defined flags within a category. Absent object or flag means unknown; false means evaluated and not in this source's subset. Filter locally.",
+            "required": [
+              "version",
+              "source",
+              "catalog_source_revision",
+              "ordering",
+              "flags",
+              "order",
+              "unmatched",
+              "unavailable"
+            ],
+            "properties": {
+              "version": {
+                "const": "1"
+              },
+              "definition": {
+                "type": "string",
+                "minLength": 1
+              },
+              "source": {
+                "type": "object",
+                "required": [
+                  "repository",
+                  "revision",
+                  "path",
+                  "url",
+                  "blob_sha",
+                  "sha256"
+                ],
+                "properties": {
+                  "repository": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "revision": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{40}$"
+                  },
+                  "path": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "url": {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  "blob_sha": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{40}$"
+                  },
+                  "sha256": {
+                    "type": "string",
+                    "pattern": "^[a-f0-9]{64}$"
+                  }
+                }
+              },
+              "catalog_source_revision": {
+                "type": "string",
+                "pattern": "^[a-f0-9]{40}$"
+              },
+              "ordering": {
+                "type": "string",
+                "minLength": 1
+              },
+              "flags": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "boolean"
+                }
+              },
+              "order": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "unmatched": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "position",
+                    "reason"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "position": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "reason": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              },
+              "unavailable": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "name",
+                    "position",
+                    "reason"
+                  ],
+                  "properties": {
+                    "name": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "position": {
+                      "type": "integer",
+                      "minimum": 1
+                    },
+                    "reason": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "id": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  }
+                }
+              }
+            }
           }
         },
         "description": "Category-index contract, corresponding to api/v1/schema/index.schema.json. Counts describe this category only."
